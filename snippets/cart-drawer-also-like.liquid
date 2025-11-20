@@ -1,0 +1,129 @@
+{%- comment -%}
+  This snipet should be of type (drawer or menu)
+{%- endcomment -%}
+
+
+{%- liquid
+
+  case {{type}} 
+    when "drawer" 
+      if settings.current_product_list != blank
+        assign show_block = true
+      else
+        assign show_block = false
+      endif
+
+      assign title = settings.title
+      assign name_button = settings.name_button
+      assign short_info = settings.short_info
+
+      assign link_product = product.url
+      assign current_product = product.selected_or_first_available_variant
+      assign id_product = product.id
+      assign title_product = product.title
+      assign img_product = product.featured_image
+      assign img_alt_product = img_product.alt
+      assign available_variant = current_product.available
+      assign id_variant = current_product.id
+      assign price_variant = current_product.price | money_without_trailing_zeros
+    when "menu"
+      if settings.current_product_m != blank
+        assign show_block = true
+      else
+        assign show_block = false
+      endif
+
+      assign title = settings.title_m
+      assign name_button = settings.name_button_m
+      assign short_info = settings.short_info_m
+
+      assign link_product = settings.current_product_m.url
+      assign current_product = settings.current_product_m.selected_or_first_available_variant
+      assign id_product = settings.current_product_m.id
+      assign title_product = settings.current_product_m.title
+      assign img_product = settings.current_product_m.featured_image
+      assign img_alt_product = img_product.alt
+      assign available_variant = current_product.available
+      assign id_variant = current_product.id
+      assign price_variant = current_product.price | money_without_trailing_zeros  
+  endcase
+  assign is_cart = false
+  for line_item in cart.items
+    if line_item.product_id == id_product
+      assign is_cart = true
+    endif
+  endfor  
+
+  assign product_condition = 'common'
+  assign error_message = settings.archived_in_cart_message
+  for archived_product in collections['archive'].products
+    if archived_product.title == title_product
+      assign product_condition = 'archived'
+      assign error_message = settings.archived_not_in_cart_message
+      break
+    endif
+  endfor
+
+  for line_item in cart.items 
+    assign is_archived = false
+    for archived_product in collections['archive'].products
+      if archived_product.title == line_item.product.title
+        assign is_archived = true
+        break
+      endif
+    endfor
+
+    assign button_disabled = false 
+    if is_archived and product_condition == 'common'
+      assign button_disabled = true 
+    elsif product_condition == 'archived' and is_archived == false
+      assign button_disabled = true 
+    endif 
+  endfor 
+-%}
+
+{% if show_block == true and is_cart == false and available_variant == true %}
+<div class="cart-drawer__also-like also-like also-like-{{type}}">
+  {% if title != empty %}
+  <h2 class="also-like__title">{{title}}</h2>
+  {% endif %}
+  <div class="also-like__container">
+    {% if img_product %}
+    <a href="{{link_product}}" class="also-like__image">
+      {{
+        img_product | image_url: width: master | image_tag: widths: '300,400',
+        alt: img_product.alt | default: "",
+        loading: 'lazy'
+      }}
+    </a>
+    {% endif %}
+    <div class="also-like__texts">
+      <h3 class="also-like__subtitle">
+        <a href="{{link_product}}">{{title_product}}</a>
+      </h3>
+      {% if short_info != empty %}
+        <p class="also-like__info">{{short_info}}</p>
+      {% endif %}
+    </div>
+    <div class="also-like__button">
+      <span class="also-like__price">{{price_variant}}</span>
+    </div>
+
+
+    <div class="ProductForm__AddToCart--error-message"></div>
+
+    <button data-type="{{type}}" 
+      onclick="addToCartProduct(this)" 
+      class="button also-like__add" 
+      data-product="{{id_variant}}"
+      data-product-condition="{{ product_condition }}"
+      {%- if button_disabled -%}
+        disabled
+      {%- endif -%}
+      >
+      {{name_button}}
+    </button>
+  </div>
+</div>
+{% endif %}
+

@@ -1,0 +1,149 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "settings": {
+            "text": "MINI DISCOVERY GIFT BOX",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_d9cAeJ": {
+          "type": "subheading",
+          "settings": {
+            "text": "CONTENTS"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe",
+        "subheading_d9cAeJ"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Hospitality_banner_desktop_1a2cc6d1-102d-4837-93ec-e22fd4fa728a.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_ba1e2845-5a8a-4748-b9ac-5f39b968dd5f.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "faq_rKcDhg": {
+      "type": "faq",
+      "blocks": {
+        "question_nDGcFy": {
+          "type": "question",
+          "settings": {
+            "question": "Majestic Mist mini",
+            "answer": "<p>A mini dry shampoo and volume spray that gives your hair an amazing freshness and texture. The light and airy mist absorbs impurities and excess oils from hair and scalp, but is especially perfect to use as a volumizer to create the desired look anywhere you go.<\/p>"
+          }
+        },
+        "question_VfpBRm": {
+          "type": "question",
+          "settings": {
+            "question": "Eternal Balm mini",
+            "answer": "<p>The Eternal Balm mini provides the ultimate relief for dry skin. It has a nourishing and moisturizing effect for the lips or other body parts that need some extra care. The smaller size allows you to take it everywhere you go.<\/p>"
+          }
+        },
+        "question_9PDGDX": {
+          "type": "question",
+          "settings": {
+            "question": "Modern Myth eau de parfum sample",
+            "answer": "<p>Indulge in the sample (2 ml) of Modern Myth, a seductive unisex fragrance with a heart of musk and a base of sandalwood and coconut. This unique blend of fragrance notes creates a fresh, rich, and distinctive scent.<\/p>"
+          }
+        },
+        "question_Y3eRYn": {
+          "type": "question",
+          "settings": {
+            "question": "Eos laundry perfume sample",
+            "answer": "<p>This sample (13 ml) of Eos laundry perfume infuses your laundry with the fragrance of dawn, enveloping you in ultimate freshness. The airy and silky top notes open to warm sandalwood and cashmere, balanced by a floral heart.<\/p>"
+          }
+        },
+        "question_MQRABi": {
+          "type": "question",
+          "settings": {
+            "question": "Aura eau de parfum sample",
+            "answer": "<p>Embrace every moment with the sample (2 ml) of Aura eau de parfum. Indulge in a sweet and spicy fragrance. Aura eau de parfum transforms with you into a warm and rich scent with hints of caramel sweetness.<\/p>"
+          }
+        },
+        "question_rnWLbD": {
+          "type": "question",
+          "settings": {
+            "question": "Midnight Melody wardrobe diffuser",
+            "answer": "<p>Midnight Melody wardrobe diffuser infuses your closet with a luxurious, rosy softness that brings a sense of calm and serenity. The blend of warm notes like coconut, vanilla, and musk, and citrus top notes, turns your closet into a sanctuary of rich and subtle elegance.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_nDGcFy",
+        "question_VfpBRm",
+        "question_9PDGDX",
+        "question_Y3eRYn",
+        "question_MQRABi",
+        "question_rnWLbD"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "The Mini Discovery gift box is the perfect gift with six carefully selected products inside.",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_fmdLck": {
+      "type": "rich-text",
+      "blocks": {
+        "button_VqmQp8": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "DISCOVER NOW",
+            "url": "shopify:\/\/products\/mini-discovery-gift-box",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_VqmQp8"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "faq_rKcDhg",
+    "rich_text_fmdLck"
+  ]
+}

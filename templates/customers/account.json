@@ -1,0 +1,87 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "750e820e-ebf8-4933-b1c2-15442a97ee6f": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "3c74e6ab-17a9-4b7d-95d9-5eeefe9a8672": {
+          "type": "subheading",
+          "settings": {
+            "text": "Glad to see you, muse!"
+          }
+        },
+        "a4916755-6705-459c-add1-51b759dec387": {
+          "type": "heading",
+          "settings": {
+            "text": "WELCOME TO YOUR ACCOUNT",
+            "heading_tag": "h1"
+          }
+        },
+        "button_cQffHY": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "LOYALTY POINTS",
+            "url": "shopify:\/\/pages\/loyalty-points",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "button_nxYFqE": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "WISHLIST",
+            "url": "shopify:\/\/pages\/wishlist",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "3c74e6ab-17a9-4b7d-95d9-5eeefe9a8672",
+        "a4916755-6705-459c-add1-51b759dec387",
+        "button_cQffHY",
+        "button_nxYFqE"
+      ],
+      "settings": {
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/Banner_account_page.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "sm",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-customers-account",
+      "blocks": {
+        "orders": {
+          "type": "orders",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "orders"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "750e820e-ebf8-4933-b1c2-15442a97ee6f",
+    "main"
+  ]
+}

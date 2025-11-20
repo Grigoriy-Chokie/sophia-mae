@@ -1,0 +1,141 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "settings": {
+            "text": "BALM WITH LIP APPLICATOR",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_d9cAeJ": {
+          "type": "subheading",
+          "settings": {
+            "text": "HOW TO USE"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe",
+        "subheading_d9cAeJ"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Hospitality_banner_desktop_2_103c1753-863a-4133-9038-fcab22afc759.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_2_7f41aaa1-7133-4c51-b2e3-53da39724626.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "faq_rKcDhg": {
+      "type": "faq",
+      "blocks": {
+        "question_9PDGDX": {
+          "type": "question",
+          "settings": {
+            "question": "Is lip balm good for your lips?",
+            "answer": "<p>A lip balm provides essential hydration and protection against dry and irritated lips. A product like the Balm with lip applicator is specifically designed to nourish and soothe your lips, thanks to the carefully selected ingredients. This balm not only helps restore your lips' natural moisture balance but can also be used to hydrate other dry areas of the skin. By regularly using the lip balm, you can keep your lips soft and healthy.<\/p>"
+          }
+        },
+        "question_ph43FX": {
+          "type": "question",
+          "settings": {
+            "question": "How often can you use lip balm?",
+            "answer": "<p>You can apply lip balm as often as needed to keep your lips well-hydrated and protected. It's recommended to use lip balm multiple times a day, especially in dry or cold conditions. The Balm with lip applicator is designed for regular use, helping to keep your lips smooth and healthy throughout the day. Apply it whenever your lips feel dry or irritated, or simply for added comfort and care.<\/p>"
+          }
+        },
+        "question_nDGcFy": {
+          "type": "question",
+          "settings": {
+            "question": "What ingredients are found in lip balm?",
+            "answer": "<p>Lip balm typically contains a blend of moisturizing and protective ingredients that help keep your lips soft and healthy. The Balm with lip applicator features carefully selected components specifically designed to care for dry and irritated lips.<br\/><br\/>Key ingredients include:<\/p><ul><li>Petrolatum and Lanolin: create a protective barrier on the lips, helping to lock in moisture and provide extra nourishment.<\/li><li>Paraffinum Liquidum: keeps the lips soft and prevents dehydration, ensuring they feel comfortable throughout the day<\/li><li>Glycine Soja (Soybean) Oil and Ricinus Communis (Castor) Seed Oil: rich in nutrients that help hydrate and soften the lips.<\/li><li>Salicylic Acid: exfoliate dead skin cells, leaving your lips feeling smoother.<\/li><li>Tocopheryl Acetate (Vitamin E): protects your lips from harmful external factors.<\/li><\/ul><p>With these carefully selected ingredients, the Balm with lip applicator offers an effective and pleasant option for lip care, ensuring your lips feel hydrated and nurtured all day long. This moisturizing lip balm is dermatologically tested, making it safe for daily use and effective in caring for your lips.<\/p>"
+          }
+        },
+        "question_HcMw3w": {
+          "type": "question",
+          "settings": {
+            "question": "How long does lip balm last?",
+            "answer": "<p>Lip balm generally lasts a long time, but the exact duration can vary based on the ingredients and packaging. The Balm with lip applicator has a PAO (Period After Opening) of 12 months, which means it’s best to use the balm within a year of opening for optimal effectiveness and safety.<\/p><p>Make sure to close the balm properly and store it in a cool, dry place. If the balm starts to melt, change color, or develop an unusual odor, it’s time to replace it. Following these guidelines will help ensure that your lip balm retains its nourishing and hydrating properties.<\/p>"
+          }
+        },
+        "question_rxy8cV": {
+          "type": "question",
+          "settings": {
+            "question": "Which lip balm is safe for sensitive skin?",
+            "answer": "<p>For individuals with sensitive skin, it’s essential to choose lip balms that are dermatologically tested and have hypoallergenic properties. SOPHIA MAE's Balm with lip applicator is an excellent choice, as it has been specifically developed to care for lips without causing irritation.<\/p><p>With ingredients like petrolatum and lanolin, this moisturizing mini lip balm provides intense hydration and protection. Additionally, it contains tocopheryl acetate (Vitamin E) to nourish the skin. While hypoallergenic products are less likely to cause allergic reactions, individual responses can still occur.<\/p><p>For added assurance, it’s advisable to perform a patch test, especially if you have sensitive skin or are prone to allergies.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_9PDGDX",
+        "question_ph43FX",
+        "question_nDGcFy",
+        "question_HcMw3w",
+        "question_rxy8cV"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "This revitalizing balm will bring harmony to your lips, and make you feel forever divine.",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_fmdLck": {
+      "type": "rich-text",
+      "blocks": {
+        "button_VqmQp8": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "DISCOVER NOW",
+            "url": "https:\/\/sophia-mae.com\/products\/balm-with-lip-applicator",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_VqmQp8"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "faq_rKcDhg",
+    "rich_text_fmdLck"
+  ]
+}

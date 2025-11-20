@@ -1,0 +1,157 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "settings": {
+            "text": "WARDROBE DIFFUSER",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_d9cAeJ": {
+          "type": "subheading",
+          "settings": {
+            "text": "HOW TO USE"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe",
+        "subheading_d9cAeJ"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Hospitality_banner_desktop_1_a3343765-3eef-4d22-ab6f-eca0917f345b.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_8_abbeb787-4dd3-49e4-ae25-ee66251b9d7a.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "faq_rKcDhg": {
+      "type": "faq",
+      "blocks": {
+        "question_9PDGDX": {
+          "type": "question",
+          "settings": {
+            "question": "Where do you use a wardrobe diffuser for?",
+            "answer": "<p>A wardrobe diffuser is used to scent your closet, keeping your clothes and the space smelling fresh and pleasant, while adding a touch of subtle elegance.<\/p>"
+          }
+        },
+        "question_HcMw3w": {
+          "type": "question",
+          "settings": {
+            "question": "How should the wardrobe diffuser be used?",
+            "answer": "<p>To use the wardrobe diffuser, open the plastic bag surrounding each diffuser to activate the scent. Avoid letting the diffuser come into direct contact with clothing or other fabrics.<\/p>"
+          }
+        },
+        "question_CjjDYB": {
+          "type": "question",
+          "settings": {
+            "question": "How long does the fragrance of each diffuser last?",
+            "answer": "<p>The fragrance lasts up to 40 days after opening the packaging.<\/p>"
+          }
+        },
+        "question_JJA7th": {
+          "type": "question",
+          "settings": {
+            "question": "What should I do if the scent is too strong?",
+            "answer": "<p>If the scent is too strong, consider placing the diffuser in a larger space or using only one diffuser at a time.<\/p>"
+          }
+        },
+        "question_nDGcFy": {
+          "type": "question",
+          "settings": {
+            "question": "How many diffusers are included in each package?",
+            "answer": "<p>Each package contains three wardrobe diffusers.<\/p>"
+          }
+        },
+        "question_dG87Ad": {
+          "type": "question",
+          "settings": {
+            "question": "Can the wardrobe diffuser be used in other spaces besides the closet?",
+            "answer": "<p>While designed for closets, the diffuser can also be used in other spaces like your car or bathroom. However, it is specifically designed for wardrobes, and the intensity of the scent may vary in different environments.<\/p>"
+          }
+        },
+        "question_ph43FX": {
+          "type": "question",
+          "settings": {
+            "question": "What materials are used in the wardrobe diffuser?",
+            "answer": "<p>The diffuser is made from cellulose, a natural material derived from plant cell walls, and infused with perfume.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_9PDGDX",
+        "question_HcMw3w",
+        "question_CjjDYB",
+        "question_JJA7th",
+        "question_nDGcFy",
+        "question_dG87Ad",
+        "question_ph43FX"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "Infuse your clothes and closet with the fresh scent of Eos or the soft fragrance of Midnight Melody.",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_fmdLck": {
+      "type": "rich-text",
+      "blocks": {
+        "button_VqmQp8": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "DISCOVER NOW",
+            "url": "shopify:\/\/collections\/wardrobe-diffusers",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_VqmQp8"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "faq_rKcDhg",
+    "rich_text_fmdLck"
+  ]
+}

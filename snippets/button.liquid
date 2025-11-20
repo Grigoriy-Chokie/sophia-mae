@@ -1,0 +1,212 @@
+{%- comment -%}
+----------------------------------------------------------------------------------------------------------------------
+BUTTON COMPONENT
+----------------------------------------------------------------------------------------------------------------------
+
+Generate a button (or link styled as a button). It supports wide range of attributes that can be used to customize
+the appearance and functionality of the button.
+
+********************************************
+Supported variables
+********************************************
+
+* content: the content of the button
+* href: an optional link to set. If href is provided, then an "a" tag is generated, otherwise a "button"
+* size: can be "sm". If none is set, the default "base" size is used.
+* background: an optional background color to use that override the default
+* text_color: an optional text color to use that override the default
+* style: "solid", "outline" or "link". If none is set "solid" is assumed
+* stretch: if passed to true, a full width button is generated
+* subdued: when using the "outline" mode, this reduced the importance of the button
+* type: when href is empty, can be either "button" or "submit" (default to button if none is set)
+* is: if set, add the attribute for allowing custom elements
+* name: when the button is a real button, allow to set the name attribute that is submitted
+* icon: the name of an optional icon to render along the button
+* disabled: if set to true, the button is disabled
+* form: the form ID that this button is linked to
+* external: if set to true and that a href is passed, it opens into a new window
+* aria_controls: the ID of the element controlled
+* block: an optional block to output theme editor attributes
+{%- endcomment -%}
+
+
+
+
+{% liquid
+  capture class_attribute
+    if type_btn == "sticky-btn"
+      echo " sticky-btn-custom "
+    endif
+    if style == "link" or style == "outline"
+      echo ' extra-color-text '
+    endif 
+
+    if style == 'link'
+      echo 'link'
+    else
+      echo 'button'
+
+      if size != blank and size != 'base'
+        echo ' button-' | append: size
+      endif
+
+      if style == 'outline'
+        echo ' button--outline'
+      endif
+
+      if subdued
+        echo ' button--subdued'
+      endif
+
+      if stretch
+        echo ' w-full'
+      endif
+
+    endif
+  endcapture
+
+  capture style_attribute
+    if type_btn == "sticky-btn"
+      echo "--sticky-btn-text:" | append: color_text | append: ';'
+      echo "--sticky-btn-bg:" | append: bg_color | append: ';'
+    endif
+    echo '--extra-color-text:' | append: extra_color | append: ';'
+    if style != 'link'
+      if background != blank and background != 'rgba(0,0,0,0)'
+        echo '--button-background: ' | append: background.rgb | append: ';'
+        echo '--button-outline-color: ' | append: background.rgb | append: ';'
+      endif
+
+      if text_color != blank and text_color != 'rgba(0,0,0,0)'
+        echo '--button-text-color: ' | append: text_color.rgb | append: ';'
+      endif
+    endif
+  endcapture
+
+  assign is_reward_in_cart = false
+  assign reward_in_cart_message = settings.reward_in_cart_message
+  assign reward_in_cart_message_collection = settings.reward_in_cart_message_collection
+
+              
+  for line_item in cart.items
+    assign title_downcase = line_item.title | downcase
+      if title_downcase contains "reward"
+        assign is_reward_in_cart = true
+        break
+      endif
+  endfor
+
+  if product_condition == 'archived'
+    assign error_message = settings.archived_not_in_cart_message
+  else
+    assign error_message = settings.archived_in_cart_message
+  endif
+
+  if product_condition == 'archived'
+    assign error_message_collection = settings.archived_not_in_cart_message_collection
+  else
+    assign error_message_collection = settings.archived_in_cart_message_collection
+  endif
+
+
+
+
+
+
+  capture attributes
+    if class_attribute != blank
+      echo 'class="' | append: class_attribute | append: '"'
+    endif
+
+    unless product_condition == blank
+      echo 'data-product-condition="' | append: product_condition | append: '"'
+    endunless
+  
+    if style_attribute != blank
+      echo 'style="' | append: style_attribute | append: '"'
+    endif
+
+    if aria_controls
+      echo 'aria-controls="' | append: aria_controls | append: '"'
+    endif
+
+    if disabled
+      if href
+        echo 'role="link" aria-disabled="true"'
+      else
+        echo 'disabled '
+      endif
+    endif
+
+    if name
+      echo 'name="' | append: name | append: '"'
+    endif
+
+    if form
+      echo 'form="' | append: form | append: '"'
+    endif
+
+    if is
+      echo 'is="' | append: is | append: '"'
+    endif
+
+    if href
+      echo 'href="' | append: href | append: '"'
+    endif
+
+    if external and href != blank
+      echo 'target="_blank"'
+    endif
+  endcapture
+%}
+
+{%- capture button_content -%}
+  {% if icon != blank %}
+    <div class="text-with-icon">
+      {%- render 'icon' with icon -%}
+      {{- content -}}
+    </div>
+  {%- else -%}
+    {{- content -}}
+  {%- endif -%}
+{%- endcapture -%}
+
+{%- if href != blank -%}
+  <a {{ attributes }} {{ block.shopify_attributes }}>
+    {{- button_content -}}
+  </a>
+{%- else -%}
+
+  {% unless product_condition == blank %}
+    <div class="ProductForm__AddToCart--error-message">
+      {%- liquid 
+        if template.name != "collection"
+          if is_reward_in_cart == true
+            echo reward_in_cart_message
+          else
+            echo error_message
+          endif
+        else
+          if is_reward_in_cart == true
+            echo reward_in_cart_message_collection
+          else
+            echo error_message_collection
+          endif
+        endif
+      -%}
+    </div>
+  {% endunless %}
+
+  {%- if template.name == 'product' -%}
+    <div class="buy-buttons__row-action">
+      <button type="{{ type | default: 'button' }}" {{ attributes }} {{ block.shopify_attributes }}>
+        {{- button_content -}}
+      </button>
+    {% comment %} {%- render 'wishlist-button' -%} {% endcomment %}
+    </div>
+  {%- else -%}
+    <button type="{{ type | default: 'button' }}" {{ attributes }} {{ block.shopify_attributes }}>
+      {{- button_content -}}
+    </button>
+  {%- endif -%}
+{%- endif -%}

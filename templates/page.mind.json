@@ -1,0 +1,350 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_Cx4UKj": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_MCwBVr": {
+          "type": "heading",
+          "settings": {
+            "text": "SOPHIA MAE X MIND",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MCwBVr"
+      ],
+      "name": "t:sections.image_with_text_overlay.presets.image_with_text_overlay.name",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/web_2500_x_900_947fad43-3053-4fb8-b392-3ebcfb916ffc.png",
+        "mobile_image": "shopify:\/\/shop_images\/1000_x_1000_ipv_1100_x_1500.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center-end sm:text-end",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_xPLCCa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rpXfKV": {
+          "type": "heading",
+          "settings": {
+            "text": "SOPHIA MAE X MIND",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rpXfKV"
+      ],
+      "disabled": true,
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_AYBxdB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iUbAkb": {
+          "type": "heading",
+          "settings": {
+            "text": "SHARED PHILOSOPHY",
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iUbAkb"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_YX834A": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_YVVNDL": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>We take pride in unveiling our partnership with MIND, a collaboration officially announced on World Mental Health Day 2023. This day, dedicated to raising awareness about the importance of mental well-being, marks the beginning of our joint mission. <\/p><p>At SOPHIA MAE, we prioritize the nurturing of oneself. We believe in not just marking this day but making this support a daily commitment. Our mission is to be a supportive community for anyone who seeks attention and care for their mental health. In our efforts to raise awareness on this issue, we partnered with an organization deeply knowledgeable in these themes, capable of providing professional assistance as needed, and with whom we strive to make a positive impact on society.<\/p><p>Together, we can contribute to a world that cherishes and supports mental health. SOPHIA MAE and MIND share the philosophy that nurturing one's own mental health is crucial, but so is extending compassion to others. We are deeply grateful to have cultivated a community where we can spread this empowering message and we are proud to support this organization.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_YVVNDL"
+      ],
+      "custom_css": [
+        "p {text-align: justify;}"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "c062b312-c509-4c38-a356-be8f7dbaf9c6": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20162493972824__c062b312-c509-4c38-a356-be8f7dbaf9c6-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "SAME PHILOSOPHY",
+            "heading_tag": "h3"
+          }
+        },
+        "template--20162493972824__c062b312-c509-4c38-a356-be8f7dbaf9c6-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>We take pride in unveiling our partnership with MIND, a collaboration officially announced on World Mental Health Day 2023. This day, dedicated to raising awareness about the importance of mental well-being, marks the beginning of our joint mission. <\/p><p>At SOPHIA MAE, we prioritize the nurturing of oneself. We believe in not just marking this day but making this support a daily commitment. Our mission is to be a supportive community for anyone who seeks attention and care for their mental health. In our efforts to raise awareness on this issue, we partnered with an organization deeply knowledgeable in these themes, capable of providing professional assistance as needed, and with whom we strive to make a positive impact on society.<\/p><p>Together, we can contribute to a world that cherishes and supports mental health. SOPHIA MAE and MIND share the philosophy that nurturing one's own mental health is crucial, but so is extending compassion to others. We are deeply grateful to have cultivated a community where we can spread this empowering message and we are proud to support this organization.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20162493972824__c062b312-c509-4c38-a356-be8f7dbaf9c6-heading-1",
+        "template--20162493972824__c062b312-c509-4c38-a356-be8f7dbaf9c6-richtext-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "background_color": "default",
+        "image": "shopify:\/\/shop_images\/MIND_page_content_Shopify.png",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "lg",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
+    "image_with_text_cQ3DXQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_7kKyKt": {
+          "type": "heading",
+          "settings": {
+            "text": "MIND FOR EVERYONE",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_3EygaA": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>MIND is a leading organization in the field of mental health and serves as a valuable and easily accessible resource for anyone in need. Whether experiencing these challenges personally or within their environment, advocating for better treatment, support, greater understanding, and respect for the importance of mental health. Their website serves as a rich source of information and tips on all related matters.<\/p><p>We, at SOPHIA MAE, do not provide solutions for individual mental health challenges. If you are dealing with mental health issues, we strongly recommend seeking professional help, such as through your primary care physician. Contact MIND Hulplijn if you wish to speak with a counselor anonymously and free of charge.<\/p>"
+          }
+        },
+        "button_ECg8Kb": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "CONTACT MIND HULPLIJN",
+            "url": "https:\/\/mindhulplijn.nl\/?utm_source=sophia-mae&utm_medium=referral&utm_campaign=dag-van-de-mentale-gezondheid",
+            "background": "#050000",
+            "text_color": "#eae5df"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7kKyKt",
+        "richtext_3EygaA",
+        "button_ECg8Kb"
+      ],
+      "custom_css": [
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "background_color": "default",
+        "image": "shopify:\/\/shop_images\/1000_x_1000_ipv_1100_x_1500_3.png",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "width",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
+    "image_with_text_UG9mHQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_eQ3Jgw": {
+          "type": "heading",
+          "settings": {
+            "text": "GROUNDED GAIA",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_EjPJYa": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>We are proud to announce SOPHIA MAE’s limited-edition Grounded Gaia scented candle midi.<br\/><br\/>The earthy, sweet scent of figs, combined with coconut, creates a perfect harmony with the warm aromas of amber and fresh pine. This soothing fragrance clears the mind and fills any space with a serene atmosphere.<br\/><br\/>These characteristics perfectly align with the mission of MIND. As a partner, SOPHIA MAE donates €10 for every Grounded Gaia candle sold to support mental health awareness.<\/p>"
+          }
+        },
+        "button_MgjFkP": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "DISCOVER GROUNDED GAIA",
+            "url": "shopify:\/\/products\/grounded-gaia-scented-candle-midi",
+            "background": "#050000",
+            "text_color": "#eae5df"
+          }
+        }
+      },
+      "block_order": [
+        "heading_eQ3Jgw",
+        "richtext_EjPJYa",
+        "button_MgjFkP"
+      ],
+      "custom_css": [
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "background_color": "default",
+        "image": "shopify:\/\/shop_images\/1000_x_1000_ipv_1100_x_1500_1.png",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "width",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
+    "tabs_6qKxJE": {
+      "type": "tabs",
+      "blocks": {
+        "tab_FA8TdQ": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "title": "10th of October 2024",
+            "content": "<p>A special announcement in collaboration with MIND unlocked.<\/p>",
+            "page": "",
+            "open_on_mobile": false
+          }
+        },
+        "tab_iHtQhq": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "title": "Date to be continued",
+            "content": "<p>Launch of a product in collaboration with MIND.<\/p>",
+            "page": "",
+            "open_on_mobile": false
+          }
+        },
+        "tab_DdYfaY": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "title": "SELF-CARE TIPS",
+            "content": "<p>tbc<\/p>",
+            "page": "",
+            "open_on_mobile": false
+          }
+        },
+        "tab_rLcMCG": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "title": "MIND EXPERTS' TIPS",
+            "content": "<p>tbc<\/p>",
+            "page": "",
+            "open_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "tab_FA8TdQ",
+        "tab_iHtQhq",
+        "tab_DdYfaY",
+        "tab_rLcMCG"
+      ],
+      "disabled": true,
+      "settings": {
+        "separate_section_with_border": false,
+        "subheading": "We strive to continuously enhance this partnership through collaborative initiatives, launching products customized for mental health needs, and providing comprehensive focus on the topic through insights from MIND experts.",
+        "title": "WHAT TO EXPECT?",
+        "text_alignment": "center"
+      }
+    },
+    "logo_list_FtwWHi": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_8yF8Dg": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/1_5caa11c8-2b5e-4354-8038-ae9cfb7e94ac.png",
+            "logo_width": 110,
+            "link": ""
+          }
+        },
+        "logo_RiTLp9": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/2_7b24beb3-d11b-4c59-ab5d-c8ee7292bfec.png",
+            "logo_width": 240,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_8yF8Dg",
+        "logo_RiTLp9"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "subheading": "",
+        "title": "",
+        "items_per_row": 5,
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_Cx4UKj",
+    "rich_text_xPLCCa",
+    "rich_text_AYBxdB",
+    "rich_text_YX834A",
+    "c062b312-c509-4c38-a356-be8f7dbaf9c6",
+    "image_with_text_cQ3DXQ",
+    "image_with_text_UG9mHQ",
+    "tabs_6qKxJE",
+    "logo_list_FtwWHi"
+  ]
+}

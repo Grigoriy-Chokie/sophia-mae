@@ -1,0 +1,769 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "settings": {
+            "text": "BLACK WEEK SPECIALS",
+            "heading_tag": "h1"
+          }
+        },
+        "heading_Weifa9": {
+          "type": "heading",
+          "settings": {
+            "text": "RECEIVE UP TO 7 GIFTS WORTH €115",
+            "heading_tag": "h5"
+          }
+        },
+        "button_fgKMKT": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "SHOP & RECEIVE EXCLUSIVE GIFTS",
+            "url": "shopify://collections/products",
+            "background": "#f2f0eb",
+            "text_color": "#1c1c1c"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe",
+        "heading_Weifa9",
+        "button_fgKMKT"
+      ],
+      "custom_css": [],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify://shop_images/web_2500_x_900_1_fab98f7e-909f-4166-b49f-81d3db373506.png",
+        "mobile_image": "shopify://shop_images/Hospitality_banner_mobile_1_75fc9e1b-f7b1-4db5-a4fc-8cc19cabe86a.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-end-center text-center",
+        "desktop_text_position": "sm:place-self-end-center sm:text-center",
+        "text_color": "#f2f0eb",
+        "overlay_color": "#000000",
+        "overlay_opacity": 50
+      }
+    },
+    "countdown_wHGHfG": {
+      "type": "countdown",
+      "settings": {
+        "separate_section_with_border": false,
+        "image_size": "auto",
+        "subheading": "SURPRISE, SURPRISE",
+        "title": "",
+        "content": "<p>Receive up to 7 special gifts — including full-size products — with your purchase, depending on your order value.</p><p>Our Black Week Specials are valid online until the 1st of December 23:59, and in our Flagship Store until the 1st of December at 18:00, while stock lasts.</p>",
+        "button_link": "shopify://collections/products",
+        "button_text": "SHOP & RECEIVE GIFTS",
+        "expiration_date": "2025-12-01 23:59",
+        "expiration_behavior": "leave",
+        "timer_position": "end",
+        "animate_number": true,
+        "background": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": "",
+        "flip_background": "",
+        "flip_background_opacity": 50,
+        "flip_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 60
+      }
+    },
+    "collection_list_E7CCXP": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_gw4pLH": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/1_cfac9556-1257-4336-99d8-301e8c1d62bf.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "PURCHASES €40 - €60",
+            "title": "3 GIFTS WORTH €12",
+            "button_text": "SHOP & RECEIVE GIFTS",
+            "button_link": "shopify://collections/products",
+            "text_color": "#1c1c1c",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_kJJdeV": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/2_4190a0d6-303a-462d-9c58-6b6adfb2b21b.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "PURCHASES €60 - €80",
+            "title": "4 GIFTS WORTH €26",
+            "button_text": "SHOP & RECEIVE GIFTS",
+            "button_link": "shopify://collections/products",
+            "text_color": "#1c1c1c",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "#000000",
+            "button_text_color": ""
+          }
+        },
+        "collection_DwndPY": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/3_874b3c71-4125-4d18-8059-8f0694b533ea.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "PURCHASES €80 - €110",
+            "title": "5 gifts worth €55",
+            "button_text": "SHOP & RECEIVE GIFTS",
+            "button_link": "shopify://collections/products",
+            "text_color": "#1c1c1c",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "#000000",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_gw4pLH",
+        "collection_kJJdeV",
+        "collection_DwndPY"
+      ],
+      "custom_css": [
+        "/* Fallback variant voor Dawn of vergelijkbare thema's */.collection-list .grid--3-col-desktop {justify-content: center !important; display: flex !important; flex-wrap: wrap !important;}",
+        ".collection-list .grid--3-col-desktop .grid__item {margin: 0 1rem 2rem 1rem; text-align: center;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "image_size": "xs",
+        "show_text_outside": true,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "EXCLUSIVE GIFTS AWAIT",
+        "content": "",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
+      }
+    },
+    "collection_list_PGABN6": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_WWyxzN": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Thumbnails_1500_x_1500_1_afec87e1-a84d-40e2-ace4-d4e1e20ea2f3.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "PURCHASES €110 - €150",
+            "title": "6 gifts worth €79",
+            "button_text": "SHOP & RECEIVE GIFTS",
+            "button_link": "shopify://collections/products",
+            "text_color": "#1c1c1c",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_fQDxGM": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/5_dcc182fa-babb-4abf-ba1f-81ae1307fd9a.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "PURCHASES FROM €150",
+            "title": "7 gifts worth €115",
+            "button_text": "SHOP & RECEIVE GIFTS",
+            "button_link": "shopify://collections/products",
+            "text_color": "#1c1c1c",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_WWyxzN",
+        "collection_fQDxGM"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "image_size": "xs",
+        "show_text_outside": true,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_desktop": 2,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
+      }
+    },
+    "rich_text_66jTc7": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_UTUCE6": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Gift cards are excluded from our Black Week Specials. Online, your gifts will be added to your cart automatically once the requirements are met, and in store they will be handed to you with your purchase.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_UTUCE6"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_8hXUpC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3DywxD": {
+          "type": "heading",
+          "settings": {
+            "text": "THE GIFT OF SOPHIA MAE",
+            "heading_tag": "h4"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3DywxD"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "featured_collections_FtqgQf": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_txfR8W": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers",
+            "products_count": 12,
+            "title": "THE BEST SELLERS",
+            "link_url": "shopify://collections/best-sellers",
+            "link_text": "DISCOVER NOW"
+          }
+        }
+      },
+      "block_order": [
+        "collection_txfR8W"
+      ],
+      "custom_css": [
+        ".card,.product-card {display: flex; flex-direction: column; justify-content: space-between; height: 100%;}",
+        ".card__content,.product-card .card__content {flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;}",
+        ".card form,.product-card form {margin-top: auto;}",
+        ".card .button,.product-card .button {margin-top: 1rem;}"
+      ],
+      "settings": {
+        "remove_horizontal_spacing": false,
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "featured_collections_Pxiwez": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_fthHM4": {
+          "type": "collection",
+          "settings": {
+            "collection": "perfumes",
+            "products_count": 12,
+            "title": "EXCLUSIVE EAU DE PARFUMS",
+            "link_url": "shopify://collections/perfumes",
+            "link_text": "DISCOVER NOW"
+          }
+        }
+      },
+      "block_order": [
+        "collection_fthHM4"
+      ],
+      "custom_css": [
+        ".card,.product-card {display: flex; flex-direction: column; justify-content: space-between; height: 100%;}",
+        ".card__content,.product-card .card__content {flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;}",
+        ".card form,.product-card form {margin-top: auto;}",
+        ".card .button,.product-card .button {margin-top: 1rem;}"
+      ],
+      "settings": {
+        "remove_horizontal_spacing": false,
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "featured_collections_hAwbPV": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_WRzTiP": {
+          "type": "collection",
+          "settings": {
+            "collection": "makeup",
+            "products_count": 8,
+            "title": "MAKEUP ESSENTIALS",
+            "link_url": "shopify://collections/makeup",
+            "link_text": "DISCOVER NOW"
+          }
+        }
+      },
+      "block_order": [
+        "collection_WRzTiP"
+      ],
+      "custom_css": [
+        ".card,.product-card {display: flex; flex-direction: column; justify-content: space-between; height: 100%;}",
+        ".card__content,.product-card .card__content {flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;}",
+        ".card form,.product-card form {margin-top: auto;}",
+        ".card .button,.product-card .button {margin-top: 1rem;}"
+      ],
+      "settings": {
+        "remove_horizontal_spacing": false,
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "media_grid_qTLLnx": {
+      "type": "media-grid",
+      "blocks": {
+        "image_KrGitY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_4f663156-bc9e-4ea2-b550-68ac0a1a31c9.png",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_wNYy7B": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_c81d0537-da0b-4293-848e-0490ad3fa8ea.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_BPf9yR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Product_-_Sfeerafbeeldingen_3000_x_3000_px_1_5ff15e83-7134-40a2-a830-c861f06babdf.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_KrGitY",
+        "image_wNYy7B",
+        "image_BPf9yR"
+      ],
+      "name": "t:sections.media_grid.presets.media_grid.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "width",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "text_color": ""
+      }
+    },
+    "featured_collections_4TbhYp": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_L9bnDM": {
+          "type": "collection",
+          "settings": {
+            "collection": "hair-products",
+            "products_count": 8,
+            "title": "HAIR CARE",
+            "link_url": "shopify://collections/hair-products",
+            "link_text": "DISCOVER NOW"
+          }
+        }
+      },
+      "block_order": [
+        "collection_L9bnDM"
+      ],
+      "custom_css": [
+        ".card,.product-card {display: flex; flex-direction: column; justify-content: space-between; height: 100%;}",
+        ".card__content,.product-card .card__content {flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;}",
+        ".card form,.product-card form {margin-top: auto;}",
+        ".card .button,.product-card .button {margin-top: 1rem;}"
+      ],
+      "settings": {
+        "remove_horizontal_spacing": false,
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "featured_collections_ckLwgd": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_GLCXML": {
+          "type": "collection",
+          "settings": {
+            "collection": "face-body",
+            "products_count": 8,
+            "title": "SKINCARE AND BODY CARE",
+            "link_url": "shopify://collections/face-body",
+            "link_text": "DISCOVER NOW"
+          }
+        }
+      },
+      "block_order": [
+        "collection_GLCXML"
+      ],
+      "custom_css": [
+        ".card,.product-card {display: flex; flex-direction: column; justify-content: space-between; height: 100%;}",
+        ".card__content,.product-card .card__content {flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;}",
+        ".card form,.product-card form {margin-top: auto;}",
+        ".card .button,.product-card .button {margin-top: 1rem;}"
+      ],
+      "settings": {
+        "remove_horizontal_spacing": false,
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "media_grid_m4mn4p": {
+      "type": "media-grid",
+      "blocks": {
+        "image_Vx8VeU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_8937783f-b188-4c4d-88b7-dee91352d7fb.png",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_HKPTdb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5_f6b5ae9e-48cb-4499-b65c-6a25257ed545.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_ygdqYA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_f61e1750-2ce6-4905-bfe3-4f1a528f6c8a.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_Vx8VeU",
+        "image_HKPTdb",
+        "image_ygdqYA"
+      ],
+      "name": "t:sections.media_grid.presets.media_grid.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "width",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "text_color": ""
+      }
+    },
+    "featured_collections_wC7E9R": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_9QQnPU": {
+          "type": "collection",
+          "settings": {
+            "collection": "home",
+            "products_count": 8,
+            "title": "HOME ESSENTIALS",
+            "link_url": "shopify://collections/home",
+            "link_text": "DISCOVER NOW"
+          }
+        }
+      },
+      "block_order": [
+        "collection_9QQnPU"
+      ],
+      "custom_css": [
+        ".card,.product-card {display: flex; flex-direction: column; justify-content: space-between; height: 100%;}",
+        ".card__content,.product-card .card__content {flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;}",
+        ".card form,.product-card form {margin-top: auto;}",
+        ".card .button,.product-card .button {margin-top: 1rem;}"
+      ],
+      "settings": {
+        "remove_horizontal_spacing": false,
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "featured_collections_NtWzTf": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_e44K79": {
+          "type": "collection",
+          "settings": {
+            "collection": "lifestyle",
+            "products_count": 8,
+            "title": "Lifestyle must-haves",
+            "link_url": "shopify://collections/lifestyle",
+            "link_text": "DISCOVER NOW"
+          }
+        }
+      },
+      "block_order": [
+        "collection_e44K79"
+      ],
+      "custom_css": [
+        ".card,.product-card {display: flex; flex-direction: column; justify-content: space-between; height: 100%;}",
+        ".card__content,.product-card .card__content {flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;}",
+        ".card form,.product-card form {margin-top: auto;}",
+        ".card .button,.product-card .button {margin-top: 1rem;}"
+      ],
+      "settings": {
+        "remove_horizontal_spacing": false,
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "rich_text_jarTgT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mgHPWG": {
+          "type": "heading",
+          "settings": {
+            "text": "GET INSPIRED",
+            "heading_tag": "h4"
+          }
+        },
+        "button_MUFpeP": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "JOIN OUR COMMUNITY",
+            "url": "https://www.instagram.com/sophiamae/",
+            "background": "#1c1c1c",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_mgHPWG",
+        "button_MUFpeP"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "1725457010d0e3b620": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_YADdwT": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_YADdwT"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "countdown_wHGHfG",
+    "collection_list_E7CCXP",
+    "collection_list_PGABN6",
+    "rich_text_66jTc7",
+    "rich_text_8hXUpC",
+    "featured_collections_FtqgQf",
+    "featured_collections_Pxiwez",
+    "featured_collections_hAwbPV",
+    "media_grid_qTLLnx",
+    "featured_collections_4TbhYp",
+    "featured_collections_ckLwgd",
+    "media_grid_m4mn4p",
+    "featured_collections_wC7E9R",
+    "featured_collections_NtWzTf",
+    "rich_text_jarTgT",
+    "1725457010d0e3b620"
+  ]
+}

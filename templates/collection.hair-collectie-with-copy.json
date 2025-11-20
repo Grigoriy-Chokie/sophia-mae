@@ -1,0 +1,230 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "image_size": "auto",
+        "allow_transparent_header": true,
+        "reveal": true,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_breadcrumb": true,
+        "content_width": "xs",
+        "background": "#000000",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "hide_product_information": false,
+        "load-more_button-text": "Load more",
+        "load-more_pattern": "Viewed |viewed| of |all-product| products",
+        "products_per_page": 16,
+        "products_per_row_mobile": "2",
+        "products_size_desktop": "medium",
+        "show_grid_mode_selector": false,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "filter_layout": "drawer",
+        "quick_links_menu": "",
+        "show_sort_by": false,
+        "show_filters": false,
+        "show_results_count": false,
+        "show_filter_group_name": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": false,
+        "show_color_swatch": false,
+        "open_filters_by_default": false,
+        "locked_form_title": "",
+        "locked_form_subtitle": ""
+      }
+    },
+    "rich_text_T9kgFN": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_GUBjBr": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_YpiFcB": {
+          "type": "heading",
+          "settings": {
+            "text": "LUXE HAARPRODUCTEN VOO PRACHTIG, VERZORGD HAAR",
+            "heading_tag": "h5"
+          }
+        },
+        "richtext_PhXM6D": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><em>Ontdek zorgvuldig samengestelde luxe haarproducten die niet alleen je haar verzorgen, maar ook moeiteloos volume, textuur en glans geven. </em></p><p>Van onze signature droogshampoo tot voedende haarolie en styling essentials, elk product tilt jouw haarverzorging naar een hoger niveau. Of je nu gaat voor een natuurlijke, effortless look of juist een verfijnde finishing touch, bij SOPHIA MAE vind je een zorgvuldig samengestelde collectie aan luxe haarproducten die perfect aansluiten op jouw routine. </p><p>Ervaar premium formules die styling en verzorging naadloos combineren voor prachtig, gezond en stralend haar van salonkwaliteit, elke dag opnieuw. Elk haarproduct is bovendien verrijkt met verfijnde, luxueuze geuren die niet alleen je haar verzorgen, maar ook je zintuigen verwennen voor een ultieme verzorgingservaring.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_GUBjBr",
+        "heading_YpiFcB",
+        "richtext_PhXM6D"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "tabs_MAGK78": {
+      "type": "tabs",
+      "blocks": {
+        "tab_PMTh3T": {
+          "type": "tab",
+          "settings": {
+            "title": "Luxury hair products for beautiful, well-cared-for hair",
+            "content": "<p><em>Wil je meer volume en textuur in je haar creëren? Met onze luxe haarstylingproducten geef je je haar de perfecte basis voor een volumineuze, langdurige look. </em></p><p>De Majestic Texture textuurspray geeft je lokken een luchtige lift en extra body. Voor langdurig volume gebruik je een van de Roller Rendez-Vous sets, hoogwaardige klittenbandrollers die je haar meer veerkracht en beweging geven. Kies de Roller Rendez-Vous midi voor subtiele slag en zachte golven, of de Roller Rendez-Vous maxi voor extra volume en een voller effect. Combineer deze essentials voor een volumineuze look die de hele dag blijft zitten.</p>",
+            "page": "",
+            "open_on_mobile": false
+          }
+        },
+        "tab_PYmmzh": {
+          "type": "tab",
+          "settings": {
+            "title": "Haarverzorging voor zacht en glanzend haar",
+            "content": "<p><em>Breng je haarverzorging naar een hoger niveau met haarproducten die zorgen voor een gezonde glans en een zijdezachte afwerking. </em></p><p>Met de Satin Sheen hair & body elixir hydrateer en voed je je haar, waardoor het prachtig glanst en vrij blijft van pluis. Voor extra bescherming en een gezonde haargroei gebruik je de Two-sided Pillowcase. De satijnen kant vermindert wrijving, waardoor je haar minder breekt en je wimpers beter beschermd blijven. Verzorg je haar optimaal voor een glanzend, zacht resultaat dat de hele dag blijft stralen.</p>",
+            "page": "",
+            "open_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "tab_PMTh3T",
+        "tab_PYmmzh"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "subheading": "",
+        "title": "",
+        "text_alignment": "center"
+      }
+    },
+    "tabs_7WKBMq": {
+      "type": "tabs",
+      "blocks": {
+        "tab_nKNFiq": {
+          "type": "tab",
+          "settings": {
+            "title": "Droogshampoo for fris en volumineus haar",
+            "content": "<p><em>Droogshampoo is de perfecte oplossing voor fris en volumineus haar tussen wasbeurten. Het absorbeert olie en onzuiverheden, terwijl het je haar de gewenste lift en textuur geeft. </em></p><p>Wil je fris, volumineus en zacht haar dat de hele dag blijft zitten? De Majestic Mist is een droogshampoo en volumespray in één. Deze lichte, luchtige spray absorbeert niet alleen onzuiverheden en overtollige oliën uit je haar en hoofdhuid, maar geeft je haar ook de gewenste lift en volume. Deze vegan droogshampoo is ideaal voor een snelle opfrisbeurt of om je haar meer body en veerkracht te geven.</p>",
+            "page": "",
+            "open_on_mobile": false
+          }
+        },
+        "tab_NJKVPY": {
+          "type": "tab",
+          "settings": {
+            "title": "Perfect voor onderweg",
+            "content": "<p><em>Ontdek luxe haarstyling producten die je overal kunt meenemen. Onze on-the-go haarproducten bieden de perfecte oplossing voor snelle opfrissingen en volumeboosts, waar je ook bent.</em></p><p>Voor haarverzorging onderweg zijn de Majestic Texture mini en Majestic Mist mini de ideale oplossing. De Majestic Texture mini biedt luchtige textuur en volume, terwijl de Majestic Mist mini droogshampoo je haar binnen no-time verfrist en extra body geeft. Compact en effectief, zodat je altijd kunt rekenen op volumineuze, frisse lokken, waar je ook bent. Ook verkrijgbaar als set met de Majestic on-the-go bundle.</p>",
+            "page": "",
+            "open_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "tab_nKNFiq",
+        "tab_NJKVPY"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "subheading": "",
+        "title": "",
+        "text_alignment": "center"
+      }
+    },
+    "faq_ekXAPN": {
+      "type": "faq",
+      "blocks": {
+        "category_iMzzxr": {
+          "type": "category",
+          "disabled": true,
+          "settings": {
+            "title": "Order",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_DtVJPM": {
+          "type": "question",
+          "settings": {
+            "question": "What is the best care for your hair?",
+            "answer": "<p>x</p>"
+          }
+        },
+        "question_VdL3jA": {
+          "type": "question",
+          "settings": {
+            "question": "What are hairstyling products?",
+            "answer": "<p>x</p>"
+          }
+        },
+        "question_KHTYxP": {
+          "type": "question",
+          "settings": {
+            "question": "How do you get more volume in your hair?",
+            "answer": "<p>x</p>"
+          }
+        },
+        "question_tYHKyV": {
+          "type": "question",
+          "settings": {
+            "question": "How do you reduce frizzy hair?",
+            "answer": "<p>x</p>"
+          }
+        },
+        "question_JiRrYj": {
+          "type": "question",
+          "settings": {
+            "question": "What are luxury hair products?",
+            "answer": "<p>x</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_iMzzxr",
+        "question_DtVJPM",
+        "question_VdL3jA",
+        "question_KHTYxP",
+        "question_tYHKyV",
+        "question_JiRrYj"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "Frequently Asked Questions",
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "collection-banner",
+    "main",
+    "rich_text_T9kgFN",
+    "tabs_MAGK78",
+    "tabs_7WKBMq",
+    "faq_ekXAPN"
+  ]
+}

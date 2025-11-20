@@ -1,0 +1,142 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "settings": {
+            "text": "KABUKI BRUSH",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_d9cAeJ": {
+          "type": "subheading",
+          "settings": {
+            "text": "HOW TO USE"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe",
+        "subheading_d9cAeJ"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Hospitality_banner_desktop_6_4ba1a7f1-5b68-40ed-a2e0-c1052d986ce1.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_1_ac2d267c-cd2c-489f-9118-73894d716952.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "faq_rKcDhg": {
+      "type": "faq",
+      "blocks": {
+        "question_tXxgAq": {
+          "type": "question",
+          "settings": {
+            "question": "How to achieve optimal results when using the Kabuki Brush?",
+            "answer": "<p>Dip the Kabuki Brush into your beauty product of choice. Tap or wipe off any excess powder or product from the brush to prevent overapplication. Use the brush to apply the product evenly on your skin using a stroking or circular motion for even distribution and seamless blending.<\/p>"
+          }
+        },
+        "question_9PDGDX": {
+          "type": "question",
+          "settings": {
+            "question": "What motion is recommended for loose powders?",
+            "answer": "<p>Use a circular motion to pick up the product and apply evenly on your face or other body parts.<\/p>"
+          }
+        },
+        "question_nDGcFy": {
+          "type": "question",
+          "settings": {
+            "question": "What technique is suggested for a flawless finish?",
+            "answer": "<p>Buff the brush in circular motions over your skin to blend and soften any harsh lines.<\/p>"
+          }
+        },
+        "question_VfpBRm": {
+          "type": "question",
+          "settings": {
+            "question": "How to clean the Kabuki Brush after using a liquid product? ",
+            "answer": "<p>It's important to clean your Kabuki Brush with a mild soap or brush cleanser. Rinse thoroughly, reshape bristles, and let it air dry.<\/p>"
+          }
+        },
+        "question_VCNKXz": {
+          "type": "question",
+          "settings": {
+            "question": "What is the advised method for optimal storage of the Kabuki Brush?",
+            "answer": "<p>After use, reattach the cap; it can be stored in the original packaging or separately. To use the brush optimally, open the packaging at the top (the side without text) to keep it intact and in optimal condition.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_tXxgAq",
+        "question_9PDGDX",
+        "question_nDGcFy",
+        "question_VfpBRm",
+        "question_VCNKXz"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "The Kabuki Brush a multipurpose brush for a flawless finish. Stay radiant and glowing wherever you are with this compact brush.",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_fmdLck": {
+      "type": "rich-text",
+      "blocks": {
+        "button_VqmQp8": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "DISCOVER NOW",
+            "url": "shopify:\/\/products\/kabuki-brush",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_VqmQp8"
+      ],
+      "disabled": true,
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "faq_rKcDhg",
+    "rich_text_fmdLck"
+  ]
+}

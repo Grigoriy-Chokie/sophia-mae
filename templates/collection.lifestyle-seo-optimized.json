@@ -1,0 +1,385 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_RyYpPQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_C39a6E": {
+          "type": "heading",
+          "settings": {
+            "text": "Lifestyle must-haves",
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "heading_C39a6E"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_T9kgFN": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_PhXM6D": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Enjoy our luxury lifestyle products every day, designed to bring inspiration and refinement to every moment. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_PhXM6D"
+      ],
+      "custom_css": [],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "collection-banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "image_size": "auto",
+        "allow_transparent_header": true,
+        "reveal": true,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_breadcrumb": true,
+        "content_width": "xs",
+        "background": "#000000",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "hide_product_information": false,
+        "load-more_button-text": "Load more",
+        "load-more_pattern": "Viewed |viewed| of |all-product| products",
+        "products_per_page": 16,
+        "products_per_row_mobile": "2",
+        "products_size_desktop": "medium",
+        "show_grid_mode_selector": false,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "filter_layout": "drawer",
+        "quick_links_menu": "",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_results_count": false,
+        "show_filter_group_name": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": false,
+        "show_color_swatch": false,
+        "open_filters_by_default": true,
+        "locked_form_title": "",
+        "locked_form_subtitle": ""
+      }
+    },
+    "rich_text_c6hzx9": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_HtB86K": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Whether you’re drawn to the calming ritual of <a href=\"\/products\/gratitude-journal\" title=\"GRATITUDE JOURNAL\">journaling<\/a>, the functional elegance of our <a href=\"\/products\/beauty-case\" title=\"BEAUTY CASE\">beauty cases<\/a> and <a href=\"\/products\/beauty-bag\" title=\"BEAUTY BAG\">bags<\/a>, or the refined touch of our <a href=\"\/products\/signature-socks\" title=\"SIGNATURE SOCKS\">luxury socks<\/a>, our lifestyle essentials bring both comfort and sophistication to your everyday moments.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_HtB86K"
+      ],
+      "custom_css": [
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_overlay_yew3jG": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/1_782e3403-8e20-48d4-a317-9a9bcebe7939.png",
+        "mobile_image": "shopify:\/\/shop_images\/2_aa541244-1e8b-4055-9645-fa333bc260b3.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "faq_BbpcVe": {
+      "type": "faq",
+      "blocks": {
+        "category_xkpd79": {
+          "type": "category",
+          "settings": {
+            "title": "REFLECTION AND INSPIRATION ON PAPER",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_fYmGBJ": {
+          "type": "question",
+          "settings": {
+            "question": "Enrich your journaling experience",
+            "answer": "<p>Journaling is more than just writing down your thoughts. It invites self-reflection, sparks creativity, and supports your mental well-being.<\/p><p>By writing regularly, you can organize your thoughts, reduce stress, and gain clarity on your goals. It’s a moment of reflection that makes you more aware of what’s important to you and what you need to feel better.<\/p><p>A notebook is a powerful tool to integrate these benefits into your daily life. Whether you use it for creative ideas, daily reflections, or goal planning, it gives you the space to write down everything that helps you move forward and develop yourself.<\/p><p>Our <a href=\"\/products\/gratitude-journal\" title=\"GRATITUDE JOURNAL\">Gratitude Journal<\/a> is specially designed to help you focus on the positive aspects of your life, while our <a href=\"\/products\/notebook\" title=\"NOTEBOOK\">Notebook<\/a> offers the perfect place for all your thoughts, plans, and creative outbursts. Both products provide the space and luxury to deepen and enrich your journaling experience.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_xkpd79",
+        "question_fYmGBJ"
+      ],
+      "custom_css": [],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "faq_WCKgXD": {
+      "type": "faq",
+      "blocks": {
+        "category_feTbmc": {
+          "type": "category",
+          "settings": {
+            "title": "Luxury storage for your beauty essentials",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_37gbtX": {
+          "type": "question",
+          "settings": {
+            "question": "An organized beauty routine",
+            "answer": "<p>An organized beauty routine starts with the right storage space. From makeup to dry shampoo, your favorite essentials deserve a stylish place to be stored.<\/p><p>With an elegant beauty case or bag, you can keep everything organized and within reach, whether at home or on the go. Our <a href=\"\/products\/beauty-case\" title=\"BEAUTY CASE\">Beauty Case<\/a> offers space for all your cosmetics, jewelry, and accessories, so you can always create the perfect look. The <a href=\"\/products\/beauty-bag\" title=\"BEAUTY BAG\">Beauty Bag<\/a> is ideal for your daily beauty rituals or spontaneous outings, with enough space for your favorite products and accessories.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_feTbmc",
+        "question_37gbtX"
+      ],
+      "custom_css": [],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "faq_k4nGcq": {
+      "type": "faq",
+      "blocks": {
+        "category_nbPywd": {
+          "type": "category",
+          "settings": {
+            "title": "Comfort for every moment",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_tqjymH": {
+          "type": "question",
+          "settings": {
+            "question": "Stylish designs",
+            "answer": "<p>Discover the perfect companion for moments of calm or life on the go. Explore luxury lifestyle products designed to move with you.<\/p><p>Whether you're on the go or taking a moment to slow down, the right mug makes every moment feel special. Our collection features stylish mugs designed to move effortlessly with the rhythm of your day. The <a href=\"\/products\/travel-mug\" title=\"TRAVEL MUG\">Travel Mug<\/a> is made for life on the move, while our <a href=\"\/products\/musing-mugs\" title=\"MUSING MUGS\">Musing Mugs<\/a> are perfect for relaxed moments at home.<\/p><p>A stylish addition to any outfit, our <a href=\"\/products\/signature-socks\" title=\"SIGNATURE SOCKS\">Signature Socks<\/a> are made from soft, luxurious materials with an extra thick sole for ultimate comfort, whether you're relaxing at home or out and about.<\/p><p>The <a href=\"\/products\/beach-towel-01\" title=\"BEACH TOWEL 01\">Beach Towel<\/a> blends comfort and elegance with its generous size, soft fabric and refined design. Perfect for long beach days or sunny getaways.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_nbPywd",
+        "question_tqjymH"
+      ],
+      "custom_css": [],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "image_with_text_overlay_wWBJHG": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_NQz49x": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h4"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NQz49x"
+      ],
+      "name": "t:sections.image_with_text_overlay.presets.image_with_text_overlay.name",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/web_2500_x_900_1_7d0c1857-b609-4c71-8620-b85066633c8e.png",
+        "mobile_image": "shopify:\/\/shop_images\/1_6898d83a-0aeb-4b16-a65c-335cc8bef4d4.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 10
+      }
+    },
+    "faq_ekXAPN": {
+      "type": "faq",
+      "blocks": {
+        "category_iMzzxr": {
+          "type": "category",
+          "disabled": true,
+          "settings": {
+            "title": "Order",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_DtVJPM": {
+          "type": "question",
+          "settings": {
+            "question": "What makes your lifestyle products unique?",
+            "answer": "<p>Our products combine refined design with practical comfort. Each item is thoughtfully crafted to bring a touch of luxury and ease to your daily routine.<\/p>"
+          }
+        },
+        "question_VdL3jA": {
+          "type": "question",
+          "settings": {
+            "question": "Are the products suitable as gifts?",
+            "answer": "<p>Absolutely. Our lifestyle items make thoughtful and stylish gifts. Each product comes in elegant packaging and exudes a sense of luxury, making it perfect for any occasion.<\/p>"
+          }
+        },
+        "question_KHTYxP": {
+          "type": "question",
+          "settings": {
+            "question": "Where are your products made?",
+            "answer": "<p>We collaborate with carefully selected partners who share our high standards for quality, sustainability and craftsmanship. You can find more detailed information about origin and materials on each product page.<\/p>"
+          }
+        },
+        "question_tYHKyV": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use the products while on the go?",
+            "answer": "<p>Yes. Many of our items, such as the Travel Mug and Beauty Bag, are designed to combine comfort and style seamlessly, even when you are on the move.<\/p>"
+          }
+        },
+        "question_JiRrYj": {
+          "type": "question",
+          "settings": {
+            "question": "Are your products sustainable?",
+            "answer": "<p>Sustainability is an important part of our approach. We carefully select materials and focus on products that are made to last, both in quality and timeless design.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_iMzzxr",
+        "question_DtVJPM",
+        "question_VdL3jA",
+        "question_KHTYxP",
+        "question_tYHKyV",
+        "question_JiRrYj"
+      ],
+      "custom_css": [
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "Frequently Asked Questions",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_yRQjjU": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_YxYzPp": {
+          "type": "subheading",
+          "settings": {
+            "text": "MORE SUPPORT"
+          }
+        },
+        "richtext_qfpiMF": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Do you have any questions about our lifestyle products? Feel free to reach out to us!<\/p>"
+          }
+        },
+        "button_qkXzwK": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "GET IN TOUCH",
+            "url": "shopify:\/\/pages\/contact",
+            "background": "#000000",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_YxYzPp",
+        "richtext_qfpiMF",
+        "button_qkXzwK"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "rich_text_RyYpPQ",
+    "rich_text_T9kgFN",
+    "collection-banner",
+    "main",
+    "rich_text_c6hzx9",
+    "image_with_text_overlay_yew3jG",
+    "faq_BbpcVe",
+    "faq_WCKgXD",
+    "faq_k4nGcq",
+    "image_with_text_overlay_wWBJHG",
+    "faq_ekXAPN",
+    "rich_text_yRQjjU"
+  ]
+}

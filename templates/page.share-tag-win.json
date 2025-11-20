@@ -1,0 +1,334 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "settings": {
+            "text": "GET SOCIAL WITH US & WIN SOPHIA MAE GIFTS",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_d9cAeJ": {
+          "type": "subheading",
+          "settings": {
+            "text": "TAG US FOR A CHANCE TO GET FEATURED - WE RAFFLE GIFTS EVERY MONTH"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe",
+        "subheading_d9cAeJ"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/web_2500_x_900_3_03c6a9b3-0e35-490e-b1ee-06480f9d725b.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_1_59f2007b-e3f5-45bc-8b69-157fc2adc9f0.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-end-center text-center",
+        "desktop_text_position": "sm:place-self-end sm:text-end",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_66jTc7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kPDtCj": {
+          "type": "heading",
+          "settings": {
+            "text": "HOW DO YOU AMUSE?",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_KBhK3F": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Share and tag us on <a href=\"https:\/\/www.instagram.com\/sophiamae\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/sophiamae\/\">Instagram<\/a>, or <a href=\"https:\/\/www.tiktok.com\/@sophiamae_nl\" title=\"https:\/\/www.tiktok.com\/@sophiamae_nl\">TikTok<\/a> for a chance to be featured. As a token of appreciation, we will raffle SOPHIA MAE products every month amongst the most inspiring muses who tagged us.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kPDtCj",
+        "richtext_KBhK3F"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_reKGtQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iEgmrh": {
+          "type": "heading",
+          "settings": {
+            "text": "OUR MUSES",
+            "heading_tag": "h3"
+          }
+        },
+        "button_a6r9TN": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "DISCOVER OUR MUSES",
+            "url": "https:\/\/www.instagram.com\/sophiamae\/tagged\/",
+            "background": "#1c1c1c",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_iEgmrh",
+        "button_a6r9TN"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "media_grid_JcLLwr": {
+      "type": "media-grid",
+      "blocks": {
+        "image_LbyHqt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8_4ffee2e8-43d5-471b-983a-f336a2551363.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "https:\/\/www.instagram.com\/sophiamae\/tagged\/",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_VfrfFk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_d026e2fa-29a6-43a6-8bc2-c27db2a06c3f.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "https:\/\/www.instagram.com\/sophiamae\/tagged\/",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_AxAERQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_2675efe5-f41a-40be-93ea-f2b874300b9c.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "https:\/\/www.instagram.com\/sophiamae\/tagged\/",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_4HiVGL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7_8cb9a2f0-472f-4607-aae2-b349ed9b98f6.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "https:\/\/www.instagram.com\/sophiamae\/tagged\/",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_8eAiTW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Share_Tag_Win_1600x1600_3_8ab9d689-663b-4228-a924-0e14d56db9b1.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "https:\/\/www.instagram.com\/sophiamae\/tagged\/",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_zN68hA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Share_Tag_Win_1600x1600_2_a3035734-3f6c-495b-a943-f436d144fa8b.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "https:\/\/www.instagram.com\/sophiamae\/tagged\/",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_LbyHqt",
+        "image_VfrfFk",
+        "image_AxAERQ",
+        "image_4HiVGL",
+        "image_8eAiTW",
+        "image_zN68hA"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 290,
+        "section_width": "width",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_fmdLck": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KiAHnD": {
+          "type": "heading",
+          "settings": {
+            "text": "BE INSPIRED",
+            "heading_tag": "h3"
+          }
+        },
+        "button_VqmQp8": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "FOLLOW US",
+            "url": "https:\/\/www.instagram.com\/sophiamae\/",
+            "background": "#1c1c1c",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_KiAHnD",
+        "button_VqmQp8"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "1721223417914053d2": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_UtQPyx": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_UtQPyx"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "rich_text_66jTc7",
+    "rich_text_reKGtQ",
+    "media_grid_JcLLwr",
+    "rich_text_fmdLck",
+    "1721223417914053d2"
+  ]
+}

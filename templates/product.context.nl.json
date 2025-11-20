@@ -1,0 +1,64 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "product.json",
+  "context": {
+    "market": "nl"
+  },
+  "sections": {
+    "main": {
+      "settings": {},
+      "blocks": {
+        "accordion_akbz7H": {
+          "type": "accordion",
+          "disabled": false,
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "custom_icon": null,
+            "title": "Shipping",
+            "content": "",
+            "page": "shipping-netherlands-pdp",
+            "extra_btn": false,
+            "text_extra": "More information",
+            "link_extra": ""
+          }
+        },
+        "1964108b-d010-4b42-8f01-709d02c2b8aa": {
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "text_WECyDr",
+        "price",
+        "separator",
+        "variant_picker",
+        "delivery_paVUM4",
+        "buy_buttons",
+        "coming_soon_hH6863",
+        "cf2e1079-c730-4663-a9a2-29f23037db80",
+        "limited_wwLVqX",
+        "limited_cLJKCg",
+        "392d70a3-c37a-4fe3-ad9d-1038994bb23c",
+        "description",
+        "complementary_products_KFUahH",
+        "dc607831-064d-44eb-a70e-4ee32352f415",
+        "e2726196-8a27-4c1a-b6f9-e91996d46799",
+        "accordion_FkaCeV",
+        "1964108b-d010-4b42-8f01-709d02c2b8aa",
+        "accordion_akbz7H",
+        "accordion_hdXgpp",
+        "liquid_gPcVzd"
+      ]
+    }
+  }
+}

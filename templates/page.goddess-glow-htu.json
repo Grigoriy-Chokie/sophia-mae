@@ -1,0 +1,142 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "settings": {
+            "text": "GODDESS GLOW",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_d9cAeJ": {
+          "type": "subheading",
+          "settings": {
+            "text": "HOW TO USE"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe",
+        "subheading_d9cAeJ"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Hospitality_banner_desktop_5_d7df4410-644f-4983-acd8-bac0d63e8e13.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_f814d9f3-587b-4cd7-a1d6-6a0b9d557660.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "faq_rKcDhg": {
+      "type": "faq",
+      "blocks": {
+        "question_tXxgAq": {
+          "type": "question",
+          "settings": {
+            "question": "How and where should the shimmering oil be applied?",
+            "answer": "<p>First, remove the safety lock before using the Goddess Glow. Apply a small amount to your hand or onto the Kabuki Brush using the pump and then apply it to areas like legs, arms, and\/ or cleavage.<\/p><p>One dose is enough. If you wish to increase the intensity, you can apply another layer.<\/p>"
+          }
+        },
+        "question_9PDGDX": {
+          "type": "question",
+          "settings": {
+            "question": "How can I prevent shimmering hands while applying the Goddess Glow?",
+            "answer": "<p>To prevent shimmering hands, using the SOPHIA MAE Kabuki Brush during the application might help.<\/p>"
+          }
+        },
+        "question_nDGcFy": {
+          "type": "question",
+          "settings": {
+            "question": "What should I do after applying shimmering oil?",
+            "answer": "<p>Allow the shimmering body oil to be absorbed for a moment, until it is completely dry, before dressing.<\/p>"
+          }
+        },
+        "question_VfpBRm": {
+          "type": "question",
+          "settings": {
+            "question": "How much product do I need for a seductive shimmer?",
+            "answer": "<p>You need very little product for a seductive shimmer. You can achieve a more natural effect by mixing it with body lotion.<\/p>"
+          }
+        },
+        "question_VCNKXz": {
+          "type": "question",
+          "settings": {
+            "question": "Is there a precaution regarding potential stains?",
+            "answer": "<p>Wash your hands thoroughly after application. Be careful with your clothes and other accessories or objects as the shimmering oil can cause stains.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_tXxgAq",
+        "question_9PDGDX",
+        "question_nDGcFy",
+        "question_VfpBRm",
+        "question_VCNKXz"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "A rich body oil for a seductive shimmer. The fine golden flecks will leave your skin silky soft and glowing like never before.",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_fmdLck": {
+      "type": "rich-text",
+      "blocks": {
+        "button_VqmQp8": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "DISCOVER NOW",
+            "url": "shopify:\/\/products\/goddess-glow",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_VqmQp8"
+      ],
+      "disabled": true,
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "faq_rKcDhg",
+    "rich_text_fmdLck"
+  ]
+}

@@ -1,0 +1,392 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h1"
+          }
+        },
+        "text_WECyDr": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>{{ product.metafields.descriptors.subtitle.value }}</h6>"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "usp_list_MPFLAw": {
+          "type": "usp_list",
+          "settings": {
+            "content_label": "Contents",
+            "type_label": "Texture",
+            "applicator_label": "Applicator",
+            "material_label": "Material"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_type": "block",
+            "color_selector_type": "block",
+            "size_chart_page": ""
+          }
+        },
+        "delivery_paVUM4": {
+          "type": "delivery",
+          "disabled": true,
+          "settings": {
+            "enabled_stock_status": true,
+            "shipping_icon": "shopify://shop_images/generate-icon-delivery.png",
+            "shipping_text": "",
+            "expected_text": "Expected day",
+            "time_end_day": "22:00",
+            "non_working_days": "6,0,1,2",
+            "delivery_time": "2",
+            "delivery_range": 1
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "coming_soon_hH6863": {
+          "type": "coming_soon",
+          "settings": {
+            "text": "This product is coming"
+          }
+        },
+        "cf2e1079-c730-4663-a9a2-29f23037db80": {
+          "type": "loyalty",
+          "settings": {
+            "first_part_url": "shopify://pages/loyalty-points",
+            "first_part": "Collect",
+            "last_part": "Loyalty Points when you purchase this product",
+            "first_part_url_not_acc": "shopify://pages/the-muse-club-old",
+            "first_part_not_acc": "<span class=\"underline\">Become a Member</span> of <span class=\"text-italic\">The Muse Club </span> and collect",
+            "last_part_not_acc": "Loyalty Points"
+          }
+        },
+        "limited_wwLVqX": {
+          "type": "limited",
+          "disabled": true,
+          "settings": {
+            "limited_heading": "LIMITED TIME OFFER",
+            "limited_text": "Receive our iconic Facial Tanning Mist (worth €29) with purchases from €90."
+          }
+        },
+        "limited_cLJKCg": {
+          "type": "limited",
+          "disabled": true,
+          "settings": {
+            "limited_heading": "LIMITED TIME OFFER",
+            "limited_text": "Receive your favorite wardrobe diffuser (worth €19) with purchases from €50."
+          }
+        },
+        "392d70a3-c37a-4fe3-ad9d-1038994bb23c": {
+          "type": "order",
+          "settings": {
+            "order_info_text": "Order before 22:00 = shipped the same day"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "show_below_gallery": false
+          }
+        },
+        "complementary_products_KFUahH": {
+          "type": "complementary_products",
+          "disabled": true,
+          "settings": {
+            "title": "Combine with",
+            "products_count": 4,
+            "show_below_gallery": false,
+            "stack_products": false,
+            "show_quick_buy": false
+          }
+        },
+        "dc607831-064d-44eb-a70e-4ee32352f415": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "How to use",
+            "content": "<p>{{ product.metafields.custom.how_to_use | metafield_tag }}</p>",
+            "page": "",
+            "extra_btn": false,
+            "text_extra": "More information",
+            "link_extra": "{{ product.metafields.custom.how_to_use_link.value }}"
+          }
+        },
+        "e2726196-8a27-4c1a-b6f9-e91996d46799": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "More information",
+            "content": "<p>{{ product.metafields.my_fields.ingredients | metafield_tag }}</p>",
+            "page": "",
+            "extra_btn": false,
+            "text_extra": "More information",
+            "link_extra": ""
+          }
+        },
+        "accordion_FkaCeV": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Extra tips",
+            "content": "",
+            "page": "",
+            "extra_btn": true,
+            "text_extra": "More information",
+            "link_extra": ""
+          }
+        },
+        "1964108b-d010-4b42-8f01-709d02c2b8aa": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Shipping",
+            "content": "",
+            "page": "shipping-1",
+            "extra_btn": false,
+            "text_extra": "More information",
+            "link_extra": ""
+          }
+        },
+        "accordion_hdXgpp": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Tips",
+            "content": "",
+            "page": "",
+            "extra_btn": false,
+            "text_extra": "More information",
+            "link_extra": ""
+          }
+        },
+        "liquid_gPcVzd": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "When Available</a>"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text_WECyDr",
+        "price",
+        "separator",
+        "usp_list_MPFLAw",
+        "variant_picker",
+        "delivery_paVUM4",
+        "buy_buttons",
+        "coming_soon_hH6863",
+        "cf2e1079-c730-4663-a9a2-29f23037db80",
+        "limited_wwLVqX",
+        "limited_cLJKCg",
+        "392d70a3-c37a-4fe3-ad9d-1038994bb23c",
+        "description",
+        "complementary_products_KFUahH",
+        "dc607831-064d-44eb-a70e-4ee32352f415",
+        "e2726196-8a27-4c1a-b6f9-e91996d46799",
+        "accordion_FkaCeV",
+        "1964108b-d010-4b42-8f01-709d02c2b8aa",
+        "accordion_hdXgpp",
+        "liquid_gPcVzd"
+      ],
+      "settings": {
+        "product_type": "Perfume,Perfumes,Parfum",
+        "collection_perfume": "perfumes",
+        "name_option": "50 ml",
+        "remove_horizontal_spacing": true,
+        "page_width": true,
+        "container_size": "width",
+        "product_info_size": 35,
+        "show_sticky_add_to_cart": true,
+        "bg_color": "#e8e4da",
+        "bg_color_btn": "#000000",
+        "text_color": "#ffffff",
+        "center_basic_info": false,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "dots",
+        "height_image": 100,
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3
+      }
+    },
+    "multiple_media_with_text_NXjxNq": {
+      "type": "multiple-media-with-text",
+      "blocks": {
+        "image_HMp3Mh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_eec734e4-871d-4af8-a2f5-8ef4b52cd1cf.png",
+            "rotation": 0
+          }
+        },
+        "image_dcEWK4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_996738a0-ce5b-4da9-9473-4faefc6e1d32.png",
+            "rotation": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_HMp3Mh",
+        "image_dcEWK4"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "separate_section_with_border": false,
+        "media_position_desktop": "before_text",
+        "media_position_mobile": "before_text",
+        "media_layout": "overlap",
+        "media_alignment": "center",
+        "media_alignment_offset": 0,
+        "media_mobile_alignment_offset": 0,
+        "text_alignment": "center",
+        "subheading": "LIMITED EDITION PRODUCTS",
+        "title": "SPECIAL GIFTS WITH YOUR PURCHASE",
+        "content": "<p>Receive our luxury Card Deck with purchases between €60 and €90, our stylish Signature Socks with purchases between €90 and €120, or enjoy both limited-edition gifts with purchases from €120.</p><p>Available exclusively during gifting season, until the 24th of December 23:59, or while stock lasts.</p>",
+        "button_1_text": "DISCOVER NOW",
+        "button_1_link": "shopify://pages/gifting-season",
+        "button_1_style": "solid",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_style": "solid",
+        "background": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "remove_horizontal_spacing": true,
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "recommendations_count": 4,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "",
+        "title": "You may also like",
+        "content": ""
+      }
+    },
+    "faq_metaobject_Niqfg3": {
+      "type": "faq-metaobject",
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
+    },
+    "image_with_text_MA8VVT": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_RmEnFG": {
+          "type": "heading",
+          "settings": {
+            "text": "NEED ASSISTANCE?",
+            "heading_tag": "h6"
+          }
+        },
+        "heading_fCBqcA": {
+          "type": "heading",
+          "settings": {
+            "text": "WE ARE HERE TO HELP",
+            "heading_tag": "h4"
+          }
+        },
+        "richtext_VDLtzJ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Live chat available Monday to Friday, from 10:00 to 5:00 PM GMT+1.</p>"
+          }
+        },
+        "button_8m9iHL": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "GET IN TOUCH WITH US",
+            "url": "https://help.sophia-mae.com/en-US",
+            "background": "#000000",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_RmEnFG",
+        "heading_fCBqcA",
+        "richtext_VDLtzJ",
+        "button_8m9iHL"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "background_color": "brown",
+        "image": "shopify://shop_images/2000_x_1400_px_1_c6c552ed-90a2-4800-99f3-29c8004c2dac.png",
+        "mobile_image": "shopify://shop_images/1000_x_1000_px_a51f3f77-8a8e-4522-b941-cf3bfbfa0d12.png",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multiple_media_with_text_NXjxNq",
+    "related-products",
+    "faq_metaobject_Niqfg3",
+    "image_with_text_MA8VVT"
+  ]
+}

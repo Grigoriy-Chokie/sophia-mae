@@ -1,0 +1,165 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "settings": {
+            "text": "ROLLER RENDEZ-VOUS SET",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_d9cAeJ": {
+          "type": "subheading",
+          "settings": {
+            "text": "HOW TO USE"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe",
+        "subheading_d9cAeJ"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Hospitality_banner_desktop_5_b0cc18ce-5ca4-4357-8db0-a5556dc0723f.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_4_fd768a2f-b5fd-4964-ab64-8cd299ffccd3.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "faq_rKcDhg": {
+      "type": "faq",
+      "blocks": {
+        "question_tXxgAq": {
+          "type": "question",
+          "settings": {
+            "question": "Step 1: Prepare your hair",
+            "answer": "<p>Start with clean, freshly washed hair. Make sure it's completely dry. If you plan to use heat tools, apply a heat protectant product to protect your hair from hot styling tools.<\/p>"
+          }
+        },
+        "question_9PDGDX": {
+          "type": "question",
+          "settings": {
+            "question": "Step 2: Section your hair",
+            "answer": "<p>Divide your hair into manageable sections. The number of sections needed will depend on your desired waves and hair thickness.<\/p>"
+          }
+        },
+        "question_nDGcFy": {
+          "type": "question",
+          "settings": {
+            "question": "Step 3: Blow-dry with a round brush",
+            "answer": "<p>Begin blow-drying your hair using a round brush. This step is crucial to create the foundation for the waves.<\/p>"
+          }
+        },
+        "question_VfpBRm": {
+          "type": "question",
+          "settings": {
+            "question": "Step 4: Attach the hair rollers",
+            "answer": "<p>With your hair divided into blow-dried sections, it's time to introduce the hair rollers. Gently roll the velcro rollers into your hair, starting from the tips. We recommend using the hair rollers from the Roller Rendez-Vous sets in combination with our <a href=\"\/products\/precious-pins\" title=\"PRECIOUS PINS\">Precious Pins<\/a>.<\/p>"
+          }
+        },
+        "question_VCNKXz": {
+          "type": "question",
+          "settings": {
+            "question": "Step 5: Allow your hair to cool",
+            "answer": "<p>Once the hair rollers are set, allow your hair to cool down for 20-30 minutes to ensure lasting waves throughout the day.<\/p>"
+          }
+        },
+        "question_YaHLk6": {
+          "type": "question",
+          "settings": {
+            "question": "Step 6: Remove the hair rollers",
+            "answer": "<p>Once your hair has cooled down, carefully remove the hair rollers in a circular motion to reveal gorgeous, voluminous hair.<\/p>"
+          }
+        },
+        "question_3bqKFX": {
+          "type": "question",
+          "settings": {
+            "question": "Step 7: Maintain your beautiful waves",
+            "answer": "<p>For lasting waves, use the <a href=\"\/products\/majestic-texture\" title=\"MAJESTIC TEXTURE\">Majestic Texture<\/a> post-styling for extra hold. Refresh with <a href=\"\/products\/majestic-mist\" title=\"MAJESTIC MIST\">Majestic Mist<\/a> when needed and add a few sprays.<\/p>"
+          }
+        },
+        "question_8pmcAW": {
+          "type": "question",
+          "settings": {
+            "question": "Stap 8: Store after use",
+            "answer": "<p>If necessary, clean the hair rollers after use. Place the hair rollers in the provided drawer box to store them neatly until the next use.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_tXxgAq",
+        "question_9PDGDX",
+        "question_nDGcFy",
+        "question_VfpBRm",
+        "question_VCNKXz",
+        "question_YaHLk6",
+        "question_3bqKFX",
+        "question_8pmcAW"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "Create voluminous hair or bouncy curls in an instant with these soft and gentle velcro rollers. Salon-quality hair from the comfort of your own home.",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_fmdLck": {
+      "type": "rich-text",
+      "blocks": {
+        "button_VqmQp8": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "DISCOVER NOW",
+            "url": "shopify:\/\/collections\/roller-rendez-vous-sets",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_VqmQp8"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "faq_rKcDhg",
+    "rich_text_fmdLck"
+  ]
+}

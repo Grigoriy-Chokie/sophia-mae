@@ -1,0 +1,521 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "video_4EHJEM": {
+      "type": "video",
+      "blocks": {
+        "play_bWGVyT": {
+          "type": "play",
+          "disabled": true,
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        },
+        "heading_FpfpeJ": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "play_bWGVyT",
+        "heading_FpfpeJ"
+      ],
+      "disabled": true,
+      "name": "t:sections.video.presets.video.name",
+      "settings": {
+        "autoplay": false,
+        "show_controls": true,
+        "video_size": "md",
+        "video": "shopify://files/videos/SOPHIA MAE BRANDMOVIE (16x9) Final.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    },
+    "9b092f6f-0814-4fbb-b17f-ec3763286375": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--20554791616856__9b092f6f-0814-4fbb-b17f-ec3763286375-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--20554791616856__9b092f6f-0814-4fbb-b17f-ec3763286375-heading-1"
+      ],
+      "settings": {
+        "image_size": "sm",
+        "image": "shopify://shop_images/Ontwerp_zonder_titel_cd26e276-a404-4387-8076-1d26f1026986.png",
+        "mobile_image": "shopify://shop_images/Hospitality_banner_mobile_106050ca-88ac-49af-94ac-37e15416c7ce.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-end-center text-center",
+        "desktop_text_position": "sm:place-self-end-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_3TVaEV": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_iDfMDf": {
+          "type": "subheading",
+          "settings": {
+            "text": "MEMBER EXCLUSIVE"
+          }
+        },
+        "heading_8R6M3D": {
+          "type": "heading",
+          "settings": {
+            "text": "SHOP TODAY WITH 15% OFF",
+            "heading_tag": "h4"
+          }
+        },
+        "richtext_jmBfaH": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Add your favorite products to your cart, log in to your account, and use code THEMUSECLUB.</p>"
+          }
+        },
+        "button_ePrW8E": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "SHOP WITH DISCOUNT",
+            "url": "shopify://collections/products",
+            "background": "#1c1c1c",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_iDfMDf",
+        "heading_8R6M3D",
+        "richtext_jmBfaH",
+        "button_ePrW8E"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_QgMbbk": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_Djy6mV": {
+          "type": "subheading",
+          "settings": {
+            "text": "MEMBER EXCLUSIVE"
+          }
+        },
+        "heading_7f6CK8": {
+          "type": "heading",
+          "settings": {
+            "text": "THE ARCHIVE IS LIVE",
+            "heading_tag": "h4"
+          }
+        },
+        "richtext_LcWEkz": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Shop products with minor imperfections at up to 80% off — for 48 hours only.</p>"
+          }
+        },
+        "button_TAT9dP": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "SHOP THE ARCHIVE",
+            "url": "shopify://collections/archive",
+            "background": "#1c1c1c",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Djy6mV",
+        "heading_7f6CK8",
+        "richtext_LcWEkz",
+        "button_TAT9dP"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_EATy3W": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gVFgNW": {
+          "type": "heading",
+          "settings": {
+            "text": "LIMITED TIME OFFER",
+            "heading_tag": "h5"
+          }
+        },
+        "heading_NNQyHf": {
+          "type": "heading",
+          "settings": {
+            "text": "GIFT WITH PURCHASE | THE PERFECT TAN",
+            "heading_tag": "h6"
+          }
+        },
+        "richtext_CxkDDA": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Receive our best-selling Facial Tanning Mist (worth €29) with purchases from €90. Valid until the 20th of October 09:00.</p>"
+          }
+        },
+        "button_tCQ4W8": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "SHOP & RECEIVE GIFT",
+            "url": "shopify://collections/products",
+            "background": "#1c1c1c",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_gVFgNW",
+        "heading_NNQyHf",
+        "richtext_CxkDDA",
+        "button_tCQ4W8"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_DxE8pc": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_8PgKG7": {
+          "type": "subheading",
+          "settings": {
+            "text": "LIMITED TIME OFFER"
+          }
+        },
+        "heading_PcRPPb": {
+          "type": "heading",
+          "settings": {
+            "text": "GIFT WITH PURCHASE",
+            "heading_tag": "h4"
+          }
+        },
+        "richtext_yzpQFy": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Receive the Eau de parfum mini collection (3 samples of 2 ml) with purchases from €40.</p>"
+          }
+        },
+        "button_DDArmK": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "SHOP NOW",
+            "url": "shopify://collections/products",
+            "background": "#1c1c1c",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_8PgKG7",
+        "heading_PcRPPb",
+        "richtext_yzpQFy",
+        "button_DDArmK"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_bpr4Ay": {
+      "type": "rich-text",
+      "blocks": {
+        "button_xAAycG": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "FACIAL TANNING MIST TRAVEL SIZE",
+            "url": "shopify://products/facial-tanning-mist-travel-size",
+            "background": "#1c1c1c",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_xAAycG"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_g8pG7E": {
+      "type": "rich-text",
+      "blocks": {
+        "button_h877hH": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "AURA HAIR PERFUME",
+            "url": "shopify://products/aura-hair-perfume",
+            "background": "#1c1c1c",
+            "text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "button_h877hH"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_jDnxyq": {
+      "type": "rich-text",
+      "blocks": {
+        "button_wrNtHK": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "LIQUID EYELINER",
+            "url": "shopify://collections/liquid-eyeliner",
+            "background": "#1c1c1c",
+            "text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "button_wrNtHK"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_hbUAQ8": {
+      "type": "rich-text",
+      "blocks": {
+        "button_6FiWjD": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "FLAGSHIP STORE",
+            "url": "shopify://pages/flagship-store",
+            "background": "#1c1c1c",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_6FiWjD"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_NU6R9F": {
+      "type": "rich-text",
+      "blocks": {
+        "button_GXCeUE": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "COMING SOON",
+            "url": "shopify://pages/coming-soon",
+            "background": "#1c1c1c",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_GXCeUE"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_wpetLQ": {
+      "type": "rich-text",
+      "blocks": {
+        "button_Uejgib": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "FIND YOUR SIGNATURE FRAGRANCE",
+            "url": "shopify://products/eau-de-parfum-mini-collection",
+            "background": "#000000",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_Uejgib"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_36RcMP": {
+      "type": "rich-text",
+      "blocks": {
+        "button_YfBD9C": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "VIRAL FACIAL TANNING MIST",
+            "url": "shopify://products/facial-tanning-mist",
+            "background": "#000000",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_YfBD9C"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_title": false,
+        "page_width": "lg"
+      }
+    },
+    "rich_text_XFx7qX": {
+      "type": "rich-text",
+      "blocks": {
+        "button_bBGyLR": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "EXCLUSIVE BENEFITS",
+            "url": "shopify://pages/the-muse-club-old",
+            "background": "#000000",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_bBGyLR"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_MBmHMV": {
+      "type": "rich-text",
+      "blocks": {
+        "button_bwarVj": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "SOPHIA MAE WEBSHOP",
+            "url": "https://sophia-mae.com/",
+            "background": "#000000",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_bwarVj"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "video_4EHJEM",
+    "9b092f6f-0814-4fbb-b17f-ec3763286375",
+    "rich_text_3TVaEV",
+    "rich_text_QgMbbk",
+    "rich_text_EATy3W",
+    "rich_text_DxE8pc",
+    "rich_text_bpr4Ay",
+    "rich_text_g8pG7E",
+    "rich_text_jDnxyq",
+    "rich_text_hbUAQ8",
+    "rich_text_NU6R9F",
+    "rich_text_wpetLQ",
+    "rich_text_36RcMP",
+    "main",
+    "rich_text_XFx7qX",
+    "rich_text_MBmHMV"
+  ]
+}

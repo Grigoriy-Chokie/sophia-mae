@@ -1,0 +1,85 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "custom.overlay",
+  "name": "Overlay group",
+  "sections": {
+    "account-menu": {
+      "type": "account-menu",
+      "settings": {
+        "heading": "ALREADY HAVE AN ACCOUNT?",
+        "button_log_in": "LOG IN",
+        "heading_registered": "NOT REGISTERED YET?",
+        "info": "<p>Join The Muse Club by SOPHIA MAE and benefit from various amusing perks.</p><ul><li>Earn Loyalty Points with every purchase & redeem for amusing gifts</li><li>﻿﻿Free shipping from €50 for Members (NL)</li><li>Exclusive access to The Archive & The Muse Club Day</li><li>﻿﻿Receive early access to every (limited edition) product launch</li></ul>",
+        "button_register": "Register now"
+      }
+    },
+    "cart-drawer": {
+      "type": "cart-drawer",
+      "settings": {
+        "show_cart_note": false,
+        "show_shipping_text": true,
+        "show_view_cart_button": false,
+        "show_checkout_button": true,
+        "show_total_price": true,
+        "show_price_in_checkout_button": false
+      }
+    },
+    "newsletter-popup": {
+      "type": "newsletter-popup",
+      "disabled": true,
+      "settings": {
+        "apparition_delay": 5,
+        "show_only_on_index": true,
+        "hide_for_account_holders": true,
+        "show_only_once": true,
+        "title": "Signup for our newsletter",
+        "content": "Describe what your customers will receive when subscribing to your newsletter.",
+        "button_text": "Subscribe",
+        "background": "#ffffff",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#1c1c1c"
+      }
+    },
+    "privacy-banner": {
+      "type": "privacy-banner",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "content": "<p>This website uses cookies to ensure you get the best experience on our website. <a href=\"https://sophia-mae-nl.myshopify.com/pages/privacy-statement\" target=\"_blank\">Privacy Policy</a></p>",
+        "background": "#1c1b1b",
+        "text_color": "#ffffff"
+      }
+    },
+    "localization_popup_xewXdT": {
+      "type": "localization-popup",
+      "name": "Localization popup",
+      "settings": {
+        "avoid_countries": "NL,BE,DE,FR",
+        "title": "YOU ARE VISITING FROM [country]",
+        "subtitle": "We don't ship to this country (yet).",
+        "content": "<p>Switch to the Netherlands to enjoy shopping with us:</p><ul><li>Free shipping for Members on orders from €50</li><li>Order before 22:00 on business days = shipped the same day</li><li>Flexible payment options: iDeal, Mastercard, Visa or Klarna</li><li>Easy returns within 14 days</li></ul>",
+        "button_text": "Change country",
+        "text_bottom": "Continue without changing country",
+        "country_form_title": "SELECT YOUR COUNTRY",
+        "country_form_subtitle": "Select a country or region below to shop in your local currency",
+        "country_form_bottom": "Continue without changing country"
+      }
+    }
+  },
+  "order": [
+    "account-menu",
+    "cart-drawer",
+    "newsletter-popup",
+    "privacy-banner",
+    "localization_popup_xewXdT"
+  ]
+}

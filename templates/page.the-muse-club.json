@@ -1,0 +1,865 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "THE MUSE CLUB",
+            "heading_tag": "h1"
+          }
+        },
+        "button_FaEwmT": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "JOIN NOW",
+            "url": "https:\/\/sophia-mae.com\/account\/register",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "button_UVziDF": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "LOG IN",
+            "url": "https:\/\/sophia-mae.com\/account\/login",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe",
+        "button_FaEwmT",
+        "button_UVziDF"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Hospitality_banner_desktop_2_b0c6575a-d25c-491b-b056-656e1bfc027b.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_2_cbd34737-ba66-4e8e-b849-f82438c52df0.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_66jTc7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_EfiqYM": {
+          "type": "heading",
+          "settings": {
+            "text": "EXCLUSIVE PRIVILEGES",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_KBhK3F": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The Muse Club from SOPHIA MAE, a special way to show our appreciation for your loyalty to us. As a Member of The Muse Club, you automatically enjoy privileges and can earn Loyalty Points. These Loyalty Points can be redeemed for SOPHIA MAE products. Join our loyalty program today and enjoy exclusive benefits.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EfiqYM",
+        "richtext_KBhK3F"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "multi_column_xeJt8a": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_6GLzP3": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Share_Tag_Win_1600x1600_32ad781e-d31c-483f-acb6-2be30d0922cd.png",
+            "title": "JOIN",
+            "heading_tag": "h5",
+            "content": "<p>Create an account on our webshop and start earning Loyalty Points immediately.<\/p>",
+            "link_url": "https:\/\/sophia-mae.com\/account\/register",
+            "link_text": ""
+          }
+        },
+        "image_with_text_d6Cd7C": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Share_Tag_Win_1600x1600_1_0ba9b63b-cb27-4426-8d25-29a7d6fb9766.png",
+            "title": "EARN",
+            "heading_tag": "h5",
+            "content": "<p>Earn Loyalty Points in various ways - with every purchase you make and by completing other actions.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_zdKTyz": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Share_Tag_Win_1600x1600_2_1702b43f-37f4-4e11-8d52-69fc7f0783a5.png",
+            "title": "REDEEM",
+            "heading_tag": "h5",
+            "content": "<p>Redeem Loyalty Points for luxurious gifts as you grow your SOPHIA MAE collection and enjoy other exclusive privileges.<\/p>",
+            "link_url": "https:\/\/sophia-mae.com\/pages\/loyalty-points",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_6GLzP3",
+        "image_with_text_d6Cd7C",
+        "image_with_text_zdKTyz"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "columns_per_row": 3,
+        "stack_on_mobile": true,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing": "md",
+        "subheading": "",
+        "title": "HOW IT WORKS",
+        "content": ""
+      }
+    },
+    "rich_text_CYVDmU": {
+      "type": "rich-text",
+      "blocks": {
+        "button_KWxpdj": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "JOIN NOW",
+            "url": "https:\/\/sophia-mae.com\/account\/register",
+            "background": "#000000",
+            "text_color": ""
+          }
+        },
+        "button_kpryf9": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "LOG IN",
+            "url": "https:\/\/sophia-mae.com\/account\/login",
+            "background": "#000000",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_KWxpdj",
+        "button_kpryf9"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "media_grid_8atC7F": {
+      "type": "media-grid",
+      "blocks": {
+        "image_DbqnMU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Share_Tag_Win_1600x1600_8.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "CREATE AN ACCOUNT",
+            "heading_tag": "h4",
+            "content": "<p>125 points<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#000000",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_ij8WgT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Share_Tag_Win_1600x1600_8_9bfb7977-c1e3-4c62-98a4-ed0212f14f96.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "MAKE A PURCHASE",
+            "heading_tag": "h4",
+            "content": "<p>5 points\/€1 spent<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#000000",
+            "button_background": "#b9a282",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_jQ6Lth": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Share_Tag_Win_1600x1600_8_74a9962b-676c-4b35-8958-786ec396b5c9.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "JOIN NEWSLETTER",
+            "heading_tag": "h4",
+            "content": "<p>65 points<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#000000",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_GbwTQR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Share_Tag_Win_1600x1600_8_c889f583-8172-4d61-abdc-d1aaa5853557.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "SHOP GODDESS GLOW",
+            "heading_tag": "h4",
+            "content": "<p>250 points<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#000000",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_xYF8Vg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Share_Tag_Win_1600x1600_8_a20f325d-bcf7-4bb0-ad8e-59d180ecb9d5.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "FOLLOW US ON INSTAGRAM",
+            "heading_tag": "h4",
+            "content": "<p>50 points<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#000000",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_agkKC7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Share_Tag_Win_1600x1600_8_2747ee9b-404c-4cd7-b48a-00f7cfff9190.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "SHOP THE BEAUTY CASE",
+            "heading_tag": "h4",
+            "content": "<p>350 points<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#000000",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_DbqnMU",
+        "image_ij8WgT",
+        "image_jQ6Lth",
+        "image_GbwTQR",
+        "image_xYF8Vg",
+        "image_agkKC7"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "desktop_row_height": 170,
+        "mobile_row_height": 170,
+        "section_width": "md",
+        "spacing": "md",
+        "subheading": "",
+        "title": "EARN LOYALTY POINTS",
+        "content": "",
+        "background": "",
+        "text_color": "#000000"
+      }
+    },
+    "image_with_text_overlay_aYpN7J": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_YrKTUc": {
+          "type": "heading",
+          "settings": {
+            "text": "LEVELS",
+            "heading_tag": "h1"
+          }
+        },
+        "heading_etKcjV": {
+          "type": "heading",
+          "settings": {
+            "text": "Level 1. MUSE",
+            "heading_tag": "h5"
+          }
+        },
+        "heading_ytepBJ": {
+          "type": "heading",
+          "settings": {
+            "text": "LEVEL 2. MAJESTIC",
+            "heading_tag": "h5"
+          }
+        },
+        "heading_3k9ecq": {
+          "type": "heading",
+          "settings": {
+            "text": "LEVEL 3. GODDESS",
+            "heading_tag": "h5"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YrKTUc",
+        "heading_etKcjV",
+        "heading_ytepBJ",
+        "heading_3k9ecq"
+      ],
+      "settings": {
+        "image_size": "xs",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#b9a282",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "multi_column_mgDbHa": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_jcAPdT": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "muse €0-€119",
+            "heading_tag": "h5",
+            "content": "<p>5 points\/€1 spent<\/p><p>Early access to new products<\/p><p>Early access to limited edition products<\/p><p>Access to the Archive<\/p><p>Free shipping over €40 instead of €60 (NL & BE)<\/p><p>Access to The Muse Club day<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_aLPrpg": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "majestic €120-€239",
+            "heading_tag": "h5",
+            "content": "<p>5 points\/€1 spent<\/p><p>Early access to new products<\/p><p>Early access to limited edition products<\/p><p>Access to the Archive<\/p><p>Free shipping over €40 instead of €60 (NL & BE)<\/p><p>Access to The Muse Club day<\/p><p>Access to exclusive events<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_UzPXwL": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "GODDESS €240+",
+            "heading_tag": "h5",
+            "content": "<p>5 points\/€1 spent<\/p><p>Early access to new products<\/p><p>Early access to limited edition products<\/p><p>Access to the Archive<\/p><p>Free shipping over €40 instead of €60 (NL & BE)<\/p><p>Access to The Muse Club day<\/p><p>Access to exclusive events<\/p><p>Access to our inner circle<\/p><p>Occasional pre-early access<\/p><p>Possibility to assist us with product development<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_jcAPdT",
+        "image_with_text_aLPrpg",
+        "image_with_text_UzPXwL"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "columns_per_row": 3,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing": "md",
+        "subheading": "",
+        "title": "BENEFITS PER LEVEL",
+        "content": ""
+      }
+    },
+    "collection_list_dnEMn4": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_aiV7hf": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Share_Tag_Win_1600x1600_12.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "200 POINTS",
+            "title": "",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_GKGPVB": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Share_Tag_Win_1600x1600_30.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "350 POINTS",
+            "title": "",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_fkx8MN": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Share_Tag_Win_1600x1600_27.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "350 POINTS",
+            "title": "",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_8epnBK": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Share_Tag_Win_1600x1600_28.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "350 POINTS",
+            "title": "",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_MG7VKn": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Share_Tag_Win_1600x1600_29.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "350 POINTS",
+            "title": "",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_mriGFy": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Share_Tag_Win_1600x1600_26.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "350 POINTS",
+            "title": "",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_eLDUXG": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Share_Tag_Win_1600x1600_15.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "350 POINTS",
+            "title": "",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_LQmhah": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Share_Tag_Win_1600x1600_17.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "400 POINTS",
+            "title": "",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_8WJixw": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Share_Tag_Win_1600x1600_18.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "900 POINTS",
+            "title": "",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_n4ePgp": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Share_Tag_Win_1600x1600_25.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "DONATE €5 TO MIND - 1000 POINTS",
+            "title": "",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_DhMn7k": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Share_Tag_Win_1600x1600_16.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "1200 POINTS",
+            "title": "",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_HcWmdA": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Share_Tag_Win_1600x1600_19.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "1250 POINTS",
+            "title": "",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_r4t4iU": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Share_Tag_Win_1600x1600_22.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "1300 POINTS",
+            "title": "",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_wwEcWb": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Share_Tag_Win_1600x1600_21.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "1400 POINTS",
+            "title": "",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_ggpLWH": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Share_Tag_Win_1600x1600_20.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "1500 POINTS",
+            "title": "",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_JxpFpD": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Share_Tag_Win_1600x1600_23.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "1600 POINTS",
+            "title": "",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_CLdhU8": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Share_Tag_Win_1600x1600_24.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "1750 POINTS",
+            "title": "",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_aiV7hf",
+        "collection_GKGPVB",
+        "collection_fkx8MN",
+        "collection_8epnBK",
+        "collection_MG7VKn",
+        "collection_mriGFy",
+        "collection_eLDUXG",
+        "collection_LQmhah",
+        "collection_8WJixw",
+        "collection_n4ePgp",
+        "collection_DhMn7k",
+        "collection_HcWmdA",
+        "collection_r4t4iU",
+        "collection_wwEcWb",
+        "collection_ggpLWH",
+        "collection_JxpFpD",
+        "collection_CLdhU8"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "image_size": "sm",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "THESE REWARDS AWAIT YOU",
+        "content": "",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
+      }
+    },
+    "image_with_text_overlay_CCG6z3": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_hhUEzn": {
+          "type": "heading",
+          "settings": {
+            "text": "YOU DESERVE IT ALL",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hhUEzn"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Hospitality_banner_desktop_3_82d91813-8a32-46de-a42c-fe3cd4b09056.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_4_dbbd6a89-5eca-433f-a5b2-a8c9ea5c10cc.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#eae5df",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_with_text_overlay_NGECWa": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_4DdLkj": {
+          "type": "heading",
+          "settings": {
+            "text": "ANY OTHER QUESTIONS?",
+            "heading_tag": "h4"
+          }
+        },
+        "button_N9CFBe": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "READ OUR FAQ",
+            "url": "https:\/\/help.sophia-mae.com\/en-US\/articles\/the-muse-club-65779",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_4DdLkj",
+        "button_N9CFBe"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Hospitality_banner_desktop_4_9d97aa3e-ecdb-41c5-bf72-0914efd48729.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_5_c6181060-2414-4653-9247-39a8b29d186e.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "rich_text_66jTc7",
+    "multi_column_xeJt8a",
+    "rich_text_CYVDmU",
+    "media_grid_8atC7F",
+    "image_with_text_overlay_aYpN7J",
+    "multi_column_mgDbHa",
+    "collection_list_dnEMn4",
+    "image_with_text_overlay_CCG6z3",
+    "image_with_text_overlay_NGECWa"
+  ]
+}

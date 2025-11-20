@@ -1,0 +1,116 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar-new": {
+      "type": "announcement-bar-new",
+      "blocks": {
+        "announcement_JAc49f": {
+          "type": "announcement",
+          "settings": {
+            "content": "ORDERS PLACED ON BUSINESS DAYS BEFORE 22:00 ARE SHIPPED THE SAME DAY",
+            "link": ""
+          }
+        },
+        "announcement_aDmNUh": {
+          "type": "announcement",
+          "settings": {
+            "content": "FREE SHIPPING FOR ORDERS FROM €50 FOR MEMBERS IN NL",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_JAc49f",
+        "announcement_aDmNUh"
+      ],
+      "settings": {
+        "enable_bar": true,
+        "home_page_only": false,
+        "sec_announ": true,
+        "background": "#000000",
+        "text_color": "#e8e4da",
+        "text_for_loyalty": "Loyalty Points: <span data-lion-points=\"approved\"></span>",
+        "text_for_loyalty_second": "<p> |  <a href=\"https://sophia-mae.com/pages/loyalty-points#shopify-section-template--24365365526901__main\" title=\"https://sophia-mae.com/pages/loyalty-points#shopify-section-template--24365365526901__main\">ADD GIFTS</a> with your purchase</p>"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "b4a8c6d9-e0e5-48c2-84f0-e6fda1de7437": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "PRODUCTS",
+            "images_position": "right",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "b4a8c6d9-e0e5-48c2-84f0-e6fda1de7437"
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "show_separation_border": false,
+        "reduce_padding": false,
+        "logo": "shopify://shop_images/Sophia_Mae_logo_zwart_zonder_R_4cee0206-a472-40b0-9898-efc8b2a7f711.png",
+        "logo_max_width": 275,
+        "logo_mobile_max_width": 150,
+        "menu": "menu-w-sub",
+        "sidebar_menu": "",
+        "login_menu": "customer-menu",
+        "logout_menu": "the-menu-is-not-for-customers",
+        "points_title": "Loyalty points",
+        "points_code": "<span data-lion-points=\"approved\"></span> points",
+        "menu_open_trigger": "hover",
+        "enable_search": true,
+        "sidebar_text_font": "heading",
+        "sidebar_show_dividers": true,
+        "layout": "drawer",
+        "show_icons": true,
+        "show_country_selector": false,
+        "show_country_name": false,
+        "show_country_flag": false,
+        "show_locale_selector": true,
+        "transparent_header_text_color": "#ffffff"
+      }
+    },
+    "countdown_condensed_46zQch": {
+      "type": "countdown-condensed",
+      "disabled": true,
+      "custom_css": [
+        "/* Countdown cijfers volledig invullen in #F2F0EB */[class*=\"countdown\"],[class*=\"timer\"],[class*=\"digit\"],[data-countdown] span {opacity: 1 !important; color: #f2f0eb !important; /* vulkleur */ -webkit-text-fill-color: #f2f0eb !important; /* zorgt dat ze echt gevuld worden */ -webkit-text-stroke: 0 !important; /* haalt omlijning weg */ text-shadow: none !important; /* geen extra schaduw */ font-weight: 700 !important; /* duidelijk leesbaar */}"
+      ],
+      "name": "t:sections.countdown_timer.presets.countdown_timer.name",
+      "settings": {
+        "content": "Code THEMUSECLUB for 15% off | Members only",
+        "link_text": "SHOP WITH DISCOUNT",
+        "link_url": "shopify://collections/products",
+        "expiration_date": "2025-09-29 23:59",
+        "expiration_behavior": "hide",
+        "desktop_justification": "space-evenly",
+        "background": "#000000",
+        "text_color": "#f2f0eb"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar-new",
+    "header",
+    "countdown_condensed_46zQch"
+  ]
+}

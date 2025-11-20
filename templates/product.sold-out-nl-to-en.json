@@ -1,0 +1,513 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_type": "block",
+            "color_selector_type": "color",
+            "size_chart_page": ""
+          }
+        },
+        "text_WNctUf": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><em>Get notified by email once this product is available again by clicking the button below.<\/em><\/p>"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "cf2e1079-c730-4663-a9a2-29f23037db80": {
+          "type": "loyalty",
+          "settings": {
+            "first_part_url": "shopify:\/\/pages\/loyalty-points",
+            "first_part": "Collect",
+            "last_part": "Loyalty Points when you purchase this product",
+            "first_part_url_not_acc": "shopify:\/\/pages\/the-muse-club-old",
+            "first_part_not_acc": "Become a Member of The Muse Club and collect",
+            "last_part_not_acc": "Loyalty Points"
+          }
+        },
+        "426f527e-d145-4fc9-becd-5baeb8309dcd": {
+          "type": "limited",
+          "disabled": true,
+          "settings": {
+            "limited_heading": "LIMITED OFFER",
+            "limited_text": "Receive a sample of Whispers of Elegance eau de parfum with your purchase."
+          }
+        },
+        "limited_BLbkG3": {
+          "type": "limited",
+          "disabled": true,
+          "settings": {
+            "limited_heading": "GIFT WITH PURCHASE",
+            "limited_text": "Receive the Eternal Balm (worth €20) with purchases from €60."
+          }
+        },
+        "limited_zRgpEE": {
+          "type": "limited",
+          "disabled": true,
+          "settings": {
+            "limited_heading": "LIMITED OFFER",
+            "limited_text": "Receive an interior perfume refill of your choice (worth €28) with the purchase of Aphrodite or Artemis interior perfume."
+          }
+        },
+        "limited_eQyPjf": {
+          "type": "limited",
+          "disabled": true,
+          "settings": {
+            "limited_heading": "LIMITED OFFER",
+            "limited_text": "Receive Midnight Melody laundry perfume in 270 ml (worth €24) with the purchase of a laundry perfume in 1100 ml of your choice."
+          }
+        },
+        "limited_6E8HGJ": {
+          "type": "limited",
+          "disabled": true,
+          "settings": {
+            "limited_heading": "LIMITED OFFER",
+            "limited_text": "Receive the Spring sticker sheet with every purchase."
+          }
+        },
+        "limited_GwJiHC": {
+          "type": "limited",
+          "disabled": true,
+          "settings": {
+            "limited_heading": "RECEIVE OUR BLUSH",
+            "limited_text": "Receive the Blissful Blush in Burgundy Glow (worth €29) with purchases from €70."
+          }
+        },
+        "392d70a3-c37a-4fe3-ad9d-1038994bb23c": {
+          "type": "order",
+          "settings": {
+            "order_info_text": "Order before 23:59 = shipped in 1-3 business days"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "show_below_gallery": false
+          }
+        },
+        "dc607831-064d-44eb-a70e-4ee32352f415": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "How to use",
+            "content": "<p>{{ product.metafields.custom.how_to_use | metafield_tag }}<\/p>",
+            "page": "",
+            "extra_btn": true,
+            "text_extra": "More information",
+            "link_extra": "shopify:\/\/pages\/tremendously-tanned-tanning-mist-how-to-usee"
+          }
+        },
+        "e2726196-8a27-4c1a-b6f9-e91996d46799": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "More information",
+            "content": "<p>{{ product.metafields.my_fields.ingredients | metafield_tag }}<\/p>",
+            "page": "",
+            "extra_btn": false,
+            "text_extra": "More information",
+            "link_extra": ""
+          }
+        },
+        "accordion_FkaCeV": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Extra tips",
+            "content": "",
+            "page": "",
+            "extra_btn": true,
+            "text_extra": "More information",
+            "link_extra": ""
+          }
+        },
+        "1964108b-d010-4b42-8f01-709d02c2b8aa": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Shipping",
+            "content": "",
+            "page": "shipping-1",
+            "extra_btn": false,
+            "text_extra": "More information",
+            "link_extra": ""
+          }
+        },
+        "accordion_hdXgpp": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Tips",
+            "content": "",
+            "page": "",
+            "extra_btn": false,
+            "text_extra": "More information",
+            "link_extra": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "separator",
+        "variant_picker",
+        "text_WNctUf",
+        "buy_buttons",
+        "cf2e1079-c730-4663-a9a2-29f23037db80",
+        "426f527e-d145-4fc9-becd-5baeb8309dcd",
+        "limited_BLbkG3",
+        "limited_zRgpEE",
+        "limited_eQyPjf",
+        "limited_6E8HGJ",
+        "limited_GwJiHC",
+        "392d70a3-c37a-4fe3-ad9d-1038994bb23c",
+        "description",
+        "dc607831-064d-44eb-a70e-4ee32352f415",
+        "e2726196-8a27-4c1a-b6f9-e91996d46799",
+        "accordion_FkaCeV",
+        "1964108b-d010-4b42-8f01-709d02c2b8aa",
+        "accordion_hdXgpp"
+      ],
+      "settings": {
+        "product_type": "",
+        "collection_perfume": "",
+        "name_option": "",
+        "remove_horizontal_spacing": true,
+        "page_width": true,
+        "container_size": "width",
+        "product_info_size": 35,
+        "show_sticky_add_to_cart": true,
+        "bg_color": "#b9a282",
+        "bg_color_btn": "#000000",
+        "text_color": "#ffffff",
+        "center_basic_info": false,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "dots",
+        "height_image": 100,
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3
+      }
+    },
+    "multiple_media_with_text_pQLUEd": {
+      "type": "multiple-media-with-text",
+      "blocks": {
+        "image_8YB8RA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_eec734e4-871d-4af8-a2f5-8ef4b52cd1cf.png",
+            "rotation": 0
+          }
+        },
+        "image_gLt8XG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_996738a0-ce5b-4da9-9473-4faefc6e1d32.png",
+            "rotation": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_8YB8RA",
+        "image_gLt8XG"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "separate_section_with_border": true,
+        "media_position_desktop": "before_text",
+        "media_position_mobile": "before_text",
+        "media_layout": "overlap",
+        "media_alignment": "center",
+        "media_alignment_offset": 0,
+        "media_mobile_alignment_offset": 0,
+        "text_alignment": "center",
+        "subheading": "LIMITED EDITION PRODUCTS",
+        "title": "SPECIAL GIFTS WITH YOUR PURCHASE",
+        "content": "<p>Receive our luxury Card Deck with purchases between €60 and €90, our stylish Signature Socks with purchases between €90 and €120, or enjoy both limited-edition gifts with purchases from €120.<\/p><p>Available exclusively during gifting season, until the 24th of December 23:59, or while stock lasts.<\/p>",
+        "button_1_text": "DISCOVER NOW",
+        "button_1_link": "shopify:\/\/pages\/gifting-season",
+        "button_1_style": "solid",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_style": "solid",
+        "background": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "faq_cernLi": {
+      "type": "faq",
+      "blocks": {
+        "category_VMCTwy": {
+          "type": "category",
+          "settings": {
+            "title": "APPLICATION",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_G68Cw4": {
+          "type": "question",
+          "settings": {
+            "question": "Do you apply the facial tanning mist before or after your skincare routine?",
+            "answer": "<p>We recommend completing your skincare routine first and then applying the facial tanning mist.<\/p>"
+          }
+        },
+        "question_jqN34m": {
+          "type": "question",
+          "settings": {
+            "question": "Can the facial tanning mist be applied before bedtime?",
+            "answer": "<p>Yes, absolutely. You can apply the facial tanning mist in the morning after your skincare routine and before bedtime. However, it’s important that the facial tanning mist is fully absorbed and feels dry.<\/p>"
+          }
+        },
+        "question_Lzpr78": {
+          "type": "question",
+          "settings": {
+            "question": "Can I apply makeup immediately after applying the facial tanning mist?",
+            "answer": "<p>Once the facial tanning mist is completely dry, you can apply makeup as desired.<\/p>"
+          }
+        },
+        "question_a78V8t": {
+          "type": "question",
+          "settings": {
+            "question": "How many sprays should I use for the best results?",
+            "answer": "<p>The number of sprays depends on various factors, including desired results. Therefore, we cannot advise an exact number of sprays. We recommend gradually building up the number of sprays. If a few sprays do not achieve the desired result, you can always use more sprays until the desired result is achieved. Consider the development time of 4-6 hours of the product.<\/p>"
+          }
+        },
+        "question_JT6pGN": {
+          "type": "question",
+          "settings": {
+            "question": "Can the facial tanning mist be easily removed from the face?",
+            "answer": "<p>Tremendously Tanned is a self-tanning product absorbed into the skin. While the product will naturally fade after 3-5 days, the intensity can be reduced with excessive use or undesired results. Exfoliating and scrubbing with a facial scrub will decrease the intensity.<\/p>"
+          }
+        },
+        "category_Uiy8zB": {
+          "type": "category",
+          "settings": {
+            "title": "SKIN TYPES & TONES",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_NCmMjD": {
+          "type": "question",
+          "settings": {
+            "question": "Is the product suitable for use on skin with imperfections?",
+            "answer": "<p>The facial tanning mist is developed for various skin types, including sensitive skin. Nourishing ingredients such as hyaluronic acid and lavender provide a hydrated, radiant, and sun-kissed complexion. For uneven skin, we recommend conducting a patch test first.<\/p>"
+          }
+        },
+        "question_eNrPCQ": {
+          "type": "question",
+          "settings": {
+            "question": "Is the facial tanning mist suitable for all skin types?",
+            "answer": "<p>For certain skin conditions, we recommend consulting a dermatologist. Since every skin is different, we always advise conducting a patch test beforehand.<\/p>"
+          }
+        },
+        "question_96DLyY": {
+          "type": "question",
+          "settings": {
+            "question": "Is the facial tanning mist suitable for all skin tones?",
+            "answer": "<p>Yes, the facial tanning mist is formulated to be suitable for all skin tones.<\/p>"
+          }
+        },
+        "question_p9CDKr": {
+          "type": "question",
+          "settings": {
+            "question": "Are there different colors or variants available of the facial tanning mist?",
+            "answer": "<p>No, the facial tanning mist is suitable for all skin tones, so there is only one variant available.<br\/><\/p>"
+          }
+        },
+        "category_3xLBpz": {
+          "type": "category",
+          "settings": {
+            "title": "PRODUCT FEATURES",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_qtfPiw": {
+          "type": "question",
+          "settings": {
+            "question": "Does the facial tanning mist smell like typical tanning products once absorbed?",
+            "answer": "<p>The scent of the facial tanning mist consists of rose, freesia, and citrus notes, providing a refreshing fragrance. However, the ingredient responsible for self-tanning (dihydroxyacetone) may leave a typical scent of tanning products.<\/p>"
+          }
+        },
+        "question_X7mzXH": {
+          "type": "question",
+          "settings": {
+            "question": "Can the product leave stains on light-colored clothing?",
+            "answer": "<p>Although the product is designed not to leave stains, it may still cause stains on light-colored clothing and\/or bedding if not fully dried.<\/p>"
+          }
+        },
+        "question_QhjAmn": {
+          "type": "question",
+          "settings": {
+            "question": "How can I ensure the product does not leave any stains?",
+            "answer": "<p>The Tremendously Tanned is a mist, ensuring even distribution of the tanning product. However, we always recommend following our instructions to prevent any stains. Drying is also an important step in this process.<\/p>"
+          }
+        },
+        "question_tPqzNH": {
+          "type": "question",
+          "settings": {
+            "question": "Is the Tremendously Tanned facial tanning mist vegan and cruelty-free?",
+            "answer": "<p>Yes, the product is entirely vegan and cruelty-free.<br\/><\/p>"
+          }
+        },
+        "question_Yaij3p": {
+          "type": "question",
+          "settings": {
+            "question": "Does the product contain alcohol?",
+            "answer": "<p>The product contains perfume, hence a low percentage of alcohol.<\/p>"
+          }
+        },
+        "category_nUVUeT": {
+          "type": "category",
+          "settings": {
+            "title": "SPECIFIC SITUATIONS",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_7QMCg6": {
+          "type": "question",
+          "settings": {
+            "question": "Can the facial tanning mist be used with permanent makeup and\/or lash extensions?",
+            "answer": "<p>Yes, the Tremendously Tanned facial tanning mist does not affect permanent makeup. However, we recommend, with lash extensions, drying the eyelids with a cotton swab after applying the mist and gently combing the lashes.<\/p>"
+          }
+        },
+        "question_JxXFJd": {
+          "type": "question",
+          "settings": {
+            "question": "Can the facial tanning mist be used during pregnancy?",
+            "answer": "<p>The self-tanning ingredient (DHA) is natural. If in doubt, especially in the first months of pregnancy, we advise consulting an obstetrician.<\/p>"
+          }
+        },
+        "question_hEQzaB": {
+          "type": "question",
+          "settings": {
+            "question": "Can the facial tanning mist be applied to the hands?",
+            "answer": "<p>We do not recommend this. The product is specially formulated for use on the face and neck.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_VMCTwy",
+        "question_G68Cw4",
+        "question_jqN34m",
+        "question_Lzpr78",
+        "question_a78V8t",
+        "question_JT6pGN",
+        "category_Uiy8zB",
+        "question_NCmMjD",
+        "question_eNrPCQ",
+        "question_96DLyY",
+        "question_p9CDKr",
+        "category_3xLBpz",
+        "question_qtfPiw",
+        "question_X7mzXH",
+        "question_QhjAmn",
+        "question_tPqzNH",
+        "question_Yaij3p",
+        "category_nUVUeT",
+        "question_7QMCg6",
+        "question_JxXFJd",
+        "question_hEQzaB"
+      ],
+      "disabled": true,
+      "settings": {
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "Questions about Tremendously Tanned facial tanning mist?",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
+    },
+    "faq_metaobject_qWDdPR": {
+      "type": "faq-metaobject",
+      "settings": {
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "Need help?",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "remove_horizontal_spacing": true,
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "recommendations_count": 4,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "",
+        "title": "You may also like",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multiple_media_with_text_pQLUEd",
+    "faq_cernLi",
+    "faq_metaobject_qWDdPR",
+    "related-products"
+  ]
+}

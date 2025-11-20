@@ -1,0 +1,61 @@
+{%- liquid
+  assign backgroundColor = block.settings.background_color
+  assign textColor = block.settings.text_color
+  assign name_button = block.settings.name_button
+  assign hasAccount = false
+  if customer.has_account == true and customer != null
+    assign hasAccount = true
+  endif
+-%}
+<div
+  class="content-form"
+  style="--color: {{textColor}}; --bg-color: {{backgroundColor}}"
+>
+  {% if hasAccount == true %}
+    <a class="content-form__link button w-full" href="{{ routes.account_url }}">{{ name_button }}</a>
+  {%- else -%}
+    {%- form 'create_customer', class: 'form' -%}
+      <div class="fieldset">
+        {% liquid
+          if form.errors
+            assign form_errors = form.errors | default_errors
+            if form_errors contains 'We have sent an email to'
+              render 'banner', status: 'success', content: form_errors
+            else
+              render 'banner', status: 'error', content: form_errors
+            endif
+          endif
+
+          if request.locale.iso_code == 'ja'
+            assign last_name_label = 'customer.register.last_name' | t
+            render 'input', name: 'customer[last_name]', label: last_name_label, autocomplete: 'family-name', required: true
+
+            assign first_name_label = 'customer.register.first_name' | t
+            render 'input', name: 'customer[first_name]', label: first_name_label, autocomplete: 'given-name', required: true
+          else
+            assign first_name_label = 'customer.register.first_name' | t
+            render 'input', name: 'customer[first_name]', label: first_name_label, autocomplete: 'given-name', required: true
+
+            assign last_name_label = 'customer.register.last_name' | t
+            render 'input', name: 'customer[last_name]', label: last_name_label, autocomplete: 'family-name', required: true
+          endif
+
+          assign email_label = 'customer.register.email' | t
+          render 'input', type: 'email', name: 'customer[email]', label: email_label, autocomplete: 'email', required: true
+
+          assign password_label = 'customer.register.password' | t
+          render 'input', type: 'password', name: 'customer[password]', label: password_label, minlength: 5, autocomplete: 'new-password', required: true
+
+          assign consent_label = 'customer.register.accepts_marketing' | t
+          render 'checkbox', name: 'customer[accepts_marketing]', label: consent_label
+        %}
+      </div>
+      {%- assign submit_label = 'customer.register.submit' | t -%}
+      {%- render 'button', content: submit_label, type: 'submit' -%}
+      <div class="content-form__account">
+        <span class="text-subdued">{{ 'customer.register.already_have_account' | t }}</span>
+        <a href="{{ routes.account_login_url }}" class="link-faded">{{ 'customer.register.login' | t }}</a>
+      </div>
+    {%- endform -%}
+  {% endif %}
+</div>

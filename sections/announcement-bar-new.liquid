@@ -1,0 +1,270 @@
+{%- if section.settings.enable_bar -%}
+  {%- unless section.settings.home_page_only and template != 'index' -%}
+    <section id="section-{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="announcement-bar">
+      <div class="AnnouncementBar">
+        {% if shop.metafields.loyaltylion.token != null and section.settings.text_for_loyalty != blank %}
+          {% if customer != null and customer.has_account %}
+            <div class="AnnouncementBar-text-loyalty">
+              {%- liquid
+                assign part_first = section.settings.text_for_loyalty
+                assign part_second = section.settings.text_for_loyalty_second | prepend: '<span>' | append: '</span>' | remove: '<p>' | remove: '</p>'
+                assign full_text = part_first | append: part_second
+                echo full_text
+              -%}
+            </div>
+          {% else %}
+            <div class="AnnouncementBar__Wrapper swiper">
+              <ul class="swiper-wrapper">
+                {% for block in section.blocks %}
+                  {% unless block.settings.content == blank %}
+                    <li class="swiper-slide">
+                      <p class="AnnouncementBar__Content Heading">
+                        {%- if block.settings.link -%}
+                          <a href="{{ block.settings.link }}">{{ block.settings.content | escape }}</a>
+                        {%- else -%}
+                          {{ block.settings.content | escape }}
+                        {%- endif -%}
+                      </p>
+                    </li>
+                  {% endunless %}
+                {% endfor %}
+              </ul>
+            </div>
+          {% endif %}
+        {% endif %}
+
+        {% comment %}
+                  <div class="AnnouncementBar__Wrapper desktop">
+                    <p class="AnnouncementBar__Content Heading">
+                    {%- if section.settings.link -%}
+                      <a href="{{ section.settings.link }}">{{ section.settings.content | escape }}</a>
+                    {%- else -%}
+                      {{ section.settings.content | escape }}
+                    {%- endif -%}
+                  </p>
+                  {%- if section.settings.sec_announ -%}
+                  	<p class="AnnouncementBar__Content Heading">
+                      {%- if section.settings.link2 -%}
+                        <a href="{{ section.settings.link2 }}">{{ section.settings.message2 | escape }}</a>
+                      {%- else -%}
+                        {{ section.settings.message2 | escape }}
+                      {%- endif -%}
+                    </p>
+                  {%- endif -%}
+                    </div>
+
+
+
+
+                <div class="AnnouncementBar__Wrapper mobile">
+            <p class="AnnouncementBar__Content Heading slide-bar">
+                    {%- if section.settings.link -%}
+                      <a href="{{ section.settings.link }}">{{ section.settings.content | escape }}</a>
+                    {%- else -%}
+                      {{ section.settings.content | escape }}
+                    {%- endif -%}
+                  </p>
+                  <p class="AnnouncementBar__Content Heading slide-bar">
+                    {%- if section.settings.link2 -%}
+                      <a href="{{ section.settings.link2 }}">{{ section.settings.message2 | escape }}</a>
+                    {%- else -%}
+                      {{ section.settings.message2 | escape }}
+                    {%- endif -%}
+                  </p>
+                  <button class="button-1 next" value="next">Next</button>
+          </div>
+        {% endcomment %}
+      </div>
+    </section>
+
+    <style>
+           .next{
+           	display:none;
+           }
+      .slide-bar{
+      	width: 100%;
+      	height: 100%;
+      	position: absolute;
+      	top: 0;
+      	transition: all 0.75s ease-in-out;
+      }
+           .AnnouncementBar__Wrapper.mobile {
+             display: none;
+             position: relative;
+             min-height: 30px;
+           }
+           .AnnouncementBar__Wrapper.desktop {
+             display: flex;
+             justify-content: space-between;
+           }
+           .AnnouncementBar__Wrapper.desktop .Heading {
+             width: 40%;
+           }
+           #section-{{ section.id }} {
+             background: {{ section.settings.background }};
+             color: {{ section.settings.text_color }};
+           }
+           .AnnouncementBar__Wrapper ul {
+             width: 100%;
+             display: flex;
+             list-style-type: none;
+             height: 38px;
+             align-items: center;
+             margin: 0;
+           }
+           .AnnouncementBar__Wrapper ul li {
+             width: 100%;
+             position: relative;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             padding: 0;
+           }
+          .AnnouncementBar__Wrapper ul a{
+            text-decoration: underline;
+            text-underline-position: under;
+          }
+          .AnnouncementBar__Wrapper ul a:hover{
+            text-decoration: none;
+          }
+           @media screen and (max-width: 990px){
+            .AnnouncementBar__Wrapper ul li .AnnouncementBar__Content.Heading{
+              letter-spacing: 0;
+              line-height: 15px;
+              padding-left: 10px;
+              padding-right: 10px;
+            }
+           }
+
+    </style>
+
+    <script>
+      document.documentElement.style.setProperty(
+        '--announcement-bar-height',
+        document.getElementById('shopify-section-announcement')?.offsetHeight + 'px'
+      );
+document.addEventListener("DOMContentLoaded", function () {
+  const swiper = new Swiper('.AnnouncementBar__Wrapper.swiper', {
+    spaceBetween: 0,
+    speed: 400,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
+    slidesPerView: 1,
+    loop: true,
+    centeredSlides: true,
+    speed: 1500,                
+    autoplay: { enabled: true },
+    on: {
+      init(sw) { applyMobileEasing(sw); },
+      resize(sw) { applyMobileEasing(sw); },
+      breakpoint(sw) { applyMobileEasing(sw); },
+      slideChangeTransitionStart(sw) { applyMobileEasing(sw); }
+    }
+  });
+
+  function applyMobileEasing(sw) {
+    const isMobile = window.matchMedia('(max-width: 768px)').matches;
+    const wrapper = sw.wrapperEl || sw.$wrapperEl?.[0];
+    if (!wrapper) return;
+
+    wrapper.style.transitionTimingFunction = isMobile
+      ? 'cubic-bezier(0.5, 0.9, 0.1, 1)'
+      : '';
+  }
+});
+
+
+    </script>
+  {%- endunless -%}
+{%- endif -%}
+
+{%- if section.settings.sec_announ -%}
+  <style>
+    .AnnouncementBar__Wrapper.mobile {
+      display: none;
+    }
+    @media (max-width: 1100px) {
+      .AnnouncementBar__Wrapper.desktop .Heading {
+        width: 50%;
+      }
+    }
+    @media (max-width: 991px) {
+      .AnnouncementBar__Wrapper.desktop {
+        display: none;
+      }
+      .AnnouncementBar__Wrapper.mobile {
+        display: block;
+      }
+    }
+  </style>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Announcement bar",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "enable_bar",
+      "label": "Enable bar",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "home_page_only",
+      "label": "Home page only",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "sec_announ",
+      "label": "Enable Second message",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "html",
+      "id": "text_for_loyalty",
+      "label": "Text for loyalty app the first part"
+    },
+    {
+      "type": "richtext",
+      "id": "text_for_loyalty_second",
+      "info": "This option removes the <p> tag",
+      "label": "Text for loyalty app the second part"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "announcement",
+      "name": "Announcement",
+      "settings": [
+        {
+          "type": "text",
+          "id": "content",
+          "label": "Text",
+          "default": "Announce something here"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,195 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "settings": {
+            "text": "UPCOMING PRODUCT LAUNCHES",
+            "heading_tag": "h1"
+          }
+        },
+        "heading_dL3Gbe": {
+          "type": "heading",
+          "settings": {
+            "text": "BE THE FIRST TO KNOW",
+            "heading_tag": "h4"
+          }
+        },
+        "button_tDWd8Y": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "JOIN NOW",
+            "url": "https:\/\/sophia-mae.com\/account\/register",
+            "background": "#eae5df",
+            "text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe",
+        "heading_dL3Gbe",
+        "button_tDWd8Y"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Hospitality_banner_desktop_5_f25782a1-9734-4782-a3b4-24e39351c892.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_7_e216d47f-035d-41b4-8285-9e32443e40dd.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "collection_list_VJPUkd": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_wrzyqL": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Thumbnails_1500_x_1500_075f741c-5c44-4fa8-ada4-8d9f12256589.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "NEW EAU DE PARFUM",
+            "button_link": "https:\/\/sophia-mae.com\/account\/register",
+            "text_color": "#eae5df",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_XqDMNb": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Thumbnails_1500_x_1500_1_1add2ad8-ff56-480d-bc77-a5eefa25169e.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "LIP GLOSS",
+            "button_link": "https:\/\/sophia-mae.com\/account\/register",
+            "text_color": "#eae5df",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_wrzyqL",
+        "collection_XqDMNb"
+      ],
+      "disabled": true,
+      "settings": {
+        "separate_section_with_border": false,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_desktop": 3,
+        "subheading": "NEW PRODUCTS",
+        "title": "COMING SOON",
+        "content": "",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
+      }
+    },
+    "featured_product_JN3N4L": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_HhAEgN": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_3kPf4D": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "separator_jjfr4b": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {}
+        },
+        "description_yrAnc6": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker_VcQmg6": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_type": "block",
+            "color_selector_type": "color",
+            "size_chart_page": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor_HhAEgN",
+        "title_3kPf4D",
+        "separator_jjfr4b",
+        "description_yrAnc6",
+        "variant_picker_VcQmg6"
+      ],
+      "settings": {
+        "product": "matte-bronzer",
+        "separate_section_with_border": false,
+        "container_size": "width",
+        "product_info_size": 45,
+        "center_basic_info": false,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 3,
+        "subheading": "GENERAL LAUNCH",
+        "title": "29.04.2025 AT 19:00",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "collection_list_VJPUkd",
+    "featured_product_JN3N4L"
+  ]
+}

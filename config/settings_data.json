@@ -1,0 +1,387 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "current": {
+    "back_top": true,
+    "max_width_large": 1400,
+    "max_width_medium": 1140,
+    "padding_small": 18,
+    "cart_show_free_shipping_bar": false,
+    "cart_free_shipping_threshold": "50",
+    "delivery_info": "Order before 22:00 for same day shipping",
+    "extra_text": "",
+    "limit_unreached": "Spend {{remaining_amount}} more and get <strong>FREE SHIPPING!</strong>",
+    "limit_reached": "You are eligible for free shipping",
+    "image_bar": "shopify://shop_images/image_33.png",
+    "bar_color": "#1c1c1c",
+    "bar_bg": "#e8e4da",
+    "image_bar_page": "shopify://shop_images/image_33.png",
+    "bg_button": "linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(51, 51, 51, 1) 100%)",
+    "bg_section": "#eae5df",
+    "title_cross": "OTHER MUSES ALSO BOUGHT",
+    "short_info": "",
+    "current_product_list": [
+      "eau-de-parfum-mini-collection",
+      "majestic-texture-mini",
+      "balm-with-lip-applicator"
+    ],
+    "hide_if_customer_loggedin": true,
+    "main_color_m": "#000",
+    "color_button_m": "#fff",
+    "bg_button_m": "linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(51, 51, 51, 1) 100%)",
+    "bg_section_m": "#e8e4da",
+    "title_m": "OUR CURRENT FAVORITE",
+    "short_info_m": "For a flawless tan",
+    "name_button_m": "ADD TO CART",
+    "current_product_m": "facial-tanning-mist",
+    "section_vertical_spacing": "md",
+    "text_color": "#1c1c1c",
+    "text_color_light": "#e8e4da",
+    "background": "#f2f0eb",
+    "secondary_background": "#1c1b1b",
+    "success_color": "#307a07",
+    "error_color": "#cb2b2b",
+    "header_background": "#e8e4da",
+    "header_text_color": "#1c1c1c",
+    "footer_background": "#e8e4da",
+    "footer_text_color": "#1c1c1c",
+    "primary_button_background": "#1c1b1b",
+    "primary_button_text_color": "#eae5df",
+    "modal_background": "#eae5df",
+    "modal_text_color": "#1c1c1c",
+    "product_rating_color": "#1c1c1c",
+    "product_on_sale_accent": "#1c1c1c",
+    "product_custom_badge_background": "#1c1b1b",
+    "heading_font_size_factor": 1.1,
+    "heading_letter_spacing": 5,
+    "text_font_size_mobile": 15,
+    "text_font_size_desktop": 16,
+    "text_font_letter_spacing": 0,
+    "button_text_font": "heading",
+    "button_letter_spacing": 5,
+    "currency_code_enabled": false,
+    "stagger_products_apparition": false,
+    "stagger_blog_posts_apparition": true,
+    "archived_in_cart_message": "Not able to purchase this product due to Archive product in cart",
+    "archived_not_in_cart_message": "Not able to purchase this product due to Regular product in cart.",
+    "reward_in_cart_message": "Archive products cannot be combined with The Muse Club Rewards",
+    "archived_in_cart_message_collection": "Regular products cannot be combined with Archive products.",
+    "archived_not_in_cart_message_collection": "Archive products cannot be combined with regular products.",
+    "reward_in_cart_message_collection": "Archive products cannot be combined with The Muse Club Rewards",
+    "error_cart_without_reward": "Please note that Archive products cannot be combined with regular products.",
+    "error_cart_with_reward": "Please note that Archive products cannot be combined with The Muse Club Rewards.",
+    "reward_page_message": "Not able to add this Reward because there's an Archive product in your cart.",
+    "product_image_aspect_ratio": "natural",
+    "show_secondary_image": false,
+    "product_color_display": "hide",
+    "show_product_rating": false,
+    "show_quick_buy": false,
+    "show_discount": false,
+    "cart_type": "drawer",
+    "cart_icon": "shopping_bag_sharp",
+    "cart_empty_cart_link": "shopify://collections/products",
+    "social_pinterest": "https://nl.pinterest.com/sophiamae_nl/",
+    "social_instagram": "https://www.instagram.com/sophiamae/",
+    "social_youtube": "https://www.youtube.com/channel/UCP1te0acj09iLlfRe6uv1BA",
+    "social_tiktok": "https://www.tiktok.com/@sophiamae_nl",
+    "social_linkedin": "http://linkedin.com/company/sophiamae/",
+    "favicon": "shopify://shop_images/3_4907203f-aafa-4247-87bf-8265d53a8807.png",
+    "title": "OTHER MUSES ALSO BOUGHT",
+    "checkout_logo_image": "shopify://shop_images/Sophia_Mae_logo_zwart.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "small",
+    "checkout_body_background_color": "#e8e4da",
+    "checkout_sidebar_background_color": "#ffffff",
+    "checkout_accent_color": "#1c1b1b",
+    "checkout_button_color": "#1c1b1b",
+    "current_product": "aphrodite-scented-candle-mini",
+    "heading_font": "lora_n4",
+    "text_font": "lora_n4",
+    "heading_color": "#1c1c1c",
+    "sections": {
+      "main-gift-card": {
+        "type": "main-gift-card",
+        "settings": {
+          "show_qr_code": false
+        }
+      }
+    },
+    "content_for_index": [],
+    "blocks": {
+      "855628211100114053": {
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {}
+      },
+      "5149645339031002760": {
+        "type": "shopify://apps/order-limits-minmaxify/blocks/app-embed-block/3acfba32-89f3-4377-ae20-cbb9abc48475",
+        "disabled": false,
+        "settings": {
+          "async": false
+        }
+      },
+      "10605408327587305396": {
+        "type": "shopify://apps/eg-auto-add-to-cart/blocks/app-embed/0f7d4f74-1e89-4820-aec4-6564d7e535d2",
+        "disabled": false,
+        "settings": {
+          "version": "v3"
+        }
+      },
+      "2153490007123654574": {
+        "type": "shopify://apps/consentmo-gdpr/blocks/gdpr_cookie_consent/4fbe573f-a377-4fea-9801-3ee0858cae41",
+        "disabled": false,
+        "settings": {}
+      },
+      "1363596835417042534": {
+        "type": "shopify://apps/variator-see-product-variants/blocks/app/96b300bb-3fcc-4240-8a42-4a0c64a30a44",
+        "disabled": false,
+        "settings": {}
+      },
+      "4291333794791649201": {
+        "type": "shopify://apps/loyalty-rewards-and-referrals/blocks/embed-sdk/6f172e67-4106-4ac0-89c5-b32a069b3101",
+        "disabled": false,
+        "settings": {
+          "disableBundledCSS": false,
+          "disableBundledFonts": false,
+          "useClassIsolator": false
+        }
+      },
+      "6412501105843178657": {
+        "type": "shopify://apps/loyalty-rewards-and-referrals/blocks/embed-main/6f172e67-4106-4ac0-89c5-b32a069b3101",
+        "disabled": false,
+        "settings": {
+          "primary_color": "#4d384b",
+          "secondary_color": "#126bbf",
+          "icon_color": "#126bbf",
+          "button_size": "medium",
+          "button_border_radius": 4,
+          "button_primary_background_color": "#4d384b",
+          "button_primary_text_color": "#ffffff",
+          "button_neutral_background_color": "#757575",
+          "button_neutral_text_color": "#ffffff"
+        }
+      },
+      "4139971114690857691": {
+        "type": "shopify://apps/wishlist-king/blocks/wishlist-button-collection/194f5011-a43c-4b22-b12e-eaf20dc4506a",
+        "disabled": false,
+        "settings": {
+          "button_style": "plain_accent_2",
+          "button_placement": "top-end",
+          "button_offset_horizontal": 0,
+          "button_offset_vertical": 0,
+          "button_background_opacity": 85,
+          "button_background_size": 34,
+          "button_background_border_radius": 24,
+          "button_border_width": 1,
+          "show_shadow": false,
+          "icon_size": 15,
+          "icon_stroke_width": 1,
+          "app_integration_preset": "none",
+          "product_link_selector": "",
+          "floating_reference_js": ""
+        }
+      },
+      "13655089695959051254": {
+        "type": "shopify://apps/wishlist-king/blocks/code-access/194f5011-a43c-4b22-b12e-eaf20dc4506a",
+        "disabled": false,
+        "settings": {
+          "version": "main"
+        }
+      },
+      "6680288666557934739": {
+        "type": "shopify://apps/wishlist-king/blocks/wishlist-page/194f5011-a43c-4b22-b12e-eaf20dc4506a",
+        "disabled": false,
+        "settings": {
+          "column_width": "sm",
+          "wishlist_empty_link": "shopify://collections/products",
+          "page_max_width": 1200,
+          "page_padding_top": 30,
+          "page_padding_bottom": 80,
+          "show_share_button": true,
+          "show_buy_all_button": false,
+          "show_clear_wishlist_button": true,
+          "add_to_cart_remove_from_wishlist": false,
+          "remove_button_style": "text_link",
+          "product_options": "dropdowns",
+          "cta_button": "add_to_cart",
+          "cta_button_style": "solid_accent_2",
+          "alignment": "center",
+          "image_aspect_ratio": "1/1",
+          "image_object_fit": "contain",
+          "show_vendor": false,
+          "show_product_title": true,
+          "show_price": true,
+          "show_variant_input_label": false
+        }
+      },
+      "14197025361042770389": {
+        "type": "shopify://apps/wishlist-king/blocks/app-settings-main/194f5011-a43c-4b22-b12e-eaf20dc4506a",
+        "disabled": false,
+        "settings": {
+          "theme_preset": "prestige",
+          "color_accent_1": "#000000",
+          "color_accent_2": "#000000",
+          "color_solid_button_label": "#ffffff",
+          "color_outline_button_label": "#000000",
+          "color_background_1": "#ffffff",
+          "color_background_2": "#ffffff",
+          "color_text": "#000000",
+          "button_min_height": 45,
+          "button_border_width": 1,
+          "button_border_radius": 0,
+          "input_min_height": 45,
+          "input_border_width": 1,
+          "input_border_radius": 0,
+          "shadow_opacity": 15,
+          "shadow_horizontal_offset": 0,
+          "shadow_vertical_offset": 2,
+          "shadow_blur": 4,
+          "font_text_scale": 100,
+          "access_mode": "UNRESTRICTED",
+          "wishlist_mode": "VARIANT",
+          "wishlist_path": "/pages/wishlist",
+          "money_show_currency_code": true
+        }
+      },
+      "6279071938380501511": {
+        "type": "shopify://apps/powerful-form-builder/blocks/app-embed/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+        "disabled": true,
+        "settings": {}
+      },
+      "3915993389370480168": {
+        "type": "shopify://apps/swish-formerly-wishlist-king/blocks/wishlist-link-floating/194f5011-a43c-4b22-b12e-eaf20dc4506a",
+        "disabled": true,
+        "settings": {
+          "button_style": "solid_accent_1",
+          "button_mode": "always_show",
+          "button_position": "bottom-end",
+          "button_offset_horizontal": 10,
+          "button_offset_vertical": 20,
+          "button_size": 56,
+          "button_border_width": 2,
+          "button_border_radius": 40,
+          "show_shadow": true,
+          "icon_size": 24,
+          "icon_stroke_width": 2,
+          "counter_style": "outline_accent_1",
+          "counter_mode": "always_show",
+          "counter_position": "bottom-end",
+          "counter_offset_vertical": -5,
+          "counter_offset_horizontal": 0,
+          "counter_size": 16,
+          "counter_border_width": 1
+        }
+      },
+      "10864971697205422121": {
+        "type": "shopify://apps/gorgias-live-chat-helpdesk/blocks/gorgias/a66db725-7b96-4e3f-916e-6c8e6f87aaaa",
+        "disabled": false,
+        "settings": {}
+      },
+      "7079518687644006178": {
+        "type": "shopify://apps/checkout-blocks/blocks/app-embed/b0024ca5-9de8-4bf0-a92f-cd0783877ae2",
+        "disabled": true,
+        "settings": {
+          "utm_id": true,
+          "utm_source": true,
+          "utm_medium": true,
+          "utm_campaign": true,
+          "utm_term": true,
+          "ref": true
+        }
+      },
+      "10077418179866729617": {
+        "type": "shopify://apps/hidepay/blocks/hidepay-frontend/ced40b5a-eb19-49dc-a57f-5e5a6bca7bf9",
+        "disabled": false,
+        "settings": {
+          "drawerId": "additional-checkout-buttons"
+        }
+      },
+      "3999180998444345382": {
+        "type": "shopify://apps/convert-experiences/blocks/convert-tracking/2eacdd19-b384-4180-b32c-b323a6d9e27e",
+        "disabled": false,
+        "settings": {}
+      }
+    }
+  },
+  "presets": {
+    "Allure": {
+      "section_vertical_spacing": "md",
+      "heading_color": "#1c1c1c",
+      "text_color": "#1c1c1c",
+      "background": "#efefef",
+      "secondary_background": "#ffffff",
+      "success_color": "#307a07",
+      "error_color": "#cb2b2b",
+      "header_background": "#ffffff",
+      "header_text_color": "#1c1c1c",
+      "footer_background": "#ffffff",
+      "footer_text_color": "#1c1c1c",
+      "modal_background": "#ffffff",
+      "modal_text_color": "#1c1c1c",
+      "primary_button_background": "#1c1c1c",
+      "primary_button_text_color": "#ffffff",
+      "product_rating_color": "#1c1c1c",
+      "heading_font": "univers_next_n4",
+      "heading_letter_spacing": 5,
+      "text_font": "univers_next_n4",
+      "text_font_size_desktop": 14,
+      "button_letter_spacing": 18
+    },
+    "Couture": {
+      "section_vertical_spacing": "md",
+      "heading_color": "#5c5c5c",
+      "text_color": "#5c5c5c",
+      "background": "#ffffff",
+      "secondary_background": "#ffffff",
+      "success_color": "#307a07",
+      "error_color": "#cb2b2b",
+      "header_background": "#ffffff",
+      "header_text_color": "#303030",
+      "footer_background": "#ffffff",
+      "footer_text_color": "#303030",
+      "modal_background": "#ffffff",
+      "modal_text_color": "#303030",
+      "primary_button_background": "#5c5c5c",
+      "primary_button_text_color": "#ffffff",
+      "product_rating_color": "#1c1c1c",
+      "heading_font": "futura_n4",
+      "heading_letter_spacing": 18,
+      "text_font": "century_gothic_n4",
+      "text_font_size_desktop": 14,
+      "button_letter_spacing": 18
+    },
+    "Vogue": {
+      "section_vertical_spacing": "xs",
+      "heading_color": "#303030",
+      "text_color": "#303030",
+      "background": "#ffffff",
+      "secondary_background": "#ffffff",
+      "success_color": "#307a07",
+      "error_color": "#cb2b2b",
+      "header_background": "#ffffff",
+      "header_text_color": "#303030",
+      "footer_background": "#ffffff",
+      "footer_text_color": "#303030",
+      "modal_background": "#ffffff",
+      "modal_text_color": "#303030",
+      "primary_button_background": "#f5db8b",
+      "primary_button_text_color": "#303030",
+      "product_rating_color": "#1c1c1c",
+      "heading_font": "din_neuzeit_grotesk_n3",
+      "heading_letter_spacing": 18,
+      "text_font": "futura_n4",
+      "text_font_size_desktop": 14,
+      "button_letter_spacing": 5
+    }
+  },
+  "platform_customizations": {
+    "custom_css": []
+  }
+}

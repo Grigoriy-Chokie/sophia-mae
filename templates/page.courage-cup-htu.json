@@ -1,0 +1,149 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "settings": {
+            "text": "COURAGE CUP",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_d9cAeJ": {
+          "type": "subheading",
+          "settings": {
+            "text": "HOW TO USE"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe",
+        "subheading_d9cAeJ"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Hospitality_banner_desktop_4_016b7163-ffce-4ff9-a796-3d4153269e67.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_1_f085ddf6-d1ba-4539-b253-6a1416721ebc.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "faq_rKcDhg": {
+      "type": "faq",
+      "blocks": {
+        "question_tXxgAq": {
+          "type": "question",
+          "settings": {
+            "question": "What are the benefits of using the Courage Cup for beverages?",
+            "answer": "<p>Our Courage Cup keeps hot drinks warm for longer and allows you to keep your cool drinks cold for longer.<\/p>"
+          }
+        },
+        "question_9PDGDX": {
+          "type": "question",
+          "settings": {
+            "question": "How to use the cup optimally?",
+            "answer": "<p>For optimal use, press the lid firmly onto the cup and then close it by twisting the lid. Make sure you not only press, but also twist to ensure a good seal. The bottom of the cup has a non-slip layer, so that it stands firmly on surfaces. Enjoy your drink by removing the lid completely or by opening the flap at the top of the Courage Cup.<\/p>"
+          }
+        },
+        "question_nDGcFy": {
+          "type": "question",
+          "settings": {
+            "question": "What to pay close attention to when using the Courage Cup?",
+            "answer": "<p>We recommend keeping the cup upright and advise against placing it in your bag to prevent stains.<\/p>"
+          }
+        },
+        "question_VfpBRm": {
+          "type": "question",
+          "settings": {
+            "question": "Does the Courage Cup fit in a car’s cup holder?",
+            "answer": "<p>This depends on the size of the cup holder. The bottom of the Courage Cup has a diameter of 7cm.<\/p>"
+          }
+        },
+        "question_VCNKXz": {
+          "type": "question",
+          "settings": {
+            "question": "How can the Courage Cup be cleaned?",
+            "answer": "<p>Please be advised to wash the Courage Cup by hand with dish soap, as it is not dishwasher safe.<\/p>"
+          }
+        },
+        "question_YaHLk6": {
+          "type": "question",
+          "settings": {
+            "question": "What are the USP's of the design of the Courage Cup?",
+            "answer": "<p>The Courage Cup is known for its minimalistic and lightweight design.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_tXxgAq",
+        "question_9PDGDX",
+        "question_nDGcFy",
+        "question_VfpBRm",
+        "question_VCNKXz",
+        "question_YaHLk6"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "Whether you’re in need of a quick caffeine fix or want to enjoy warm tea on the go, the SOPHIA MAE Courage Cup has you covered.",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_fmdLck": {
+      "type": "rich-text",
+      "blocks": {
+        "button_VqmQp8": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "DISCOVER NOW",
+            "url": "https:\/\/sophia-mae.com\/products\/courage-cup",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_VqmQp8"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "faq_rKcDhg",
+    "rich_text_fmdLck"
+  ]
+}

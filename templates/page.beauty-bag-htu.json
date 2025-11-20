@@ -1,0 +1,125 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "settings": {
+            "text": "BEAUTY BAG",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_d9cAeJ": {
+          "type": "subheading",
+          "settings": {
+            "text": "HOW TO USE"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe",
+        "subheading_d9cAeJ"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Hospitality_banner_desktop_fd67db29-0877-446a-8f24-3635e2512a9b.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_1764efbe-1866-4613-8707-06efcb9bb7b7.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "faq_rKcDhg": {
+      "type": "faq",
+      "blocks": {
+        "question_9PDGDX": {
+          "type": "question",
+          "settings": {
+            "question": "How is the Beauty Bag wrapped?",
+            "answer": "<p>The Beauty Bag is more than just a storage solution; it's a statement of luxury and convenience.<br\/><\/p><p>Upon receiving your Beauty Bag, indulge in the luxury of unboxing. The Beauty Bag comes with a SOPHIA MAE dust bag, in a luxurious drawer box, ensuring its protection and preserving its allure.<\/p>"
+          }
+        },
+        "question_nDGcFy": {
+          "type": "question",
+          "settings": {
+            "question": "How can the Beauty Bag be washed?",
+            "answer": "<p>The Beauty Bag is not suitable for the washing machine. We recommend cleaning the inside of the Beauty Bag with a damp cloth when necessary.<\/p>"
+          }
+        },
+        "question_VfpBRm": {
+          "type": "question",
+          "settings": {
+            "question": "What material is the Beauty Bag made of?",
+            "answer": "<p>The Beauty Bag is made of 100% vegan leather and has a gold-colored zipper. The dust bag of the Beauty Bag is made of 100% Polyester.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_9PDGDX",
+        "question_nDGcFy",
+        "question_VfpBRm"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "The SOPHIA MAE Beauty Bag is designed to be your companion for all your beauty essentials. Whether you're embarking on a daily beauty routine or planning a spontaneous getaway, this exquisite toiletry bag is here to keep your essentials organized in style.",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_fmdLck": {
+      "type": "rich-text",
+      "blocks": {
+        "button_VqmQp8": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "DISCOVER NOW",
+            "url": "https:\/\/sophia-mae.com\/products\/beauty-bag",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_VqmQp8"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "faq_rKcDhg",
+    "rich_text_fmdLck"
+  ]
+}

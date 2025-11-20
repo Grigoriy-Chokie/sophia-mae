@@ -1,0 +1,149 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "settings": {
+            "text": "MAJESTIC TEXTURE",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_d9cAeJ": {
+          "type": "subheading",
+          "settings": {
+            "text": "HOW TO USE"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe",
+        "subheading_d9cAeJ"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Hospitality_banner_desktop_08c1f05b-2f1a-4fd6-8519-068709346742.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_5_a99768e0-ceca-4bd5-9af3-2fc54f8f6bc3.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "faq_rKcDhg": {
+      "type": "faq",
+      "blocks": {
+        "question_9PDGDX": {
+          "type": "question",
+          "settings": {
+            "question": "What is the first step in using the Majestic Texture?",
+            "answer": "<p>Shake the bottle well before use to mix the formula, until you hear the sound of the small metal ball going back and forth inside. This ensures proper product distribution.<\/p>"
+          }
+        },
+        "question_nDGcFy": {
+          "type": "question",
+          "settings": {
+            "question": "How to apply the Majestic Texture to your hair?",
+            "answer": "<p>Hold the bottle at a distance of 20-25 cm from your hair roots and lengths. Spray the Majestic Texture evenly through your hair and wait until the product feels dry. Allow it to settle for a moment, and run your fingers through your hair  to create the desired volume.<\/p>"
+          }
+        },
+        "question_VfpBRm": {
+          "type": "question",
+          "settings": {
+            "question": "What immediate effects to expect from the Majestic Texture?",
+            "answer": "<p>The spray will immediately improve the texture and volume of your hair. The Majestic Texture can also be perfectly used as hairspray.<\/p>"
+          }
+        },
+        "question_qniVEP": {
+          "type": "question",
+          "settings": {
+            "question": "Why is shaking crucial before use?",
+            "answer": "<p>If you skip shaking, part of the product may drop to the bottom of the bottle, causing potential blockage in the cap during spraying.<\/p>"
+          }
+        },
+        "question_YFA3bE": {
+          "type": "question",
+          "settings": {
+            "question": "How to clear a blockage in the cap of the Majestic Texture?",
+            "answer": "<p>If the cap has blockage, remove it, rinse under warm water, and pierce the opening with a small object to clear the blockage. After reinstalling, shake the bottle well before use.<\/p>"
+          }
+        },
+        "question_UVyhgr": {
+          "type": "question",
+          "settings": {
+            "question": "How should the Majestic Texture be stored after usage?",
+            "answer": "<p>After usage, always use the cap to protect the spraying cap. Store your Majestic Texture in a cool and dry spot for optimal preservation.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_9PDGDX",
+        "question_nDGcFy",
+        "question_VfpBRm",
+        "question_qniVEP",
+        "question_YFA3bE",
+        "question_UVyhgr"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "The Majestic Texture elevates your hair's natural texture and creates a volumized look. With the Majestic Texture, every day is guaranteed to be an exquisite hair day.",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_fmdLck": {
+      "type": "rich-text",
+      "blocks": {
+        "button_VqmQp8": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "DISCOVER NOW",
+            "url": "shopify:\/\/products\/majestic-texture",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_VqmQp8"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "faq_rKcDhg",
+    "rich_text_fmdLck"
+  ]
+}

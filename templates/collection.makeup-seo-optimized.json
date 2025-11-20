@@ -1,0 +1,428 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_RyYpPQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_C39a6E": {
+          "type": "heading",
+          "settings": {
+            "text": "Makeup essentials for that perfect look",
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "heading_C39a6E"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_T9kgFN": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_PhXM6D": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Discover our carefully curated collection of luxury makeup products that not only enhance your beauty but also refine your look for an elegant, timeless appearance.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_PhXM6D"
+      ],
+      "custom_css": [],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "collection-banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "image_size": "auto",
+        "allow_transparent_header": true,
+        "reveal": true,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_breadcrumb": true,
+        "content_width": "xs",
+        "background": "#000000",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "hide_product_information": false,
+        "type_of_pagination": "load_more",
+        "load-more_button-text": "Load more",
+        "load-more_pattern": "Viewed |viewed| of |all-product| products",
+        "products_per_page": 16,
+        "products_per_row_mobile": "2",
+        "products_size_desktop": "medium",
+        "show_grid_mode_selector": false,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "filter_layout": "drawer",
+        "quick_links_menu": "",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_results_count": false,
+        "show_filter_group_name": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": false,
+        "show_color_swatch": false,
+        "open_filters_by_default": true,
+        "locked_form_title": "",
+        "locked_form_subtitle": ""
+      }
+    },
+    "rich_text_c6hzx9": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_HtB86K": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>From the perfect <a href=\"/products/matte-bronzer\" title=\"MATTE BRONZER\">bronzer</a> for a radiant, sun-kissed glow to soft, versatile, and colorful <a href=\"/products/blissful-blush\" title=\"BLISSFUL BLUSH\">blushes</a>, luminous <a href=\"/collections/lip-allure\" title=\"Lip Allure\">lip glosses</a>, and the <a href=\"/collections/liquid-eyeliner\" title=\"Liquid Eyeliner\">perfect wing</a>, our makeup products are thoughtfully designed to enhance your unique features.</p><p>With premium formulas and luxurious packaging, these must-haves elevate your SOPHIA MAE beauty collection. Whether you prefer a soft, natural look or a more glamorous finish, our makeup products provide the perfect finishing touch.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_HtB86K"
+      ],
+      "custom_css": [
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_overlay_yew3jG": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify://shop_images/web_2500_x_900_cffebec6-330a-45f6-b25b-b254b9d56a06.png",
+        "mobile_image": "shopify://shop_images/web_1000_x_1000_px_e54bd668-662b-4c9c-8919-3f286250497a.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "faq_BbpcVe": {
+      "type": "faq",
+      "blocks": {
+        "category_xkpd79": {
+          "type": "category",
+          "settings": {
+            "title": "A FRESH AND RADIANT LOOK WITH OUR BLUSHES",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_fYmGBJ": {
+          "type": "question",
+          "settings": {
+            "question": "Give your complexion a fresh, healthy glow",
+            "answer": "<p>A cream blush effortlessly enhances your features, giving your complexion a fresh, healthy glow. Whether you prefer a soft, subtle flush or a more defined look, the right blush adds the perfect finishing touch.</p><p>Cream blush is the ultimate way to achieve a natural, radiant glow. Its soft, blendable texture seamlessly melts into the skin and allows for buildable coverage. Infused with hydrating ingredients, it feels lightweight and comfortable while ensuring a long-lasting, radiant finish.</p><p><a href=\"/products/blissful-blush\" title=\"BLISSFUL BLUSH\">Blissful Blush</a> by SOPHIA MAE is a luxurious cream blush available in two versatile shades: Burgundy Glow, a rich red hue that adds warmth and depth, and Satin Rose, a delicate pink for a fresh, luminous look. Apply it to your cheeks, eyes, and lips for a beautifully cohesive, monochrome makeup look.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_xkpd79",
+        "question_fYmGBJ"
+      ],
+      "custom_css": [],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "faq_jGkPAr": {
+      "type": "faq",
+      "blocks": {
+        "category_ARq3rE": {
+          "type": "category",
+          "settings": {
+            "title": "THE WARMTH OF A SUN-KISSED GETAWAY",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_TqTHBH": {
+          "type": "question",
+          "settings": {
+            "question": "That soft, sun-kissed flush",
+            "answer": "<p><a href=\"https://sophia-mae.com/products/tan-blusher\" title=\"This cream blush adds a soft, satiny touch of colour to cheeks and lips — melting seamlessly into the skin for a diffused glow that lasts all day. \">Tan Blusher</a> captures that feeling in a creamy, lightweight formula that melts into the skin like sunlight on bare shoulders, delivering a warm, radiant tint with a smooth, natural finish.</p><p>Formulated with castor oil and sweet almond oil, it nourishes while it colours — hydrating and softening the skin with every application. Thanks to upcycled tomato extract, your complexion receives a subtle, skin-loving boost in tone and brightness.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_ARq3rE",
+        "question_TqTHBH"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "faq_WCKgXD": {
+      "type": "faq",
+      "blocks": {
+        "category_feTbmc": {
+          "type": "category",
+          "settings": {
+            "title": "The ultimate bronzer for a sun-kissed look",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_37gbtX": {
+          "type": "question",
+          "settings": {
+            "question": "The perfect matte bronzer",
+            "answer": "<p>Enhance your complexion, add warmth, or create subtle definition with the perfect matte bronzer.</p><p>Our <a href=\"/products/matte-bronzer\" title=\"MATTE BRONZER\">Matte Bronzer</a> delivers a naturally bronzed look with a soft finish. Housed in an extra-large case with a built-in mirror, it allows for effortless application and seamless blending wherever you go. Whether you prefer a hint of warmth or a more defined contour, this bronzer offers a smooth, natural, and completely matte finish, without shimmer or glitter.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_feTbmc",
+        "question_37gbtX"
+      ],
+      "custom_css": [],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "faq_k4nGcq": {
+      "type": "faq",
+      "blocks": {
+        "category_nbPywd": {
+          "type": "category",
+          "settings": {
+            "title": "Lip Glosses for Radiant, Nourished, and Fuller Lips",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_tqjymH": {
+          "type": "question",
+          "settings": {
+            "question": "The finishing touch",
+            "answer": "<p>The perfect finishing touch for any look. Whether you prefer a soft shine or a plumping effect, lip gloss instantly enhances your lips with definition and a polished glow.</p><p>With an ultra-hydrating lip gloss like <a href=\"/products/lip-allure\" title=\"LIP ALLURE\">Lip Allure</a>, you create a beautiful shine with a subtle 3D effect that makes your lips appear fuller and smoother. The nourishing ingredients keep your lips soft and comfortable, without any sticky feeling. Our <a href=\"/products/plumping-lip-allure\" title=\"PLUMPING LIP ALLURE\">plumping lip gloss</a> is enriched with active ingredients that visibly enhance volume and add a soft hint of color. Both formulas deliver a radiant finish and hydrated, kissable lips. Available in three beautiful shades.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_nbPywd",
+        "question_tqjymH"
+      ],
+      "custom_css": [],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "image_with_text_overlay_wWBJHG": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_NQz49x": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h4"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NQz49x"
+      ],
+      "name": "t:sections.image_with_text_overlay.presets.image_with_text_overlay.name",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify://shop_images/3_0bcd3f4d-8ca1-46f6-9f6e-2d748a3154da.png",
+        "mobile_image": "shopify://shop_images/3_eefacdcc-7444-4924-9c88-ec81d3dbcf32.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "faq_ekXAPN": {
+      "type": "faq",
+      "blocks": {
+        "category_iMzzxr": {
+          "type": "category",
+          "disabled": true,
+          "settings": {
+            "title": "Order",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_DtVJPM": {
+          "type": "question",
+          "settings": {
+            "question": "What is the ultimate makeup routine?",
+            "answer": "<p>The perfect makeup routine is tailored to your skin type and personal style, but a flawless base includes:</p><ul><li>Hydration & primer: Start with a moisturized complexion and a primer for a smooth, long-lasting base.</li><li>Foundation & concealer: Even out your skin tone with foundation and cover any imperfections with concealer.</li><li>Blush, bronzer & highlighter: Add warmth with bronzer, a fresh glow with blush, and radiance with highlighter.</li><li>Eyes & brows: define your brows, enhance your eyes with a soft or bold look, and finish with mascara.</li><li>Lips: Complete your look with lip gloss, lipstick, or lip liner for the perfect finishing touch.</li><li>Setting spray: Lock in your makeup for all-day wear.</li></ul><p>Short on time? Keep it simple with an even complexion, a touch of blush, and a neutral or glossy lip for a fresh, effortless look.</p>"
+          }
+        },
+        "question_VdL3jA": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "question": "How to apply makeup like a pro?",
+            "answer": "<p>The right techniques and tools make all the difference for a flawless, radiant look. Follow these steps for a refined makeup application:</p><ul><li>Prep: Start with cleansed, hydrated skin and apply a primer for a smooth, even base.</li><li>Foundation & concealer: Use a brush or beauty blender to blend foundation evenly. Gently dab concealer with a soft, precise brush on areas that need extra coverage.</li><li>Blush, bronzer & highlighter: Apply bronzer with a fluffy brush for subtle contouring, use a soft blush brush for a fresh glow, and a fine highlighter brush for a natural radiance.</li><li>Eyes & brows: Define your brows with a precision brush. Blend eyeshadow seamlessly with a blending brush and apply mascara carefully for a wide-awake look.</li><li>Lips: Use a lip liner and lip brush for precise definition and long-lasting color, or apply gloss directly for a soft, natural shine.</li><li>Set: Finish with a setting spray or powder, using a large powder brush for a light, even application.</li></ul><p>With the right brushes and tools, your makeup application becomes more precise, ensuring a polished and professional finish.</p>"
+          }
+        },
+        "question_KHTYxP": {
+          "type": "question",
+          "settings": {
+            "question": "Is makeup bad for your skin?",
+            "answer": "<p>No, makeup is not necessarily bad for your skin. However, it’s important to choose high-quality products and maintain a proper skincare routine. Your skin type may be more sensitive to certain ingredients, so a careful approach helps prevent unwanted reactions. Always cleanse your skin thoroughly at the end of the day to remove makeup residue and impurities. Keep your skin hydrated and nourished with skincare to ensure a smooth and even makeup application. Opt for lightweight, breathable makeup products enriched with skincare benefits, such as hyaluronic acid and vitamin E.</p>"
+          }
+        },
+        "question_tYHKyV": {
+          "type": "question",
+          "settings": {
+            "question": "How to properly clean your makeup brushes?",
+            "answer": "<p>For a flawless makeup look and healthy skin, it’s essential to clean your brushes regularly. Use a mild cleansing soap or a specialized brush cleanser with lukewarm water. Gently massage the bristles and rinse thoroughly until the water runs clear. Let the brushes dry flat on a clean towel to maintain their shape. Cleaning your brushes weekly prevents product buildup and bacteria, keeping them in top condition.</p>"
+          }
+        },
+        "question_JiRrYj": {
+          "type": "question",
+          "settings": {
+            "question": "What are the benefits of using a primer?",
+            "answer": "<p>A primer creates the perfect base for makeup. It smooths the skin, blurs pores and fine lines, and helps foundation and other products last longer. Depending on your skin type, you can choose a hydrating, mattifying, or illuminating primer to keep your makeup looking fresh and radiant all day.</p>"
+          }
+        },
+        "question_7LYJcf": {
+          "type": "question",
+          "settings": {
+            "question": "How to remove makeup stains from clothing?",
+            "answer": "<p>Gently blot any makeup stains with a dry cloth, and avoid rubbing. Apply a mild detergent, oil-based makeup remover, or shaving foam and let it sit for a few minutes. For tougher stains, try gall soap, baking soda, or white vinegar. Wash the garment according to the care label and repeat the process if necessary.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_iMzzxr",
+        "question_DtVJPM",
+        "question_VdL3jA",
+        "question_KHTYxP",
+        "question_tYHKyV",
+        "question_JiRrYj",
+        "question_7LYJcf"
+      ],
+      "custom_css": [
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "Frequently Asked Questions",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_yRQjjU": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_YxYzPp": {
+          "type": "subheading",
+          "settings": {
+            "text": "MORE SUPPORT"
+          }
+        },
+        "richtext_qfpiMF": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Do you have any questions about our makeup? Feel free to reach out to us!</p>"
+          }
+        },
+        "button_qkXzwK": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "GET IN TOUCH",
+            "url": "shopify://pages/contact",
+            "background": "#000000",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_YxYzPp",
+        "richtext_qfpiMF",
+        "button_qkXzwK"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "rich_text_RyYpPQ",
+    "rich_text_T9kgFN",
+    "collection-banner",
+    "main",
+    "rich_text_c6hzx9",
+    "image_with_text_overlay_yew3jG",
+    "faq_BbpcVe",
+    "faq_jGkPAr",
+    "faq_WCKgXD",
+    "faq_k4nGcq",
+    "image_with_text_overlay_wWBJHG",
+    "faq_ekXAPN",
+    "rich_text_yRQjjU"
+  ]
+}

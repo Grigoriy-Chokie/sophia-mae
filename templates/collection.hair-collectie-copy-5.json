@@ -1,0 +1,418 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_RyYpPQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_C39a6E": {
+          "type": "heading",
+          "settings": {
+            "text": "Luxury hair care products",
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "heading_C39a6E"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_T9kgFN": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_PhXM6D": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Explore our thoughtfully crafted collection of luxury hair products that not only nourish your hair but also effortlessly enhance volume, texture, and shine. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_PhXM6D"
+      ],
+      "custom_css": [],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "collection-banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "image_size": "auto",
+        "allow_transparent_header": true,
+        "reveal": true,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_breadcrumb": true,
+        "content_width": "xs",
+        "background": "#000000",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "hide_product_information": false,
+        "load-more_button-text": "Load more",
+        "load-more_pattern": "Viewed |viewed| of |all-product| products",
+        "products_per_page": 16,
+        "products_per_row_mobile": "2",
+        "products_size_desktop": "medium",
+        "show_grid_mode_selector": false,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "filter_layout": "drawer",
+        "quick_links_menu": "",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_results_count": false,
+        "show_filter_group_name": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": false,
+        "show_color_swatch": false,
+        "open_filters_by_default": true,
+        "locked_form_title": "",
+        "locked_form_subtitle": ""
+      }
+    },
+    "rich_text_c6hzx9": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_HtB86K": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>From our signature <a href=\"\/products\/majestic-mist\" title=\"MAJESTIC MIST - DRY SHAMPOO\">dry shampoo<\/a> to our nourishing <a href=\"\/products\/satin-sheen-hair-body-elixir\" title=\"SATIN SHEEN HAIR & BODY ELIXIR\">hair oil<\/a> and styling essentials, every product elevates your hair care routine. Whether you’re aiming for a natural, effortless look or a glamorous finishing touch, SOPHIA MAE offers a curated selection of luxury hair products designed to seamlessly integrate into your routine.<\/p><p>Experience premium formulas that combine styling and care for healthy, radiant hair of salon-quality every day. Each product is enriched with refined, luxurious fragrances that pamper not only your hair but also your senses, providing the ultimate care experience.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_HtB86K"
+      ],
+      "custom_css": [
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_overlay_yew3jG": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/web_2500_x_900_2_6ab89d33-d2d5-4217-94c1-435af5541bdf.png",
+        "mobile_image": "shopify:\/\/shop_images\/web_1000_x_1000_px_2_46784b59-267f-440f-9a30-8a80b09bbee0.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "faq_BbpcVe": {
+      "type": "faq",
+      "blocks": {
+        "category_xkpd79": {
+          "type": "category",
+          "settings": {
+            "title": "HAIR STYLING PRODUCTS FOR VOLUME AND TEXTURE",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_fYmGBJ": {
+          "type": "question",
+          "settings": {
+            "question": "Voluminous and textured hair",
+            "answer": "<p>Want to add more volume and texture to your hair? With our luxury hair styling products, you can create the perfect base for a voluminous, long-lasting look. <\/p><p>The <a href=\"\/products\/majestic-texture\" title=\"MAJESTIC TEXTURE - TEXTURIZING SPRAY\">Majestic Texture texturizing spray<\/a> adds an airy lift and extra body to your strands. For lasting volume, use one of the Roller Rendez-Vous sets, high-quality velcro rollers that enhance resilience and movement in your hair. Choose the <a href=\"\/products\/roller-rendez-vous-set-midi\" title=\"ROLLER RENDEZ-VOUS SET MIDI\">Roller Rendez-Vous midi<\/a> for soft waves and subtle curls, or the <a href=\"\/products\/roller-rendez-vous-set-maxi\" title=\"ROLLER RENDEZ-VOUS SET MAXI\">Roller Rendez-Vous maxi<\/a> for extra volume and a fuller effect. Pair these essentials for a voluminous look that lasts all day.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_xkpd79",
+        "question_fYmGBJ"
+      ],
+      "custom_css": [],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "faq_WCKgXD": {
+      "type": "faq",
+      "blocks": {
+        "category_feTbmc": {
+          "type": "category",
+          "settings": {
+            "title": "Hair care for soft and shiny hair",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_37gbtX": {
+          "type": "question",
+          "settings": {
+            "question": "Discover the perfect hair products",
+            "answer": "<p>Elevate your hair care routine with products that deliver a healthy shine and a silky-smooth finish.<\/p><p>The <a href=\"\/products\/satin-sheen-hair-body-elixir\" title=\"SATIN SHEEN HAIR & BODY ELIXIR\">Satin Sheen hair & body elixir<\/a> hydrates and nourishes, leaving your hair with a beautiful shine and frizz-free. For added protection and to support healthy hair growth, use the <a href=\"\/products\/two-sided-pillowcase\" title=\"TWO-SIDED PILLOWCASE\">Two-sided Pillowcase<\/a>. The satin side minimizes friction, reducing hair breakage and safeguarding your lashes. Nourish your hair for a radiant, shiny and soft result that lasts all day long.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_feTbmc",
+        "question_37gbtX"
+      ],
+      "custom_css": [],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "faq_k4nGcq": {
+      "type": "faq",
+      "blocks": {
+        "category_nbPywd": {
+          "type": "category",
+          "settings": {
+            "title": "Dry shampoo for fresh and voluminous hair",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_tqjymH": {
+          "type": "question",
+          "settings": {
+            "question": "Discover why dry shampoo is the perfect solution",
+            "answer": "<p>Dry shampoo is the perfect solution for fresh, voluminous hair between washes. It absorbs oils and impurities while providing your hair with the lift and texture you desire.<\/p><p>Looking for fresh, voluminous, and soft hair that lasts all day? The <a href=\"\/products\/majestic-mist\" title=\"MAJESTIC MIST - DRY SHAMPOO\">Majestic Mist <\/a>combines dry shampoo and volume spray in one. This light, airy spray not only absorbs impurities and excess oils from your hair and scalp, but also adds the lift and volume your hair needs. This vegan dry shampoo is your go-to for a quick refresh, adding volume and bounce to your hair.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_nbPywd",
+        "question_tqjymH"
+      ],
+      "custom_css": [],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "faq_QLpr9y": {
+      "type": "faq",
+      "blocks": {
+        "category_nJV6Ec": {
+          "type": "category",
+          "settings": {
+            "title": "Perfect hair on the go",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_FxBMFn": {
+          "type": "question",
+          "settings": {
+            "question": "Luxury hair care for your fast-paced life",
+            "answer": "<p>Effortless styling anytime, anywhere. Our luxurious travel friendly hair essentials are designed for quick touch ups and instant volume on the go.<\/p><p>For hair care on the go, the Majestic Texture mini and Majestic Mist mini are the perfect essentials. The <a href=\"\/products\/majestic-texture-mini\" title=\"MAJESTIC TEXTURE MINI - TEXTURIZING SPRAY\">Majestic Texture mini<\/a> adds airy texture and volume, while the <a href=\"\/products\/majestic-mist-mini\" title=\"MAJESTIC MIST MINI - DRY SHAMPOO\">Majestic Mist mini dry shampoo<\/a> refreshes your hair in no time and provides extra body. Compact yet effective, these travel-friendly must-have hair styling products ensure fresh, voluminous locks wherever you are. Also available as a set in the <a href=\"\/products\/majestic-on-the-go-bundle\" title=\"MAJESTIC ON-THE-GO BUNDLE\">Majestic on-the-go bundle<\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_nJV6Ec",
+        "question_FxBMFn"
+      ],
+      "custom_css": [],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "image_with_text_overlay_wWBJHG": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_NQz49x": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h4"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NQz49x"
+      ],
+      "name": "t:sections.image_with_text_overlay.presets.image_with_text_overlay.name",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/web_2500_x_900_1_982ff36c-e746-4f76-8aa1-06cd2be5f3b6.png",
+        "mobile_image": "shopify:\/\/shop_images\/web_1000_x_1000_px_1_aef01751-20da-4155-b2c9-7ec26f0d1bee.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "faq_ekXAPN": {
+      "type": "faq",
+      "blocks": {
+        "category_iMzzxr": {
+          "type": "category",
+          "disabled": true,
+          "settings": {
+            "title": "Order",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_DtVJPM": {
+          "type": "question",
+          "settings": {
+            "question": "How to get healthy hair?",
+            "answer": "<p>The key to healthy hair starts with using products that match your hair type and needs. A gentle shampoo and a nourishing conditioner help maintain hydration and strength, while a deep-repair hair mask provides extra care and restoration. Limiting heat styling, choosing high-quality styling products, and protecting your hair from external factors like sun exposure and cold weather can make a big difference. For long-lasting shine and hydration, incorporating nourishing <a href=\"\/products\/satin-sheen-hair-body-elixir\" title=\"SATIN SHEEN HAIR & BODY ELIXIR\">hair oils<\/a> and leave-in conditioners into your routine is essential.<\/p><p>A <a href=\"\/products\/two-sided-pillowcase\" title=\"TWO-SIDED PILLOWCASE\">satin pillowcase<\/a> can also support hair health by reducing friction, preventing frizz, and retaining moisture, helping to minimize breakage and keep your hair looking smooth and soft.<\/p>"
+          }
+        },
+        "question_VdL3jA": {
+          "type": "question",
+          "settings": {
+            "question": "Which hair styling products are best for my hair?",
+            "answer": "<p>The best hair styling products for your hair depend on your hair type, texture, and desired look. If you want more volume and texture, a <a href=\"\/products\/majestic-texture\" title=\"MAJESTIC TEXTURE - TEXTURIZING SPRAY\">texturizing spray<\/a> is a great choice. For refreshing your hair between washes, a <a href=\"\/products\/majestic-mist\" title=\"MAJESTIC MIST - DRY SHAMPOO\">dry shampoo<\/a> absorbs excess oil while adding light volume. If your hair needs extra nourishment and shine, a lightweight <a href=\"\/products\/satin-sheen-hair-body-elixir\" title=\"SATIN SHEEN HAIR & BODY ELIXIR\">hair oil<\/a> helps smooth and hydrate without weighing it down. For hold and definition, styling creams, waxes, and gels can shape and structure your hair while keeping it flexible. Hairspray is ideal for setting your style in place, whether you want a soft, natural finish or a long-lasting hold. Heat protectant sprays are essential if you frequently use hot tools, as they help shield your hair from damage.<\/p><p>At SOPHIA MAE, our styling essentials are designed to enhance your natural beauty while keeping your hair healthy. Whether you prefer an effortless, everyday look or a more polished style, choosing the right products can help you achieve salon-quality results.<\/p>"
+          }
+        },
+        "question_KHTYxP": {
+          "type": "question",
+          "settings": {
+            "question": "How to get more volume in your hair?",
+            "answer": "<p>To add more volume to your hair, you can use various techniques and products. Start with a volumizing shampoo and conditioner that lifts your hair and adds texture without weighing it down. Hair rollers are a great way to create volume, especially when paired with the right products to maintain the lift throughout the day. For instant volume, bouncy and wavy locks, our <a href=\"\/products\/perfect-hair-bundle-midi\" title=\"PERFECT HAIR BUNDLE MIDI\">Perfect Hair bundle midi<\/a> or the <a href=\"\/products\/perfect-hair-bundle-maxi\" title=\"PERFECT HAIR BUNDLE MAXI\">Perfect Hair bundle maxi<\/a>, both of which include the <a href=\"\/products\/precious-pins\" title=\"PRECIOUS PINS\">Precious Pins<\/a>, designed to help you keep the rollers in place, are perfect choices. Apply mousse or volume spray to the roots for extra body, and finish with a texturizing spray to keep your hair in shape for long-lasting volume. <\/p>"
+          }
+        },
+        "question_tYHKyV": {
+          "type": "question",
+          "settings": {
+            "question": "How to make hair smooth and frizz free?",
+            "answer": "<p>To reduce frizz, you can take several steps. Start with a hydrating shampoo and conditioner that nourishes and softens the hair. Regularly use a nourishing hair mask to close the hair cuticles and lock in moisture. Avoid using heat tools, such as straighteners and blow dryers, on high temperatures, or use a heat-protectant spray to prevent damage. After washing, gently pat your hair dry with a soft towel, without rubbing, to reduce frizz. Additionally, serums and a nourishing <a href=\"\/products\/satin-sheen-hair-body-elixir\" title=\"SATIN SHEEN HAIR & BODY ELIXIR\">hair oil<\/a>, can help smooth the hair and keep frizz under control. Lastly, using a satin pillowcase can help reduce friction and prevent hair damage while you sleep.<\/p>"
+          }
+        },
+        "question_JiRrYj": {
+          "type": "question",
+          "settings": {
+            "question": "What are luxury hair products?",
+            "answer": "<p>Luxury hair products are expertly crafted with premium ingredients that not only nourish and protect your hair, while also delivering a sophisticated fragrance that delights the senses. These products often feature natural oils, vitamins, and cutting-edge technologies designed to hydrate, repair, and strengthen the hair. From luxurious shampoos and conditioners that provide lightweight hydration to silky hair oils that leave your hair soft and subtly scented, luxury hair products focus on both the health of your hair and an elevated sensory experience.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_iMzzxr",
+        "question_DtVJPM",
+        "question_VdL3jA",
+        "question_KHTYxP",
+        "question_tYHKyV",
+        "question_JiRrYj"
+      ],
+      "custom_css": [
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "Frequently Asked Questions",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_yRQjjU": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_YxYzPp": {
+          "type": "subheading",
+          "settings": {
+            "text": "MORE HAIR CARE SUPPORT"
+          }
+        },
+        "richtext_qfpiMF": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Do you have any questions about our hair care products? Feel free to reach out to us!<\/p>"
+          }
+        },
+        "button_qkXzwK": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "GET IN TOUCH",
+            "url": "shopify:\/\/pages\/contact",
+            "background": "#000000",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_YxYzPp",
+        "richtext_qfpiMF",
+        "button_qkXzwK"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "rich_text_RyYpPQ",
+    "rich_text_T9kgFN",
+    "collection-banner",
+    "main",
+    "rich_text_c6hzx9",
+    "image_with_text_overlay_yew3jG",
+    "faq_BbpcVe",
+    "faq_WCKgXD",
+    "faq_k4nGcq",
+    "faq_QLpr9y",
+    "image_with_text_overlay_wWBJHG",
+    "faq_ekXAPN",
+    "rich_text_yRQjjU"
+  ]
+}

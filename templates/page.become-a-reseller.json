@@ -1,0 +1,492 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "settings": {
+            "text": "BECOME A SOPHIA MAE RESELLER",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/web_2500_x_900_1_3d460289-26a0-46b4-8549-ccfe8629ca1a.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_903e513b-a49d-4aed-b033-cb270e58d924.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-end-center text-center",
+        "desktop_text_position": "sm:place-self-end-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_66jTc7": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_KBhK3F": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Are you a retailer, boutique or department store looking for a curated selection of refined, exclusive and unique products in beauty, lifestyle and home decor?<\/p><p>We are excited to collaborate with passionate retailers that fit the vision and brand identity of SOPHIA MAE.<\/p>"
+          }
+        },
+        "button_XAekPJ": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "style": "solid",
+            "text": "CONTACT US",
+            "url": "mailto:sales@sophia-mae.com",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_KBhK3F",
+        "button_XAekPJ"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_reKGtQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iEgmrh": {
+          "type": "heading",
+          "settings": {
+            "text": "UNIQUE PRODUCTS",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iEgmrh"
+      ],
+      "disabled": true,
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "media_grid_Wzndga": {
+      "type": "media-grid",
+      "blocks": {
+        "image_Km8CQw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_6fcd9e4f-9de9-4d9a-9542-dc848ae4df4d.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_AJQgNQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_9626cc5d-a666-43e6-baff-81ca18ce5b2c.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_ikK9PE": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_8cac4063-d979-44c1-8bcb-a3cf5d3fb225.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_RwQr6m": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7_81768c61-7230-49de-b580-21b488ac00a6.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_tCdVh8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/web_2000_x_1400_px_7893e60d-0d1d-438d-bf68-c32c9d43958b.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h6",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_hUE96G": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_1129c341-ce5f-471d-ad01-dd370cd37e6f.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_GmpBqg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_5ad1e417-8742-4115-9732-5cdc59a7728b.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_zny9m6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_38ea1e49-92ae-42bc-ae93-34d443d79836.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_3t3gTY": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_df33db6b-11da-4361-84ce-ac4dbd782f88.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_Km8CQw",
+        "image_AJQgNQ",
+        "image_ikK9PE",
+        "image_RwQr6m",
+        "image_tCdVh8",
+        "image_hUE96G",
+        "image_GmpBqg",
+        "image_zny9m6",
+        "image_3t3gTY"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "width",
+        "spacing": "md",
+        "subheading": "",
+        "title": "UNIQUE PRODUCTS",
+        "content": "",
+        "background": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_xeJt8a": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_6GLzP3": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "HIGH-QUALITY PRODUCTS",
+            "heading_tag": "h5",
+            "content": "<p>SOPHIA MAE is committed to creating high-quality products that promote a sense of luxury and care. Products that enhance self-worth.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_d6Cd7C": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "WIDE RANGE",
+            "heading_tag": "h5",
+            "content": "<p>Our extensive collection includes a wide range of products that help individuals surround themselves and their surroundings with luxury while stimulating their senses.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "video_with_text_bhK3rX": {
+          "type": "video_with_text",
+          "settings": {
+            "autoplay": true,
+            "loop": false,
+            "play_button_background": "#ffffff",
+            "title": "LUXURIOUS EXPERIENCE",
+            "heading_tag": "h5",
+            "content": "<p>SOPHIA MAE products are the right choice for those craving a luxurious experience like never before.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_6GLzP3",
+        "image_with_text_d6Cd7C",
+        "video_with_text_bhK3rX"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "columns_per_row": 3,
+        "stack_on_mobile": true,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing": "md",
+        "subheading": "",
+        "title": "WHY CHOOSE SOPHIA MAE?",
+        "content": ""
+      }
+    },
+    "image_with_text_overlay_CCG6z3": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_hhUEzn": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h4"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hhUEzn"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Hospitality_banner_desktop_b742f4d9-60c4-42e2-bd6c-95b21d7f409b.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_3cae178c-c1cd-4cb1-b943-c36806cf8fbb.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "1725615358f0d28431": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_7fBfFw": {
+          "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-block\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"NTUzNjE=\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_7fBfFw"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
+    "faq_gTGmtU": {
+      "type": "faq",
+      "blocks": {
+        "question_WkKR4J": {
+          "type": "question",
+          "settings": {
+            "question": "Who sells SOPHIA MAE?",
+            "answer": "<p>SOPHIA MAE is currently available at selected retailers in the Netherlands, Belgium, and Ibiza.  Each location offers a curated selection of our luxury products in beauty, lifestyle, and home.<\/p>"
+          }
+        },
+        "question_cgYJbY": {
+          "type": "question",
+          "settings": {
+            "question": "Can I sell SOPHIA MAE products as an online retailer?",
+            "answer": "<p>No, at this moment we only collaborate with retailers who offer our products through offline channels.<\/p>"
+          }
+        },
+        "question_tJfQzt": {
+          "type": "question",
+          "settings": {
+            "question": "How can I best convey the SOPHIA MAE brand identity to my customers?",
+            "answer": "<p>During onboarding, our partners receive detailed brand guidelines covering content, social media and in-store presentation. These guidelines ensure a presentation that is luxurious, elegant and timeless, minimalist yet warm and inviting.<\/p>"
+          }
+        },
+        "question_aP3mdQ": {
+          "type": "question",
+          "settings": {
+            "question": "What is the delivery time for resellers when ordering SOPHIA MAE products?",
+            "answer": "<p>Once placed through our B2B portal, orders are delivered within 1 to 3 business days.<\/p>"
+          }
+        },
+        "question_YGiEAp": {
+          "type": "question",
+          "settings": {
+            "question": "What are the long-term advantages of partnering with a brand like SOPHIA MAE?",
+            "answer": "<p>Partnering with SOPHIA MAE means joining a strong and distinctive brand in the premium segment. We focus on long-term partnerships and provide retailers with marketing tools, exclusive presentation guidelines and continuous innovation, ensuring that SOPHIA MAE is showcased at its best in store.<\/p>"
+          }
+        },
+        "question_V8dhPM": {
+          "type": "question",
+          "settings": {
+            "question": "Can I, as a reseller, get access to exclusive events?",
+            "answer": "<p>Each year we host a special event to celebrate our retailers and to thank them for their contribution to the growth of SOPHIA MAE.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_WkKR4J",
+        "question_cgYJbY",
+        "question_tJfQzt",
+        "question_aP3mdQ",
+        "question_YGiEAp",
+        "question_V8dhPM"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "Frequently Asked Questions",
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "rich_text_66jTc7",
+    "rich_text_reKGtQ",
+    "media_grid_Wzndga",
+    "multi_column_xeJt8a",
+    "image_with_text_overlay_CCG6z3",
+    "1725615358f0d28431",
+    "faq_gTGmtU"
+  ]
+}

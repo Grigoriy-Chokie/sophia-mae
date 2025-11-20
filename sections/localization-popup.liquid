@@ -1,0 +1,171 @@
+{% liquid
+  assign country_code = localization.country.iso_code
+  assign avoid_countries = section.settings.avoid_countries | split: ','
+
+  assign country_form_title = section.settings.country_form_title
+  assign country_form_subtitle = section.settings.country_form_subtitle
+  assign country_form_bottom = section.settings.country_form_bottom
+%}
+
+{%- style -%}
+  .modal.visible-popup::part(content) {
+    overflow: visible;
+  }
+
+  .country-form .localization-toggle {
+    width: 100%;
+    justify-content: space-between;
+    font-size: var(--text-base);
+  }
+
+  .localization-popup h2 {
+    text-transform: uppercase;
+  }
+
+  .country-form .localization-toggle {
+    border: 1px solid rgb(var(--text-color));
+    padding: 5px 10px;
+  }
+
+  .country-form .link-faded {
+    color: rgb(var(--text-color));
+  }
+
+  .localization-popup::part(header),
+  .country-form::part(header) {
+    border: none;
+  }
+
+  .localization-popup__text-bottom {
+    text-decoration: underline;
+  }
+
+  .country-form .localization-toggle + .popover--bottom-start {
+    margin: 0;
+    --popover-block-offset: 0;
+  }
+{%- endstyle -%}
+
+{% liquid
+  assign title = section.settings.title | replace: '[country]', localization.country.name
+  assign subtitle = section.settings.subtitle
+  assign content = section.settings.content
+  assign button_text = section.settings.button_text
+  assign text_bottom = section.settings.text_bottom
+%}
+<x-localize
+  data-countries="{{ section.settings.avoid_countries }}"
+  id="customer-localization"
+  class="modal visible-popup localization-popup"
+>
+  <h2 class="text-center">{{ title }}</h2>
+  {% if subtitle != blank %}
+    <h3 class="text-center">{{ subtitle }}</h3>
+  {% endif %}
+  <div class="prose">
+    {{ content }}
+    <div class="button-wrapper text-center">
+      <button class="button" type="button" aria-controls="customer-localization-from">
+        {{ button_text }}
+      </button>
+    </div>
+    {% if text_bottom != blank %}
+      <div class="text-center">
+        <button class="localization-popup__text-bottom" is="dialog-close-button">{{ text_bottom }}</button>
+      </div>
+    {% endif %}
+  </div>
+</x-localize>
+
+<x-modal id="customer-localization-from" class="modal visible-popup country-form">
+  <div class="prose">
+    <h2>{{ country_form_title }}</h2>
+    <p>{{ country_form_subtitle }}</p>
+    {%- render 'localization-selector',
+      type: 'country',
+      placement: 'bottom-start',
+      show_country_name: true,
+      target_countries: avoid_countries
+    -%}
+    {% if country_form_bottom != blank %}
+      <div class="text-center">
+        <button class="localization-popup__text-bottom" is="dialog-close-button">{{ country_form_bottom }}</button>
+      </div>
+    {% endif %}
+  </div>
+</x-modal>
+
+{% schema %}
+{
+  "name": "Localization popup",
+  "class": "shopify-section--before-after-image",
+  "tag": "section",
+  "enabled_on": {
+    "groups": ["custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "avoid_countries",
+      "label": "Avoid countries",
+      "default": "NL,BE,DE,FR",
+      "info": "Use comma as separator"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "We don't ship to this country"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text",
+      "default": "Jetzt Entdecken"
+    },
+    {
+      "type": "text",
+      "id": "text_bottom",
+      "label": "Text bottom",
+      "default": "Ändern Sie Ihren Versandort"
+    },
+    {
+      "type": "header",
+      "content": "Choose country form"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "country_form_title",
+      "label": "Title",
+      "default": "SELECT YOUR COUNTRY"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "country_form_subtitle",
+      "label": "Subtitle",
+      "default": "Select a country or region below to shop in your local currency"
+    },
+    {
+      "type": "text",
+      "id": "country_form_bottom",
+      "label": "Text bottom",
+      "default": "Continue without changing country"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Localization popup"
+    }
+  ]
+}
+{% endschema %}

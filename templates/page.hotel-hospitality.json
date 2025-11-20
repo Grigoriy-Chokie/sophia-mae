@@ -1,0 +1,301 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "settings": {
+            "text": "HOTEL & HOSPITALITY",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/web_2500_x_900_2_10ab8c63-6a3e-4bc5-ae45-84249c9ba0f7.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_4f167a06-20b0-4583-8efc-90836d904104.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_66jTc7": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_KBhK3F": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Are you looking for premium care products for your guests? With SOPHIA MAE products, your visitors will enjoy a unique and luxurious experience that stimulates the senses through the comfort of quality. SOPHIA MAE offers a wide range of products suitable for various spaces in hotels, restaurants, and gyms. Envision hotel rooms, toilets, bathrooms, and public areas.<br\/><br\/>Currently, the products from our product range are available for hospitality. Our exclusive hospitality collection is currently in development and will be expanded.<\/p>"
+          }
+        },
+        "button_XAekPJ": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "style": "solid",
+            "text": "CONTACT US",
+            "url": "mailto:sales@sophia-mae.com",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_KBhK3F",
+        "button_XAekPJ"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "multi_column_xeJt8a": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_6KBPxB": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "HIGH-QUALITY PRODUCTS",
+            "heading_tag": "h3",
+            "content": "<p>SOPHIA MAE is committed to creating high-quality products that promote a sense of luxury and care. We have a strong passion for developing products that enhance self-worth. <\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_6GLzP3": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "WIDE RANGE",
+            "heading_tag": "h3",
+            "content": "<p>Our extensive collection includes a wide range of products that help individuals surround themselves and their surroundings with luxury while stimulating their senses. <\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_CyGAri": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "LUXURIOUS EXPERIENCE",
+            "heading_tag": "h3",
+            "content": "<p>SOPHIA MAE is the right choice for those craving a luxurious experience like never before.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_6KBPxB",
+        "image_with_text_6GLzP3",
+        "image_with_text_CyGAri"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "columns_per_row": 3,
+        "stack_on_mobile": true,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing": "md",
+        "subheading": "",
+        "title": "WHY CHOOSE SOPHIA MAE?",
+        "content": ""
+      }
+    },
+    "image_with_text_cQ3DXQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_7kKyKt": {
+          "type": "heading",
+          "settings": {
+            "text": "SOPHIA MAE IN HOTELS",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_3EygaA": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Our exclusive products contribute to an unforgettable hotel experience for hotels seeking unique scents and aesthetic brands. Our best-selling dry shampoo, the Majestic Mist, as well as our eau de parfums and shower foams, are luxurious additions to any bathroom. And our minimalistic ceramic mugs make coffee moments more special. <\/p><p>Hotel guests will fully relax with our premium products, from the moment they arrive until their departure.<\/p>"
+          }
+        },
+        "button_gCeTcA": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "MORE INFORMATION",
+            "url": "mailto:sales@sophia-mae.com",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_7kKyKt",
+        "richtext_3EygaA",
+        "button_gCeTcA"
+      ],
+      "custom_css": [
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "background_color": "default",
+        "image": "shopify:\/\/shop_images\/web_2000_x_1400_px_3_103a2d99-25e2-480c-8382-63f0bc79cbe8.png",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false
+      }
+    },
+    "6339204c-6af1-4058-a7a4-d9f6a3152421": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_XVLf93": {
+          "type": "heading",
+          "settings": {
+            "text": "SOPHIA MAE IN RESTAURANTS",
+            "heading_tag": "h3"
+          }
+        },
+        "03f9d6da-a198-4ea7-beb7-a60d5d505c51": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Enhance the experience of your restaurant guests with our range of luxurious products. The restroom can be elevated with our perfumed reeds, while our scented candles are also perfect for this space. Our scented candles come in various sizes, scents, and colors. Suitable for any interior décor.<\/p>"
+          }
+        },
+        "button_xh4rjz": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "MORE INFORMATION",
+            "url": "mailto:sales@sophia-mae.com",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_XVLf93",
+        "03f9d6da-a198-4ea7-beb7-a60d5d505c51",
+        "button_xh4rjz"
+      ],
+      "custom_css": [
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "background_color": "default",
+        "image": "shopify:\/\/shop_images\/web_2000_x_1400_px_2_f99593bf-1ba3-47c8-b09b-e9dfec5c81ca.png",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "sm",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
+    "image_with_text_Xzda4R": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_PRUayz": {
+          "type": "heading",
+          "settings": {
+            "text": "SOPHIA MAE IN THE GYM",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_MGKVLW": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Our luxurious perfumed reeds, interior perfumes, and dry shampoo are appealing additions to spaces such as dressing rooms or restrooms. Our products enhance the overall experience of your gym.<\/p>"
+          }
+        },
+        "button_NdbUyp": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "MORE INFORMATION",
+            "url": "mailto:sales@sophia-mae.com",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_PRUayz",
+        "richtext_MGKVLW",
+        "button_NdbUyp"
+      ],
+      "custom_css": [
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "background_color": "default",
+        "image": "shopify:\/\/shop_images\/web_2000_x_1400_px_1_c8ac7f8f-4200-4afb-8d2d-58f88ca1bdb2.png",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
+    "1736951530e512aaf2": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_7a7D3D": {
+          "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-block\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"NzE3NTg=\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_7a7D3D"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "rich_text_66jTc7",
+    "multi_column_xeJt8a",
+    "image_with_text_cQ3DXQ",
+    "6339204c-6af1-4058-a7a4-d9f6a3152421",
+    "image_with_text_Xzda4R",
+    "1736951530e512aaf2"
+  ]
+}

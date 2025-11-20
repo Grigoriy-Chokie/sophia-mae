@@ -1,0 +1,454 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "settings": {
+            "text": "BLACK WEEK SPECIALS",
+            "heading_tag": "h1"
+          }
+        },
+        "heading_Weifa9": {
+          "type": "heading",
+          "settings": {
+            "text": "RECEIVE UP TO 6 GIFTS WITH YOUR PURCHASE",
+            "heading_tag": "h4"
+          }
+        },
+        "button_fgKMKT": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "SHOP TO RECEIVE GIFTS",
+            "url": "shopify:\/\/collections\/products",
+            "background": "#000000",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe",
+        "heading_Weifa9",
+        "button_fgKMKT"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Hospitality_banner_desktop_afada20f-63ba-4856-a393-8302e7d42db2.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_dda669c8-58cb-4566-90d4-cd5f82a37888.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "countdown_wHGHfG": {
+      "type": "countdown",
+      "settings": {
+        "separate_section_with_border": false,
+        "image_size": "auto",
+        "subheading": "",
+        "title": "SOMETHING SPECIAL FOR YOU",
+        "content": "<p>Receive up to 6 gifts, including full-size products, with your purchase, depending on your order value.<\/p><p>Our Black Week Specials start the 22nd of November and is valid until the 2nd of December 23:59, or while stock lasts. Online Gift Cards are excluded.<\/p><p>The gifts will be automatically added to your cart once the requirements are met.<\/p>",
+        "button_link": "",
+        "button_text": "",
+        "expiration_date": "2024-12-02 23:59",
+        "expiration_behavior": "leave",
+        "timer_position": "end",
+        "animate_number": true,
+        "background": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": "",
+        "flip_background": "",
+        "flip_background_opacity": 50,
+        "flip_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_66jTc7": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_KBhK3F": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>We have something special for you. Receive up to 6 gifts, including full-size products, with your purchase, depending on your order value.<\/p><p>Our Black Week offers starts the 22nd of November and is valid until the 2nd of December 23:59, or while stock lasts. Online Gift Cards are excluded.<\/p><p>The gifts will be automatically added to your cart once the requirements are met.<\/p>"
+          }
+        },
+        "button_XAekPJ": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "SHOP NOW",
+            "url": "shopify:\/\/collections\/products",
+            "background": "#000000",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_KBhK3F",
+        "button_XAekPJ"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "collection_list_E7CCXP": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_kJJdeV": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/7_3e2d6639-ca8a-41e6-a7ef-c7696cc83347.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "EAU DE PARFUM DISCOVERY SET",
+            "title": "PURCHASES €40 - €80",
+            "button_text": "SHOP TO RECEIVE GIFTS",
+            "button_link": "https:\/\/sophia-mae.com\/collections\/products",
+            "text_color": "#1c1c1c",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "#000000",
+            "button_text_color": ""
+          }
+        },
+        "collection_DwndPY": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/6_57fab4be-e1de-40f3-9ac5-94c4cfe6c892.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "EAU DE PARFUM DISCOVERY SET + AURA FOAMING SHOWER CLOUD",
+            "title": "PURCHASES €80 - €120",
+            "button_text": "SHOP TO RECEIVE GIFTS",
+            "button_link": "https:\/\/sophia-mae.com\/collections\/products",
+            "text_color": "#1c1c1c",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "#000000",
+            "button_text_color": ""
+          }
+        },
+        "collection_h7t6bQ": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/5_1989ad8c-b5f2-45df-9ce8-2d715abebee0.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "EAU DE PARFUM DISCOVERY SET + AURA FOAMING SHOWER CLOUD + EOS LAUNDRY PERFUME (270 ML)",
+            "title": "PURCHASES €120 - €160",
+            "button_text": "SHOP TO RECEIVE GIFTS",
+            "button_link": "https:\/\/sophia-mae.com\/collections\/products",
+            "text_color": "#1c1c1c",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_jRd3ib": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/4_d4ed0596-f09b-4c82-9a90-f0bcb4d5922b.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "EAU DE PARFUM DISCOVERY SET + AURA FOAMING SHOWER CLOUD + EOS LAUNDRY PERFUME (270 ML) + APRHODITE SCENTED CANDLE MIDI",
+            "title": "PURCHASES FROM €160",
+            "button_text": "SHOP TO RECEIVE GIFTS",
+            "button_link": "https:\/\/sophia-mae.com\/collections\/products",
+            "text_color": "#1c1c1c",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_kJJdeV",
+        "collection_DwndPY",
+        "collection_h7t6bQ",
+        "collection_jRd3ib"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "image_size": "auto",
+        "show_text_outside": true,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_desktop": 2,
+        "subheading": "",
+        "title": "THE GIFT BUNDLES YOU CAN RECEIVE",
+        "content": "",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
+      }
+    },
+    "rich_text_8hXUpC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3DywxD": {
+          "type": "heading",
+          "settings": {
+            "text": "THE GIFT OF SOPHIA MAE",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3DywxD"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "featured_collections_Pxiwez": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_fthHM4": {
+          "type": "collection",
+          "settings": {
+            "collection": "perfect-gift-ideas",
+            "products_count": 12,
+            "title": "",
+            "link_url": "https:\/\/sophia-mae.com\/collections\/perfect-gift-ideas",
+            "link_text": "SHOP TO RECEIVE GIFTS"
+          }
+        }
+      },
+      "block_order": [
+        "collection_fthHM4"
+      ],
+      "settings": {
+        "remove_horizontal_spacing": false,
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "rich_text_em4KRY": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7eThmW": {
+          "type": "heading",
+          "settings": {
+            "text": "BESTSELLING PRODUCTS",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7eThmW"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "featured_collections_FtqgQf": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_txfR8W": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers",
+            "products_count": 12,
+            "title": "CURRENT FAVORITES",
+            "link_url": "https:\/\/sophia-mae.com\/collections\/products",
+            "link_text": "SHOP TO RECEIVE GIFTS"
+          }
+        }
+      },
+      "block_order": [
+        "collection_txfR8W"
+      ],
+      "settings": {
+        "remove_horizontal_spacing": false,
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "rich_text_VnjjAa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PBeCJH": {
+          "type": "heading",
+          "settings": {
+            "text": "BEAUTY CARE",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PBeCJH"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "featured_collections_hAwbPV": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_WRzTiP": {
+          "type": "collection",
+          "settings": {
+            "collection": "beauty-favorites",
+            "products_count": 8,
+            "title": "OUR FAVORITES",
+            "link_url": "https:\/\/sophia-mae.com\/collections\/beauty-favorites",
+            "link_text": "SHOP TO RECEIVE GIFTS"
+          }
+        }
+      },
+      "block_order": [
+        "collection_WRzTiP"
+      ],
+      "settings": {
+        "remove_horizontal_spacing": false,
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "video_cfNYG9": {
+      "type": "video",
+      "settings": {
+        "autoplay": true,
+        "show_controls": false,
+        "video_size": "md",
+        "video": "shopify:\/\/files\/videos\/Sophia Mae_Black Week_Animation 04_FINAL_1080x1080_12sec.mp4",
+        "external_video_url": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "rich_text_jarTgT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mgHPWG": {
+          "type": "heading",
+          "settings": {
+            "text": "GET INSPIRED",
+            "heading_tag": "h1"
+          }
+        },
+        "button_MUFpeP": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "JOIN OUR COMMUNITY",
+            "url": "https:\/\/www.instagram.com\/sophiamae\/",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_mgHPWG",
+        "button_MUFpeP"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "1725457010d0e3b620": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_YADdwT": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "background_color": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_YADdwT"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "countdown_wHGHfG",
+    "rich_text_66jTc7",
+    "collection_list_E7CCXP",
+    "rich_text_8hXUpC",
+    "featured_collections_Pxiwez",
+    "rich_text_em4KRY",
+    "featured_collections_FtqgQf",
+    "rich_text_VnjjAa",
+    "featured_collections_hAwbPV",
+    "video_cfNYG9",
+    "rich_text_jarTgT",
+    "1725457010d0e3b620"
+  ]
+}

@@ -1,0 +1,133 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "settings": {
+            "text": "ETERNAL BALM",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_d9cAeJ": {
+          "type": "subheading",
+          "settings": {
+            "text": "HOW TO USE"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe",
+        "subheading_d9cAeJ"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Hospitality_banner_desktop_3.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_3.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "faq_rKcDhg": {
+      "type": "faq",
+      "blocks": {
+        "question_9PDGDX": {
+          "type": "question",
+          "settings": {
+            "question": "What should I consider before applying the Eternal Balm?",
+            "answer": "<p>When you receive your Eternal Balm, make sure you remove the silver foil before using the product. If a plastic layer remains, pierce this layer carefully with a sharp object before using the product.<\/p>"
+          }
+        },
+        "question_ph43FX": {
+          "type": "question",
+          "settings": {
+            "question": "What can you use the Eternal Balm for?",
+            "answer": "<p>The Eternal Balm provides the ultimate relief for dry skin. It has a nourishing and moisturizing effect for the lips or other body parts that need some extra care from time to time. <\/p><p>The Eternal Balm can serve as lip balm, highlighter on your cheeks, or cuticle cream, among its versatile uses.<\/p>"
+          }
+        },
+        "question_nDGcFy": {
+          "type": "question",
+          "settings": {
+            "question": "How to use the Eternal Balm?",
+            "answer": "<p>Apply a small amount of the Eternal Balm to your finger and apply it to your lips or to any other part of your skin where it needs extra care.<\/p>"
+          }
+        },
+        "question_HcMw3w": {
+          "type": "question",
+          "settings": {
+            "question": "How would you describe the scent of the Eternal Balm?",
+            "answer": "<p>The scent is warm and exotic like sweet vanilla, and floral and fresh like the roses of Aphrodite.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_9PDGDX",
+        "question_ph43FX",
+        "question_nDGcFy",
+        "question_HcMw3w"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "This revitalizing balm will bring harmony to your skin, and make you feel forever divine.",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_fmdLck": {
+      "type": "rich-text",
+      "blocks": {
+        "button_VqmQp8": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "DISCOVER NOW",
+            "url": "shopify:\/\/collections\/eternal-balm-collection",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_VqmQp8"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "faq_rKcDhg",
+    "rich_text_fmdLck"
+  ]
+}

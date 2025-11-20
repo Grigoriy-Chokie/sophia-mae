@@ -1,0 +1,173 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "settings": {
+            "text": "LIP ALLURE",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_d9cAeJ": {
+          "type": "subheading",
+          "settings": {
+            "text": "HOW TO USE"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe",
+        "subheading_d9cAeJ"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Hospitality_banner_desktop_2_4d864251-155d-437a-8bdd-5cc3b2c75d82.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_a15fd2c9-3cd1-462e-b51c-e3ac306824fb.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "faq_rKcDhg": {
+      "type": "faq",
+      "blocks": {
+        "question_9PDGDX": {
+          "type": "question",
+          "settings": {
+            "question": "What type of finish and feeling does Lip Allure offer?",
+            "answer": "<p>The product offers a 3D shiny finish and a nourishing, non-sticky feeling.<\/p>"
+          }
+        },
+        "question_nDGcFy": {
+          "type": "question",
+          "settings": {
+            "question": "How does the product enhance the appearance of the lips?",
+            "answer": "<p>In one stroke, the lips appear juicy and blushed due to a special combination of super effective ingredients.<\/p>"
+          }
+        },
+        "question_i3CR7k": {
+          "type": "question",
+          "settings": {
+            "question": "How to apply lip gloss?",
+            "answer": "<p>To achieve the best results with your lip gloss, follow these steps:<\/p><p>1. Start with clean, moisturized lips.<\/p><p>2. For better precision, outline your lips with a lip liner that matches your natural lip color or the shade of your gloss.<\/p><p>3. Apply the gloss from the center of your lips and blend outward. For a fuller look, add a little extra gloss to the center of your lower lip.<\/p><p>4. Blot lightly if needed to avoid over-application.<br\/><br\/>Lip Allure lip gloss applies smoothly with just one swipe, delivering a juicy, hydrated look with a comfortable, non-sticky texture.<\/p>"
+          }
+        },
+        "question_kxwAYy": {
+          "type": "question",
+          "settings": {
+            "question": "How long does lip gloss last?",
+            "answer": "<p>Lip gloss can last anywhere from a few hours to most of the day, depending on the formula and application technique. To extend the wear of your lip gloss, start by prepping your lips with a primer or lip balm, such as <a href=\"https:\/\/sophia-mae.com\/products\/eternal-balm\" title=\"https:\/\/sophia-mae.com\/products\/eternal-balm\">Eternal Balm<\/a> or the <a href=\"https:\/\/sophia-mae.com\/products\/balm-with-lip-applicator\" title=\"https:\/\/sophia-mae.com\/products\/balm-with-lip-applicator\">Balm with lip applicator<\/a>. Using a lip liner can help keep the gloss in place. Apply the gloss in thin layers, gently blot any excess, and add a second coat for extra shine and longer wear.<\/p><p>Lip Allure lip gloss offers long-lasting hydration and shine with a 3D effect while maintaining a non-sticky texture that remains comfortable for hours, even when layered.<\/p>"
+          }
+        },
+        "question_YFA3bE": {
+          "type": "question",
+          "settings": {
+            "question": "What makes the formula unique?",
+            "answer": "<p>The anhydrous formulation provides a 3D glossy effect, a cushion texture, and a non-sticky feeling. Additionally, it contains a specific film-former that creates a flexible film on the lips.<\/p>"
+          }
+        },
+        "question_8Grnra": {
+          "type": "question",
+          "settings": {
+            "question": "What additional sensory benefits does the product provide?",
+            "answer": "<p>The product includes a blend of cooling agents with a functional dose of 1.5%, offering a minty scent and flavor, and a long-lasting cooling effect.<\/p>"
+          }
+        },
+        "question_qzPd6b": {
+          "type": "question",
+          "settings": {
+            "question": "What is lip gloss made of?",
+            "answer": "<p>Lip gloss typically contains a blend of oils, waxes, and other ingredients that provide shine, hydration, and protection. Many formulas include nourishing components like vitamin E and natural oils to keep lips soft and smooth.<\/p><p>Lip Allure features ingredients such as vitamin E and plum seed oil for hydration, along with hydrogenated polydecene, octyldodecanol, synthetic wax, and other components that ensure a long-lasting shine and a non-sticky texture.<\/p>"
+          }
+        },
+        "question_cLjjzU": {
+          "type": "question",
+          "settings": {
+            "question": "Is lip gloss good for your lips?",
+            "answer": "<p>Lip gloss can be beneficial for your lips, especially if it contains moisturizing and nourishing ingredients like vitamin E, oils, and antioxidants. These components help protect and hydrate your lips, preventing them from becoming dry or chapped.<\/p><p>Lip Allure is a shiny lip gloss enriched with vitamin E and plum seed oil to keep your lips hydrated, soft, and healthy, while providing a glossy finish that lasts for hours without feeling sticky.<\/p>"
+          }
+        },
+        "question_8X3GeC": {
+          "type": "question",
+          "settings": {
+            "question": "What is the best lip color for me?",
+            "answer": "<p>Choosing the best lip gloss color depends on your skin tone, undertones, and the look you want to achieve. Nude shades offer a natural look, pink shades provide a fresh, youthful glow, and shimmery glosses are perfect for building intensity or adding a glamorous touch.<\/p><p>For Lip Allure, you can choose from the following shades:<\/p><ul><li><strong>Bare Bliss<\/strong>: A warm nude shade that blends effortlessly with brown makeup tones, giving a subtle, natural glow. It is suitable for a variety of skin tones, although it may be less flattering on skin with red undertones.<\/li><li><strong>Radiant Rose<\/strong>: A soft pink hue with a delicate blush undertone, making it the most \"girly\" shade in the collection. This shade is ideal for achieving a fresh, feminine look with an elegant finish.<\/li><li><strong>Golden Harmony<\/strong>: A radiant shimmer that looks stunning on darker lips, whether worn alone or paired with a brown lip liner. This versatile shade complements both light and dark skin tones, making it perfect for a glamorous evening look. It also pairs beautifully with dark lipstick.<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "question_9PDGDX",
+        "question_nDGcFy",
+        "question_i3CR7k",
+        "question_kxwAYy",
+        "question_YFA3bE",
+        "question_8Grnra",
+        "question_qzPd6b",
+        "question_cLjjzU",
+        "question_8X3GeC"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "SOPHIA MAE's Lip Allure will give your lips a beautiful, radiant glow. Its rich formula delivers extra shine with each application, ensuring the perfect finishing touch.",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_fmdLck": {
+      "type": "rich-text",
+      "blocks": {
+        "button_VqmQp8": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "DISCOVER NOW",
+            "url": "https:\/\/sophia-mae.com\/products\/lip-allure",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_VqmQp8"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "faq_rKcDhg",
+    "rich_text_fmdLck"
+  ]
+}

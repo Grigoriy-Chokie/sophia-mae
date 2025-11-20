@@ -1,0 +1,70 @@
+{% unless customer.has_account %}
+    {%- liquid 
+        assign heading = section.settings.heading
+        assign buttonLogIn = section.settings.button_log_in
+
+        assign headingRegistered = section.settings.heading_registered
+        assign info = section.settings.info
+        assign buttonRegister = section.settings.button_register
+    -%}
+    <div class="dropdown-account">
+        <div class="dropdown-account__container">
+            <button class="dropdown-account__close">{%- render 'icon' with 'close', width: 14 -%}</button>
+            <div class="dropdown-account__log">
+                <h2 class="dropdown-account__title">{{heading}}</h2>
+                <a href="{{ routes.account_url }}"  class="dropdown-account__link button">{{buttonLogIn}}</a>
+            </div>
+            <div class="dropdown-account__register">
+                <h2 class="dropdown-account__title">{{headingRegistered}}</h2>
+                <div class="dropdown-account__register-info">{{info}}</div>
+                <a href="{{routes.account_register_url }}" class="dropdown-account__link button">{{buttonRegister}}</a>
+            </div>
+        </div>
+    </div>    
+{% endunless %}
+{% schema %}
+    {
+        "name": "Account menu",
+        "class": "shopify-section--account",
+        "tag": "section",
+        "settings": [
+            {
+                "type": "paragraph",
+                "content": "Log in(Settings)"
+            },
+            {
+                "type": "text",
+                "id": "heading",
+                "label": "Heading",
+                "default": "Already have and account ?"
+            },
+            {
+                "type": "text",
+                "id": "button_log_in",
+                "label": "Name for the button(Log in)",
+                "default": "Log in"
+            },
+            {
+                "type": "paragraph",
+                "content": "Register(settings)"
+            },
+            {
+                "type": "text",
+                "id": "heading_registered",
+                "label": "Heading",
+                "default": "Not registered yet?"
+            },
+            {
+                "type": "richtext",
+                "id": "info",
+                "label": "Info"
+            },
+            {
+                "type": "text",
+                "id": "button_register",
+                "label": "Name for the button(register)",
+                "default": "Register now"
+            }
+        ]
+    }
+{% endschema %}

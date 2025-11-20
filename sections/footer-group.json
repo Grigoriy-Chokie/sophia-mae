@@ -1,0 +1,77 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "1a06514d-625c-473e-8fe4-5a40a3987cd0": {
+          "type": "text",
+          "settings": {
+            "title": "Follow us",
+            "content": "",
+            "enable_follow_on_shop": false
+          }
+        },
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "about-sophia-mae",
+            "show_menu_title": true
+          }
+        },
+        "667799d9-646b-492b-9f97-c995152b02f7": {
+          "type": "links",
+          "settings": {
+            "menu": "business",
+            "show_menu_title": true
+          }
+        },
+        "d07eadbe-e6eb-444a-bc9f-1d965b3c1819": {
+          "type": "links",
+          "settings": {
+            "menu": "support",
+            "show_menu_title": true
+          }
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "title": "STAY UP TO DATE",
+            "content": "<h6>Receive an email once a week with new product launches or promotions from SOPHIA MAE.<\/h6><p>Click <a href=\"https:\/\/sophia-mae.com\/policies\/privacy-policy\">here<\/a> for more information.<\/p>",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "1a06514d-625c-473e-8fe4-5a40a3987cd0",
+        "links",
+        "667799d9-646b-492b-9f97-c995152b02f7",
+        "d07eadbe-e6eb-444a-bc9f-1d965b3c1819",
+        "newsletter"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_social_media": true,
+        "show_payment_icons": false,
+        "show_country_selector": true,
+        "show_country_name": false,
+        "show_country_flag": false,
+        "show_locale_selector": false
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

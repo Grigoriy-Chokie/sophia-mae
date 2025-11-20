@@ -1,0 +1,298 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "countdown_n8VNcw": {
+      "type": "countdown",
+      "settings": {
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "subheading": "",
+        "title": "THE ARCHIVE IS NOW LIVE",
+        "content": "<p>Indulge in our Archive for 48 hours. Exclusively for Members.</p>",
+        "button_link": "",
+        "button_text": "",
+        "expiration_date": "2024-10-26 19:00",
+        "expiration_behavior": "leave",
+        "timer_position": "end",
+        "animate_number": true,
+        "background": "#000",
+        "text_color": "#eae5df",
+        "button_background": "",
+        "button_text_color": "",
+        "flip_background": "",
+        "flip_background_opacity": 50,
+        "flip_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "collection-banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "image_size": "auto",
+        "allow_transparent_header": true,
+        "reveal": true,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_breadcrumb": true,
+        "content_width": "xs",
+        "background": "#000000",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "hide_product_information": false,
+        "load-more_button-text": "Load more",
+        "load-more_pattern": "Viewed |viewed| of |all-product| products",
+        "products_per_page": 16,
+        "products_per_row_mobile": "2",
+        "products_size_desktop": "medium",
+        "show_grid_mode_selector": false,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "filter_layout": "drawer",
+        "quick_links_menu": "",
+        "show_sort_by": false,
+        "show_filters": false,
+        "show_results_count": false,
+        "show_filter_group_name": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": false,
+        "show_color_swatch": false,
+        "open_filters_by_default": false,
+        "locked_form_title": "",
+        "locked_form_subtitle": ""
+      }
+    },
+    "faq_3XeyPP": {
+      "type": "faq",
+      "blocks": {
+        "category_btLWnX": {
+          "type": "category",
+          "settings": {
+            "title": "ABOUT THE ARCHIVE",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_WNcAYf": {
+          "type": "question",
+          "settings": {
+            "question": "What is the Archive?",
+            "answer": "<p>Indulge in SOPHIA MAE’s Archive, seamlessly blending a curated selection of products showcasing minor flaws, embracing renewal with a sense of luxury and refinement. </p><p>These products have a unique imperfection, which has been thoroughly investigated in our Archive. They may have been returned, show signs of use, feature a customized design, or be missing packaging. These fully functional products can be purchased with discounts up to 70% off.</p><p>The assortment has limited quantities.</p>"
+          }
+        },
+        "question_G9HwCe": {
+          "type": "question",
+          "settings": {
+            "question": "How do I gain access to the Archive products?",
+            "answer": "<p>Our Archive is exclusively available to Members of The Muse Club. It's our way of giving back to you. Not a Member yet? <a href=\"https://sophia-mae.com/account/register\" target=\"_blank\" title=\"https://sophia-mae.com/account/register\">Join now</a>.</p>"
+          }
+        },
+        "question_nRRKja": {
+          "type": "question",
+          "settings": {
+            "question": "What is the meaning of the Archive categories?",
+            "answer": "<p>The Archive categories serve as an indication of any defects the product may have. They provide information about the condition of the product, such as minor defects, damage or other imperfections that may be present.</p>"
+          }
+        },
+        "question_kMU8X8": {
+          "type": "question",
+          "settings": {
+            "question": "How do I know which defects the product has?",
+            "answer": "<p>Due to the size of the Archive collection, we can't be certain which defect your ordered product may have. The possible defects are described next to each product.</p>"
+          }
+        },
+        "question_DqhqYL": {
+          "type": "question",
+          "settings": {
+            "question": "Why are the prices of Archive products lower?",
+            "answer": "<p>The Archive products have a reduced price because of minor defects, damage or other imperfections. To give these products a second chance, they can be purchased for a lower price than regular products.</p>"
+          }
+        },
+        "category_ALDNwd": {
+          "type": "category",
+          "settings": {
+            "title": "ORDERING",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_cTggaq": {
+          "type": "question",
+          "settings": {
+            "question": "When can I purchase products from the Archive?",
+            "answer": "<p>Our Archive products are only available during a limited 48-hour window. From the 24th of October 19:00, until the 26th of October 19:00.</p><p>The Archive will officially close on the 26th of October 19:00. The products will no longer be available thereafter.</p>"
+          }
+        },
+        "question_7AAAak": {
+          "type": "question",
+          "settings": {
+            "question": "Can I purchase Archive products together with regular products?",
+            "answer": "<p>Products from the Archive cannot be combined with regular products on our webshop, in the same purchase.</p>"
+          }
+        },
+        "question_c74zNf": {
+          "type": "question",
+          "settings": {
+            "question": "Are Archive products held in my cart?",
+            "answer": "<p>We are unable to hold the products in your cart.</p>"
+          }
+        },
+        "question_wEXy7B": {
+          "type": "question",
+          "settings": {
+            "question": "Do I earn Loyalty Points with Archive purchases?",
+            "answer": "<p>Yes, you earn Loyalty Points with every Archive purchase. This occurs in the same manner as a regular order.</p>"
+          }
+        },
+        "question_TPc4mw": {
+          "type": "question",
+          "settings": {
+            "question": "Can I redeem my Loyalty Points with Archive purchases?",
+            "answer": "<p>It is not possible to redeem Loyalty Points for rewards with Archive purchases. However, any Loyalty Points earned from your Archive purchase can be redeemed in your next order, which must contain regular products.</p>"
+          }
+        },
+        "category_MCrmQV": {
+          "type": "category",
+          "settings": {
+            "title": "SHIPPING & RETURNS",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_NzPRqd": {
+          "type": "question",
+          "settings": {
+            "question": "When will my Archive order be shipped?",
+            "answer": "<p>Archive purchases will be shipped within 5 business days of placing the order.</p>"
+          }
+        },
+        "question_RTU3xA": {
+          "type": "question",
+          "settings": {
+            "question": "Can I return Archive products?",
+            "answer": "<p>Archive products can be returned.</p><p>Please note that returns outside the 14-day return period, after receiving your order, will not be accepted. Ensure that the order is returned in its original packaging.</p><p>Archive products cannot be exchanged for different products.</p>"
+          }
+        },
+        "question_BCN4pc": {
+          "type": "question",
+          "settings": {
+            "question": "How can I return Archive products?",
+            "answer": "<p>Our <a href=\"https://sophia-mae.com/pages/returns\" title=\"https://sophia-mae.com/pages/returns\">standard return policy</a> applies to products from the Archive.</p>"
+          }
+        },
+        "category_nqGB9t": {
+          "type": "category",
+          "settings": {
+            "title": "OTHER",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_MP46xa": {
+          "type": "question",
+          "settings": {
+            "question": "Any other questions?",
+            "answer": "<p>You can contact us through our contact page, via live chat or via <a href=\"mailto:cs@sophia-mae.com\" target=\"_blank\" title=\"mailto:cs@sophia-mae.com\">cs@sophia-mae.com</a>. We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_btLWnX",
+        "question_WNcAYf",
+        "question_G9HwCe",
+        "question_nRRKja",
+        "question_kMU8X8",
+        "question_DqhqYL",
+        "category_ALDNwd",
+        "question_cTggaq",
+        "question_7AAAak",
+        "question_c74zNf",
+        "question_wEXy7B",
+        "question_TPc4mw",
+        "category_MCrmQV",
+        "question_NzPRqd",
+        "question_RTU3xA",
+        "question_BCN4pc",
+        "category_nqGB9t",
+        "question_MP46xa"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
+    },
+    "text_with_icons_UyE4wY": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_x4WJdr": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-timer",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "48 HOURS ONLY",
+            "content": "<p>Limited quantities, limited access.</p>"
+          }
+        },
+        "item_kA3h6w": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-love",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "EXCLUSIVE MEMBER BENEFIT",
+            "content": "<p>It's our way of giving back to you.</p>"
+          }
+        },
+        "item_3khqKL": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-recycle",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "REINVENTING OUR PRODUCTS",
+            "content": "<p>Fully functional products with minor flaws.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_x4WJdr",
+        "item_kA3h6w",
+        "item_3khqKL"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "stack_on_mobile": false,
+        "icon_color": "",
+        "text_color": "",
+        "text_alignment": "center"
+      }
+    }
+  },
+  "order": [
+    "countdown_n8VNcw",
+    "collection-banner",
+    "main",
+    "faq_3XeyPP",
+    "text_with_icons_UyE4wY"
+  ]
+}

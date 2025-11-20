@@ -1,0 +1,661 @@
+<script type="application/json-items">{{ cart.items | json }}</script>
+
+
+<script>
+
+
+  
+    let template = "{{template}}";
+    window.dataLayer = window.dataLayer || [];
+
+    {% assign compareAtPrice = product.compare_at_price_max | money_without_currency | remove: "," | times: 1.0 %}
+    {% assign regularPrice = product.price | money_without_currency | remove: "," | times: 1.0 %}
+    
+    {% if compareAtPrice <= 0 %}
+      {% assign compareAtPrice = compareAtPrice | plus: regularPrice %}
+      {% assign discountAmount = 0 %}
+    {% else %}
+      {% assign discountAmount = compareAtPrice | minus: regularPrice %}
+    {% endif %}
+    
+
+      
+   if (template.match(/.*product.*/gi) && !template.match(/.*collection.*/gi)){
+
+      dataLayer.push({ ecommerce: null });
+      dataLayer.push({
+        'event': 'view_item_2',
+        'ecommerce': {
+        'currency': {{shop.currency | json}},
+        'value': {{product.price | money_without_currency | remove: "," | times: 1.0 }},
+        'items': [{
+        'item_id': {{product.selected_or_first_available_variant.sku | json}},
+        'item_name': {{product.title | json}},
+        'discount': {{ discountAmount | json  }},
+        'item_brand': {{shop.name | json}},
+        'item_category': {{product.metafields.custom.filter_option_1 | json}},
+        'item_variant': {{product.selected_or_first_available_variant.title | remove: "Default Title" | json}},
+        'price': {{ compareAtPrice }},
+        'quantity': 1,
+        'currency': {{shop.currency | json}}
+        }]
+        }
+      });
+  }
+
+
+  
+
+    window.addEventListener("load", function(){
+      const buyBtn = document.querySelectorAll(".buy-buttons button");
+      buyBtn.forEach(function(item){
+        item.addEventListener("click", function(){
+        
+        dataLayer.push({ ecommerce: null });
+        dataLayer.push({
+          'event': 'add_to_cart_2',
+          'ecommerce': {
+              'currency': {{shop.currency | json}},
+              'value': {{product.price | money_without_currency | remove: "," | times: 1.0 }},
+              'items': [{
+                  'item_id': {{product.selected_or_first_available_variant.sku | json}},
+                  'item_name': {{product.title | json}},
+                  'discount': {{ discountAmount | json  }},
+                  'item_brand': {{shop.name | json}},
+                  'item_category': {{product.metafields.custom.filter_option_1 | json}},
+                  'item_variant': {{product.selected_or_first_available_variant.title | remove: "Default Title" | json}},
+                  'price': {{ compareAtPrice }},
+                  'quantity': 1,
+                  'currency': {{shop.currency | json}}
+              }]
+           }
+       });        
+     })
+   })
+  })
+
+
+  
+  {% if template contains 'cart' %}
+
+        dataLayer.push({ ecommerce: null });
+        dataLayer.push({
+        'event': 'view_cart_2',
+        'ecommerce': {
+        'currency': {{shop.currency | json}},
+        'value': {{ cart.items_subtotal_price | times: 0.01 }},
+        'items': [{% for line_item in cart.items %}{
+                      'item_id': {{line_item.variant.sku | json}},
+                      'item_name': {{line_item.product.title | json}},
+                      'discount': {{ line_item.line_level_total_discount | times: 0.01}},
+                      'item_brand': {{shop.name | json}},
+                      'item_category': {{line_item.product.metafields.custom.filter_option_1 | json}},
+                      'item_variant': {{line_item.variant.title | remove: "Default Title" | json}},
+                      'price': 
+                      {% assign compareAtPrice = line_item.product.compare_at_price_max | money_without_currency | remove: "," | times: 1.0 %}
+                      {% assign regularPrice = line_item.product.price | money_without_currency | remove: "," | times: 1.0 %}
+                      
+                      {% if compareAtPrice <= 0 %}
+                        {% assign compareAtPrice = compareAtPrice | plus: regularPrice %}
+                        {% assign discountAmount = 0 %}
+                      {% else %}
+                        {% assign discountAmount = compareAtPrice | minus: regularPrice %}
+                      {% endif %}
+                      {{ compareAtPrice }}
+                      ,
+                      'quantity': {{ line_item.quantity }},
+                      'currency': {{shop.currency | json}}
+                  },{% endfor %}]
+        }
+        });
+  {% endif %}
+
+
+  {% if template.name != "cart" %}
+    window.addEventListener("load", function(){
+      const iconCart = document.querySelector(".header__nav-icon.icon.icon-cart");
+      iconCart.addEventListener("click", function(){
+        dataLayer.push({ ecommerce: null });
+        dataLayer.push({
+        'event': 'view_cart_2',
+        'ecommerce': {
+        'currency': {{shop.currency | json}},
+        'value': {{ cart.items_subtotal_price | times: 0.01 }},
+        'items': [{% for line_item in cart.items %}{
+                      'item_id': {{line_item.variant.sku | json}},
+                      'item_name': {{line_item.product.title | json}},
+                      'discount': {{ line_item.line_level_total_discount | times: 0.01}},
+                      'item_brand': {{shop.name | json}},
+                      'item_category': {{line_item.product.metafields.custom.filter_option_1 | json}},
+                      'item_variant': {{line_item.variant.title | remove: "Default Title" | json}},
+                      'price': 
+                        {% assign compareAtPrice = line_item.product.compare_at_price_max | money_without_currency | remove: "," | times: 1.0 %}
+                        {% assign regularPrice = line_item.product.price | money_without_currency | remove: "," | times: 1.0 %}
+                        
+                        {% if compareAtPrice <= 0 %}
+                          {% assign compareAtPrice = compareAtPrice | plus: regularPrice %}
+                          {% assign discountAmount = 0 %}
+                        {% else %}
+                          {% assign discountAmount = compareAtPrice | minus: regularPrice %}
+                        {% endif %}
+                        {{ compareAtPrice }}
+                      ,
+                      'quantity': {{ line_item.quantity }},
+                      'currency': {{shop.currency | json}}
+                  },{% endfor %}]
+        }
+        });
+      })
+    })
+
+
+  {% endif %}
+
+
+
+  window.addEventListener("load", function(){
+      if(Shopify.Checkout){
+        if(Shopify.Checkout.step){
+          if(Shopify.Checkout.step.length > 0){
+            
+            if(Shopify.Checkout.step == "shipping_method"){
+                 dataLayer.push({ ecommerce: null });
+                 dataLayer.push({
+                'event': 'begin_checkout_2',
+                  'ecommerce': {
+                    'currency': {{shop.currency | json}},
+                    'value': {{ checkout.line_items_subtotal_price | times: 0.01 }},
+                    'coupons': [
+                      {% for discount in checkout.discounts %}
+                      {
+                        'promoCode' : {{discount.code | json}}
+                      }
+                      ,
+                      {% endfor %}
+                    ]
+                    ,
+                    'items': [{% for line_item in checkout.line_items %}{
+                                  'item_id': {{line_item.variant.sku | json}},
+                                  'item_name': {{line_item.product.title | json}},
+                                  'discount': {{ line_item.line_level_total_discount | times: 0.01}},
+                                  'item_brand': {{shop.name | json}},
+                                  'item_category': {{line_item.product.metafields.custom.filter_option_1 | json}},
+                                  'item_variant': {{line_item.variant.title | remove: "Default Title" | json}},
+                                  'price': 
+                                    {% assign compareAtPrice = line_item.product.compare_at_price_max | money_without_currency | remove: "," | times: 1.0 %}
+                                    {% assign regularPrice = line_item.product.price | money_without_currency | remove: "," | times: 1.0 %}
+                                    
+                                    {% if compareAtPrice <= 0 %}
+                                      {% assign compareAtPrice = compareAtPrice | plus: regularPrice %}
+                                      {% assign discountAmount = 0 %}
+                                    {% else %}
+                                      {% assign discountAmount = compareAtPrice | minus: regularPrice %}
+                                    {% endif %}
+                                    {{ compareAtPrice }}
+                                  ,
+                                  'quantity': {{ line_item.quantity }},
+                                  'currency': {{shop.currency | json}}
+                              },{% endfor %}]
+                    
+                  }
+              });
+            }
+            else if(Shopify.Checkout.step == "payment_method"){
+                 dataLayer.push({ ecommerce: null });
+                 dataLayer.push({
+                'event': 'add_shipping_info_2',
+                  'ecommerce': {
+                    
+                    'currency': {{shop.currency | json}},
+                    'value': {{ checkout.line_items_subtotal_price | times: 0.01 }},
+                    'coupons': [
+                      {% for discount in checkout.discounts %}
+                      {
+                        'promoCode' : {{discount.code | json}}
+                      }
+                      ,
+                      {% endfor %}
+                    ]
+                    ,
+                    'shipping_tier': {{ checkout.shipping_method.title | json }},
+                    'items': [{% for line_item in checkout.line_items %}{
+                                  'item_id': {{line_item.variant.sku | json}},
+                                  'item_name': {{line_item.product.title | json}},
+                                  'discount': {{ line_item.line_level_total_discount | times: 0.01}},
+                                  'item_brand': {{shop.name | json}},
+                                  'item_category': {{line_item.product.metafields.custom.filter_option_1 | json}},
+                                  'item_variant': {{line_item.variant.title | remove: "Default Title" | json}},
+                                  'price': 
+                                    {% assign compareAtPrice = line_item.product.compare_at_price_max | money_without_currency | remove: "," | times: 1.0 %}
+                                    {% assign regularPrice = line_item.product.price | money_without_currency | remove: "," | times: 1.0 %}
+                                    
+                                    {% if compareAtPrice <= 0 %}
+                                      {% assign compareAtPrice = compareAtPrice | plus: regularPrice %}
+                                      {% assign discountAmount = 0 %}
+                                    {% else %}
+                                      {% assign discountAmount = compareAtPrice | minus: regularPrice %}
+                                    {% endif %}
+                                    {{ compareAtPrice }}
+                                  ,
+                                  'quantity': {{ line_item.quantity }},
+                                  'currency': {{shop.currency | json}}
+                              },{% endfor %}]
+     
+                  }
+              });
+            }
+          }
+      }
+    }
+  })
+
+
+{% comment %}Retrieve Info in review step in the checkout START{% endcomment %}
+var currentURL = window.location.href;
+
+
+  if (currentURL.includes("step=review")) {
+
+
+
+  
+  dataLayer.push({ ecommerce: null });
+  dataLayer.push({
+  'event': 'add_payment_info_2',
+  'ecommerce': {
+   'currency': {{shop.currency | json}},
+                      'value': {{ checkout.line_items_subtotal_price | times: 0.01 }},
+                      'coupons': [
+                        {% for discount in checkout.discounts %}
+                        {
+                          'promoCode' : {{discount.code | json}}
+                        }
+                        ,
+                        {% endfor %}
+                      ]
+                      ,
+                      
+                      {% comment %}'payment_type': {{ checkout.payment_gateway }},{% endcomment %}
+                      'items': [{% for line_item in checkout.line_items %}{
+                                    'item_id': {{line_item.variant.sku | json}},
+                                    'item_name': {{line_item.product.title | json}},
+                                    'discount': {{ line_item.line_level_total_discount | times: 0.01}},
+                                    'item_brand': {{shop.name | json}},
+                                    'item_category': {{line_item.product.metafields.custom.filter_option_1 | json}},
+                                    'item_variant': {{line_item.variant.title | remove: "Default Title" | json}},
+                                    'price': 
+                                      {% assign compareAtPrice = line_item.product.compare_at_price_max | money_without_currency | remove: "," | times: 1.0 %}
+                                      {% assign regularPrice = line_item.product.price | money_without_currency | remove: "," | times: 1.0 %}
+                                      
+                                      {% if compareAtPrice <= 0 %}
+                                        {% assign compareAtPrice = compareAtPrice | plus: regularPrice %}
+                                        {% assign discountAmount = 0 %}
+                                      {% else %}
+                                        {% assign discountAmount = compareAtPrice | minus: regularPrice %}
+                                      {% endif %}
+                                      {{ compareAtPrice }}
+                                    ,
+                                    'quantity': {{ line_item.quantity }},
+                                    'currency': {{shop.currency | json}}
+                                },{% endfor %}]
+                  }
+          });
+
+}
+
+{% comment %}Info Retrieve in review step in the checkout END{% endcomment %}
+
+
+  
+const cartInfo = document.querySelector(`[type="application/json-items"]`);
+const itemsJson = JSON.parse(cartInfo.textContent);
+
+  
+{% comment %}Plus in cart page{% endcomment %}
+{% if template contains 'cart' %}
+
+  window.addEventListener("load",() =>{
+      const QB1 = document.querySelectorAll("quantity-selector > a.q__s-plus");
+  
+      QB1.forEach(item =>{
+        item.addEventListener("click", (e) =>{
+          compare1(e.currentTarget.closest("tr").getAttribute("data-item"))
+        })
+      })
+    })
+  
+    function compare1(id){
+      itemsJson.forEach( item => {
+        if(item.id === Number(id)){
+            let url = item.url.split("?")[0];
+            var comparePrice;
+           fetch(url+".js")
+            .then(response => {
+              if (!response.ok) {
+                throw new Error('Network response was not ok');
+              }
+              return response.json();
+            })
+            .then(productData => {
+                comparePrice = `${productData.compare_at_price_max}`;
+                dataLayer.push({ ecommerce: null });
+                dataLayer.push({
+                'event': 'add_to_cart_2',
+                'ecommerce': {
+                    'currency': {{shop.currency | json}},
+                    'value': item.price / 100,
+                    'items': [{
+                        'item_id': item.sku,
+                        'item_name': item.title,
+                        'discount': ( comparePrice <= 0? 0: comparePrice - item.price) / 100,
+                        'item_brand': item.vendor,
+                        {% comment %}'item_category': {{product.metafields.custom.filter_option_1 | json}},{% endcomment %}
+                        'item_variant': item.variant_title,
+                        'price': parseFloat(comparePrice) <= 0 ? (parseFloat(comparePrice) / 100) + (item.price / 100) : (parseFloat(comparePrice) / 100),
+                        'quantity': 1,
+                        'currency': {{shop.currency | json}}
+                    }]
+                 }
+               }); 
+            })
+            .catch(error => {
+              console.log('Error fetching product data:', error);
+            });
+        }
+      })
+  }
+
+{% endif %}
+
+  
+{% comment %}Minus in cart page{% endcomment %}
+{% if template contains 'cart' %}
+
+  window.addEventListener("load",() =>{
+      const QB2 = document.querySelectorAll("quantity-selector > a.q__s-minus");
+      
+      QB2.forEach(item =>{
+        console.log(item);
+        item.addEventListener("click", (e) =>{
+          compare2(e.currentTarget.closest("tr").getAttribute("data-item"))
+        })
+      })
+    })
+  
+    function compare2(id){
+      itemsJson.forEach( item => {
+        if(item.id === Number(id)){
+            let url = item.url.split("?")[0];
+            var comparePrice;
+           fetch(url+".js")
+            .then(response => {
+              if (!response.ok) {
+                throw new Error('Network response was not ok');
+              }
+              return response.json();
+            })
+            .then(productData => {
+                comparePrice = `${productData.compare_at_price_max}`;
+                dataLayer.push({ ecommerce: null });
+                dataLayer.push({
+                'event': 'remove_from_cart_2',
+                'ecommerce': {
+                    'currency': {{shop.currency | json}},
+                    'value': item.price / 100,
+                    'items': [{
+                        'item_id': item.sku,
+                        'item_name': item.title,
+                        'discount': ( comparePrice <= 0? 0: comparePrice - item.price) / 100,
+                        'item_brand': item.vendor,
+                        {% comment %}'item_category': {{product.metafields.custom.filter_option_1 | json}},{% endcomment %}
+                        'item_variant': item.variant_title,
+                        'price': parseFloat(comparePrice) <= 0 ? (parseFloat(comparePrice) / 100) + (item.price / 100) : (parseFloat(comparePrice) / 100),
+                        'quantity': 1,
+                        'currency': {{shop.currency | json}}
+                    }]
+                 }
+               }); 
+            })
+            .catch(error => {
+              console.log('Error fetching product data:', error);
+            });
+        }
+      })
+  }
+
+{% endif %}
+
+{% comment %} Plus in cart drawer {% endcomment %}
+{% unless template contains 'cart' %}
+
+  window.addEventListener("load",() =>{
+      const QB3 = document.querySelectorAll("quantity-selector > a.q__s-plus");
+      console.log(QB3);
+      QB3.forEach(item =>{
+        item.addEventListener("click", (e) =>{
+          compare3(e.currentTarget.closest(".line-item").getAttribute("data-item"))
+        })
+      })
+    })
+  
+    function compare3(id){
+      itemsJson.forEach( item => {
+        if(item.id === Number(id)){
+            let url = item.url.split("?")[0];
+            var comparePrice;
+           fetch(url+".js")
+            .then(response => {
+              if (!response.ok) {
+                throw new Error('Network response was not ok');
+              }
+              return response.json();
+            })
+            .then(productData => {
+                comparePrice = `${productData.compare_at_price_max}`;
+    
+                dataLayer.push({ ecommerce: null });
+                dataLayer.push({
+                'event': 'add_to_cart_2',
+                'ecommerce': {
+                    'currency': {{shop.currency | json}},
+                    'value': item.price / 100,
+                    'items': [{
+                        'item_id': item.sku,
+                        'item_name': item.title,
+                        'discount': ( comparePrice <= 0? 0: comparePrice - item.price) / 100,
+                        'item_brand': item.vendor,
+                        {% comment %}'item_category': {{product.metafields.custom.filter_option_1 | json}},{% endcomment %}
+                        'item_variant': item.variant_title,
+                        'price': parseFloat(comparePrice) <= 0 ? (parseFloat(comparePrice) / 100) + (item.price / 100) : (parseFloat(comparePrice) / 100),
+                        'quantity': 1,
+                        'currency': {{shop.currency | json}}
+                    }]
+                 }
+               }); 
+            })
+            .catch(error => {
+              console.log('Error fetching product data:', error);
+            });
+        }
+      })
+  }
+
+{% endunless %}
+
+{% comment %} Minus in cart drawer {% endcomment %}
+{% unless template contains 'cart' %}
+
+  window.addEventListener("load",() =>{
+      const QB4 = document.querySelectorAll("quantity-selector > a.q__s-minus");
+      console.log(QB4);
+      QB4.forEach(item =>{
+        item.addEventListener("click", (e) =>{
+          compare4(e.currentTarget.closest(".line-item").getAttribute("data-item"))
+        })
+      })
+    })
+  
+    function compare4(id){
+      itemsJson.forEach( item => {
+        if(item.id === Number(id)){
+            let url = item.url.split("?")[0];
+            var comparePrice;
+           fetch(url+".js")
+            .then(response => {
+              if (!response.ok) {
+                throw new Error('Network response was not ok');
+              }
+              return response.json();
+            })
+            .then(productData => {
+                comparePrice = `${productData.compare_at_price_max}`;
+
+                dataLayer.push({ ecommerce: null });
+                dataLayer.push({
+                'event': 'remove_from_cart_2',
+                'ecommerce': {
+                    'currency': {{shop.currency | json}},
+                    'value': item.price / 100,
+                    'items': [{
+                        'item_id': item.sku,
+                        'item_name': item.title,
+                        'discount': ( comparePrice <= 0? 0: comparePrice - item.price) / 100,
+                        'item_brand': item.vendor,
+                        {% comment %}'item_category': {{product.metafields.custom.filter_option_1 | json}},{% endcomment %}
+                        'item_variant': item.variant_title,
+                        'price': parseFloat(comparePrice) <= 0 ? (parseFloat(comparePrice) / 100) + (item.price / 100) : (parseFloat(comparePrice) / 100),
+                        'quantity': 1,
+                        'currency': {{shop.currency | json}}
+                    }]
+                 }
+               }); 
+            })
+            .catch(error => {
+              console.log('Error fetching product data:', error);
+            });
+        }
+      })
+  }
+
+{% endunless %}
+
+
+
+{% comment %}remove in cart page{% endcomment %}
+{% if template contains 'cart' %}
+
+  window.addEventListener("load",() =>{
+      const QB5 = document.querySelectorAll("quantity-selector + a");
+  
+      QB5.forEach(item =>{
+        item.addEventListener("click", (e) =>{
+          compare5(e.currentTarget.closest("tr").getAttribute("data-item"))
+        })
+      })
+    })
+  
+    function compare5(id){
+      itemsJson.forEach( item => {
+        if(item.id === Number(id)){
+            let url = item.url.split("?")[0];
+            var comparePrice;
+           fetch(url+".js")
+            .then(response => {
+              if (!response.ok) {
+                throw new Error('Network response was not ok');
+              }
+              return response.json();
+            })
+            .then(productData => {
+                comparePrice = `${productData.compare_at_price_max}`;
+                dataLayer.push({ ecommerce: null });
+                dataLayer.push({
+                'event': 'remove_from_cart_2',
+                'ecommerce': {
+                    'currency': {{shop.currency | json}},
+                    'value': item.price / 100,
+                    'items': [{
+                        'item_id': item.sku,
+                        'item_name': item.title,
+                        'discount': ( comparePrice <= 0? 0: comparePrice - item.price) / 100,
+                        'item_brand': item.vendor,
+                        {% comment %}'item_category': {{product.metafields.custom.filter_option_1 | json}},{% endcomment %}
+                        'item_variant': item.variant_title,
+                        'price': parseFloat(comparePrice) <= 0 ? (parseFloat(comparePrice) / 100) + (item.price / 100) : (parseFloat(comparePrice) / 100),
+                        'quantity': item.quantity,
+                        'currency': {{shop.currency | json}}
+                    }]
+                 }
+               }); 
+            })
+            .catch(error => {
+              console.log('Error fetching product data:', error);
+            });
+        }
+      })
+  }
+
+{% endif %}
+
+{% comment %} remove in cart drawer {% endcomment %}
+{% unless template contains 'cart' %}
+
+  window.addEventListener("load",() =>{
+      const QB6 = document.querySelectorAll("quantity-selector + a");
+  
+      QB6.forEach(item =>{
+        item.addEventListener("click", (e) =>{
+          compare6(e.currentTarget.closest(".line-item").getAttribute("data-item"))
+        })
+      })
+    })
+  
+    function compare6(id){
+      itemsJson.forEach( item => {
+        if(item.id === Number(id)){
+            let url = item.url.split("?")[0];
+            var comparePrice;
+           fetch(url+".js")
+            .then(response => {
+              if (!response.ok) {
+                throw new Error('Network response was not ok');
+              }
+              return response.json();
+            })
+            .then(productData => {
+                comparePrice = `${productData.compare_at_price_max}`;
+
+                dataLayer.push({ ecommerce: null });
+                dataLayer.push({
+                'event': 'remove_from_cart_2',
+                'ecommerce': {
+                    'currency': {{shop.currency | json}},
+                    'value': item.price / 100,
+                    'items': [{
+                        'item_id': item.sku,
+                        'item_name': item.title,
+                        'discount': ( comparePrice <= 0? 0: comparePrice - item.price) / 100,
+                        'item_brand': item.vendor,
+                        {% comment %}'item_category': {{product.metafields.custom.filter_option_1 | json}},{% endcomment %}
+                        'item_variant': item.variant_title,
+                        'price': parseFloat(comparePrice) <= 0 ? (parseFloat(comparePrice) / 100) + (item.price / 100) : (parseFloat(comparePrice) / 100),
+                        'quantity': item.quantity,
+                        'currency': {{shop.currency | json}}
+                    }]
+                 }
+               }); 
+            })
+            .catch(error => {
+              console.log('Error fetching product data:', error);
+            });
+        }
+      })
+  }
+
+{% endunless %}
+
+
+
+</script>
+
+

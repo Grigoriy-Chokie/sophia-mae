@@ -1,0 +1,393 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_RyYpPQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_C39a6E": {
+          "type": "heading",
+          "settings": {
+            "text": "Luxury skincare and body care",
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "heading_C39a6E"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_T9kgFN": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_PhXM6D": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Explore our thoughtfully curated collection of luxury skincare and body care products, designed to make your skin glow with the refined elegance of SOPHIA MAE. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_PhXM6D"
+      ],
+      "custom_css": [],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "collection-banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "image_size": "auto",
+        "allow_transparent_header": true,
+        "reveal": true,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_breadcrumb": true,
+        "content_width": "xs",
+        "background": "#000000",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "hide_product_information": false,
+        "load-more_button-text": "Load more",
+        "load-more_pattern": "Viewed |viewed| of |all-product| products",
+        "products_per_page": 16,
+        "products_per_row_mobile": "2",
+        "products_size_desktop": "medium",
+        "show_grid_mode_selector": false,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "filter_layout": "drawer",
+        "quick_links_menu": "",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_results_count": false,
+        "show_filter_group_name": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": false,
+        "show_color_swatch": false,
+        "open_filters_by_default": true,
+        "locked_form_title": "",
+        "locked_form_subtitle": ""
+      }
+    },
+    "rich_text_c6hzx9": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_HtB86K": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>From our best-selling <a href=\"\/products\/facial-tanning-mist\" title=\"FACIAL TANNING MIST\">tanning mist spray<\/a>, which gives you a beautiful, natural radiance, to silky <a href=\"\/collections\/foaming-shower-cloud\" title=\"Foaming shower cloud\">shower gels<\/a> with irresistible scents that envelop you in pure luxury. Nourish your skin and lips with our luxurious balms and create a pampering routine that lasts every day. <\/p><p>Each product is made with high-quality ingredients and comes in a beautifully elegant design, making it not only an essential part of your beauty ritual but also a stylish addition to your bathroom. Whether you're seeking premium skincare or body care, our carefully selected products will immerse you in a world of luxurious self-care.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_HtB86K"
+      ],
+      "custom_css": [
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_overlay_yew3jG": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/3_e380fa98-4eab-438a-ba02-7c3a0f34b32c.png",
+        "mobile_image": "shopify:\/\/shop_images\/1_b1712a0b-e091-421b-940a-2640f80ca227.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "faq_BbpcVe": {
+      "type": "faq",
+      "blocks": {
+        "category_xkpd79": {
+          "type": "category",
+          "settings": {
+            "title": "Luxury body care products",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_fYmGBJ": {
+          "type": "question",
+          "settings": {
+            "question": "Body care for radiant and hydrated skin",
+            "answer": "<p>Looking for deep hydration and silky smooth skin? With our luxury body care products, you’ll give your skin exactly what it needs for a healthy, radiant glow.<\/p><p>Each of our carefully crafted skincare products helps achieve a hydrated and radiant glow, making it an essential addition to your daily routine. The <a href=\"\/products\/balm-with-lip-applicator\" title=\"BALM WITH LIP APPLICATOR\">Balm with lip applicator<\/a> is specially designed to keep your lips soft and nourished. Incorporate these essentials into your daily routine for velvety skin and perfectly hydrated lips, no matter where you are. For full-body hydration, the <a href=\"\/products\/satin-sheen-hair-body-elixir\" title=\"SATIN SHEEN HAIR & BODY ELIXIR\">Satin Sheen hair & body elixir<\/a> offers a rich body oil that leaves your skin feeling indulgently soft.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_xkpd79",
+        "question_fYmGBJ"
+      ],
+      "custom_css": [],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "faq_WCKgXD": {
+      "type": "faq",
+      "blocks": {
+        "category_feTbmc": {
+          "type": "category",
+          "settings": {
+            "title": "Tanning spray for your face",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_37gbtX": {
+          "type": "question",
+          "settings": {
+            "question": "Combines tanning and skincare benefits",
+            "answer": "<p>A great self-tanner can add a touch of warmth to your skin, giving you a radiant, sun-kissed glow while providing the hydration your skin needs to stay healthy.<\/p><p>Tanning sprays are the ideal way to achieve a natural, glowing complexion without the sun. Our <a href=\"\/products\/facial-tanning-mist\" title=\"FACIAL TANNING MIST\">Facial Tanning Mist<\/a> enhances your skin with a subtle, luminous glow. This luxurious tanning mist hydrates, soothes with lavender, and delivers a long-lasting tan that lasts up to five days, ensuring a flawless glow all year long.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_feTbmc",
+        "question_37gbtX"
+      ],
+      "custom_css": [],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "faq_k4nGcq": {
+      "type": "faq",
+      "blocks": {
+        "category_nbPywd": {
+          "type": "category",
+          "settings": {
+            "title": "Shower gels for a luxurious start to your day",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_tqjymH": {
+          "type": "question",
+          "settings": {
+            "question": "A moment of pure luxury",
+            "answer": "<p>Transform your daily shower into a moment of pure luxury with our shower gels. Nourishing formulas and calming scents cleanse your skin while enveloping you in a refined, long-lasting fragrance.<\/p><p>Indulge in a truly relaxing and rejuvenating experience with our premium shower products. The <a href=\"\/products\/serene-symphony-foaming-shower-cloud\" title=\"SERENE SYMPHONY FOAMING SHOWER CLOUD\">Serene Symphony foaming shower cloud<\/a> surrounds you with soothing aromas that calm both your skin and mind. The gentle foam creates a refreshing sensation, helping you fully unwind and recharge. If you enjoy starting or ending your day with subtle, sweet, and spicy scents, the <a href=\"\/products\/aura-foaming-shower-cloud\" title=\"AURA FOAMING SHOWER CLOUD\">Aura foaming shower cloud<\/a> is the perfect choice. Infused with one of our signature fragrances, this shower foam produces a rich, creamy foam that leaves your skin soft, hydrated, and wrapped in the enchanting scent of Aura, lasting throughout the day or night.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_nbPywd",
+        "question_tqjymH"
+      ],
+      "custom_css": [],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "image_with_text_overlay_wWBJHG": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_NQz49x": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h4"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NQz49x"
+      ],
+      "name": "t:sections.image_with_text_overlay.presets.image_with_text_overlay.name",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/1_acd2315d-4e74-447c-8a87-117d92d4e575.png",
+        "mobile_image": "shopify:\/\/shop_images\/2_ea717d26-4f16-4f10-a75f-8308f8ce68ca.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "faq_ekXAPN": {
+      "type": "faq",
+      "blocks": {
+        "category_iMzzxr": {
+          "type": "category",
+          "disabled": true,
+          "settings": {
+            "title": "Order",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_DtVJPM": {
+          "type": "question",
+          "settings": {
+            "question": "What are body care products?",
+            "answer": "<p>Body care products include a range of items and routines designed to keep your skin healthy, hydrated, and nourished. These products can include moisturizers, body oils, scrubs, deodorants, and self-tanners. Additionally, hand creams, balms, foot treatments, and shower gels are all part of body care. Regular use of these products, along with cleansing, exfoliating, and moisturizing, helps maintain soft, smooth, and glowing skin.<\/p>"
+          }
+        },
+        "question_VdL3jA": {
+          "type": "question",
+          "settings": {
+            "question": "How do you hydrate your skin?",
+            "answer": "<p>Proper hydration starts with the right care and products. After showering, apply a nourishing body lotion, body oil, or moisturizing cream to lock in moisture. Look for ingredients like hyaluronic acid or shea butter that help hydrate the skin long-term. It's also important to drink enough water and protect your skin from drying factors like air conditioning and cold temperatures. Regular exfoliation with a gentle scrub allows moisturizing products to absorb more effectively.<\/p>"
+          }
+        },
+        "question_KHTYxP": {
+          "type": "question",
+          "settings": {
+            "question": "How to recognize well-hydrated skin?",
+            "answer": "<p>Well-hydrated skin feels soft, smooth, and comfortable, with a healthy, natural glow. Fine lines and dry spots are less noticeable, and the skin does not feel tight or flaky. Additionally, hydrated skin maintains its elasticity, which can be tested by gently pinching the skin. If it springs back quickly, the moisture balance is likely optimal.<\/p>"
+          }
+        },
+        "question_tYHKyV": {
+          "type": "question",
+          "settings": {
+            "question": "What is the best shower foam for your skin?",
+            "answer": "<p>The best shower gel for your skin depends on your skin type and needs. Generally, a mild formula with moisturizing ingredients such as aloe vera, glycerin, or nourishing oils is ideal. Avoid shower gels with harsh sulfates (like SLS and SLES), alcohol, and synthetic fragrances if you have sensitive or dry skin. Opt for a pH-neutral or slightly acidic shower gel to maintain your skin's natural protective barrier and prevent dehydration.<\/p>"
+          }
+        },
+        "question_JiRrYj": {
+          "type": "question",
+          "settings": {
+            "question": "What skincare is best for my skin type?",
+            "answer": "<p>The best skincare for your skin type depends on your skin's specific needs. Here are some guidelines:<\/p><ul><li><strong>Oily skin:<\/strong> Choose lightweight, oil-free, and mattifying products. Ingredients like salicylic acid and niacinamide can help regulate sebum production.<\/li><li><strong>Dry skin:<\/strong> Use rich, hydrating creams and serums with ingredients like hyaluronic acid, glycerin, and ceramides. Avoid ingredients that can dry out your lips, such as certain forms of alcohol.<\/li><li><strong>Sensitive skin:<\/strong> Opt for mild, fragrance-free products with soothing ingredients like aloe vera, chamomile, or oat extract.<\/li><li><strong>Combination skin:<\/strong> Use lighter products for the oily zones (T-zone) and nourishing formulas for dry areas of your face.<\/li><li><strong>Normal skin:<\/strong> A balanced routine with a gentle cleanser, hydrating cream, and SPF is sufficient to keep your skin healthy.<\/li><\/ul>"
+          }
+        },
+        "question_7LYJcf": {
+          "type": "question",
+          "settings": {
+            "question": "What is the best lip care?",
+            "answer": "<p>The best lip care begins with hydration and protection. Choose a lip balm with nourishing ingredients like shea butter, honey, or vitamin E to keep your lips soft and smooth. Exfoliate your lips occasionally with a gentle scrub to remove dry flakes, and always apply a hydrating balm before going outside, especially in cold or sunny weather. Avoid products with drying ingredients like alcohol or synthetic fragrances for long-lasting hydration and healthy lips.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_iMzzxr",
+        "question_DtVJPM",
+        "question_VdL3jA",
+        "question_KHTYxP",
+        "question_tYHKyV",
+        "question_JiRrYj",
+        "question_7LYJcf"
+      ],
+      "custom_css": [
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "Frequently Asked Questions",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_yRQjjU": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_YxYzPp": {
+          "type": "subheading",
+          "settings": {
+            "text": "MORE SUPPORT"
+          }
+        },
+        "richtext_qfpiMF": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Do you have any questions about our face & body products? Feel free to reach out to us!<\/p>"
+          }
+        },
+        "button_qkXzwK": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "GET IN TOUCH",
+            "url": "shopify:\/\/pages\/contact",
+            "background": "#000000",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_YxYzPp",
+        "richtext_qfpiMF",
+        "button_qkXzwK"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "rich_text_RyYpPQ",
+    "rich_text_T9kgFN",
+    "collection-banner",
+    "main",
+    "rich_text_c6hzx9",
+    "image_with_text_overlay_yew3jG",
+    "faq_BbpcVe",
+    "faq_WCKgXD",
+    "faq_k4nGcq",
+    "image_with_text_overlay_wWBJHG",
+    "faq_ekXAPN",
+    "rich_text_yRQjjU"
+  ]
+}

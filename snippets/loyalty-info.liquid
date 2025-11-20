@@ -1,0 +1,35 @@
+{%- liquid
+  assign first_part_url = block.settings.first_part_url
+  assign first_part = block.settings.first_part
+  assign last_part = block.settings.last_part
+
+  assign first_part_url_not_acc = block.settings.first_part_url_not_acc
+  assign first_part_not_acc = block.settings.first_part_not_acc
+  assign last_part_not_acc = block.settings.last_part_not_acc
+
+-%}
+
+
+{% if shop.metafields.loyaltylion.token != nil %}
+  {% if customer != nil and customer.has_account %}
+  <div class="loyalty"> 
+    {% if first_part_url != blank %}
+      <a href="{{first_part_url}}">{{first_part}}</a>
+    {%- else -%}   
+    {{first_part}}
+    {% endif %}
+    <span data-lion-points-for-product-id="{{ product.id }}"></span> 
+      {{last_part}}
+  </div>
+  {% else %}
+  <div class="loyalty">
+    {% if first_part_url_not_acc != blank %}
+    <a href="{{first_part_url_not_acc}}">{{first_part_not_acc}}</a>
+    {%- else -%}
+    {{first_part_not_acc}}
+    {% endif %}
+    <span data-lion-points-for-product-id="{{ product.id }}"></span> 
+      {{last_part_not_acc}} 
+  </div>
+  {% endif %}
+{% endif %}

@@ -1,0 +1,40 @@
+<div class="product__delivery">
+  {% if block.settings.enabled_stock_status == true %}
+    {% liquid
+      assign variant_available = product.selected_or_first_available_variant.available
+      assign class = "product-delivery__stock--in-stock"
+      if variant_available == false
+        assign class = "product-delivery__stock--sold-out"
+      endif
+    %}
+    <div class="product-delivery__stock {{ class }}">
+      {% if variant_available %}
+        {{ 'product.delivery.inventory.in_stock' | t }}
+      {% else %}
+        {{ 'product.delivery.inventory.sold_out' | t }}
+      {% endif %}
+    </div>
+  {% endif %}
+  {% if block.settings.shipping_icon != blank and block.settings.shipping_text != blank %}
+    <div class="product__shipping">
+      {{ block.settings.shipping_icon | image_url: width: 200 | image_tag }}
+      <span>
+        {{ block.settings.shipping_text }}
+      </span>
+    </div>
+  {% endif %}
+  {% if block.settings.time_end_day != blank and block.settings.non_working_days != blank and block.settings.delivery_time != blank %}
+    {% capture component_data %}
+      {
+        "timeEndDay": "{{ block.settings.time_end_day }}",
+        "nonWorkingDays": {{ block.settings.non_working_days | split: ',' | json }},
+        "deliveryTime": "{{ block.settings.delivery_time }}",
+        "deliveryRange": "{{ block.settings.delivery_range }}"
+      }
+    {% endcapture %}
+      <div class="product-delivery" data-component='{{ component_data }}'>
+          <p>{{ block.settings.expected_text }} <span data-expected-day></span></p>
+      <script src="{{ "component-product-delivery.js" | asset_url }}" defer></script>
+      </div>
+  {% endif %}
+</div>

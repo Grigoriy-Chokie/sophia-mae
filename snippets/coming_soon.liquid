@@ -1,0 +1,11 @@
+{%- liquid
+  assign text = block.settings.text
+  assign current_date = 'now' | date: '%s' 
+  assign coming_soon_date = product.metafields.kdc.comingsoondate | date: '%s'
+-%}
+
+{% if coming_soon_date != blank and coming_soon_date > current_date %}
+  <div class="coming_soon">  
+    {{text}} {{ product.metafields.kdc.comingsoondate | date: "%B %d, %Y" }}
+  </div>
+{% endif %}

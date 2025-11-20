@@ -1,0 +1,137 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "countdown_BWikRX": {
+      "type": "countdown",
+      "disabled": true,
+      "settings": {
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "subheading": "EXCLUSIVE MEMBERS ONLY",
+        "title": "THE ARCHIVE STARTS IN",
+        "content": "<p>Thank you so much for indulging in our Archive. Even though these products showcase minor flaws, rest assured they are fully functional while remaining SOPHIA MAE’s quality.</p>",
+        "button_link": "",
+        "button_text": "",
+        "expiration_date": "2024-04-24 19:00",
+        "expiration_behavior": "leave",
+        "timer_position": "end",
+        "animate_number": true,
+        "background": "#000000",
+        "text_color": "#eae5df",
+        "button_background": "",
+        "button_text_color": "",
+        "flip_background": "",
+        "flip_background_opacity": 50,
+        "flip_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "collection-banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "image_size": "auto",
+        "allow_transparent_header": true,
+        "reveal": true,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_breadcrumb": true,
+        "content_width": "xs",
+        "background": "#000000",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "hide_product_information": false,
+        "load-more_button-text": "Load more",
+        "load-more_pattern": "Viewed |viewed| of |all-product| products",
+        "products_per_page": 16,
+        "products_per_row_mobile": "2",
+        "products_size_desktop": "medium",
+        "show_grid_mode_selector": false,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "filter_layout": "drawer",
+        "quick_links_menu": "",
+        "show_sort_by": false,
+        "show_filters": false,
+        "show_results_count": false,
+        "show_filter_group_name": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": false,
+        "show_color_swatch": false,
+        "open_filters_by_default": false,
+        "locked_form_title": "",
+        "locked_form_subtitle": ""
+      }
+    },
+    "image_with_text_overlay_eUN8id": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_FTbkwK": {
+          "type": "heading",
+          "settings": {
+            "text": "THE ARCHIVE IS CURRENTLY CLOSED",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_HRfNki": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Please check again later.</p>"
+          }
+        },
+        "button_h78rnY": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "JOIN NOW",
+            "url": "https://sophia-mae.com/account/register",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_FTbkwK",
+        "richtext_HRfNki",
+        "button_h78rnY"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify://shop_images/Banner_webshop_2_6dc8ab6d-94c2-45f5-ac80-cf66095c8350.png",
+        "mobile_image": "shopify://shop_images/Webshop_-_Mobile_banner_5_aa07b452-0950-41bc-809c-5475606384a7.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    }
+  },
+  "order": [
+    "countdown_BWikRX",
+    "collection-banner",
+    "main",
+    "image_with_text_overlay_eUN8id"
+  ]
+}

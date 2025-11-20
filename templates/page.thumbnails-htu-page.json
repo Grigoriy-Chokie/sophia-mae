@@ -1,0 +1,572 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_QJyxjq": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_9XqmK4": {
+          "type": "subheading",
+          "settings": {
+            "text": "FIND ALL OUR INSTRUCTIONS ON HOW TO USE OUR PRODUCTS HERE"
+          }
+        },
+        "heading_jTCJmP": {
+          "type": "heading",
+          "settings": {
+            "text": "HOW TO USE",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_9XqmK4",
+        "heading_jTCJmP"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_title": false,
+        "page_width": "lg"
+      }
+    },
+    "collection_list_aqeXxU": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_NrFaD9": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Thumbnails_1500_x_1500_7a9f5040-b4fc-4353-ac05-39b429341ae0.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "BALM WITH LIP APPLICATOR",
+            "button_text": "HOW TO USE",
+            "button_link": "shopify:\/\/pages\/balm-with-lip-applicator-how-to-use",
+            "text_color": "#1c1c1c",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_rQcgGw": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/1_1cc45dfa-00b9-4dd1-b80b-74d80c8b8314.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "BEAUTY BAG",
+            "button_text": "HOW TO USE",
+            "button_link": "shopify:\/\/pages\/beauty-bag-how-to-use",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_jfyDeK": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Thumbnails_1500_x_1500.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "BLUSH",
+            "button_text": "HOW TO USE",
+            "button_link": "shopify:\/\/pages\/blissful-blush-how-to-use",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_aKLyAh": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/2_076e907b-de4e-415b-b814-7854d613b443.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "COURAGE CUP",
+            "button_text": "HOW TO USE",
+            "button_link": "shopify:\/\/pages\/courage-cup-how-to-use",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_eygz7P": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/4_789ed48e-0baf-4fb0-a094-906ef30134d5.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "EAU DE PARFUM",
+            "button_text": "HOW TO USE",
+            "button_link": "shopify:\/\/pages\/eau-de-parfum-how-to-use",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_L8Bwaf": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/3_771942dc-1cea-4e0a-acb9-09f749bbc554.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "ETERNAL BALM",
+            "button_text": "HOW TO USE",
+            "button_link": "shopify:\/\/pages\/eternal-balm-how-to-use",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_aApha9": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/18.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "FACIAL TANNING MIST",
+            "button_text": "HOW TO USE",
+            "button_link": "shopify:\/\/pages\/tremendously-tanned-tanning-mist-how-to-use",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_rXLWmC": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/5_892b840f-978a-4cd5-8b3c-dabb51785393.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "FOAMING SHOWER CLOUD",
+            "button_text": "HOW TO USE",
+            "button_link": "shopify:\/\/pages\/foaming-shower-cloud-how-to-use",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_iJVbXK": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/7_3d53579d-c1ca-40f7-a532-76077df3ec1a.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "GODDESS GLOW",
+            "button_text": "HOW TO USE",
+            "button_link": "shopify:\/\/pages\/goddess-glow-how-to-use",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_fnjkXi": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Thumbnails_1500_x_1500_23.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "HAIR & BODY ELIXIR",
+            "button_text": "HOW TO USE",
+            "button_link": "https:\/\/sophia-mae.com\/pages\/satin-sheen-how-to-use",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_D7HdNk": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/14.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "HAIR ROLLERS",
+            "button_text": "HOW TO USE",
+            "button_link": "shopify:\/\/pages\/rendez-vous-roller-set-how-to-use",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_jHjrXm": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Thumbnails_1500_x_1500_57d37b4d-89b6-4c3a-a8a9-10462b8d04fa.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "INTERIOR PERFUME",
+            "button_text": "HOW TO USE",
+            "button_link": "shopify:\/\/pages\/interior-perfume-how-to-use",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_qXihEg": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/8_2a450e6f-f2a0-4786-9eea-5aa149e3586a.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "KABUKI BRUSH",
+            "button_text": "HOW TO USE",
+            "button_link": "shopify:\/\/pages\/kabuki-brush-how-to-use",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_iicVKP": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Thumbnails_1500_x_1500_1.png",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "LAUNDRY PERFUME",
+            "button_text": "HOW TO USE",
+            "button_link": "shopify:\/\/pages\/laundry-perfume-how-to-use",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_GHnx7f": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Thumbnails_1500_x_1500_3_28229f72-ee27-4c2d-bc78-7f4bc39b610d.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "LIP ALLURE",
+            "button_text": "HOW TO USE",
+            "button_link": "shopify:\/\/pages\/lip-allure-how-to-use",
+            "text_color": "#1c1c1c",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_EVgRU8": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/10_692acbff-2f20-4c28-b829-2f003ce3ffb4.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "MAJESTIC MIST",
+            "button_text": "HOW TO USE",
+            "button_link": "shopify:\/\/pages\/majestic-mist-how-to-use",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_PdTiC9": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Shogun_thumbnails_1.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "MAJESTIC TEXTURE",
+            "button_text": "HOW TO USE",
+            "button_link": "shopify:\/\/pages\/majestic-texture-how-to-use",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_F89zr4": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/11_8de066f8-7f88-4090-839c-eaae1a683747.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "MUGS",
+            "button_text": "HOW TO USE",
+            "button_link": "shopify:\/\/pages\/mugs-how-to-use",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_xLD3cP": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/6_2c0397cb-1cd3-491a-955f-6caba0c8d242.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "PERFUMED REEDS",
+            "button_text": "HOW TO USE",
+            "button_link": "shopify:\/\/pages\/fragrance-sticks-how-to-use",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_6LCzXk": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Thumbnails_1500_x_1500_2_1fec68cb-964a-42c8-b45f-c69470eeee29.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "PLUMPING LIP ALLURE",
+            "button_text": "HOW TO USE",
+            "button_link": "shopify:\/\/pages\/plumping-lip-allure-how-to-use",
+            "text_color": "#1c1c1c",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_8L4JXU": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/13_e1d1dc35-ab95-414c-b7d9-3f342fc54e1b.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "PRECIOUS PINS",
+            "button_text": "HOW TO USE",
+            "button_link": "shopify:\/\/pages\/precious-pins-how-to-use",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_JTXVG3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/15.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "REFILLS",
+            "button_text": "HOW TO USE",
+            "button_link": "shopify:\/\/pages\/refills-how-to-use",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_jpyaTw": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/16.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "ROOMSPRAY",
+            "button_text": "HOW TO USE",
+            "button_link": "shopify:\/\/pages\/roomspray-how-to-use",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_g4eT6Q": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Thumbnails_1500_x_1500_4_a03d2946-224c-4dba-a5db-7080ffb683b2.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "SCENTED CANDLE",
+            "button_text": "HOW TO USE",
+            "button_link": "shopify:\/\/pages\/scented-candle-how-to-use",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_MRBJBG": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/19_8f596c15-036e-4383-ba83-62ad987afdaf.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "TWO-SIDED PILLOWCASE",
+            "button_text": "HOW TO USE",
+            "button_link": "shopify:\/\/pages\/two-sided-pillowcase-how-to-use",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_fRDagJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Thumbnails_1500_x_1500_2.png",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "WARDROBE DIFFUSER",
+            "button_text": "HOW TO USE",
+            "button_link": "shopify:\/\/pages\/wardrobe-diffuser-how-to-use",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_NrFaD9",
+        "collection_rQcgGw",
+        "collection_jfyDeK",
+        "collection_aKLyAh",
+        "collection_eygz7P",
+        "collection_L8Bwaf",
+        "collection_aApha9",
+        "collection_rXLWmC",
+        "collection_iJVbXK",
+        "collection_fnjkXi",
+        "collection_D7HdNk",
+        "collection_jHjrXm",
+        "collection_qXihEg",
+        "collection_iicVKP",
+        "collection_GHnx7f",
+        "collection_EVgRU8",
+        "collection_PdTiC9",
+        "collection_F89zr4",
+        "collection_xLD3cP",
+        "collection_6LCzXk",
+        "collection_8L4JXU",
+        "collection_JTXVG3",
+        "collection_jpyaTw",
+        "collection_g4eT6Q",
+        "collection_MRBJBG",
+        "collection_fRDagJ"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 768px) {.collection-list .collection-card {flex-basis: var( --collection-list-item-size, calc(100% \/ 2 - var(--collection-list-gap, 0px) * (2 - 1) \/ 2) ); }}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "image_size": "auto",
+        "show_text_outside": true,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_desktop": 4,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "circle_button_background": "#eae5df",
+        "circle_button_text_color": "#1c1c1c"
+      }
+    }
+  },
+  "order": [
+    "rich_text_QJyxjq",
+    "main",
+    "collection_list_aqeXxU"
+  ]
+}

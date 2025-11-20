@@ -1,0 +1,434 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_RyYpPQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_C39a6E": {
+          "type": "heading",
+          "settings": {
+            "text": "Luxury home essentials for a timeless ambiance",
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "heading_C39a6E"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_T9kgFN": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_PhXM6D": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Explore our thoughtfully curated collection of luxury home products that elevate your space and envelop your home in the refined elegance of SOPHIA MAE.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_PhXM6D"
+      ],
+      "custom_css": [],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "collection-banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "image_size": "auto",
+        "allow_transparent_header": true,
+        "reveal": true,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_breadcrumb": true,
+        "content_width": "xs",
+        "background": "#000000",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "hide_product_information": false,
+        "load-more_button-text": "Load more",
+        "load-more_pattern": "Viewed |viewed| of |all-product| products",
+        "products_per_page": 16,
+        "products_per_row_mobile": "2",
+        "products_size_desktop": "medium",
+        "show_grid_mode_selector": false,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "filter_layout": "drawer",
+        "quick_links_menu": "",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_results_count": false,
+        "show_filter_group_name": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": false,
+        "show_color_swatch": false,
+        "open_filters_by_default": true,
+        "locked_form_title": "",
+        "locked_form_subtitle": ""
+      }
+    },
+    "rich_text_c6hzx9": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_HtB86K": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Infuse your home with true luxury through our handpicked selection of essentials. From delicate fragrances to elegant accents, our products are crafted to create an atmosphere of sophistication. Whether you opt for the exclusive allure of our signature <a href=\"\/collections\/scented-candles\" title=\"Scented candles\">scented candles<\/a>, <a href=\"\/collections\/interior-perfumes\" title=\"Interior perfumes\">room sprays<\/a>, and <a href=\"\/collections\/laundry-perfumes\" title=\"Laundry perfumes\">laundry perfumes<\/a>, or the gentle luxury of our <a href=\"\/products\/two-sided-pillowcase\" title=\"TWO-SIDED PILLOWCASE\">Two-sided Pillowcase<\/a>, each item adds a touch of elegance to your home.<\/p><p>With our home products, you not only enhance your living environment but also indulge in a sensory experience that enriches every room and every moment.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_HtB86K"
+      ],
+      "custom_css": [
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_overlay_yew3jG": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/3_1a7095ff-7fb1-4e19-bb37-a86820209899.png",
+        "mobile_image": "shopify:\/\/shop_images\/5_1b270121-8d0a-47f4-817f-231a0beb7ff5.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "faq_BbpcVe": {
+      "type": "faq",
+      "blocks": {
+        "category_xkpd79": {
+          "type": "category",
+          "settings": {
+            "title": "Scented candles for a sophisticated ambience in every room",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_fYmGBJ": {
+          "type": "question",
+          "settings": {
+            "question": "A warm, refined touch",
+            "answer": "<p>Scented candles add a warm, refined touch to your home, infusing your space with delightful aromas that promote a sense of calm and comfort.<\/p><p>Our collection of <a href=\"\/collections\/scented-candles\" title=\"Scented candles\">scented candles<\/a> elevates your interior with a variety of luxurious fragrances, creating a sophisticated atmosphere in any room. Choose from a selection of carefully composed scents, such as the floral <a href=\"\/collections\/rosa\" title=\"Rosa\">Rosa<\/a>, the warm and soothing <a href=\"\/collections\/hestia\" title=\"Hestia\">Hestia<\/a>, or the refined and spicy <a href=\"\/collections\/artemis\" title=\"Artemis\">Artemis<\/a>. Each scent is available as a scented candle in various sizes, from elegant minis to larger formats, perfect for any space.<\/p><p>Curious to find the scent that suits you best? Our <a href=\"\/products\/discovery-set\" title=\"DISCOVERY SET\">Discovery set<\/a> includes minis of four iconic fragrances: <a href=\"\/collections\/aphrodite\" title=\"Aphrodite\">Aphrodite<\/a>, Artemis, Hestia and Rosa. Ideal for discovering your personal favorite.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_xkpd79",
+        "question_fYmGBJ"
+      ],
+      "custom_css": [],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "faq_WCKgXD": {
+      "type": "faq",
+      "blocks": {
+        "category_feTbmc": {
+          "type": "category",
+          "settings": {
+            "title": "Room sprays and reed diffusers",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_37gbtX": {
+          "type": "question",
+          "settings": {
+            "question": "A subtle fragrance experience",
+            "answer": "<p>Interior sprays and reed diffusers offer a subtle and long-lasting fragrance experience that transforms your home into an oasis of calm and refinement. They fill every room with luxurious aromas that create a serene and inviting atmosphere.<\/p><p>Our <a href=\"\/collections\/interior-perfumes\" title=\"Interior perfumes\">room sprays<\/a> and <a href=\"\/collections\/fragrance-sticks\" title=\"Fragrance sticks\">reed diffusers<\/a> bring a touch of luxury to any space. The warm scent of Hestia, with rich notes of sandalwood and cashmere, creates an elegant and calming atmosphere. For a fresh and uplifting touch, Artemis offers a sparkling blend of orange blossom, basil and bergamot, perfect for a revitalising effect. Prefer something both sensual and refreshing? Choose Aphrodite. This scent combines alluring and invigorating notes to create a feeling of ultimate relaxation, ideal for quiet moments or intimate settings.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_feTbmc",
+        "question_37gbtX"
+      ],
+      "custom_css": [],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "faq_k4nGcq": {
+      "type": "faq",
+      "blocks": {
+        "category_nbPywd": {
+          "type": "category",
+          "settings": {
+            "title": "Indulge in the luxury of divine scented laundry",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_tqjymH": {
+          "type": "question",
+          "settings": {
+            "question": "A refined fragrance experience",
+            "answer": "<p>Laundry perfumes and wardrobe diffusers bring a refined fragrance experience, leaving a subtle, long-lasting scent. Ideal for refreshing your clothes, bedding, or wardrobe.<\/p><p>Want to surround your clothes and linens with pure luxury for days? Our laundry perfumes infuse your fabrics with an elegant scent that enhances your daily routine.<\/p><p><a href=\"\/products\/eos-laundry-perfume\" title=\"EOS LAUNDRY PERFUME\">Eos laundry perfume<\/a> adds a fresh, floral aroma to your laundry, complemented by the warm, sensual undertones of sandalwood and cashmere. <a href=\"\/products\/midnight-melody-laundry-perfume\" title=\"MIDNIGHT MELODY LAUNDRY PERFUME\">Midnight Melody laundry perfume<\/a> envelops your fabrics with soft, comforting notes of musk and coconut, creating a peaceful and serene ambiance. Both <a href=\"\/collections\/laundry-perfumes\" title=\"Laundry perfumes\">laundry perfumes<\/a> provide an irresistible fragrance that lingers, filling your clothes and bedding with a delicate, luxurious scent.<\/p><p>Wardrobe diffusers offer a constant, refined scent experience in your closet while doubling as a stylish accessory. Available in both <a href=\"\/collections\/eos\" title=\"Eos\">Eos<\/a> and <a href=\"\/collections\/midnight-melody\" title=\"Midnight Melody\">Midnight Melody<\/a>, our diffusers subtly scent your wardrobe, keeping your clothing fresh and luxuriously fragrant.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_nbPywd",
+        "question_tqjymH"
+      ],
+      "custom_css": [],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "faq_fUYqRP": {
+      "type": "faq",
+      "blocks": {
+        "category_Eb7eLP": {
+          "type": "category",
+          "settings": {
+            "title": "A luxurious touch to the bedroom",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_H939xF": {
+          "type": "question",
+          "settings": {
+            "question": "Pamper skin and hair",
+            "answer": "<p>Indulge in a luxurious night’s sleep with a pillowcase designed to pamper both your skin and hair. Silk and Tencel pillowcases are celebrated for their silky texture, which reduces sleep lines and protects hair from tangling. They also help maintain your skin’s natural moisture balance, so you wake up feeling refreshed and hydrated.<\/p><p>Our <a href=\"\/products\/two-sided-pillowcase\" title=\"TWO-SIDED PILLOWCASE\">Two-sided Pillowcase<\/a> combines the best of both worlds: mulberry silk for a touch of luxury and Tencel for enhanced breathability and a cooling effect.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_Eb7eLP",
+        "question_H939xF"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "image_with_text_overlay_wWBJHG": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_NQz49x": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h4"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NQz49x"
+      ],
+      "name": "t:sections.image_with_text_overlay.presets.image_with_text_overlay.name",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/4_50e06085-f35f-4dd7-9d95-35d8b9328eb0.png",
+        "mobile_image": "shopify:\/\/shop_images\/4_285bcca1-830a-4b5a-8c3b-bd4877876d7c.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "faq_ekXAPN": {
+      "type": "faq",
+      "blocks": {
+        "category_iMzzxr": {
+          "type": "category",
+          "disabled": true,
+          "settings": {
+            "title": "Order",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_DtVJPM": {
+          "type": "question",
+          "settings": {
+            "question": "What makes the SOPHIA MAE home collection unique?",
+            "answer": "<p>Our home essentials combine refined scents, high-quality materials and timeless design. Each item is carefully developed not only to create a specific atmosphere, but also to bring a sense of calm and luxury into your home.<\/p>"
+          }
+        },
+        "question_VdL3jA": {
+          "type": "question",
+          "settings": {
+            "question": "Are the products suitable as gifts?",
+            "answer": "<p>Absolutely. With their luxurious appearance and elegant packaging, our home products make the perfect gift for special occasions or simply to surprise someone you care about.<\/p>"
+          }
+        },
+        "question_KHTYxP": {
+          "type": "question",
+          "settings": {
+            "question": "How do I choose the right scent for my space?",
+            "answer": "<p>Each fragrance in our collection is designed with a unique atmosphere in mind, whether you're looking to create a calming, refreshing, sensual or uplifting mood. To help you find the perfect match, our Discovery set allows you to explore a selection of home fragrances, while the Laundry perfume sample set lets you experience our signature laundry scents before choosing a full-size version.<\/p>"
+          }
+        },
+        "question_tYHKyV": {
+          "type": "question",
+          "settings": {
+            "question": "How long do the scents last in a room or on fabrics?",
+            "answer": "<p>Our formulas are designed for a long-lasting fragrance experience. Room sprays and reed diffusers release their scent gradually and subtly, while laundry perfumes and wardrobe diffusers leave a soft fragrance on textiles that lasts for days.<\/p>"
+          }
+        },
+        "question_JiRrYj": {
+          "type": "question",
+          "settings": {
+            "question": "Are the scented candles and sprays safe for daily use at home?",
+            "answer": "<p>Yes. Our products are made with carefully selected ingredients and are safe for everyday use in your home environment.<\/p>"
+          }
+        },
+        "question_7LYJcf": {
+          "type": "question",
+          "settings": {
+            "question": "Are the pillowcase fabrics suitable for sensitive skin?",
+            "answer": "<p>Our pillowcases, made from mulberry silk and Tencel, are soft, breathable and gentle on the skin. They help maintain the skin’s natural moisture balance and reduce friction, making them ideal for sensitive skin and supportive of your skincare routine.<\/p>"
+          }
+        },
+        "question_qrRwdc": {
+          "type": "question",
+          "settings": {
+            "question": "Are the products sustainably made?",
+            "answer": "<p>Sustainability is an important focus at SOPHIA MAE. We work with high-quality materials and trusted partners who share our values around quality and responsibility. Wherever possible, we opt for long-lasting alternatives and mindful choices.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_iMzzxr",
+        "question_DtVJPM",
+        "question_VdL3jA",
+        "question_KHTYxP",
+        "question_tYHKyV",
+        "question_JiRrYj",
+        "question_7LYJcf",
+        "question_qrRwdc"
+      ],
+      "custom_css": [
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "Frequently Asked Questions",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_yRQjjU": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_YxYzPp": {
+          "type": "subheading",
+          "settings": {
+            "text": "MORE SUPPORT"
+          }
+        },
+        "richtext_qfpiMF": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Do you have any questions about our products? Feel free to reach out to us!<\/p>"
+          }
+        },
+        "button_qkXzwK": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "GET IN TOUCH",
+            "url": "shopify:\/\/pages\/contact",
+            "background": "#000000",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_YxYzPp",
+        "richtext_qfpiMF",
+        "button_qkXzwK"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "rich_text_RyYpPQ",
+    "rich_text_T9kgFN",
+    "collection-banner",
+    "main",
+    "rich_text_c6hzx9",
+    "image_with_text_overlay_yew3jG",
+    "faq_BbpcVe",
+    "faq_WCKgXD",
+    "faq_k4nGcq",
+    "faq_fUYqRP",
+    "image_with_text_overlay_wWBJHG",
+    "faq_ekXAPN",
+    "rich_text_yRQjjU"
+  ]
+}

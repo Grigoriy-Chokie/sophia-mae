@@ -1,0 +1,220 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_type": "block",
+            "color_selector_type": "color",
+            "size_chart_page": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "cf2e1079-c730-4663-a9a2-29f23037db80": {
+          "type": "loyalty",
+          "settings": {
+            "first_part_url": "shopify:\/\/pages\/loyalty-points",
+            "first_part": "Collect",
+            "last_part": "Loyalty Points when you purchase this product",
+            "first_part_url_not_acc": "shopify:\/\/pages\/the-muse-club-old",
+            "first_part_not_acc": "<span class=\"underline\">Become a Member<\/span> of <span class=\"text-italic\">The Muse Club <\/span> and collect",
+            "last_part_not_acc": "Loyalty Points"
+          }
+        },
+        "426f527e-d145-4fc9-becd-5baeb8309dcd": {
+          "type": "limited",
+          "disabled": true,
+          "settings": {
+            "limited_heading": "BLACK WEEK SPECIALS",
+            "limited_text": "Receive up to 6 gifts (worth €95) with your purchase, depending on order value"
+          }
+        },
+        "392d70a3-c37a-4fe3-ad9d-1038994bb23c": {
+          "type": "order",
+          "settings": {
+            "order_info_text": "Order before 23:59 = shipped in 1-3 business days"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "show_below_gallery": false
+          }
+        },
+        "dc607831-064d-44eb-a70e-4ee32352f415": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "How to use",
+            "content": "<p>{{ product.metafields.custom.how_to_use | metafield_tag }}<\/p>",
+            "page": "",
+            "extra_btn": false,
+            "text_extra": "More information",
+            "link_extra": "shopify:\/\/pages\/4-reasons-why-eos-laundry-perfume"
+          }
+        },
+        "e2726196-8a27-4c1a-b6f9-e91996d46799": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "More information",
+            "content": "<p>{{ product.metafields.my_fields.ingredients | metafield_tag }}<\/p>",
+            "page": "",
+            "extra_btn": false,
+            "text_extra": "More information",
+            "link_extra": ""
+          }
+        },
+        "accordion_FkaCeV": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Extra tips",
+            "content": "",
+            "page": "",
+            "extra_btn": true,
+            "text_extra": "More information",
+            "link_extra": ""
+          }
+        },
+        "1964108b-d010-4b42-8f01-709d02c2b8aa": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Shipping",
+            "content": "",
+            "page": "shipping-1",
+            "extra_btn": false,
+            "text_extra": "More information",
+            "link_extra": ""
+          }
+        },
+        "accordion_hdXgpp": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Tips",
+            "content": "",
+            "page": "",
+            "extra_btn": false,
+            "text_extra": "More information",
+            "link_extra": ""
+          }
+        },
+        "liquid_gPcVzd": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "When Available<\/a>"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "separator",
+        "variant_picker",
+        "buy_buttons",
+        "cf2e1079-c730-4663-a9a2-29f23037db80",
+        "426f527e-d145-4fc9-becd-5baeb8309dcd",
+        "392d70a3-c37a-4fe3-ad9d-1038994bb23c",
+        "description",
+        "dc607831-064d-44eb-a70e-4ee32352f415",
+        "e2726196-8a27-4c1a-b6f9-e91996d46799",
+        "accordion_FkaCeV",
+        "1964108b-d010-4b42-8f01-709d02c2b8aa",
+        "accordion_hdXgpp",
+        "liquid_gPcVzd"
+      ],
+      "settings": {
+        "product_type": "",
+        "collection_perfume": "",
+        "name_option": "",
+        "remove_horizontal_spacing": true,
+        "page_width": true,
+        "container_size": "width",
+        "product_info_size": 35,
+        "show_sticky_add_to_cart": true,
+        "bg_color": "#b9a282",
+        "bg_color_btn": "#000000",
+        "text_color": "#ffffff",
+        "center_basic_info": false,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "dots",
+        "height_image": 100,
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "remove_horizontal_spacing": true,
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "recommendations_count": 4,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "",
+        "title": "You may also like",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products"
+  ]
+}

@@ -1,0 +1,606 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "settings": {
+            "text": "CORPORATE GIFTING",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/web_2500_x_900_5184e895-5bd6-4985-8259-28d8a1522378.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_d7245a5d-ec77-4ba0-82eb-59f44209b868.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "rich_text_66jTc7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_aEj7gF": {
+          "type": "heading",
+          "settings": {
+            "text": "CORPORATE GIFTS FOR EVERYONE",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_KBhK3F": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Are you searching for premium corporate gifts to express gratitude or pamper your employees and business relations? SOPHIA MAE offers a luxurious and versatile solution. We provide an exclusive selection of one-of-a-kind gifts year-round, ranging from scented candles and refined perfumed reeds to unique unisex perfumes and other care essentials.<br\/><br\/>Whether you’re seeking individual products or beautifully curated gift sets, at SOPHIA MAE, we curate the perfect blend of luxury and originality for your corporate gifting needs. Our gift sets are an ideal way to show appreciation to both clients and colleagues, suitable for businesses of all sizes. <br\/><br\/>Let SOPHIA MAE assist you in finding corporate gifts that reflect the essence of your company and leave a lasting impression.<\/p>"
+          }
+        },
+        "button_XAekPJ": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "style": "solid",
+            "text": "CONTACT US",
+            "url": "mailto:sales@sophia-mae.com",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_aEj7gF",
+        "richtext_KBhK3F",
+        "button_XAekPJ"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_reKGtQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iEgmrh": {
+          "type": "heading",
+          "settings": {
+            "text": "BUSINESS GIFTS BY SOPHIA MAE",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iEgmrh"
+      ],
+      "disabled": true,
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "scrolling_content_tEFJeL": {
+      "type": "scrolling-content",
+      "blocks": {
+        "image_CmafP3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_8ea14b18-6c2d-45e0-b141-4b0ef558a098.png"
+          }
+        },
+        "image_mazKA7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_debce0e6-497e-4307-b080-abfa15c8ec35.png"
+          }
+        },
+        "image_c8KzAH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_22c10d34-48fe-4c53-8382-02bf6b2a791c.png"
+          }
+        },
+        "image_3yjKkF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_348c89fa-aed1-4bd7-a009-9288a8dc43e2.png"
+          }
+        },
+        "image_YMV9ic": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_16e29a24-9b35-4065-beb7-027d316b6f45.png"
+          }
+        },
+        "image_3D3kJh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_6249067c-0f1d-473f-acb7-5ede56472627.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_CmafP3",
+        "image_mazKA7",
+        "image_c8KzAH",
+        "image_3yjKkF",
+        "image_YMV9ic",
+        "image_3D3kJh"
+      ],
+      "disabled": true,
+      "settings": {
+        "separate_section_with_border": false,
+        "scrolling_speed": 0.3,
+        "scroll_direction": "left",
+        "text_font": "heading",
+        "text_font_size_mobile": 60,
+        "text_font_size_desktop": 110,
+        "section_vertical_spacing_mobile": 20,
+        "section_vertical_spacing_desktop": 20,
+        "item_horizontal_spacing_mobile": 40,
+        "item_horizontal_spacing_desktop": 120,
+        "background": "",
+        "text_color": ""
+      }
+    },
+    "media_grid_xzn8jb": {
+      "type": "media-grid",
+      "blocks": {
+        "image_bpDKeg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_45788e42-47a4-42ab-95df-1b65b576876e.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_9FXfpx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Corporate_gifting_thumbnails.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_3XtiUG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_200eadf1-bd85-449d-8e78-fa40cfc36baf.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_8eimQp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_d5c1b5fa-37f4-41ef-8884-ad617b3eab97.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_rdwyGk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_6ec4b257-2ea7-4347-8b3f-f28cf2cf303b.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_4Wk4JU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_7aed0b2a-3046-4fca-97b7-048bac7b7c3f.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_bpDKeg",
+        "image_9FXfpx",
+        "image_3XtiUG",
+        "image_8eimQp",
+        "image_rdwyGk",
+        "image_4Wk4JU"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "width",
+        "spacing": "md",
+        "subheading": "",
+        "title": "BUSINESS GIFTS BY SOPHIA MAE",
+        "content": "",
+        "background": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_xeJt8a": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_6GLzP3": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "GIFTS FOR EVERYONE",
+            "heading_tag": "h5",
+            "content": "<p>Our extensive collection includes a wide range of products, a variety of products to meet every need.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_d6Cd7C": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "FOR ALL OCCASIONS",
+            "heading_tag": "h5",
+            "content": "<p>Our products are suitable for all occasions. Such as corporate Christmas gifts, birthdays, welcome gifts, and retirement.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "video_with_text_bhK3rX": {
+          "type": "video_with_text",
+          "settings": {
+            "autoplay": true,
+            "loop": false,
+            "play_button_background": "#ffffff",
+            "title": "GIFT OF APPRECIATION",
+            "heading_tag": "h5",
+            "content": "<p>We are passionate about developing products that enhance self-worth and stimulate the senses, making SOPHIA MAE products the ultimate corporate gift of appreciation.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_6KBPxB": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "PREMIUM BUSINESS GIFTS",
+            "heading_tag": "h5",
+            "content": "<p>SOPHIA MAE is committed to creating high-quality premium products, with attention to detail, that promote a sense of luxury and care.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_CyGAri": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "LUXURIOUS EXPERIENCE",
+            "heading_tag": "h5",
+            "content": "<p>SOPHIA MAE is the right choice for those craving a luxurious experience like never before.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_7XXnLY": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "CLEAR COMMUNICATION",
+            "heading_tag": "h5",
+            "content": "<p>SOPHIA MAE offers clear, concise communication, allowing for quick adaptation, even on short notice.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_6GLzP3",
+        "image_with_text_d6Cd7C",
+        "video_with_text_bhK3rX",
+        "image_with_text_6KBPxB",
+        "image_with_text_CyGAri",
+        "image_with_text_7XXnLY"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "columns_per_row": 3,
+        "stack_on_mobile": true,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing": "md",
+        "subheading": "",
+        "title": "WHY CHOOSE SOPHIA MAE?",
+        "content": ""
+      }
+    },
+    "image_with_text_cQ3DXQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_7kKyKt": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "THE SOPHIA MAE GIFT CARD",
+            "heading_tag": "h3"
+          }
+        },
+        "heading_ATg46c": {
+          "type": "heading",
+          "settings": {
+            "text": "THE SOPHIA MAE GIFT CARD",
+            "heading_tag": "h4"
+          }
+        },
+        "richtext_3EygaA": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Give the gift of choice with the SOPHIA MAE Online Gift Card. This allows the receiving party the freedom to select their perfect gift. Whether it's for a special occasion or simply as a token of appreciation, the SOPHIA MAE gift card ensures an exclusive and luxurious experience.<br\/><br\/>The SOPHIA MAE Online Gift Card also serves as the perfect last-minute gift. Receive the SOPHIA MAE gift card in your email inbox within minutes.<\/p>"
+          }
+        },
+        "button_gCeTcA": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "MORE INFORMATION",
+            "url": "mailto:sales@sophia-mae.com",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_7kKyKt",
+        "heading_ATg46c",
+        "richtext_3EygaA",
+        "button_gCeTcA"
+      ],
+      "custom_css": [
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "background_color": "default",
+        "image": "shopify:\/\/shop_images\/web_2000_x_1400_px_ee4c5f91-487b-4f4d-bf21-7877ad196302.png",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "width",
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false
+      }
+    },
+    "1730992386d3c5098b": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_xdfUzx": {
+          "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-block\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"NjQxNjA=\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_xdfUzx"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
+    "faq_GTzMe9": {
+      "type": "faq",
+      "blocks": {
+        "question_LEeh49": {
+          "type": "question",
+          "settings": {
+            "question": "What is corporate gifting?",
+            "answer": "<p>Corporate gifting refers to the act of giving thoughtful gifts from a business to clients, partners, or employees – often as a gesture of appreciation or to strengthen professional relationships. This can include refined products or exclusive sets that leave a lasting impression.<br\/><br\/>The SOPHIA MAE collection brings together elegance and versatility. Throughout the year, we offer a carefully curated selection of gifts, including scented candles, elegant perfumed reeds, unisex fragrances, and luxurious self-care products.<\/p><p>Whether you are looking for individual items or beautifully assembled gift sets, we are here to help you find the perfect balance of luxury and originality. Our corporate gifts are a refined way to express appreciation, suitable for businesses of all sizes.<\/p>"
+          }
+        },
+        "question_8QiQyn": {
+          "type": "question",
+          "settings": {
+            "question": "What are examples of corporate gifts?",
+            "answer": "<p>At SOPHIA MAE, we offer a refined selection of corporate gifts suitable for any moment or occasion – from end-of-year gifts and birthdays to warm welcomes and thoughtful farewells. Think scented candles, perfumed reeds, unisex fragrances and luxurious self-care products.<br\/><br\/>You can also opt for an Online Gift Card, allowing the recipient to choose something they truly love. For a more personal touch, we are happy to create custom gift sets tailored to your brand, message or occasion. <\/p>"
+          }
+        },
+        "question_cdzHUF": {
+          "type": "question",
+          "settings": {
+            "question": "What makes SOPHIA MAE a unique choice for corporate gifting?",
+            "answer": "<p>SOPHIA MAE is the ideal choice for those seeking refined and meaningful corporate gifts. Our curated collection features luxurious products designed to awaken the senses and support a sense of well-being. Whether it’s for year-end celebrations, birthdays, warm welcomes or farewells, each gift feels thoughtful and special.<br\/><br\/>With a wide range of premium products and tailored gift sets, we create memorable experiences that leave a lasting impression. We are flexible, clear in communication and able to adapt quickly, even on short notice. SOPHIA MAE blends quality, care and sophistication in every gift.<\/p>"
+          }
+        },
+        "question_HEa8QG": {
+          "type": "question",
+          "settings": {
+            "question": "How do I qualify for corporate gifting?",
+            "answer": "<p>Any business – large or small – can submit a request for corporate gifting at SOPHIA MAE. Whether you're looking for a small gesture or a larger order for a special occasion, we are happy to explore the options with you.<\/p>"
+          }
+        },
+        "question_CWmFqe": {
+          "type": "question",
+          "settings": {
+            "question": "Are all products eligible for corporate gifting?",
+            "answer": "<p>Yes, all products from the SOPHIA MAE collection are available for corporate gifting. Whether you opt for a single fragrance, a self-care product, or a curated gift set, we are happy to help you choose the perfect gift.<\/p>"
+          }
+        },
+        "question_xMAT8B": {
+          "type": "question",
+          "settings": {
+            "question": "Can I place a corporate order for a small team?",
+            "answer": "<p>Yes, absolutely. Whether it’s for a small team or a larger group, we’re happy to help you find the perfect, elegant gift to match the occasion.<\/p>"
+          }
+        },
+        "question_m8gWLQ": {
+          "type": "question",
+          "settings": {
+            "question": "Are there special discounts for companies ordering larger quantities of corporate gifts?",
+            "answer": "<p>For larger orders, we are happy to explore custom pricing options. Feel free to get in touch to discuss the possibilities.<\/p>"
+          }
+        },
+        "question_t4ReTH": {
+          "type": "question",
+          "settings": {
+            "question": "Can I request a custom gift set?",
+            "answer": "<p>At SOPHIA MAE, we’re happy to curate bespoke gift sets that reflect your preferences, brand identity or occasion. Whether you're seeking a refined gesture or a luxurious expression of appreciation, we’ll help you create a distinctive and elegant gift.<\/p>"
+          }
+        },
+        "question_RnUCHg": {
+          "type": "question",
+          "settings": {
+            "question": "Does SOPHIA MAE offer corporate gift sets suitable for specific holidays?",
+            "answer": "<p>SOPHIA MAE offers luxurious corporate gift sets that are ideal for a variety of occasions, including holidays, year-end gifts, birthdays, welcome gifts, or farewell presents. We carefully curate each set to suit the moment and make a lasting impression.<\/p>"
+          }
+        },
+        "question_yCFMEC": {
+          "type": "question",
+          "settings": {
+            "question": "Does SOPHIA MAE offer support in curating gift sets?",
+            "answer": "<p>SOPHIA MAE is happy to assist you in curating gift sets that align with your preferences, brand identity, or special occasion. Whether you're looking for a thoughtful token or a bold statement, we’ll help you create a sophisticated and personalized gift.<\/p>"
+          }
+        },
+        "question_RbNDmx": {
+          "type": "question",
+          "settings": {
+            "question": "How do I choose the perfect gift for different business relations?",
+            "answer": "<p>The perfect gift starts with knowing your recipient. Consider your relationship, the occasion, and the message you want to convey. Is it a formal thank-you, a festive gesture, or a personal token? At SOPHIA MAE, we’re here to help you select the right gift and advise you on the most suitable choices for your audience or occasion.<\/p>"
+          }
+        },
+        "question_4eRQe8": {
+          "type": "question",
+          "settings": {
+            "question": "Can I receive a tailored quote?",
+            "answer": "<p>Yes, if you're interested in special gifts for your team, simply fill out the form. We’ll get in touch with you shortly to discuss the options.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_LEeh49",
+        "question_8QiQyn",
+        "question_cdzHUF",
+        "question_HEa8QG",
+        "question_CWmFqe",
+        "question_xMAT8B",
+        "question_m8gWLQ",
+        "question_t4ReTH",
+        "question_RnUCHg",
+        "question_yCFMEC",
+        "question_RbNDmx",
+        "question_4eRQe8"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "Frequently Asked Questions",
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "rich_text_66jTc7",
+    "rich_text_reKGtQ",
+    "scrolling_content_tEFJeL",
+    "media_grid_xzn8jb",
+    "multi_column_xeJt8a",
+    "image_with_text_cQ3DXQ",
+    "1730992386d3c5098b",
+    "faq_GTzMe9"
+  ]
+}

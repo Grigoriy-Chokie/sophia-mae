@@ -1,0 +1,480 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "settings": {
+            "text": "IT'S GIFTING SEASON",
+            "heading_tag": "h1"
+          }
+        },
+        "heading_Weifa9": {
+          "type": "heading",
+          "settings": {
+            "text": "RECEIVE EXCLUSIVE SOPHIA MAE PRODUCTS WITH YOUR PURCHASE",
+            "heading_tag": "h5"
+          }
+        },
+        "button_fgKMKT": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "SHOP TO RECEIVE GIFTS",
+            "url": "shopify:\/\/collections\/products",
+            "background": "#000000",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe",
+        "heading_Weifa9",
+        "button_fgKMKT"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Hospitality_banner_desktop_c0c850af-0dde-4ff7-ba8d-6b5ad0a3b484.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_1_8a55700a-6d2d-4f66-9b38-141ace971c84.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-end-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 43
+      }
+    },
+    "rich_text_66jTc7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_G8PErX": {
+          "type": "heading",
+          "settings": {
+            "text": "SOMETHING SPECIAL FOR YOU",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_KBhK3F": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Receive exclusive gifts with your purchase.<\/p><p>Receive a sample (2 ml) of our soon-to-be-launched eau de parfum with all purchases.<\/p><p>Receive more gifts with purchases from €60. These products are especially designed for gifting season 2024 and are exclusively available during this period—they are not for sale.<\/p><p>Valid until the 24th of December 23:59, or while stock lasts. The Online Gift Card is excluded. Gifts will be automatically added to your cart once the requirements are met.<\/p>"
+          }
+        },
+        "button_XAekPJ": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "SHOP TO RECEIVE GIFTS",
+            "url": "shopify:\/\/collections\/products",
+            "background": "#000000",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_G8PErX",
+        "richtext_KBhK3F",
+        "button_XAekPJ"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_T76YKQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nBJpFX": {
+          "type": "heading",
+          "settings": {
+            "text": "THE EXCLUSIVE GIFTS YOU CAN RECEIVE",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nBJpFX"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": true
+      }
+    },
+    "collection_list_E7CCXP": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_rcwmGm": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Thumbnails_1500_x_1500_1_4d4acafe-ef13-4f7b-af1f-693a7f85283d.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "SAMPLE (2 ML) ARCTIC SPICE EAU DE PARFUM",
+            "title": "ALL PURCHASES",
+            "button_text": "SHOP TO RECEIVE GIFT",
+            "button_link": "shopify:\/\/collections\/products",
+            "text_color": "#1c1c1c",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "#1c1c1c",
+            "button_text_color": ""
+          }
+        },
+        "collection_kJJdeV": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/4_48028afd-ab49-45ca-ae82-d1598a58f5d5.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "CARD DECK",
+            "title": "PURCHASES €60 - €90",
+            "button_text": "SHOP TO RECEIVE GIFT",
+            "button_link": "shopify:\/\/collections\/products",
+            "text_color": "#1c1c1c",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "#000000",
+            "button_text_color": ""
+          }
+        },
+        "collection_DwndPY": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/3_daba39c0-93bb-4247-9409-9d68333c0da0.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "SIGNATURE SOCKS",
+            "title": "PURCHASES €90 - €120",
+            "button_text": "SHOP TO RECEIVE GIFT",
+            "button_link": "shopify:\/\/collections\/products",
+            "text_color": "#1c1c1c",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "#000000",
+            "button_text_color": ""
+          }
+        },
+        "collection_h7t6bQ": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/2_5b2ce55b-91bf-48f4-8808-0609698356a5.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "SIGNATURE SOCKS + CARD DECK",
+            "title": "PURCHASES FROM €120",
+            "button_text": "SHOP TO RECEIVE GIFTS",
+            "button_link": "shopify:\/\/collections\/products",
+            "text_color": "#1c1c1c",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_rcwmGm",
+        "collection_kJJdeV",
+        "collection_DwndPY",
+        "collection_h7t6bQ"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "image_size": "auto",
+        "show_text_outside": true,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_desktop": 2,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
+      }
+    },
+    "multiple_media_with_text_RFUH33": {
+      "type": "multiple-media-with-text",
+      "blocks": {
+        "image_ieaVnT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_eec734e4-871d-4af8-a2f5-8ef4b52cd1cf.png",
+            "rotation": 0
+          }
+        },
+        "image_farMDU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_996738a0-ce5b-4da9-9473-4faefc6e1d32.png",
+            "rotation": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_ieaVnT",
+        "image_farMDU"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "separate_section_with_border": false,
+        "media_position_desktop": "before_text",
+        "media_position_mobile": "before_text",
+        "media_layout": "overlap",
+        "media_alignment": "center",
+        "media_alignment_offset": 0,
+        "media_mobile_alignment_offset": 0,
+        "text_alignment": "center",
+        "subheading": "LIMITED EDITION PRODUCTS",
+        "title": "SIGNATURE SOCKS & CARD DECK",
+        "content": "<p>Our stylish Signature Socks, crafted from high-quality cotton, offer ultimate comfort and a luxurious feel. Our luxury Card Deck, featuring sophisticated color tones and an elegant design, adds a touch of refinement to any occasion. Both exclusively available as a gift during gifting season.<\/p>",
+        "button_1_text": "SHOP TO RECEIVE GIFTS",
+        "button_1_link": "shopify:\/\/collections\/products",
+        "button_1_style": "solid",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_style": "solid",
+        "background": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "rich_text_ai9t98": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Vqmkir": {
+          "type": "heading",
+          "settings": {
+            "text": "PERFECT GIFT IDEAS",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Vqmkir"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "featured_collections_zPWRwL": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_fDPfJn": {
+          "type": "collection",
+          "settings": {
+            "collection": "gifts-up-to-20",
+            "products_count": 6,
+            "title": "",
+            "link_url": "https:\/\/sophia-mae.com\/collections\/gifts-up-to-20",
+            "link_text": "SHOP ALL GIFTS"
+          }
+        }
+      },
+      "block_order": [
+        "collection_fDPfJn"
+      ],
+      "settings": {
+        "remove_horizontal_spacing": false,
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "featured_collections_EqxRme": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_U7t7Cf": {
+          "type": "collection",
+          "settings": {
+            "collection": "gifts-between-20-and-40",
+            "products_count": 6,
+            "title": "",
+            "link_url": "https:\/\/sophia-mae.com\/collections\/gifts-up-to-40",
+            "link_text": "SHOP ALL GIFTS"
+          }
+        }
+      },
+      "block_order": [
+        "collection_U7t7Cf"
+      ],
+      "settings": {
+        "remove_horizontal_spacing": false,
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "featured_collections_8KeFTt": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_BeLhNx": {
+          "type": "collection",
+          "settings": {
+            "collection": "gifts-between-40-and-60",
+            "products_count": 6,
+            "title": "",
+            "link_url": "https:\/\/sophia-mae.com\/collections\/gifts-up-to-60",
+            "link_text": "SHOP ALL GIFTS"
+          }
+        }
+      },
+      "block_order": [
+        "collection_BeLhNx"
+      ],
+      "settings": {
+        "remove_horizontal_spacing": false,
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "featured_collections_cLXgQR": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_DnEU7c": {
+          "type": "collection",
+          "settings": {
+            "collection": "gifts-over-60",
+            "products_count": 6,
+            "title": "",
+            "link_url": "https:\/\/sophia-mae.com\/collections\/gifts-over-60",
+            "link_text": "SHOP ALL GIFTS"
+          }
+        }
+      },
+      "block_order": [
+        "collection_DnEU7c"
+      ],
+      "settings": {
+        "remove_horizontal_spacing": false,
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "rich_text_jarTgT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mgHPWG": {
+          "type": "heading",
+          "settings": {
+            "text": "MORE WISHLIST INSPIRATION",
+            "heading_tag": "h3"
+          }
+        },
+        "button_MUFpeP": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "JOIN OUR COMMUNITY",
+            "url": "https:\/\/www.instagram.com\/sophiamae\/",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_mgHPWG",
+        "button_MUFpeP"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "1725457010d0e3b620": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_YADdwT": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_YADdwT"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "rich_text_66jTc7",
+    "rich_text_T76YKQ",
+    "collection_list_E7CCXP",
+    "multiple_media_with_text_RFUH33",
+    "rich_text_ai9t98",
+    "featured_collections_zPWRwL",
+    "featured_collections_EqxRme",
+    "featured_collections_8KeFTt",
+    "featured_collections_cLXgQR",
+    "rich_text_jarTgT",
+    "1725457010d0e3b620"
+  ]
+}

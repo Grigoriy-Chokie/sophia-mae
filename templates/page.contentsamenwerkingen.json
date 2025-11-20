@@ -1,0 +1,305 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "settings": {
+            "text": "CONTENT COLLABORATIONS",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Hospitality_banner_desktop_92bb4381-c9d0-46d8-8369-d869a6c58917.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_7a7350bc-8487-476d-a62f-51ed19ea1098.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_66jTc7": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_KBhK3F": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Are you a content creator passionate about beauty and lifestyle, looking to team up with SOPHIA MAE? We're on the hunt for vibrant, amusing ambassadors—whether you're an influencer or a UGC creator—who embody the essence of SOPHIA MAE. Join us and bring our aesthetic to life!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_KBhK3F"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "video_4kfd76": {
+      "type": "video",
+      "blocks": {
+        "play_NJBjeh": {
+          "type": "play",
+          "disabled": true,
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "play_NJBjeh"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 999px) {video-media {width: 50%; min-width: auto; }}"
+      ],
+      "settings": {
+        "autoplay": true,
+        "show_controls": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/creator-blush.mov",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    },
+    "media_grid_GfmbE9": {
+      "type": "media-grid",
+      "blocks": {
+        "image_kiPinH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_142fa1b6-13ca-4315-9683-efca76ec7f78.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_CJ3JUK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_f0cd57eb-2607-4bf5-9ea5-9db9e683ca7b.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_mzgeEK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_fa7d4694-bf22-47c8-affa-0edc78d2f4b5.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_kiPinH",
+        "image_CJ3JUK",
+        "image_mzgeEK"
+      ],
+      "disabled": true,
+      "settings": {
+        "separate_section_with_border": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "width",
+        "spacing": "md",
+        "subheading": "",
+        "title": "RECENT COLLABORATIONS",
+        "content": "",
+        "background": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_xeJt8a": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_6GLzP3": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "HIGH-QUALITY PRODUCTS",
+            "heading_tag": "h5",
+            "content": "<p>SOPHIA MAE is committed to creating high-quality products that promote a sense of luxury and care. Products that enhance self-worth.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_d6Cd7C": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "WIDE RANGE",
+            "heading_tag": "h5",
+            "content": "<p>Our extensive collection includes a wide range of products that help individuals surround themselves and their surroundings with luxury while stimulating their senses.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "video_with_text_bhK3rX": {
+          "type": "video_with_text",
+          "settings": {
+            "autoplay": true,
+            "loop": false,
+            "play_button_background": "#ffffff",
+            "title": "LUXURIOUS EXPERIENCE",
+            "heading_tag": "h5",
+            "content": "<p>SOPHIA MAE products are the right choice for those craving a luxurious experience like never before.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_6GLzP3",
+        "image_with_text_d6Cd7C",
+        "video_with_text_bhK3rX"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "columns_per_row": 3,
+        "stack_on_mobile": true,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing": "md",
+        "subheading": "",
+        "title": "COLLABORATE WITH SOPHIA MAE",
+        "content": ""
+      }
+    },
+    "image_with_text_overlay_CCG6z3": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_hhUEzn": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h4"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hhUEzn"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Hospitality_banner_desktop_737def39-3a8c-41d9-b6e9-d0df4bbf7075.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_1_1853fd3f-f4a3-4eec-a056-e8b5c2ff449d.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "17369631873c67c6c6": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_JxdX6f": {
+          "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-block\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"NzE3OTI=\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_JxdX6f"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
+    "custom_liquid_zn7zna": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<blockquote class=\"tiktok-embed\" cite=\"https:\/\/www.tiktok.com\/@dilan.sabah\/video\/7457838598876892438\" data-video-id=\"7457838598876892438\" style=\"max-width: 605px;min-width: 325px;\" > <section> <a target=\"_blank\" title=\"@dilan.sabah\" href=\"https:\/\/www.tiktok.com\/@dilan.sabah?refer=embed\">@dilan.sabah<\/a> <p>Current fav lip combo: Rimmel lip liner in cappuccino &#38; Sophia Mae Gloss (plumping) in Golden Harmony 💫<\/p> <a target=\"_blank\" title=\"♬ Summer Walker - Anonymous Beats\" href=\"https:\/\/www.tiktok.com\/music\/Summer-Walker-7354499589314168849?refer=embed\">♬ Summer Walker - Anonymous Beats<\/a> <\/section> <\/blockquote> <script async src=\"https:\/\/www.tiktok.com\/embed.js\"><\/script>",
+        "text_alignment": "center"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "rich_text_66jTc7",
+    "video_4kfd76",
+    "media_grid_GfmbE9",
+    "multi_column_xeJt8a",
+    "image_with_text_overlay_CCG6z3",
+    "17369631873c67c6c6",
+    "custom_liquid_zn7zna"
+  ]
+}

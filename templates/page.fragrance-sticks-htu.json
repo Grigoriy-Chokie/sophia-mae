@@ -1,0 +1,133 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "settings": {
+            "text": "FRAGRANCE STICKS",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_d9cAeJ": {
+          "type": "subheading",
+          "settings": {
+            "text": "HOW TO USE"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe",
+        "subheading_d9cAeJ"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Hospitality_banner_desktop_5.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_5.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "faq_rKcDhg": {
+      "type": "faq",
+      "blocks": {
+        "question_9PDGDX": {
+          "type": "question",
+          "settings": {
+            "question": "What is the first step?",
+            "answer": "<p>Twist off the black cap from the fragrance stick holder, also known as a reed diffuser. Next, remove the protective cap, then screw the black cap back on. Finally, remove the cord from the diffuser reeds and place the diffuser reeds into the liquid. <\/p>"
+          }
+        },
+        "question_ph43FX": {
+          "type": "question",
+          "settings": {
+            "question": "Is it necessary to flip the diffuser reeds?",
+            "answer": "<p>Yes, the diffuser reeds need to be flipped, so that the side with the liquid faces upward. They will naturally absorb and diffuse the scent into your room. The diffuser reeds will continue to evaporate into the air, creating a subtle and luxurious scent.<\/p>"
+          }
+        },
+        "question_nDGcFy": {
+          "type": "question",
+          "settings": {
+            "question": "What is important to keep in mind when using the fragrance sticks?",
+            "answer": "<p>Do not expose the fragrance sticks to direct sunlight and avoid placing them on a radiator or heating element. This is important for good preservation of the scent of the fragrance sticks. Make sure the holder is not placed on a wooden surface to prevent causing stains.<\/p><p>If the fragrance sticks are not spreading enough scent in the room, we recommend replacing the diffuser reeds. These are available for purchase on our webshop via this link.<\/p>"
+          }
+        },
+        "question_HcMw3w": {
+          "type": "question",
+          "settings": {
+            "question": "How to use the refill bag?",
+            "answer": "<p>Remove the wooden cap and the diffuser reeds from the holder. Next, simply open the refill bag and pour the refill liquid into the fragrance stick holder. Do this carefully to avoid spilling any liquid. Flip the diffuser reeds, insert them into the holder and arrange them evenly. Place the holder in the desired location and adjust the number of diffuser reeds for the desired scent intensity. Again, do not expose the fragrance sticks to direct sunlight, and avoid placing them on a radiator, heating element, or a wooden surface. Avoid all surfaces where liquid can soak.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_9PDGDX",
+        "question_ph43FX",
+        "question_nDGcFy",
+        "question_HcMw3w"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "Let the luxurious fragrance sticks entice you into an enchanting sensorial experience. To improve sustainability, we have chosen for sustainable fragrance sticks. This means that the bottle is refillable.",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_fmdLck": {
+      "type": "rich-text",
+      "blocks": {
+        "button_VqmQp8": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "DISCOVER NOW",
+            "url": "shopify:\/\/collections\/fragrance-sticks",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_VqmQp8"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "faq_rKcDhg",
+    "rich_text_fmdLck"
+  ]
+}

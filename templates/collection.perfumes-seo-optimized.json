@@ -1,0 +1,425 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_RyYpPQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_C39a6E": {
+          "type": "heading",
+          "settings": {
+            "text": "EXCLUSIVE EAU DE PARFUMS",
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "heading_C39a6E"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_T9kgFN": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_PhXM6D": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Experience our thoughtfully crafted fragrances, each telling a story through unique character and refined ingredients.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_PhXM6D"
+      ],
+      "custom_css": [],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "collection-banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "image_size": "auto",
+        "allow_transparent_header": true,
+        "reveal": true,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_breadcrumb": true,
+        "content_width": "xs",
+        "background": "#000000",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "hide_product_information": false,
+        "load-more_button-text": "Load more",
+        "load-more_pattern": "Viewed |viewed| of |all-product| products",
+        "products_per_page": 16,
+        "products_per_row_mobile": "2",
+        "products_size_desktop": "medium",
+        "show_grid_mode_selector": false,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "filter_layout": "drawer",
+        "quick_links_menu": "",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_results_count": false,
+        "show_filter_group_name": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": false,
+        "show_color_swatch": false,
+        "open_filters_by_default": true,
+        "locked_form_title": "",
+        "locked_form_subtitle": ""
+      }
+    },
+    "rich_text_c6hzx9": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_HtB86K": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Perfume layering is the art of combining multiple fragrances to create a scent that truly reflects you. All of our perfumes are suitable for layering, allowing you to enhance certain notes or add subtle depth for a unique, personal signature.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_HtB86K"
+      ],
+      "custom_css": [
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_overlay_yew3jG": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/1_055a7b1f-2ef0-402e-b7f9-fa959c00b400.png",
+        "mobile_image": "shopify:\/\/shop_images\/2_33167f44-b5cf-414b-862c-1cc34807bec9.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "faq_BbpcVe": {
+      "type": "faq",
+      "blocks": {
+        "category_xkpd79": {
+          "type": "category",
+          "settings": {
+            "title": "CHOOSING A PERFUME BASED ON FRAGRANCE NOTES",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_fYmGBJ": {
+          "type": "question",
+          "settings": {
+            "question": "Your signature scent",
+            "answer": "<p>Finding your signature scent starts with selecting the fragrance notes that best reflect your personality and preferences. Whether you’re drawn to a fresh and floral scent, a warm gourmand, or a perfume with a woody touch, our eau de parfum collection offers a wide range of unique compositions, each with its own character.<\/p><p><a href=\"https:\/\/sophia-mae.com\/products\/aura-eau-de-parfum\" title=\"Best selling perfume from SOPHIA MAE\">Aura eau de parfum<\/a>, one of our signature scents, is a gourmand fragrance with warm notes of amber and musk, perfect for wearing year round. Within our collection, you’ll also find perfumes that capture the essence of the seasons. <a href=\"https:\/\/sophia-mae.com\/products\/arctic-spice-eau-de-parfum\" title=\"perfumes unisex for winter\">Arctic Spice eau de parfum<\/a> is ideal for winter, while a fragrance like <a href=\"https:\/\/sophia-mae.com\/products\/golden-mirage-eau-de-parfum\" title=\"summer perfume perfect for layering\">Golden Mirage eau de parfum<\/a> is perfect for sun-drenched days and sultry nights. All our fragrances are refined and versatile, making them effortlessly wearable throughout the year.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_xkpd79",
+        "question_fYmGBJ"
+      ],
+      "custom_css": [],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "faq_WCKgXD": {
+      "type": "faq",
+      "blocks": {
+        "category_feTbmc": {
+          "type": "category",
+          "settings": {
+            "title": "A journey through the olfactory families",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_37gbtX": {
+          "type": "question",
+          "settings": {
+            "question": "Let the fragrance family guide you in choosing the scent that suits you best",
+            "answer": "<ul><li>Aura eau de parfum - Ambery & Floral<\/li><li><a href=\"https:\/\/sophia-mae.com\/products\/whispers-of-elegance-eau-de-parfum\" title=\"Ambery and spicy perfume for all\">Whispers of Elegance eau de parfum<\/a> - Ambery & Spicy<\/li><li>Golden Mirage eau de parfum - Citrus & Musky<\/li><li><a href=\"https:\/\/sophia-mae.com\/products\/mystic-escape-eau-de-parfum\" title=\"The best fruity & gourmand fragrance\">Mystic Escape eau de parfum<\/a> - Fruity & Gourmand<\/li><li><a href=\"https:\/\/sophia-mae.com\/products\/modern-myth-eau-de-parfum\" title=\"Discover this floral & musky fragrance\">Modern Myth eau de parfum<\/a> - Floral & Musky<\/li><li>Arctic Spice eau de parfum - Woody & Spicy<\/li><li><a href=\"https:\/\/sophia-mae.com\/products\/soft-summer-kiss-eau-de-parfum\" title=\"Discover this floral & musky fragrance\">Soft Summer Kiss eau de parfum<\/a> - Ambery & Gourmand<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "category_feTbmc",
+        "question_37gbtX"
+      ],
+      "custom_css": [],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "faq_k4nGcq": {
+      "type": "faq",
+      "blocks": {
+        "category_nbPywd": {
+          "type": "category",
+          "settings": {
+            "title": "Experience our refined fragrances",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_tqjymH": {
+          "type": "question",
+          "settings": {
+            "question": "Discover your signature scent with our perfume samples",
+            "answer": "<p>Choosing a perfume is a personal experience. A fragrance should not only suit you but also develop beautifully on your skin. Within our collection, each eau de parfum offers a unique scent experience, from sparkling floral notes to warm and sensual accents of wood and amber.<br\/><br\/>Perfume samples are the perfect way to discover which scent suits you best. With our eau de parfum sample sets, the <a href=\"https:\/\/sophia-mae.com\/products\/eau-de-parfum-mini-collection\" title=\"Complimentary eau de parfum samples to find your signature scent\">Eau de parfum mini collection<\/a>, you can easily explore the fragrances that resonate with you. The convenient 2 ml samples let you experience each perfume at your own pace, whether during the day, in the evening or in a different season.<br\/><br\/>Experience the exclusive fragrances of SOPHIA MAE and find your perfect match.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_nbPywd",
+        "question_tqjymH"
+      ],
+      "custom_css": [],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "image_with_text_overlay_wWBJHG": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_NQz49x": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h4"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NQz49x"
+      ],
+      "name": "t:sections.image_with_text_overlay.presets.image_with_text_overlay.name",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/web_2500_x_900_1_da73e323-7ab9-486c-895e-4f7e8e04c0b0.png",
+        "mobile_image": "shopify:\/\/shop_images\/web_1000_x_1000_px_1_d42e75a6-9f11-4344-858c-29b3f83a020b.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 10
+      }
+    },
+    "faq_ekXAPN": {
+      "type": "faq",
+      "blocks": {
+        "category_iMzzxr": {
+          "type": "category",
+          "disabled": true,
+          "settings": {
+            "title": "Order",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_DtVJPM": {
+          "type": "question",
+          "settings": {
+            "question": "What is eau de parfum?",
+            "answer": "<p>Eau de parfum (EDP) is a fragrance concentration known for its rich and lasting scent. It strikes a beautiful balance: more expressive and longer-wearing than lighter variations, yet still soft and wearable for everyday moments.<\/p><p>The difference with parfum (also called extrait de parfum): Parfum carries the most concentrated form of fragrance oils. This creates a deeper, more intense aroma with exceptional longevity. It’s luxurious, fuller-bodied, and often reserved for special occasions.<\/p><p>The difference with eau de toilette (EDT): Eau de toilette is more diluted, offering a lighter, airier scent that feels fresh and subtle. It tends to fade more quickly than eau de parfum, making it ideal for a soft, effortless impression throughout the day.<\/p>"
+          }
+        },
+        "question_Lg9Br3": {
+          "type": "question",
+          "settings": {
+            "question": "What is the difference between perfume and eau de parfum?",
+            "answer": "<p>The difference between perfume, also known as extrait de parfum, and eau de parfum lies in the concentration of aromatic ingredients. Parfum has the highest concentration, which makes it more intense and longer lasting. Eau de parfum contains a slightly lower concentration, but still offers a rich and long-lasting fragrance experience.<\/p>"
+          }
+        },
+        "question_KHTYxP": {
+          "type": "question",
+          "settings": {
+            "question": "What makes your perfumes unique?",
+            "answer": "<p>Our perfume collection stands out through a carefully crafted balance of high-quality ingredients and refined fragrance compositions. Each scent is developed with care and attention to offer a unique fragrance experience that lasts without being overpowering.<\/p><p>Each fragrance is created from scratch — shaped from our own vision, with intention, craftsmanship and a deep sensitivity to emotion, memory and atmosphere. This ensures that every perfume in the SOPHIA MAE collection tells an authentic story, created for those who seek elegance, depth and subtle luxury.<\/p>"
+          }
+        },
+        "question_tYHKyV": {
+          "type": "question",
+          "settings": {
+            "question": "Which perfume in your collection is the best seller?",
+            "answer": "<p>Our best seller is <a href=\"https:\/\/sophia-mae.com\/products\/aura-eau-de-parfum\" title=\"Best selling perfume SOPHIA MAE\">Aura eau de parfum<\/a>. This fragrance belongs to the amber and floral families. With a refined balance of fresh top notes, a sensual jasmine heart, and a soft, enveloping base of amber and musk, Aura has become one of our signature scents.<\/p>"
+          }
+        },
+        "question_MLFKxC": {
+          "type": "question",
+          "settings": {
+            "question": "Which perfume does Monica Geuze wear?",
+            "answer": "<p>After thoroughly testing and personally approving each of our eau de parfums, Monica now wears all of them – each one reflecting a different mood, moment or memory. She also loves layering perfumes, combining different fragrances to create a unique and personal scent experience.<\/p>"
+          }
+        },
+        "question_JiRrYj": {
+          "type": "question",
+          "settings": {
+            "question": "Which perfume suits me?",
+            "answer": "<p>Finding the right perfume is a personal journey. It depends on your preferences, the season, and the occasion. Do you love fresh and floral notes, or are you more drawn to warm and spicy scents?<\/p><p>To find the fragrance that suits you best, you can explore our perfume samples at your own pace. Our Eau de parfum mini collection allows you to experience a variety of scents before choosing your favorite.<\/p>"
+          }
+        },
+        "question_c7nVCh": {
+          "type": "question",
+          "settings": {
+            "question": "Are your perfumes unisex?",
+            "answer": "<p>Yes, our perfumes are unisex and designed for everyone. We believe that fragrance is a personal choice and knows no boundaries. That’s why we create unique compositions meant to be worn by anyone, allowing you to choose the scent that best suits your style and mood.<\/p>"
+          }
+        },
+        "question_H4HzdA": {
+          "type": "question",
+          "settings": {
+            "question": "Is eau de parfum a good gift?",
+            "answer": "<p>Yes, eau de parfum is a refined and timeless gift. With the variety of fragrances in our collection, you’ll always find the perfect choice for any person and occasion.<\/p>"
+          }
+        },
+        "question_Fpwx6P": {
+          "type": "question",
+          "settings": {
+            "question": "What is the shelf life of a perfume?",
+            "answer": "<p>The shelf life of a perfume depends on its concentration. The higher the percentage of fragrance oils, the longer it will retain its original scent and quality.<\/p><p>To preserve your perfume, store it in a cool, dry and dark place. Keep the bottle tightly closed and away from heat or direct light to prevent oxidation and maintain its full character.<\/p>"
+          }
+        },
+        "question_m3jQGb": {
+          "type": "question",
+          "settings": {
+            "question": "What is the best way to store eau de parfum?",
+            "answer": "<p>Eau de parfum is best stored in a cool, dry and dark place, preferably in its original packaging. Avoid direct sunlight and temperature fluctuations, as these can affect the composition and intensity of the fragrance. Proper storage is key to preserving the scent over time.<\/p><p>For optimal longevity, store your perfume:<\/p><ul><li>in the dark, away from sunlight and artificial light<\/li><li>in a cool place, but not in the fridge<\/li><li>in a dry space, so preferably not in the bathroom<\/li><li>in a location with a consistent temperature<\/li><li>tightly closed, to prevent oxidation<\/li><li>safely tucked away, such as in its box or a drawer<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "category_iMzzxr",
+        "question_DtVJPM",
+        "question_Lg9Br3",
+        "question_KHTYxP",
+        "question_tYHKyV",
+        "question_MLFKxC",
+        "question_JiRrYj",
+        "question_c7nVCh",
+        "question_H4HzdA",
+        "question_Fpwx6P",
+        "question_m3jQGb"
+      ],
+      "custom_css": [
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "Frequently Asked Questions",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_yRQjjU": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_YxYzPp": {
+          "type": "subheading",
+          "settings": {
+            "text": "MORE SUPPORT"
+          }
+        },
+        "richtext_qfpiMF": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Do you have any questions about our unique eau de parfums? Feel free to reach out to us!<\/p>"
+          }
+        },
+        "button_qkXzwK": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "GET IN TOUCH",
+            "url": "shopify:\/\/pages\/contact",
+            "background": "#000000",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_YxYzPp",
+        "richtext_qfpiMF",
+        "button_qkXzwK"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "rich_text_RyYpPQ",
+    "rich_text_T9kgFN",
+    "collection-banner",
+    "main",
+    "rich_text_c6hzx9",
+    "image_with_text_overlay_yew3jG",
+    "faq_BbpcVe",
+    "faq_WCKgXD",
+    "faq_k4nGcq",
+    "image_with_text_overlay_wWBJHG",
+    "faq_ekXAPN",
+    "rich_text_yRQjjU"
+  ]
+}

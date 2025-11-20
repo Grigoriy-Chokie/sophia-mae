@@ -1,0 +1,130 @@
+{% layout none -%}
+{%- assign googleCategoryIdList = '' -%}
+{%- if collection.description contains 'Default' -%}
+  {%- assign googleCategoryIdList = collection.description -%}
+{%- else -%}
+  {%- assign googleCategoryIdList = "AMBIENCE BUNDLE=588, APHRODITE COLLECTION=592, ARTEMIS COLLECTION=592, AURA=479, AURA TESTER SIZE (2ML)=479, AURA TESTER SIZE (2ML) EXCLUSIVE SALE=479, BEAUTY BAG=108, BEAUTY CASE=108, BLISSFUL NIGHT BUNDLE=486, BRILLIANT SKIN BUNDLE=2958, COSMETIC BUNDLE=6069, COURAGE CUP=6049, DISCOVERY SET=588, ETERNAL BALM=567, FLAWLESS GLOW BUNDLE=5981, FRAGRANCE STICKS APHRODITE=592, FRAGRANCE STICKS ARTEMIS=592, FRAGRANCE STICKS BUNDLE=592, GET READY WITH ME BUNDLE=2958, Gift bag=5838, GODDESS GLOW=6104, GOLDEN MIRAGE=479, GOLDEN MIRAGE TESTER SIZE (2ML)=479, GOLDEN MIRAGE TESTER SIZE (2ML) EXCLUSIVE SALE=479, GRATITUDE JOURNAL=961, HAIR CARE BUNDLE=486, KABUKI BRUSH=3025, LAUNDRY PERFUME EOS=2754, LAUNDRY PERFUME EOS TESTER SIZE (13ML)=2754, MAJESTIC BUNDLE=486, MAJESTIC MIST=486, MAXI SCENTED CANDLE APHRODITE=588, MAXI SCENTED CANDLE ARTEMIS=588, MAXI SCENTED CANDLE HESTIA=588, MAXI SCENTED CANDLE ROSA=588, MIDI SCENTED CANDLE A NIGHT WITH ASTERIA=588, MIDI SCENTED CANDLE APHRODITE=588, MIDI SCENTED CANDLE ARTEMIS=588, MIDI SCENTED CANDLE BUNDLE=588, MIDI SCENTED CANDLE GROUNDED GAIA=588, MIDI SCENTED CANDLE HESTIA=588, MIDI SCENTED CANDLE ROSA=588, MINI ETERNAL BALM=567, MINI MAJESTIC MIST=486, MINI SCENTED CANDLE APHRODITE=588, MINI SCENTED CANDLE ARTEMIS=588, MINI SCENTED CANDLE HESTIA=588, MINI SCENTED CANDLE ROSA=588, NIGHTWEAR=208, NOTEBOOK=961, NURTURING BUNDLE=2958, ONLINE GIFT CARD=53, PLUMPING LIP GLOSS=2858, PRECIOUS PINS=502988, REFILL FRAGRANCE STICKS APHRODITE=592, REFILL FRAGRANCE STICKS ARTEMIS=592, REFILL ROOMPSRAY APHRODITE=592, REFILL ROOMPSRAY ARTEMIS=592, REFRESHING HOME BUNDLE=592, ROLLER RENDEZ-VOUS SET=488, ROOMSPRAY APHRODITE=592, ROOMSPRAY ARTEMIS=592, SANTA MONICA=479, SANTA MONICA TRAVEL SIZE=479, SANTA MONICA TRAVEL SIZE (EXCLUSIVE SALE)=479, SELF CARE BUNDLE=961, SOPHIA MAE TOTE BAG=3032, SOPHISTICATED HOME BUNDLE=592, SPECIAL EDITION SCENTED CANDLE=588, STICKER SHEET=4054, SUMMER STICKER SHEET=4054, THOUGHTFUL BUNDLE=956, TWO-SIDED PILLOWCASE=2927, TWO-SIDED PILLOWCASE BUNDLE=2927, UNLIMITED BUNDLE=6069, VALENTINE STICKER SHEET=4054, Default=473" | split: ", " -%}
+{%- endif -%}
+
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:g="http://base.google.com/ns/1.0" version="2.0">
+  {%- paginate collection.products by 1000 %}
+  <channel>
+    <title>{{ shop.name }}</title>
+    <link>{{ shop.url }}</link>
+    <description>Product feed</description>
+    {%- for product in collection.products -%}
+      {%- assign titleElements = product.title | split: ' ' -%}
+      {%- assign titlecase = '' -%}
+      {%- for element in titleElements -%}
+        {%- if element == "DE" or element contains "ML" or element == "EAU" or element == "PARFUM" -%}
+          {%- assign word = element | downcase -%}
+        {%- else -%}
+          {%- assign word = element | capitalize -%}
+        {%- endif -%}
+
+        {%- if forloop.first -%}
+          {%- assign titlecase = word -%}
+        {%- else -%}
+          {%- assign titlecase = titlecase | append: ' ' | append: word -%}
+        {%- endif -%}
+      {%- endfor -%}
+
+
+      {%- assign googleCategoryId = '' -%}
+      {%- if product.metafields.custom.google-shopping-category_id and product.metafields.custom.google-shopping-category_id != blank -%}
+        {%- assign googleCategoryId = product.metafields.custom.google-shopping-category_id -%}
+      {%- else -%}
+        {%- for categoryIdMap in googleCategoryIdList -%}
+          {%- assign categoryIdMapArray = categoryIdMap | split: '=' -%}
+          {%- if product.title == categoryIdMapArray[0] -%}
+            {%- assign googleCategoryId = categoryIdMapArray[1] -%}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endif -%}
+
+      {%- if product.variants.size > 0 -%}
+        {%- for variant in product.variants -%}
+          <item>
+            {%- if product.metafields.custom.google-shopping-title == blank -%}
+              {%- if variant.title contains "Default" -%}
+                <g:title>SOPHIA MAE | {{ titlecase | strip_html | strip_newlines | replace: '&', '&amp;' }}</g:title>
+              {%- else -%}
+                <g:title>SOPHIA MAE | {{ titlecase | strip_html | strip_newlines | replace: '&', '&amp;' }} - {{ variant.title | strip_html | strip_newlines | replace: '&', '&amp;' }}</g:title>
+              {%- endif -%}
+            {%- else -%}
+              <g:title>{{ product.metafields.custom.google-shopping-title | strip_html | strip_newlines | replace: '&', '&amp;' }}</g:title>
+            {%- endif -%}
+            <g:description>{{ product.description | replace: '</', ' </' | strip_html | strip_newlines | replace: '&', '&amp;' }}</g:description>
+            <g:availability>{% if variant.available %}in stock{% else %}out of stock{% endif %}</g:availability>
+            <g:condition>new</g:condition>
+            {%- if variant.price < variant.compare_at_price -%}
+              <g:price>{{ variant.compare_at_price | money_without_currency | replace: '.', '' | replace: ',', '.' }} {{ shop.currency }}</g:price>
+              <g:sale_price>{{ variant.price | money_without_currency | replace: '.', '' | replace: ',', '.' }} {{ shop.currency }}</g:sale_price>
+            {%- else -%}
+              <g:price>{{ variant.price | money_without_currency | replace: '.', '' | replace: ',', '.' }} {{ shop.currency }}</g:price>
+            {%- endif -%}
+            <g:link>{{ shop.url }}{{ variant.url }}</g:link>
+            <g:image_link>http:{% if variant.image.src %}{{ variant.image.src | image_url }}&amp;width=800{% else %}{{ product.featured_image.src | image_url }}&amp;width=800{% endif %}</g:image_link>
+            <g:brand>{{ product.vendor }}</g:brand>
+            {%- if variant.image.src -%}
+              {%- for image in variant.images -%}
+                <g:additional_image_link>http:{{ image.src | image_url }}&amp;width=800</g:additional_image_link>
+              {%- endfor -%}
+            {%- else -%}
+              {%- for image in product.images -%}
+                <g:additional_image_link>http:{{ image.src | image_url }}&amp;width=800</g:additional_image_link>
+              {%- endfor -%}
+            {%- endif -%}
+            <g:google_product_category>{{ googleCategoryId }}</g:google_product_category>
+            <g:product_type>{{ product.metafields.custom.filter_option_1.value | replace: '&', '&amp;' }}</g:product_type>
+            {%- if product.title contains 'BUNDLE' or product.title contains 'COLLECTION' -%}
+              <g:identifier_exists>false</g:identifier_exists>
+              <g:id>{{ variant.sku }}</g:id>
+              <g:is_bundle>true</g:is_bundle>
+            {%- else -%}
+              <g:gtin>{{ variant.barcode }}</g:gtin>
+              <g:identifier_exists>{% if variant.barcode %}true{% else %}false{% endif %}</g:identifier_exists>
+              <g:id>{{ variant.sku }}</g:id>
+            {%- endif -%}
+          </item>
+        {%- endfor -%}
+      {%- else -%}
+        <item>
+          {%- if product.metafields.custom.google-shopping-title == blank -%}
+            <g:title>SOPHIA MAE | {{ titlecase | strip_html | strip_newlines | replace: '&', '&amp;' }}</g:title>
+          {%- else -%}
+            <g:title>{{ product.metafields.custom.google-shopping-title | strip_html | strip_newlines | replace: '&', '&amp;' }}</g:title>
+          {%- endif -%}
+          <g:description>{{ product.description | replace: '</', ' </' | strip_html | strip_newlines }}</g:description>
+          <g:availability>{% if product.available %}in stock{% else %}out of stock{% endif %}</g:availability>
+          <g:condition>new</g:condition>
+          {%- if product.price < product.compare_at_price -%}
+            <g:price>{{ product.compare_at_price | money_without_currency | replace: '.', '' | replace: ',', '.' }} {{ shop.currency }}</g:price>
+            <g:sale_price>{{ product.price | money_without_currency | replace: '.', '' | replace: ',', '.' }} {{ shop.currency }}</g:sale_price>
+          {%- else -%}
+            <g:price>{{ product.price | money_without_currency | replace: '.', '' | replace: ',', '.' }} {{ shop.currency }}</g:price>
+          {%- endif -%}
+          <g:link>{{ shop.url }}{{ product.url }}</g:link>
+          <g:image_link>http:{{ product.featured_image.src | image_url }}&amp;width=800</g:image_link>
+          <g:brand>{{ product.vendor }}</g:brand>
+          {%- for image in product.images %}
+            <g:additional_image_link>http:{{ image.src | image_url }}&amp;width=800</g:additional_image_link>
+          {%- endfor %}
+          <g:google_product_category>{{ googleCategoryId }}</g:google_product_category>
+          <g:product_type>{{ product.metafields.custom.filter_option_1.value | replace: '&', '&amp;' }}</g:product_type>
+          {%- if product.title contains 'BUNDLE' or product.title contains 'COLLECTION' -%}
+            <g:identifier_exists>false</g:identifier_exists>
+            <g:id>{{ product.selected_or_first_available_variant.sku }}</g:id>
+            <g:is_bundle>true</g:is_bundle>
+          {%- else -%}
+            <g:gtin>{{ product.barcode }}</g:gtin>
+            <g:identifier_exists>{% if product.barcode %}true{% else %}false{% endif %}</g:identifier_exists>
+            <g:id>{{ product.selected_or_first_available_variant.sku }}</g:id>
+          {%- endif %}
+        </item>
+      {%- endif -%}
+    {%- endfor %}
+  </channel>
+</rss>
+{%- endpaginate -%}

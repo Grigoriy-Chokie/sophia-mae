@@ -1,0 +1,61 @@
+{%- comment -%}
+----------------------------------------------------------------------------------------------------------------------
+FREE SHIPPING BAR
+----------------------------------------------------------------------------------------------------------------------
+
+Renders the free shipping bar component. It is used on cart page and cart drawer to render the remaining amount before
+being eligible for free shipping.
+{%- endcomment -%}
+
+{%- liquid
+  assign limit_unreached = settings.limit_unreached
+  assign limit_reached = settings.limit_reached
+
+  if template.name == "cart"
+    assign image_bar = settings.image_bar_page
+  else
+    assign image_bar = settings.image_bar
+  endif
+
+  if limit_unreached contains "{{remaining_amount}}"
+    assign correct_settings = true
+  else
+    assign correct_settings = false
+  endif
+
+  assign calculated_total_price = 0
+
+  for line_item in cart.items
+    if line_item.requires_shipping
+      assign calculated_total_price = calculated_total_price | plus: line_item.final_line_price
+    endif
+  endfor
+
+  # We have to remove the cart level discount from the calculated amount
+
+  assign total_cart_discount = 0
+
+  for discount_application in cart.cart_level_discount_applications
+    assign total_cart_discount = total_cart_discount | plus: discount_application.total_allocated_amount
+  endfor
+
+  assign calculated_total_price = calculated_total_price | minus: total_cart_discount
+
+
+-%}
+
+{%- if cart.requires_shipping and correct_settings  -%}
+  <free-shipping-bar 
+    class="free-shipping-bar free-shipping-bar__new" 
+    threshold="{{ settings.cart_free_shipping_threshold }}" 
+    total-price="{{ calculated_total_price }}" 
+    reached-message="{{ limit_reached | escape }}" 
+    unreached-message="{{ limit_unreached | escape }}"
+  >
+    {%- comment -%}The span below is the placeholder where the content will be inserted in JS{%- endcomment -%}
+    {% if image_bar %}<img src="{{image_bar | img_url: 'master' }}" alt="{{image_bar.alt}}" loading="lazy">{% endif %}
+    <span class="text-subdued">&nbsp;</span>
+  </free-shipping-bar> 
+
+  <span class="cart-drawer__deivery-info"> {{ settings.delivery_info }}</span>
+{%- endif -%}

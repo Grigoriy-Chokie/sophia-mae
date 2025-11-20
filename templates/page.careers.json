@@ -1,0 +1,375 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_rCcM8p": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_aDK8X6": {
+          "type": "heading",
+          "settings": {
+            "text": "CAREERS",
+            "heading_tag": "h1"
+          }
+        },
+        "heading_F4GjiK": {
+          "type": "heading",
+          "settings": {
+            "text": "JOIN THE TEAM",
+            "heading_tag": "h4"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aDK8X6",
+        "heading_F4GjiK"
+      ],
+      "name": "t:sections.image_with_text_overlay.presets.image_with_text_overlay.name",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify://shop_images/web_2500_x_900_2.png",
+        "mobile_image": "shopify://shop_images/Ontwerp_zonder_titel_2_ae3bc907-4070-4b55-8b56-45d082944e59.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-end-center text-center",
+        "desktop_text_position": "sm:place-self-center-end sm:text-end",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "rich_text_EyzCEz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kKQ8jB": {
+          "type": "heading",
+          "settings": {
+            "text": "JOB OPENINGS",
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kKQ8jB"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "image_with_text_7PhJ7F": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_TL9dAL": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "<a href=\"https://www.vacaturevia.nl/vacature/sophia-mae-allround-marketeer-748bb\" target=\"_blank\" title=\"https://www.vacaturevia.nl/vacature/sophia-mae-allround-marketeer-748bb\">Allround Marketeer</a>",
+            "heading_tag": "h5"
+          }
+        },
+        "heading_wddDfM": {
+          "type": "heading",
+          "settings": {
+            "text": "<a href=\"https://www.fontaneljobs.com/jobs/sophia-mae-back-end-web-developer\" target=\"_blank\">Back-End Web Developer</a>",
+            "heading_tag": "h5"
+          }
+        },
+        "heading_eM3TLM": {
+          "type": "heading",
+          "settings": {
+            "text": "<a href=\"https://drive.google.com/file/d/1Xg2umorYffeDhpU69Loc0ybXVMDdLf5U/view?usp=drive_link\" target=\"_blank\" title=\"Client Advisors\">Client Advisors</a>",
+            "heading_tag": "h5"
+          }
+        },
+        "button_fQQdLy": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "SUBMIT NOW",
+            "url": "mailto:work@sophia-mae.com",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "richtext_dzCUEx": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Would you love to work at SOPHIA MAE, but don't see your ideal role listed (yet)?</p><p>We’re always happy to receive open applications. Tell us why you’d be a great fit — if we see a match, we’ll be in touch!</p>"
+          }
+        },
+        "button_VURM4T": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "SUBMIT OPEN APPLICATION",
+            "url": "mailto:work@sophia-mae.com",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_TL9dAL",
+        "heading_wddDfM",
+        "heading_eM3TLM",
+        "button_fQQdLy",
+        "richtext_dzCUEx",
+        "button_VURM4T"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "background_color": "brown",
+        "image": "shopify://shop_images/web_1000_x_1000_px_0793553f-ebb1-4b20-a2ed-80a359938f7e.png",
+        "mobile_image": "shopify://shop_images/web_1000_x_1000_px_0793553f-ebb1-4b20-a2ed-80a359938f7e.png",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "sm",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
+    "carousel_home_igPgmq": {
+      "type": "carousel-home",
+      "blocks": {
+        "slide_q8KhDF": {
+          "type": "slide",
+          "settings": {
+            "heading": "DIVERE WORK IN A TIGHT-KNIT TEAM",
+            "info": "At SOPHIA MAE, every day brings new challenges and opportunities. You won’t be stuck in a repetitive routine—instead, you’ll take on a wide range of tasks and projects. All of this happens within a close-knit team that values genuine connection and collaboration.",
+            "url_page": "",
+            "product": "",
+            "name_btn": ""
+          }
+        },
+        "slide_RYkaA3": {
+          "type": "slide",
+          "settings": {
+            "heading": "PERSONAL GROWTH",
+            "info": "You’ll have opportunities to share your voice and make meaningful contributions. Plus, we’re all about supporting your professional and personal growth.",
+            "url_page": "",
+            "product": "",
+            "name_btn": ""
+          }
+        },
+        "slide_UTXgxK": {
+          "type": "slide",
+          "settings": {
+            "heading": "A FORWARD-THINKING COMPANY",
+            "info": "We are always looking ahead—whether it's in our products, our strategies, or our company culture. You’ll be part of a brand that values fresh ideas, embraces change, and is constantly evolving.",
+            "url_page": "",
+            "product": "",
+            "name_btn": ""
+          }
+        },
+        "slide_J6qDbw": {
+          "type": "slide",
+          "settings": {
+            "heading": "BEAUTIFUL OFFICE + REMOTE OPTIONS",
+            "info": "Our office is designed to inspire creativity and comfort, while remote flexibility ensures you can stay productive when working from home.",
+            "url_page": "",
+            "product": "",
+            "name_btn": ""
+          }
+        },
+        "slide_caV6x6": {
+          "type": "slide",
+          "settings": {
+            "heading": "FLEXIBLE WORKING HOURS",
+            "info": "We offer flexibility in your workday, with space to adjust your hours in coordination with the team.",
+            "url_page": "",
+            "product": "",
+            "name_btn": ""
+          }
+        },
+        "slide_BJ8nb9": {
+          "type": "slide",
+          "settings": {
+            "heading": "COMPETITIVE SALARY",
+            "info": "We offer a salary that matches or exceeds industry standards for your role and experience.",
+            "url_page": "",
+            "product": "",
+            "name_btn": ""
+          }
+        },
+        "slide_tjGXLq": {
+          "type": "slide",
+          "settings": {
+            "heading": "SOPHIA MAE PRODUCT PERKS",
+            "info": "Enjoy exclusive discounts or free access to our divine beauty and lifestyle products.",
+            "url_page": "",
+            "product": "",
+            "name_btn": ""
+          }
+        },
+        "slide_78HyG4": {
+          "type": "slide",
+          "settings": {
+            "heading": "LOTS OF TEAM OUTINGS, HELD REGULARLY",
+            "info": "We love spending time together outside of work—think team dinners, days out, and fun experiences to bond and recharge.",
+            "url_page": "",
+            "product": "",
+            "name_btn": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_q8KhDF",
+        "slide_RYkaA3",
+        "slide_UTXgxK",
+        "slide_J6qDbw",
+        "slide_caV6x6",
+        "slide_BJ8nb9",
+        "slide_tjGXLq",
+        "slide_78HyG4"
+      ],
+      "custom_css": [],
+      "name": "Carousel home",
+      "settings": {
+        "heading": "THE BENEFITS"
+      }
+    },
+    "faq_9P79kk": {
+      "type": "faq",
+      "blocks": {
+        "question_r7aJdQ": {
+          "type": "question",
+          "settings": {
+            "question": "Where can I find current job openings at SOPHIA MAE?",
+            "answer": "<p>Looking to grow within a passionate and ambitious company? You can find our current job openings on this page.</p>"
+          }
+        },
+        "question_FFJi64": {
+          "type": "question",
+          "settings": {
+            "question": "What types of job opportunities does SOPHIA MAE offer?",
+            "answer": "<p>SOPHIA MAE offers job opportunities across various departments, including marketing, sales, customer service, product development and retail.<br/><br/>Whether you're looking for a creative role at our headquarters or a position in our store, we welcome individuals who share our vision and want to grow with us.</p>"
+          }
+        },
+        "question_UfFm76": {
+          "type": "question",
+          "settings": {
+            "question": "Can I send an open application?",
+            "answer": "<p>Yes, you can. We’re always open to open applications. Tell us why you’d be a great fit for SOPHIA MAE. If we see a match, we’ll get in touch.</p>"
+          }
+        },
+        "question_fQkWTg": {
+          "type": "question",
+          "settings": {
+            "question": "What kind of candidates is SOPHIA MAE looking for in future roles?",
+            "answer": "<p>We’re looking for people with an eye for detail, a strong sense of aesthetics, and a natural fit with the world of SOPHIA MAE. Whether you're creative, strategic, or highly organized – if you’re excited about our brand and believe you can add value, we’d love to hear from you.</p>"
+          }
+        },
+        "question_JnxkMN": {
+          "type": "question",
+          "settings": {
+            "question": "Can I work at SOPHIA MAE without experience in the beauty or lifestyle industry?",
+            "answer": "<p>Yes, you can. Industry experience is a plus, but not a must. What matters most to us is your talent, drive, and alignment with the SOPHIA MAE universe.</p>"
+          }
+        },
+        "question_beKDia": {
+          "type": "question",
+          "settings": {
+            "question": "What does the application process at SOPHIA MAE look like?",
+            "answer": "<p>After submitting your application, we’ll review whether your profile fits one of our current or upcoming roles. If we see a match, we’ll reach out to schedule an introduction.</p>"
+          }
+        },
+        "question_r6PaRx": {
+          "type": "question",
+          "settings": {
+            "question": "Does SOPHIA MAE offer internships or traineeships?",
+            "answer": "<p>Internships at SOPHIA MAE are limited and only available when there's room within the team. When open, they will be listed on our careers page. If no positions are available, you're always welcome to submit an open application. SOPHIA MAE does not offer traineeships.</p>"
+          }
+        },
+        "question_haGcqP": {
+          "type": "question",
+          "settings": {
+            "question": "Can I work with SOPHIA MAE as a freelancer or on a project basis?",
+            "answer": "<p>We often collaborate with freelancers for creative or specialist projects. If you believe your expertise aligns with SOPHIA MAE, feel free to send us a short introduction and your portfolio.</p>"
+          }
+        },
+        "question_m9dN9R": {
+          "type": "question",
+          "settings": {
+            "question": "Can I work remotely at SOPHIA MAE?",
+            "answer": "<p>It depends on the role. Some positions require being on-site, while others can be done (partly) remotely.</p>"
+          }
+        },
+        "question_BLz39V": {
+          "type": "question",
+          "settings": {
+            "question": "What is the company culture like at SOPHIA MAE?",
+            "answer": "<p>The culture at SOPHIA MAE is informal, with a warm and entrepreneurial team spirit. We work closely together, with a strong focus on aesthetics, quality, and innovation. There’s plenty of room for initiative, fresh ideas, and personal growth.</p>"
+          }
+        },
+        "question_ymXPiB": {
+          "type": "question",
+          "settings": {
+            "question": "Are there opportunities for growth within SOPHIA MAE?",
+            "answer": "<p>Absolutely. As a young and fast-growing company, we offer plenty of room for your role to evolve. Start in a support position and find your passion or talent for other disciplines? We'd be happy to help you take the next step internally.</p>"
+          }
+        },
+        "question_TKJcAG": {
+          "type": "question",
+          "settings": {
+            "question": "Does SOPHIA MAE offer career opportunities in other countries?",
+            "answer": "<p>Not at the moment. If this changes in the future, we’ll share any updates through our official channels.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_r7aJdQ",
+        "question_FFJi64",
+        "question_UfFm76",
+        "question_fQkWTg",
+        "question_JnxkMN",
+        "question_beKDia",
+        "question_r6PaRx",
+        "question_haGcqP",
+        "question_m9dN9R",
+        "question_BLz39V",
+        "question_ymXPiB",
+        "question_TKJcAG"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "Frequently Asked Questions",
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_rCcM8p",
+    "main",
+    "rich_text_EyzCEz",
+    "image_with_text_7PhJ7F",
+    "carousel_home_igPgmq",
+    "faq_9P79kk"
+  ]
+}

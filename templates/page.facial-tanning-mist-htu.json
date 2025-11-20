@@ -1,0 +1,328 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "settings": {
+            "text": "FACIAL TANNING MIST",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_d9cAeJ": {
+          "type": "subheading",
+          "settings": {
+            "text": "HOW TO USE"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe",
+        "subheading_d9cAeJ"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Hospitality_banner_desktop_6_ce5ce99c-e539-4098-ba1d-1f302b9d00d9.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_5_6657c033-abfb-4e51-920d-62916ae9a167.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "faq_rKcDhg": {
+      "type": "faq",
+      "blocks": {
+        "question_9PDGDX": {
+          "type": "question",
+          "settings": {
+            "question": "1. Prepare",
+            "answer": "<p>Before application, ensure your face is clean, exfoliated, and moisturized for best results.Make sure to moisturize your skin daily to maintain your tan.<\/p>"
+          }
+        },
+        "question_nDGcFy": {
+          "type": "question",
+          "settings": {
+            "question": "2. Application",
+            "answer": "<p>Hold the Tremendously Tanned facial tanning mist 6-8 cm away from your face.<\/p><p>Spray in a left-to-right downward motion across your entire face, avoiding direct contact with the eyes and lips.<\/p><p>Don't forget to apply the mist on your neck as well for a natural, even tan. Ensure even coverage for a seamless tan.<\/p>"
+          }
+        },
+        "question_VfpBRm": {
+          "type": "question",
+          "settings": {
+            "question": "3. Allow it to dry",
+            "answer": "<p>Let the tanning mist sit for 3-5 minutes or until it feels dry before getting dressed.<\/p>"
+          }
+        },
+        "question_qniVEP": {
+          "type": "question",
+          "settings": {
+            "question": "4. Develop",
+            "answer": "<p>Allow the tan to develop within 4-6 hours before showering or coming into contact with water. For a deeper tan, allow it to develop for 8 hours.<\/p>"
+          }
+        },
+        "question_YFA3bE": {
+          "type": "question",
+          "settings": {
+            "question": "5. Touch up",
+            "answer": "<p>If desired, touch up your tan by reapplying the mist until you achieve your desired level of glow.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_9PDGDX",
+        "question_nDGcFy",
+        "question_VfpBRm",
+        "question_qniVEP",
+        "question_YFA3bE"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "The moisturizing formula of this facial tanning mist combines self-tanning and skincare, for a radiant, healthy glow on your face. ",
+        "title": "",
+        "content": ""
+      }
+    },
+    "faq_zTaHDt": {
+      "type": "faq",
+      "blocks": {
+        "category_79k7by": {
+          "type": "category",
+          "settings": {
+            "title": "APPLICATION",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_VMNGCh": {
+          "type": "question",
+          "settings": {
+            "question": "Do you apply the facial tanning mist before or after your skincare routine?",
+            "answer": "<p>We recommend completing your skincare routine first and then applying the facial tanning mist.<\/p>"
+          }
+        },
+        "question_rdCDxG": {
+          "type": "question",
+          "settings": {
+            "question": "Can the facial tanning mist be applied before bedtime?",
+            "answer": "<p>Yes, absolutely. You can apply the facial tanning mist in the morning after your skincare routine or before bedtime. However, it’s important that the facial tanning mist is fully absorbed and feels dry.<\/p>"
+          }
+        },
+        "question_diLCdb": {
+          "type": "question",
+          "settings": {
+            "question": "Can I apply makeup immediately after applying the facial tanning mist?",
+            "answer": "<p>Once the facial tanning mist is completely dry, you can apply makeup as desired.<\/p>"
+          }
+        },
+        "question_eTPnzA": {
+          "type": "question",
+          "settings": {
+            "question": "How many sprays should I use for the best results?",
+            "answer": "<p>The number of sprays depends on various factors, including desired results. Therefore, we cannot advise an exact number of sprays. We recommend gradually building up the number of sprays.<\/p><p>If a few sprays do not achieve the desired result, you can always use more sprays until the desired result is achieved. Consider the development time of 4-6 hours of the product.<\/p>"
+          }
+        },
+        "question_GeWWBQ": {
+          "type": "question",
+          "settings": {
+            "question": "Can the facial tanning mist be easily removed from the face?",
+            "answer": "<p>Tremendously Tanned is a self-tanning product absorbed into the skin. While the product will naturally fade after 3-5 days, the intensity can be reduced with excessive use or undesired results. Exfoliating and gently scrubbing with a facial scrub will decrease the intensity.<\/p>"
+          }
+        },
+        "category_VAPPrb": {
+          "type": "category",
+          "settings": {
+            "title": "SKIN TYPES & TONES",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_agbdg9": {
+          "type": "question",
+          "settings": {
+            "question": "Is the product suitable for use on skin with imperfections?",
+            "answer": "<p>The facial tanning mist is developed for various skin types, including sensitive skin. Nourishing ingredients such as hyaluronic acid and lavender provide a hydrated, radiant, and sun-kissed complexion. <\/p><p>For uneven skin, we recommend conducting a patch test first.<\/p>"
+          }
+        },
+        "question_Ea4kwj": {
+          "type": "question",
+          "settings": {
+            "question": "Is the facial tanning mist suitable for all skin types?",
+            "answer": "<p>For certain skin conditions, we recommend consulting a dermatologist. Since every skin is different, we always advise conducting a patch test beforehand.<\/p>"
+          }
+        },
+        "question_Gt8xkM": {
+          "type": "question",
+          "settings": {
+            "question": "Is the facial tanning mist suitable for all skin tones?",
+            "answer": "<p>Yes, the facial tanning mist is formulated to be suitable for all skin tones.<\/p>"
+          }
+        },
+        "question_GnaYzf": {
+          "type": "question",
+          "settings": {
+            "question": "Are there different colors or variants available of the facial tanning mist?",
+            "answer": "<p>No, the facial tanning mist is suitable for all skin tones, so there is only one variant available.<\/p>"
+          }
+        },
+        "category_FMaJpL": {
+          "type": "category",
+          "settings": {
+            "title": "PRODUCT FEATURES",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_JC4yyc": {
+          "type": "question",
+          "settings": {
+            "question": "Does the facial tanning mist smell like typical tanning products once absorbed?",
+            "answer": "<p>The scent of the facial tanning mist consists of rose, freesia, and citrus notes, providing a refreshing fragrance. However, the ingredient responsible for self-tanning (dihydroxyacetone) may leave a typical scent of tanning products.<\/p>"
+          }
+        },
+        "question_VbzBLD": {
+          "type": "question",
+          "settings": {
+            "question": "Can the product leave stains on light-colored clothing?",
+            "answer": "<p>Although the product is designed not to leave stains, it may still cause stains on light-colored clothing and\/or bedding if not fully dried.<\/p>"
+          }
+        },
+        "question_GypBda": {
+          "type": "question",
+          "settings": {
+            "question": "How can I ensure the product does not leave any stains?",
+            "answer": "<p>The Tremendously Tanned is a mist, ensuring even distribution of the tanning product. However, we always recommend following our instructions to prevent any stains. Drying is also an important step in this process.<\/p>"
+          }
+        },
+        "question_CWzPtg": {
+          "type": "question",
+          "settings": {
+            "question": "Is the Tremendously Tanned facial tanning mist vegan and cruelty-free?",
+            "answer": "<p>The product is dermatologically tested and entirely vegan and cruelty-free.<\/p>"
+          }
+        },
+        "question_LE3wRK": {
+          "type": "question",
+          "settings": {
+            "question": "Does the product contain alcohol?",
+            "answer": "<p>The product contains perfume, hence a low percentage of alcohol.<\/p>"
+          }
+        },
+        "category_yArb4P": {
+          "type": "category",
+          "settings": {
+            "title": "SPECIFIC SITUATIONS",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_NGc4gL": {
+          "type": "question",
+          "settings": {
+            "question": "Can the facial tanning mist be used with permanent makeup and\/or lash extensions?",
+            "answer": "<p>Yes, the Tremendously Tanned facial tanning mist does not affect permanent makeup. However, we recommend, with lash extensions, drying the eyelids with a cotton swab after applying the mist and gently combing the lashes.<\/p>"
+          }
+        },
+        "question_aFjMzY": {
+          "type": "question",
+          "settings": {
+            "question": "Can the facial tanning mist be used during pregnancy?",
+            "answer": "<p>The self-tanning ingredient (DHA) is natural. If in doubt, especially in the first months of pregnancy, we advise consulting an obstetrician.<\/p>"
+          }
+        },
+        "question_neTjxp": {
+          "type": "question",
+          "settings": {
+            "question": "Can the facial tanning mist be applied to the hands?",
+            "answer": "<p>We do not recommend this. The product is specially formulated for use on the face and neck.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_79k7by",
+        "question_VMNGCh",
+        "question_rdCDxG",
+        "question_diLCdb",
+        "question_eTPnzA",
+        "question_GeWWBQ",
+        "category_VAPPrb",
+        "question_agbdg9",
+        "question_Ea4kwj",
+        "question_Gt8xkM",
+        "question_GnaYzf",
+        "category_FMaJpL",
+        "question_JC4yyc",
+        "question_VbzBLD",
+        "question_GypBda",
+        "question_CWzPtg",
+        "question_LE3wRK",
+        "category_yArb4P",
+        "question_NGc4gL",
+        "question_aFjMzY",
+        "question_neTjxp"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "Frequently Asked Questions",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_fmdLck": {
+      "type": "rich-text",
+      "blocks": {
+        "button_VqmQp8": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "DISCOVER NOW",
+            "url": "shopify:\/\/products\/facial-tanning-mist",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_VqmQp8"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "faq_rKcDhg",
+    "faq_zTaHDt",
+    "rich_text_fmdLck"
+  ]
+}

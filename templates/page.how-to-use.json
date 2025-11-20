@@ -1,0 +1,455 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "02165d36-fb19-4550-a549-bcab3ead0ecb": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20403233063256__02165d36-fb19-4550-a549-bcab3ead0ecb-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Directions for use"
+          }
+        },
+        "template--20403233063256__02165d36-fb19-4550-a549-bcab3ead0ecb-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "AURA EAU DE PARFUM",
+            "heading_tag": "h1"
+          }
+        },
+        "template--20403233063256__02165d36-fb19-4550-a549-bcab3ead0ecb-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Spray Aura eau de parfum on the inside of your wrists, on your neck, behind your ear or on the inside of your elbows. These are the warmest places on your body. The perfume reacts to the heat of your body and that ensures that you keep smelling the divine scent of Aura eau de parfum all day long. <br\/>Store Aura eau de parfum in a cool and dry spot, for example in the original box. Do not expose Aura eau de parfum to direct sunlight. This is important for good preservation of the fragrance.<\/p>"
+          }
+        },
+        "9369c431-ced0-49a3-a339-2c8cb032adb8": {
+          "type": "link",
+          "settings": {
+            "text": "Shop",
+            "url": "shopify:\/\/products\/aura-eau-de-parfum"
+          }
+        }
+      },
+      "block_order": [
+        "template--20403233063256__02165d36-fb19-4550-a549-bcab3ead0ecb-subheading-1",
+        "template--20403233063256__02165d36-fb19-4550-a549-bcab3ead0ecb-heading-1",
+        "template--20403233063256__02165d36-fb19-4550-a549-bcab3ead0ecb-richtext-1",
+        "9369c431-ced0-49a3-a339-2c8cb032adb8"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "background_color": "default",
+        "image": "shopify:\/\/shop_images\/1_51344951-8aec-45f1-b126-b04433814dc0.png",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "lg",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
+    "f1ad4f7c-29aa-4a65-90ad-5a4bcd61a70e": {
+      "type": "image-with-text",
+      "blocks": {
+        "12c5d30a-cbc5-4abb-babc-3b8974ed48ad": {
+          "type": "subheading",
+          "settings": {
+            "text": "Directions for use"
+          }
+        },
+        "3d747f36-ef09-4ee0-90e1-9ec15465c30a": {
+          "type": "heading",
+          "settings": {
+            "text": "ETERNAL BALM",
+            "heading_tag": "h1"
+          }
+        },
+        "a8c3b5e0-2fde-4985-9bdd-f6b984daf24b": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>When you receive your Eternal Balm, make sure you remove the silver foil before using the product. If a plastic layer remains, please pierce this layer with a sharp object before using the product. Put a bit of Eternal Balm on your finger, then apply it to your lips or any other part of your skin that needs some extra care. Use the Eternal Balm as a lip balm, highlighter on your cheeks, cuticle cream or nurturing cream.<\/p>"
+          }
+        },
+        "7eaac411-eef0-4319-8729-ef806dd4251e": {
+          "type": "link",
+          "settings": {
+            "text": "Shop",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "12c5d30a-cbc5-4abb-babc-3b8974ed48ad",
+        "3d747f36-ef09-4ee0-90e1-9ec15465c30a",
+        "a8c3b5e0-2fde-4985-9bdd-f6b984daf24b",
+        "7eaac411-eef0-4319-8729-ef806dd4251e"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "background_color": "default",
+        "image": "shopify:\/\/shop_images\/2.png",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "lg",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
+    "364f5f78-67f4-4ef6-ae07-8016543465ae": {
+      "type": "image-with-text",
+      "blocks": {
+        "7ea749b2-eee3-4d13-8335-e35977038310": {
+          "type": "subheading",
+          "settings": {
+            "text": "Directions for use"
+          }
+        },
+        "5cb45643-0dc8-4940-82e7-5d0039e99e45": {
+          "type": "heading",
+          "settings": {
+            "text": "FRAGRANCE STICKS",
+            "heading_tag": "h1"
+          }
+        },
+        "78769169-11fc-4a74-9ccb-0e387608784f": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Place the sticks that came with your Fragrance Sticks into the bottle, also known as a reed diffuser, to absorb the diffuser liquid. The Fragrance Sticks do not need to be flipped as the sticks will absorb and diffuse the scent into your home naturally. The Fragrance Sticks will continue to evaporate into the air, creating a subtle and luxurious scent. Do not expose the Fragrance Sticks to direct sunlight. Do not place the Fragrance Sticks on a radiator or heating element. This is important for good preservation of the Fragrance Sticks.<\/p>"
+          }
+        },
+        "8da5dd95-2124-4845-b6dd-9c6f5b115e3b": {
+          "type": "link",
+          "settings": {
+            "text": "Shop",
+            "url": "shopify:\/\/collections\/fragrance-sticks"
+          }
+        }
+      },
+      "block_order": [
+        "7ea749b2-eee3-4d13-8335-e35977038310",
+        "5cb45643-0dc8-4940-82e7-5d0039e99e45",
+        "78769169-11fc-4a74-9ccb-0e387608784f",
+        "8da5dd95-2124-4845-b6dd-9c6f5b115e3b"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "background_color": "default",
+        "image": "shopify:\/\/shop_images\/3.png",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "lg",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
+    "cecbe799-b61d-4902-afdd-c2a10a6b9262": {
+      "type": "image-with-text",
+      "blocks": {
+        "2376bda3-79e2-4924-a878-388151c40622": {
+          "type": "subheading",
+          "settings": {
+            "text": "Directions for use"
+          }
+        },
+        "3cc31a91-6567-4e43-a4d5-6d6c595cf519": {
+          "type": "heading",
+          "settings": {
+            "text": "GODDESS GLOW",
+            "heading_tag": "h1"
+          }
+        },
+        "b1f97973-b667-476d-b9d0-afbc0287e720": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Apply the desired amount to your hand using the pump and apply the shimmering oil to the areas you want to be shiny, such as the legs, arms and\/or cleavage. Allow the body oil to absorb for a moment before dressing yourself. The oil can cause stains, so be careful with your clothes and other accessories or objects. To prevent shimmering hands, using a kabuki brush while applying the Goddess Glow might help.<\/p>"
+          }
+        },
+        "7a851603-2b9c-4898-a1a3-1c51d56b0930": {
+          "type": "link",
+          "settings": {
+            "text": "Shop",
+            "url": "shopify:\/\/products\/goddess-glow"
+          }
+        }
+      },
+      "block_order": [
+        "2376bda3-79e2-4924-a878-388151c40622",
+        "3cc31a91-6567-4e43-a4d5-6d6c595cf519",
+        "b1f97973-b667-476d-b9d0-afbc0287e720",
+        "7a851603-2b9c-4898-a1a3-1c51d56b0930"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "background_color": "default",
+        "image": "shopify:\/\/shop_images\/5.png",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "lg",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
+    "fb00f436-1945-464e-a93a-b75a68e4341c": {
+      "type": "image-with-text",
+      "blocks": {
+        "fbd0b374-c157-4aa8-86cc-672d3c0c4f65": {
+          "type": "subheading",
+          "settings": {
+            "text": "Directions for use"
+          }
+        },
+        "87768a1e-9bd5-4985-a91c-c15624bb9c55": {
+          "type": "heading",
+          "settings": {
+            "text": "EOS LAUNDRY PERFUME",
+            "heading_tag": "h1"
+          }
+        },
+        "05a5219b-c13f-464d-9ed0-bb7019972fb2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Washing machine:<\/strong><br\/>Pour the laundry perfume into the fabric softener compartment. The recommended dosage is one full cap. Use a maximum of two caps per wash. Use the laundry perfume along with regular detergent.<br\/><br\/><strong>Hand wash:<\/strong><br\/>Pour one to two capfuls into five liters of water, rinse the laundry, and then leave it in the fragranced water for a few minutes.<br\/><br\/>To ensure a longer fragrance experience, we do not recommend putting your freshly washed laundry in the tumble dryer after using the laundry perfume. Store your laundry perfume in a cool and dry spot.<\/p>"
+          }
+        },
+        "1ee7d52e-ad03-4add-8ee5-aed9b065ea32": {
+          "type": "link",
+          "settings": {
+            "text": "Shop",
+            "url": "shopify:\/\/products\/eos-laundry-perfume-previous-packaging"
+          }
+        }
+      },
+      "block_order": [
+        "fbd0b374-c157-4aa8-86cc-672d3c0c4f65",
+        "87768a1e-9bd5-4985-a91c-c15624bb9c55",
+        "05a5219b-c13f-464d-9ed0-bb7019972fb2",
+        "1ee7d52e-ad03-4add-8ee5-aed9b065ea32"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "background_color": "default",
+        "image": "shopify:\/\/shop_images\/3_d116296c-634a-4b38-ae5d-795961bb6488.png",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "lg",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
+    "27980f56-24f8-4362-a71f-9fee501dcde2": {
+      "type": "image-with-text",
+      "blocks": {
+        "e8767bd0-9693-4d56-8b50-f4536a9aeb8d": {
+          "type": "subheading",
+          "settings": {
+            "text": "Directions for use"
+          }
+        },
+        "67e5d934-f40c-47a9-9f18-efa1d0006faf": {
+          "type": "heading",
+          "settings": {
+            "text": "MAJESTIC MIST",
+            "heading_tag": "h1"
+          }
+        },
+        "51d6411b-198c-41e3-ad03-4cb92af7b773": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Spray onto hair roots from 25-30 cm away.<br\/>Comb through well to prevent a white haze.<br\/><br\/><strong>BEFORE USAGE<\/strong><br\/>Before every use, make sure to shake the Majestic Mist until you hear the sound of the small metal ball going back and forth inside. If you skip this step, part of the product drops down to the bottom of the bottle due to not having been used for a while, which can cause blockage in the cap when spraying before shaking the bottle.<br\/><br\/><strong>IF THE CAP HAS SOME BLOCKAGE<\/strong><br\/>If, for any reason, your cap still has some blockage inside, it is advised to remove the cap from the bottle, rinse the cap under warm water and pierce the opening with a small object to remove the blockage. After you reinstall the cap onto the Majestic Mist, give the bottle another good shake until you hear the sound of the metal ball inside. If all goes well, your Majestic Mist will be ready to use as usual.<br\/><br\/><strong>HOW TO STORE AFTER USAGE<\/strong><br\/>After usage, always use the cap to protect the spraying cap. Store your Majestic Mist in a cool and dry spot.<\/p>"
+          }
+        },
+        "0daeea8b-6514-41b9-9ae1-8edd599d9494": {
+          "type": "link",
+          "settings": {
+            "text": "Shop",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "e8767bd0-9693-4d56-8b50-f4536a9aeb8d",
+        "67e5d934-f40c-47a9-9f18-efa1d0006faf",
+        "51d6411b-198c-41e3-ad03-4cb92af7b773",
+        "0daeea8b-6514-41b9-9ae1-8edd599d9494"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "background_color": "default",
+        "image": "shopify:\/\/shop_images\/4.png",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "lg",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
+    "b236a530-e5e1-415b-839a-34653ab08e3f": {
+      "type": "image-with-text",
+      "blocks": {
+        "318791f0-2b06-49ed-9d7c-53885dc0bb88": {
+          "type": "subheading",
+          "settings": {
+            "text": "Directions for use"
+          }
+        },
+        "b5322eb7-8146-430e-a297-e564dafe7d4f": {
+          "type": "heading",
+          "settings": {
+            "text": "ROOMSPRAY",
+            "heading_tag": "h1"
+          }
+        },
+        "7be2214a-7dfa-4100-be4a-bab397fc842f": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Open the nozzle before use and close the nozzle after every use. Spray in the air to diffuse the scent all throughout your home. Please note to always keep the nozzle closed when not using the product. Do not spray or place on fragile objects, like wood, marble or other natural stones and painted objects. Do not expose the Roomspray to direct sunlight. This is important for good preservation of the scent.<\/p>"
+          }
+        },
+        "6bed9534-e6c2-4781-8ae7-6926175fd9e0": {
+          "type": "link",
+          "settings": {
+            "text": "Shop",
+            "url": "shopify:\/\/products\/aphrodite-roomspray"
+          }
+        }
+      },
+      "block_order": [
+        "318791f0-2b06-49ed-9d7c-53885dc0bb88",
+        "b5322eb7-8146-430e-a297-e564dafe7d4f",
+        "7be2214a-7dfa-4100-be4a-bab397fc842f",
+        "6bed9534-e6c2-4781-8ae7-6926175fd9e0"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "background_color": "default",
+        "image": "shopify:\/\/shop_images\/1.png",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "lg",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
+    "12a45861-6332-4aed-85d3-65fe392db338": {
+      "type": "image-with-text",
+      "blocks": {
+        "931b8a69-0c48-4bbd-8a4a-50c3fe6383b8": {
+          "type": "subheading",
+          "settings": {
+            "text": "Directions for use"
+          }
+        },
+        "b8c4afe2-aa5c-48b4-ac67-cf7b2821edc9": {
+          "type": "heading",
+          "settings": {
+            "text": "SCENTED CANDLES",
+            "heading_tag": "h1"
+          }
+        },
+        "ba8d8707-c4ba-4147-b180-5ca30d254797": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>When using the candle for the first time, leave it to burn for two or three hours. Every time you light the candle, let the candle burn until the top of the wax has completely melted, this allows the candle to burn evenly and prevent tunneling. Regularly cut the wick (ideal length 5 mm) to make sure you get the most out of your scented candle and be sure to centre the wick in the wax after each use for consistent consumption of the wax.<br\/><br\/>The wax of our scented candles has a strong scent. Once blown out, the melted wax keeps its scent for a long time. To maintain the quality of the scent, there is no need to burn the candle for more than three hours. If the temperature gets too high due to burning the candle for too long, it may affect the quality of the scent.<br\/><br\/>We recommend not placing the scented candle near an open window or door to prevent the flame from flapping or smoking due to the draft. This results in black prints that can be seen on the edges. <br\/><br\/>Please be advised not to burn the candle all the way to the bottom to prevent too much heat development.<br\/><br\/>We have deliberately opted for a design that promotes the reuse of our candle holders. When the candle is empty, these versatile holders can be repurposed in various ways, such as transforming them into flower pots, pen holders, or makeup brush organizers. This approach not only reduces waste but also encourages creativity and provides long-lasting functionality for our candle holders.<\/p>"
+          }
+        },
+        "18be11a8-1954-4434-abf5-fa7b6f838fdf": {
+          "type": "link",
+          "settings": {
+            "text": "Shop",
+            "url": "shopify:\/\/collections\/scented-candles"
+          }
+        }
+      },
+      "block_order": [
+        "931b8a69-0c48-4bbd-8a4a-50c3fe6383b8",
+        "b8c4afe2-aa5c-48b4-ac67-cf7b2821edc9",
+        "ba8d8707-c4ba-4147-b180-5ca30d254797",
+        "18be11a8-1954-4434-abf5-fa7b6f838fdf"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "background_color": "default",
+        "image": "shopify:\/\/shop_images\/Pinterest_Organic_Pins-4.png",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "lg",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
+    "573c3719-10dd-41d7-9422-29fc526d2631": {
+      "type": "image-with-text",
+      "blocks": {
+        "08e0bc1a-5578-478c-8378-d3bffa3ae8c8": {
+          "type": "subheading",
+          "settings": {
+            "text": "Directions for use"
+          }
+        },
+        "b360c4b2-ca6f-4cfe-aa9f-b7b5d4598f32": {
+          "type": "heading",
+          "settings": {
+            "text": "TWO-SIDED PILLOWCASE",
+            "heading_tag": "h1"
+          }
+        },
+        "99aecf9c-5beb-4d5a-81eb-a477bb1dc60e": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The soothing 22mm mulberry silk side retains your natural skin moisture, reduces sleep lines and protects your hair and lashes. A magnificent choice for anyone with sensitive skin thanks to its hypoallergenic fibers.The cooling technology of the material on the tencel side will allow you to find the perfect sleeping temperature, especially for those warmer nights. The tencel is three times more breathable than standard cotton.<br\/><br\/>Washing instructions: <br\/>- Machine wash delicate 30 degrees<br\/>- Iron on low heat<br\/>- Air dry only, do not tumble dry<br\/>- Do not bleach<\/p>"
+          }
+        },
+        "69174a40-7a11-40c9-98f8-17018e8309dd": {
+          "type": "link",
+          "settings": {
+            "text": "Shop",
+            "url": "shopify:\/\/products\/two-sided-pillowcase"
+          }
+        }
+      },
+      "block_order": [
+        "08e0bc1a-5578-478c-8378-d3bffa3ae8c8",
+        "b360c4b2-ca6f-4cfe-aa9f-b7b5d4598f32",
+        "99aecf9c-5beb-4d5a-81eb-a477bb1dc60e",
+        "69174a40-7a11-40c9-98f8-17018e8309dd"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "background_color": "default",
+        "image": "shopify:\/\/shop_images\/2_3af9c84f-20af-44bf-9f6f-f9be95d1e8ea.png",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "lg",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "02165d36-fb19-4550-a549-bcab3ead0ecb",
+    "f1ad4f7c-29aa-4a65-90ad-5a4bcd61a70e",
+    "364f5f78-67f4-4ef6-ae07-8016543465ae",
+    "cecbe799-b61d-4902-afdd-c2a10a6b9262",
+    "fb00f436-1945-464e-a93a-b75a68e4341c",
+    "27980f56-24f8-4362-a71f-9fee501dcde2",
+    "b236a530-e5e1-415b-839a-34653ab08e3f",
+    "12a45861-6332-4aed-85d3-65fe392db338",
+    "573c3719-10dd-41d7-9422-29fc526d2631"
+  ]
+}

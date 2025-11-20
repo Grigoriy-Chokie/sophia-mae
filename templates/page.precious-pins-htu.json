@@ -1,0 +1,125 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "settings": {
+            "text": "PRECIOUS PINS",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_d9cAeJ": {
+          "type": "subheading",
+          "settings": {
+            "text": "HOW TO USE"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe",
+        "subheading_d9cAeJ"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Hospitality_banner_desktop_3_28514b8e-fb61-4e76-8fad-8401b7bf81f2.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_2_d4668e9f-21c7-4147-ae18-81ee54ab765c.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "faq_rKcDhg": {
+      "type": "faq",
+      "blocks": {
+        "question_tXxgAq": {
+          "type": "question",
+          "settings": {
+            "question": "How can our Precious Pins be utilized?",
+            "answer": "<p>Our Precious Pins can be used to keep your hair away from your face while applying makeup or skincare products, preventing kinks or dents in your styled hair.<\/p>"
+          }
+        },
+        "question_9PDGDX": {
+          "type": "question",
+          "settings": {
+            "question": "What additional functions do the Precious Pins have?",
+            "answer": "<p>The Precious Pins can also be used to secure the hair rollers from the SOPHIA MAE <a href=\"\/collections\/roller-rendez-vous-sets\" title=\"Roller Rendez-Vous sets\">Roller Rendez-Vous sets<\/a>, ensuring that the hair rollers stay in place even better for optimal results.<\/p>"
+          }
+        },
+        "question_nDGcFy": {
+          "type": "question",
+          "settings": {
+            "question": "How to store after use?",
+            "answer": "<p>If necessary, clean the Precious Pins after use. Place the Precious Pins in the provided drawer box to store them neatly until the next use.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_tXxgAq",
+        "question_9PDGDX",
+        "question_nDGcFy"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "The Precious Pins are multipurpose creaseless minimalistic clips for glorious hair, a must-have for every beauty collection.",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_fmdLck": {
+      "type": "rich-text",
+      "blocks": {
+        "button_VqmQp8": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "DISCOVER NOW",
+            "url": "shopify:\/\/products\/precious-pins",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_VqmQp8"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "faq_rKcDhg",
+    "rich_text_fmdLck"
+  ]
+}

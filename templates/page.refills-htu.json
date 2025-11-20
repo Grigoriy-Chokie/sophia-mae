@@ -1,0 +1,133 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "settings": {
+            "text": "REFILLS",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_d9cAeJ": {
+          "type": "subheading",
+          "settings": {
+            "text": "HOW TO USE"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe",
+        "subheading_d9cAeJ"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Hospitality_banner_desktop_c67c43da-dcb9-48a2-9df3-e80fa409db3a.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_1_85cd12bb-9002-41a6-9f12-b655189618b4.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "faq_rKcDhg": {
+      "type": "faq",
+      "blocks": {
+        "question_9PDGDX": {
+          "type": "question",
+          "settings": {
+            "question": "How to use the roomspray refills?",
+            "answer": "<p>Start by carefully opening the refill bag on a non-absorbent surface and ensure the liquid contents are safely contained. Next, remove the trigger from the bottle and gently pour the liquid from the refill bag into the spray bottle. Be cautious to avoid any spills or overfilling. It is recommended to fill the bottle completely for optimal usage. Once the spray bottle is filled, reapply the trigger on the bottle and close it securely to prevent any leakage.<br\/><br\/>As you use the roomspray, periodically check the liquid level in the spray bottle. When the refill bag is empty, simply open a new refill bag and repeat the process to continue enjoying the fragrance.<\/p>"
+          }
+        },
+        "question_nDGcFy": {
+          "type": "question",
+          "settings": {
+            "question": "What should I consider when using the roomspray refills?",
+            "answer": "<p>Keep out of reach of children. Keep away from hot surfaces and store in a well-ventilated place. Dispose of packaging at the designated collection point. If on skin: take off immediately all contaminated clothing and rinse skin with water for several minutes, since it can cause an allergic skin reaction. Avoid contact of the liquid with furniture, leather or finished wood surfaces.<\/p>"
+          }
+        },
+        "question_VfpBRm": {
+          "type": "question",
+          "settings": {
+            "question": "How to use the fragrance sticks refills?",
+            "answer": "<p>Remove the wooden cap and the diffuser reeds from the holder. Next, simply open the refill bag and pour the refill liquid into the fragrance stick holder. Do this carefully to avoid spilling any liquid.<\/p><p>Flip the diffuser reeds, insert them into the holder and arrange them evenly. Place the holder in the desired location and adjust the number of diffuser reeds for the desired scent intensity. Again, do not expose the fragrance sticks to direct sunlight, and avoid placing them on a radiator, heating element, or a wooden surface. Avoid all surfaces where liquid can soak.<\/p>"
+          }
+        },
+        "question_qniVEP": {
+          "type": "question",
+          "settings": {
+            "question": "What should I consider when using the fragrance sticks refills?",
+            "answer": "<p>Do not expose to direct sunlight. If the diffuser reeds no longer absorb the liquid, we advise replacing them. When the refill bag is empty, simply open a new refill bag and repeat the process to continue enjoying the fragrance.<\/p><p>Keep out of reach of children. Keep away from hot surfaces and store in a well-ventilated place. Dispose of packaging at the designated collection point. If on skin: take off immediately all contaminated clothing and rinse skin with water for several minutes, since it can cause an allergic skin reaction. Avoid contact of the liquid with furniture, leather or finished wood surfaces.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_9PDGDX",
+        "question_nDGcFy",
+        "question_VfpBRm",
+        "question_qniVEP"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "SOPHIA MAE refills are a sustainable way to infuse your home with your favorite scent.",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_fmdLck": {
+      "type": "rich-text",
+      "blocks": {
+        "button_VqmQp8": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "DISCOVER NOW",
+            "url": "shopify:\/\/collections\/refills",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_VqmQp8"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "faq_rKcDhg",
+    "rich_text_fmdLck"
+  ]
+}

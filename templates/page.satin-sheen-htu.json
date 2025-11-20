@@ -1,0 +1,255 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "settings": {
+            "text": "SATIN SHEEN HAIR & BODY ELIXIR",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_d9cAeJ": {
+          "type": "subheading",
+          "settings": {
+            "text": "HOW TO USE"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe",
+        "subheading_d9cAeJ"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Hospitality_banner_desktop_b4ccc10a-0d60-41e5-a9c2-920896523d74.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_cd64d847-7906-49ca-8975-b150ee993e9f.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "faq_rKcDhg": {
+      "type": "faq",
+      "blocks": {
+        "category_U3Kwix": {
+          "type": "category",
+          "settings": {
+            "title": "HOW TO USE",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_QKkpfh": {
+          "type": "question",
+          "settings": {
+            "question": "What is an elixir?",
+            "answer": "<p>An elixir is a powerful, luxurious formula with nourishing ingredients designed to hydrate and care for both your skin and hair.<\/p>"
+          }
+        },
+        "question_nDGcFy": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use this product on both my hair and body?",
+            "answer": "<p>Yes! This versatile elixir is designed for both your hair and body, providing hydration, nourishment, and a luxurious softness all over.<\/p>"
+          }
+        },
+        "question_7gKxri": {
+          "type": "question",
+          "settings": {
+            "question": "Is it suitable for daily use?",
+            "answer": "<p>Absolutely! Satin Sheen is ideal for daily use, giving you soft, glowing skin and healthy, shiny hair. It’s also perfect for special occasions when you want to add an extra touch of luxury.<\/p>"
+          }
+        },
+        "question_F4jxPM": {
+          "type": "question",
+          "settings": {
+            "question": "How to apply Satin Sheen on your body?",
+            "answer": "<p>Apply a few drops of this luxurious hair and body oil to your hands. Rub your hands together, then gently massage the oil into your skin.<\/p>"
+          }
+        },
+        "question_z9KV79": {
+          "type": "question",
+          "settings": {
+            "question": "How to apply Satin Sheen on your hair?",
+            "answer": "<p>Hair oil can be applied in various ways. For the best results, use a small amount on dry or slightly damp hair, depending on the desired hydration and shine.<\/p><p>Apply a few drops of this luxury hair and body oil to your palms and rub your hands together. Distribute evenly from mid-lengths to ends, focusing on the ends and enjoy healthy, shiny hair.<\/p>"
+          }
+        },
+        "question_9i4QCU": {
+          "type": "question",
+          "settings": {
+            "question": "How often should you use hair oil?",
+            "answer": "<p>Hair oil can be used as often as needed based on your hair type and goals. For dry or damaged hair, daily use of hair oil can help restore moisture, reduce frizz, and promote shine. For those with normal or oily hair, using hair oil 1-2 times per week may be sufficient to maintain softness and manageability without adding extra weight.<\/p><p>Satin Sheen hair & body elixir is crafted for daily use. It enhances shine, smoothness, and frizz-free hair, making it an ideal choice for frequent application.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_U3Kwix",
+        "question_QKkpfh",
+        "question_nDGcFy",
+        "question_7gKxri",
+        "question_F4jxPM",
+        "question_z9KV79",
+        "question_9i4QCU"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "Indulge in Satin Sheen, a luxurious oil designed to nourish both skin and hair. Infused with natural oils, this elegant elixir brings out radiant, glowing skin and healthy, shiny hair.",
+        "title": "",
+        "content": ""
+      }
+    },
+    "faq_4qxwmn": {
+      "type": "faq",
+      "blocks": {
+        "category_rNCEbm": {
+          "type": "category",
+          "settings": {
+            "title": "BENEFITS",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_kgRxGY": {
+          "type": "question",
+          "settings": {
+            "question": "What are the key benefits of Satin Sheen hair & body elixir?",
+            "answer": "<p>Satin Sheen offers radiant, glowing skin and frizz-free, shiny hair. <\/p><p>Enriched with vitamin E, it nourishes the skin with natural oils such as argan, jojoba, and almond.<\/p>"
+          }
+        },
+        "question_p9PDiC": {
+          "type": "question",
+          "settings": {
+            "question": "How is this hair & body elixir beneficial for both skin and hair?",
+            "answer": "<p>The blend of oils, including jojoba and argan, nourishes both skin and hair. Argan oil is lightweight and helps restore hair structure without weighing it down, while the oils absorb quickly into the skin without feeling greasy. It’s formulated to hydrate and nourish both skin and hair.<\/p>"
+          }
+        },
+        "question_R4iJTV": {
+          "type": "question",
+          "settings": {
+            "question": "What makes this product different from other hair and body oils?",
+            "answer": "<p>Satin Sheen is carefully crafted with a blend of natural oils that nourish both hair and skin. Its rich yet lightweight formula ensures deep hydration without leaving a greasy residue, and the warm, lingering fragrance makes it a luxurious experience.<\/p>"
+          }
+        },
+        "question_6pzbHU": {
+          "type": "question",
+          "settings": {
+            "question": "What fragrance does the elixir have?",
+            "answer": "<p>The elixir features a delightful blend of sweet apricot, refined jasmine, and warm sandalwood, creating a warm and inviting scent that lingers throughout the day.<\/p>"
+          }
+        },
+        "category_ebjweU": {
+          "type": "category",
+          "settings": {
+            "title": "SPECIFIC SITUATIONS",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_M7qG4h": {
+          "type": "question",
+          "settings": {
+            "question": "Is Satin Sheen hair & body elixir suitable for sensitive skin?",
+            "answer": "<p>The product contains natural oils, well-known for their gentle and nourishing properties, which are often soothing for sensitive skin. For those with very sensitive skin, we recommend performing a patch test first.<\/p>"
+          }
+        },
+        "question_aRkNzi": {
+          "type": "question",
+          "settings": {
+            "question": "Does this hair & body elixir make your hair greasy quickly?",
+            "answer": "<p>The oils, like jojoba and argan, are lightweight and quickly absorbed. However, the effect can depend on your hair type and the amount you use.<\/p>"
+          }
+        },
+        "question_ct8zQX": {
+          "type": "question",
+          "settings": {
+            "question": "Does Satin Sheen hair & body elixir leave oil stains on clothes or bedding?",
+            "answer": "<p>We recommend allowing the product to absorb fully before coming into contact with clothing or bedding.<\/p>"
+          }
+        },
+        "question_NTG44m": {
+          "type": "question",
+          "settings": {
+            "question": "Does this elixir make your self-tan fade faster?",
+            "answer": "<p>Because it’s an oil, it could potentially affect self-tanning products, as is the case with many oils.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_rNCEbm",
+        "question_kgRxGY",
+        "question_p9PDiC",
+        "question_R4iJTV",
+        "question_6pzbHU",
+        "category_ebjweU",
+        "question_M7qG4h",
+        "question_aRkNzi",
+        "question_ct8zQX",
+        "question_NTG44m"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "Frequently Asked Questions",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_fmdLck": {
+      "type": "rich-text",
+      "blocks": {
+        "button_VqmQp8": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "DISCOVER NOW",
+            "url": "https:\/\/sophia-mae.com\/products\/satin-sheen-hair-body-elixir",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_VqmQp8"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "faq_rKcDhg",
+    "faq_4qxwmn",
+    "rich_text_fmdLck"
+  ]
+}

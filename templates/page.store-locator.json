@@ -1,0 +1,135 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_4CUtJ3": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_zBgdzy": {
+          "type": "heading",
+          "settings": {
+            "text": "STORE LOCATOR",
+            "heading_tag": "h1"
+          }
+        },
+        "heading_yHTmLA": {
+          "type": "heading",
+          "settings": {
+            "text": "SOPHIA MAE IN STORES",
+            "heading_tag": "h5"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zBgdzy",
+        "heading_yHTmLA"
+      ],
+      "name": "t:sections.image_with_text_overlay.presets.image_with_text_overlay.name",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify://shop_images/web_2500_x_900_7c17989d-92cd-485f-973f-c7325527191e.png",
+        "mobile_image": "shopify://shop_images/Hospitality_banner_mobile_1_60f252da-2f60-4922-a095-dd9b0bdb0feb.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "rich_text_66jTc7": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_KBhK3F": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Discover various SOPHIA MAE retailers throughout the Netherlands, in Belgium, and on Ibiza. Each SOPHIA MAE retailer offers a diverse range of our luxurious products. Experience our exclusive products and fragrances at a location near you.<br/><br/>Find your nearest SOPHIA MAE retailer using the store locator below and discover where SOPHIA MAE is available for purchase.</p><p>And if you’re nearby — visit our very own Flagship Store in Amsterdam to experience the full SOPHIA MAE collection in person.</p>"
+          }
+        },
+        "button_afhT7T": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "SOPHIA MAE FLAGSHIP STORE",
+            "url": "shopify://pages/flagship-store",
+            "background": "#1c1c1c",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_KBhK3F",
+        "button_afhT7T"
+      ],
+      "custom_css": [
+        "{margin-top: 60px; /* Pas deze waarde aan naar wens */}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "custom_liquid_jhwUyF": {
+      "type": "custom-liquid",
+      "settings": {
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!-- Start Stockist.co widget -->\n<div data-stockist-widget-tag=\"u18911\">Loading store locator\nfrom <a href=\"https://stockist.co\">Stockist store locator</a>...</div>\n<script>\n  (function(s,t,o,c,k){c=s.createElement(t);c.src=o;c.async=1;\n  k=s.getElementsByTagName(t)[0];k.parentNode.insertBefore(c,k);\n  })(document,'script','//stockist.co/embed/v1/widget.min.js');\n</script>\n<!-- End Stockist.co widget -->",
+        "text_alignment": "center"
+      }
+    },
+    "rich_text_nz8iBm": {
+      "type": "rich-text",
+      "blocks": {
+        "button_qWyMxP": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "BECOME A RETAILER",
+            "url": "https://sophia-mae.com/pages/become-a-reseller",
+            "background": "#000000",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_qWyMxP"
+      ],
+      "custom_css": [],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "end",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_4CUtJ3",
+    "rich_text_66jTc7",
+    "custom_liquid_jhwUyF",
+    "rich_text_nz8iBm"
+  ]
+}

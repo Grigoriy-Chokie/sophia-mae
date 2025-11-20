@@ -1,0 +1,166 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "settings": {
+            "text": "FLAGSHIP STORE",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe"
+      ],
+      "custom_css": [],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify://shop_images/web_2500_x_900_1_3d460289-26a0-46b4-8549-ccfe8629ca1a.png",
+        "mobile_image": "shopify://shop_images/Hospitality_banner_mobile_903e513b-a49d-4aed-b033-cb270e58d924.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-end-center text-center",
+        "desktop_text_position": "sm:place-self-end-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_66jTc7": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_KBhK3F": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Our very first flagship store is opening soon — a unique space where the world of SOPHIA MAE truly comes to life.</p><p>Discover a curated selection of our luxurious products, indulge your senses with exclusive scents and refined formulas, and experience the essence of SOPHIA MAE in a setting that feels effortlessly like home.</p>"
+          }
+        },
+        "button_jz9Mfb": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "VISIT OUR STORE",
+            "url": "https://share.google/pwO9uGD2IELRIW1vM",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_KBhK3F",
+        "button_jz9Mfb"
+      ],
+      "custom_css": [
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "multi_column_xeJt8a": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_yeLEUP": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "DAY",
+            "heading_tag": "h6",
+            "content": "<p>maandag<br/>dinsdag<br/>woensdag<br/>donderdag<br/>vrijdag<br/>zaterdag<br/>zondag</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_MNz96W": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "OPENING HOURS",
+            "heading_tag": "h6",
+            "content": "<p>12:00–19:00<br/>10:00–19:00<br/>10:00–19:00<br/>10:00–19:00<br/>10:00–19:00<br/>10:00–19:00<br/>12:00–19:00</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_yeLEUP",
+        "image_with_text_MNz96W"
+      ],
+      "custom_css": [
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "columns_per_row": 3,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "OPENING HOURS",
+        "content": ""
+      }
+    },
+    "image_with_text_overlay_CCG6z3": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_hhUEzn": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h4"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hhUEzn"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify://shop_images/Hospitality_banner_desktop_b742f4d9-60c4-42e2-bd6c-95b21d7f409b.png",
+        "mobile_image": "shopify://shop_images/Hospitality_banner_mobile_3cae178c-c1cd-4cb1-b943-c36806cf8fbb.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "rich_text_66jTc7",
+    "multi_column_xeJt8a",
+    "image_with_text_overlay_CCG6z3"
+  ]
+}

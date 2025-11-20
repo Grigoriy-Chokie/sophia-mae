@@ -1,0 +1,52 @@
+{%- style-%}
+  @font-face {
+    font-family: 'FLURO';
+    src: url('{{ ' FLURO-Light.woff' | asset_url }}') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'FLURO';
+    src: url('{{ ' FLURO-Regular.woff' | asset_url }}') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'FLURO';
+    src: url('{{ ' FLURO-Semibold.woff' | asset_url }}') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'FLURO';
+    src: url('{{ ' FLURO-Bold.woff' | asset_url }}') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'FLURO';
+    src: url('{{ ' FLURO-Bold-Outline.woff' | asset_url }}') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+  }
+  {% if template.suffix contains "shogun.default" %}
+  @font-face {
+    font-family: 'FLURO-Bold';
+    src: url('{{ ' FLURO-Bold.woff' | asset_url }}') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'FLURO-Regular';
+    src: url('{{ ' FLURO-Regular.woff' | asset_url }}') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  {% endif %}
+{%- endstyle-%}

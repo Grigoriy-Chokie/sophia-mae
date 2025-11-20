@@ -1,0 +1,73 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "9b092f6f-0814-4fbb-b17f-ec3763286375": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--20554791616856__9b092f6f-0814-4fbb-b17f-ec3763286375-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "SOPHIA MAE WISHLIST",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--20554791616856__9b092f6f-0814-4fbb-b17f-ec3763286375-heading-1"
+      ],
+      "settings": {
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/Hospitality_banner_desktop_207b50ac-4080-4fa5-9dc6-3502fb6f9650.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_bcd5b9c9-e374-46c4-bb28-7b034a2608b4.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center-end sm:text-end",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_title": false,
+        "page_width": "lg"
+      }
+    },
+    "1727774097c9a332ad": {
+      "type": "apps",
+      "blocks": {
+        "wishlist_king_wishlist_page_block_LN86Me": {
+          "type": "shopify:\/\/apps\/swish-formerly-wishlist-king\/blocks\/wishlist-page-block\/194f5011-a43c-4b22-b12e-eaf20dc4506a",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "wishlist_king_wishlist_page_block_LN86Me"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    }
+  },
+  "order": [
+    "9b092f6f-0814-4fbb-b17f-ec3763286375",
+    "main",
+    "1727774097c9a332ad"
+  ]
+}

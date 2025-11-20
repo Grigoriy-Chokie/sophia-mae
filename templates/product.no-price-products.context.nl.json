@@ -1,0 +1,31 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "product.no-price-products.json",
+  "context": {
+    "market": "nl"
+  },
+  "sections": {
+    "main": {
+      "blocks": {
+        "1964108b-d010-4b42-8f01-709d02c2b8aa": {
+          "settings": {
+            "text_extra": "Meer informatie"
+          }
+        },
+        "e2726196-8a27-4c1a-b6f9-e91996d46799": {
+          "settings": {
+            "title": "Meer informatie"
+          }
+        }
+      }
+    }
+  }
+}

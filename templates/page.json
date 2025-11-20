@@ -1,0 +1,222 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_rCcM8p": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_aDK8X6": {
+          "type": "heading",
+          "settings": {
+            "text": "CAREERS",
+            "heading_tag": "h1"
+          }
+        },
+        "heading_F4GjiK": {
+          "type": "heading",
+          "settings": {
+            "text": "JOIN THE TEAM",
+            "heading_tag": "h4"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aDK8X6",
+        "heading_F4GjiK"
+      ],
+      "disabled": true,
+      "name": "t:sections.image_with_text_overlay.presets.image_with_text_overlay.name",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/web_2500_x_900_2.png",
+        "mobile_image": "shopify:\/\/shop_images\/Ontwerp_zonder_titel_2_ae3bc907-4070-4b55-8b56-45d082944e59.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-end-center text-center",
+        "desktop_text_position": "sm:place-self-center-end sm:text-end",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_7PhJ7F": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_XitDJq": {
+          "type": "heading",
+          "settings": {
+            "text": "JOB OPENINGS",
+            "heading_tag": "h3"
+          }
+        },
+        "heading_69q89B": {
+          "type": "heading",
+          "settings": {
+            "text": "<a href=\"https:\/\/www.vacaturevia.nl\/vacature\/sophia-mae-hr-lead\" title=\"https:\/\/www.vacaturevia.nl\/vacature\/sophia-mae-hr-lead\">HR Lead<\/a>",
+            "heading_tag": "h5"
+          }
+        },
+        "richtext_dzCUEx": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Would you love to work at SOPHIA MAE, but don't see your ideal role listed (yet)?<\/p><p>We’re always happy to receive open applications. Tell us why you’d be a great fit — if we see a match, we’ll be in touch!<\/p>"
+          }
+        },
+        "button_fQQdLy": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "SUBMIT OPEN APPLICATION",
+            "url": "mailto:work@sophia-mae.com",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_XitDJq",
+        "heading_69q89B",
+        "richtext_dzCUEx",
+        "button_fQQdLy"
+      ],
+      "disabled": true,
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "background_color": "default",
+        "image": "shopify:\/\/shop_images\/web_2000_x_1400_px_106d483e-1476-4fd1-94e6-fef148ad572a.png",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "sm",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
+    "carousel_home_igPgmq": {
+      "type": "carousel-home",
+      "blocks": {
+        "slide_q8KhDF": {
+          "type": "slide",
+          "settings": {
+            "heading": "DIVERE WORK IN A TIGHT-KNIT TEAM",
+            "info": "At SOPHIA MAE, every day brings new challenges and opportunities. You won’t be stuck in a repetitive routine—instead, you’ll take on a wide range of tasks and projects. All of this happens within a close-knit team that values genuine connection and collaboration.",
+            "url_page": "",
+            "product": "",
+            "name_btn": ""
+          }
+        },
+        "slide_RYkaA3": {
+          "type": "slide",
+          "settings": {
+            "heading": "PERSONAL GROWTH",
+            "info": "You’ll have opportunities to share your voice and make meaningful contributions. Plus, we’re all about supporting your professional and personal growth.",
+            "url_page": "",
+            "product": "",
+            "name_btn": ""
+          }
+        },
+        "slide_UTXgxK": {
+          "type": "slide",
+          "settings": {
+            "heading": "A FORWARD-THINKING COMPANY",
+            "info": "We are always looking ahead—whether it's in our products, our strategies, or our company culture. You’ll be part of a brand that values fresh ideas, embraces change, and is constantly evolving.",
+            "url_page": "",
+            "product": "",
+            "name_btn": ""
+          }
+        },
+        "slide_J6qDbw": {
+          "type": "slide",
+          "settings": {
+            "heading": "BEAUTIFUL OFFICE + REMOTE OPTIONS",
+            "info": "Our office is designed to inspire creativity and comfort, while remote flexibility ensures you can stay productive when working from home.",
+            "url_page": "",
+            "product": "",
+            "name_btn": ""
+          }
+        },
+        "slide_caV6x6": {
+          "type": "slide",
+          "settings": {
+            "heading": "FLEXIBLE WORKING HOURS",
+            "info": "We offer flexibility in your workday, with space to adjust your hours in coordination with the team.",
+            "url_page": "",
+            "product": "",
+            "name_btn": ""
+          }
+        },
+        "slide_BJ8nb9": {
+          "type": "slide",
+          "settings": {
+            "heading": "COMPETITIVE SALARY",
+            "info": "We offer a salary that matches or exceeds industry standards for your role and experience.",
+            "url_page": "",
+            "product": "",
+            "name_btn": ""
+          }
+        },
+        "slide_tjGXLq": {
+          "type": "slide",
+          "settings": {
+            "heading": "SOPHIA MAE PRODUCT PERKS",
+            "info": "Enjoy exclusive discounts or free access to our divine beauty and lifestyle products.",
+            "url_page": "",
+            "product": "",
+            "name_btn": ""
+          }
+        },
+        "slide_78HyG4": {
+          "type": "slide",
+          "settings": {
+            "heading": "LOTS OF TEAM OUTINGS, HELD REGULARLY",
+            "info": "We love spending time together outside of work—think team dinners, days out, and fun experiences to bond and recharge.",
+            "url_page": "",
+            "product": "",
+            "name_btn": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_q8KhDF",
+        "slide_RYkaA3",
+        "slide_UTXgxK",
+        "slide_J6qDbw",
+        "slide_caV6x6",
+        "slide_BJ8nb9",
+        "slide_tjGXLq",
+        "slide_78HyG4"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "name": "Carousel home",
+      "settings": {
+        "heading": "THE BENEFITS"
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_rCcM8p",
+    "main",
+    "image_with_text_7PhJ7F",
+    "carousel_home_igPgmq"
+  ]
+}

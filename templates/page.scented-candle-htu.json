@@ -1,0 +1,197 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "settings": {
+            "text": "SCENTED CANDLE",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_d9cAeJ": {
+          "type": "subheading",
+          "settings": {
+            "text": "HOW TO USE"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe",
+        "subheading_d9cAeJ"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Hospitality_banner_desktop_4_65714d5b-8c9e-471d-aa6e-75ad19bd91b7.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_3_d11bf746-5d92-4eb5-9521-abab19eb8ff8.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "faq_rKcDhg": {
+      "type": "faq",
+      "blocks": {
+        "question_LCrw9p": {
+          "type": "question",
+          "settings": {
+            "question": "How do scented candles work?",
+            "answer": "<p>Scented candles release fragrance oils into the air as the wax melts. When the wick is lit, the heat from the flame melts the nearby wax, allowing the fragrance oils to evaporate and diffuse throughout the room. This process fills the space with a pleasant aroma, creating a warm and inviting atmosphere.<\/p>"
+          }
+        },
+        "question_gp4XgX": {
+          "type": "question",
+          "settings": {
+            "question": "How to use scented candles?",
+            "answer": "<p>To use a scented candle effectively, trim the wick to about 5 mm before each use to prevent excessive soot and uneven burning. Light the candle in a well-ventilated room, away from drafts, and let it burn until the entire surface has melted to avoid tunneling. Extinguish the flame with a candle snuffer or by dipping the wick into the melted wax. Always follow safety guidelines by keeping candles away from flammable objects and never leaving them unattended.<\/p>"
+          }
+        },
+        "question_tpDNqr": {
+          "type": "question",
+          "settings": {
+            "question": "What to play close attention to when using the candle?",
+            "answer": "<p>Please be advised not to burn the candle all the way to the bottom to prevent too much heat development. We have deliberately opted for a design that promotes the reuse of our candles for alternative purposes.<\/p><p>We recommend not placing the scented candle near an open window or door to prevent the flame from flapping or smoking due to the draft. This results in black prints that can be seen on the edges. <\/p>"
+          }
+        },
+        "question_EG7bCY": {
+          "type": "question",
+          "settings": {
+            "question": "How to get the most out of the scented candle?",
+            "answer": "<p>Regularly cut the wick, with an ideal length 5 mm, of your scented candle and be sure to center the wick in the wax after each use for consistent consumption of the wax. Once the scented candle is blown out, the melted wax keeps its scent for a long time.<\/p>"
+          }
+        },
+        "question_VfpBRm": {
+          "type": "question",
+          "settings": {
+            "question": "How many burning hours does the candle last?",
+            "answer": "<p>The approximate burning hours vary depending on the size:<br\/>Scented candle mini: 10 hours<br\/>Scented candle midi: 30 hours<br\/>Scented candle maxi: 70 hours<\/p>"
+          }
+        },
+        "question_9PDGDX": {
+          "type": "question",
+          "settings": {
+            "question": "In what sizes are the scented candles available?",
+            "answer": "<p>There are three sizes of the scented candles available. Not every candle comes in all three sizes.<\/p><p>Scented candle mini contains: 85 g<br\/>Scented candle midi contains: 240 g<br\/>Scented candle maxi contains: 1300 g<\/p>"
+          }
+        },
+        "question_nDGcFy": {
+          "type": "question",
+          "settings": {
+            "question": "What are the dimensions of the scented candles?",
+            "answer": "<p>Scented candle mini: 6.5 cm x 5.5 cm<br\/>Scented candle midi: 9.5 cm x 8.5 cm<br\/>Scented candle maxi: 15 cm x 15 cm<\/p>"
+          }
+        },
+        "question_YFA3bE": {
+          "type": "question",
+          "settings": {
+            "question": "What to pay attention to during the first use of the candle?",
+            "answer": "<p>When using the candle for the first time, we recommend letting the candle burn for two or three hours, depending on the size, until the top of the wax is completely melted. This allows the candle to burn evenly and prevent tunneling. Repeat this step every time you light the candle.<\/p>"
+          }
+        },
+        "question_nzBDXD": {
+          "type": "question",
+          "settings": {
+            "question": "How to maintain the quality of the scent?",
+            "answer": "<p>To maintain the quality of the scent, there is no need to burn the candle for more than three hours. If the temperature gets too high, it may affect the quality of the scent.<\/p>"
+          }
+        },
+        "question_HfX8y8": {
+          "type": "question",
+          "settings": {
+            "question": "How to reuse the candle holder?",
+            "answer": "<p>When the candle is empty, these versatile holders can be repurposed in various ways, such as transforming them into flower pots, pen holders, or makeup brush organizers. This approach not only reduces waste but also encourages creativity and provides long-lasting functionality for our candle holders.<\/p>"
+          }
+        },
+        "question_GXMV4b": {
+          "type": "question",
+          "settings": {
+            "question": "Are scented candles unhealthy?",
+            "answer": "<p>Scented candles are safe to use when burned properly in a well-ventilated space. To minimize risks, choose high-quality candles made from natural waxes, and opt for those with natural fragrance oils. Always ensure proper ventilation and limit prolonged exposure in enclosed spaces.<\/p><p>Our scented candles are made from biodegradable, eco-friendly, and sustainable wax, combined with carefully chosen fragrance oils. This ensures a cleaner burn and minimizes unwanted emissions.<\/p>"
+          }
+        },
+        "question_hMmEhJ": {
+          "type": "question",
+          "settings": {
+            "question": "Do scented candles expire?",
+            "answer": "<p>Scented candles generally have a long lifespan and no specific expiration date, though their quality may change over time. Factors such as fragrance intensity and storage conditions can affect their longevity. <\/p><p>After a year, the scent may gradually fade, but the candle will still be safe and burn effectively.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_LCrw9p",
+        "question_gp4XgX",
+        "question_tpDNqr",
+        "question_EG7bCY",
+        "question_VfpBRm",
+        "question_9PDGDX",
+        "question_nDGcFy",
+        "question_YFA3bE",
+        "question_nzBDXD",
+        "question_HfX8y8",
+        "question_GXMV4b",
+        "question_hMmEhJ"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "Our scented candles fill your home with a warm and comforting ambiance. The refined and minimalistic designs seamlessly complement any interior.",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_fmdLck": {
+      "type": "rich-text",
+      "blocks": {
+        "button_VqmQp8": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "DISCOVER NOW",
+            "url": "shopify:\/\/collections\/scented-candles",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_VqmQp8"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "faq_rKcDhg",
+    "rich_text_fmdLck"
+  ]
+}

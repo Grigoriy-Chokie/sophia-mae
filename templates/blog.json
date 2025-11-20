@@ -1,0 +1,50 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "show_blog_title": false,
+        "show_rss_feed": false,
+        "show_tags": true,
+        "posts_per_page": 10,
+        "feature_first_blog_post": true,
+        "featured_blog_post_text_color": "#ffffff",
+        "featured_blog_post_button_background": "#1c1c1c",
+        "featured_blog_post_button_text_color": "#ffffff",
+        "show_category": false,
+        "show_excerpt": true,
+        "show_read_more": true
+      }
+    },
+    "newsletter_4BXBtW": {
+      "type": "newsletter",
+      "name": "t:sections.newsletter.presets.newsletter.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "image_size": "auto",
+        "subheading": "",
+        "title": "STAY UP TO DATE",
+        "content": "<p>Be the first to receive updates on product launches and promotions from SOPHIA MAE.<\/p>",
+        "button_text": "SUBSCRIBE",
+        "text_color": "#1c1c1c",
+        "button_background": "",
+        "button_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "newsletter_4BXBtW"
+  ]
+}

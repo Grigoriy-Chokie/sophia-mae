@@ -1,0 +1,53 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "9b092f6f-0814-4fbb-b17f-ec3763286375": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--20554791616856__9b092f6f-0814-4fbb-b17f-ec3763286375-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "WELCOME TO THE MUSE CLUB",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--20554791616856__9b092f6f-0814-4fbb-b17f-ec3763286375-heading-1"
+      ],
+      "settings": {
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/Banner_Loyalty_Points_page.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "custom_css": [],
+      "settings": {
+        "show_title": false,
+        "page_width": "lg"
+      }
+    }
+  },
+  "order": [
+    "9b092f6f-0814-4fbb-b17f-ec3763286375",
+    "main"
+  ]
+}

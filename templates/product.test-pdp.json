@@ -1,0 +1,411 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "text_YzmYbE": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Two silky smooth pillowcases for a relaxing and refreshing night's sleep<\/em><\/p>"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_type": "block",
+            "color_selector_type": "dropdown",
+            "size_chart_page": ""
+          }
+        },
+        "cf2e1079-c730-4663-a9a2-29f23037db80": {
+          "type": "loyalty",
+          "disabled": true,
+          "settings": {
+            "first_part_url": "shopify:\/\/pages\/loyalty-points",
+            "first_part": "Collect",
+            "last_part": "Karma Points when you purchase this product",
+            "first_part_url_not_acc": "shopify:\/\/pages\/the-muse-club-old",
+            "first_part_not_acc": "Become a Member of The Muse Club",
+            "last_part_not_acc": ""
+          }
+        },
+        "426f527e-d145-4fc9-becd-5baeb8309dcd": {
+          "type": "limited",
+          "disabled": true,
+          "settings": {
+            "limited_heading": "LIMITED OFFER",
+            "limited_text": "Receive Eos laundry perfume tester (13ml) & Spring sticker sheet with every purchase from €40"
+          }
+        },
+        "392d70a3-c37a-4fe3-ad9d-1038994bb23c": {
+          "type": "order",
+          "settings": {
+            "order_info_text": "Purchase before 23:59 for same day shipping"
+          }
+        },
+        "order_8PBUaV": {
+          "type": "order",
+          "settings": {
+            "order_info_text": "Free shipping for purchases over €40 for Members"
+          }
+        },
+        "order_76V3bD": {
+          "type": "order",
+          "settings": {
+            "order_info_text": "Receive ** Loyalty Points with purchasing this product"
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "collapse_content": true,
+            "show_below_gallery": false
+          }
+        },
+        "dc607831-064d-44eb-a70e-4ee32352f415": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "ABOUT THE PRODUCT",
+            "content": "<p>Get to know both sides of you or share a luxurious sleeping experience with someone you love with the Two-sided Pillowcase bundle including two SOPHIA MAE pillowcases. The soothing 22mm mulberry silk side will have you dreaming on cloud nine, retain your natural skin moisture, reduce sleep lines and protect your hair and lashes. A magnificent choice for anyone with sensitive skin thanks to its hypoallergenic fibers.<br\/><br\/>Flip over to the tencel side and delve into an alternative dream state. The cooling technology of the material will allow you to find the perfect sleeping temperature, especially for those warmer nights. The tencel is three times more breathable than standard cotton, which will leave you feeling like you are floating on air. Whatever side you choose, you and your dream partner will wake up looking as relaxed, refreshed and rejuvenated as you will feel.<\/p>",
+            "page": "",
+            "extra_btn": false,
+            "text_extra": "More information",
+            "link_extra": "shopify:\/\/pages\/4-reasons-why-eos-laundry-perfume"
+          }
+        },
+        "accordion_8qcBVe": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "USP's",
+            "content": "<p>✓ Retains moisture, reduces sleep lines, and protects hair and lashes.<br\/>✓ Regulates temperature and offers superior breathability<br\/>✓ Ultra-gentle on skin and hair.<\/p>",
+            "page": "",
+            "extra_btn": false,
+            "text_extra": "More information",
+            "link_extra": ""
+          }
+        },
+        "e2726196-8a27-4c1a-b6f9-e91996d46799": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "GOOD TO KNOW",
+            "content": "<p>{{ product.metafields.my_fields.ingredients | metafield_tag }}<\/p>",
+            "page": "",
+            "extra_btn": false,
+            "text_extra": "More information",
+            "link_extra": ""
+          }
+        },
+        "accordion_HWjBth": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "SCENT NOTES",
+            "content": "<p>when it concerns the product.<\/p>",
+            "page": "",
+            "extra_btn": false,
+            "text_extra": "More information",
+            "link_extra": ""
+          }
+        },
+        "accordion_q7fkzp": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "INGREDIENTS",
+            "content": "",
+            "page": "",
+            "extra_btn": false,
+            "text_extra": "More information",
+            "link_extra": ""
+          }
+        },
+        "accordion_jRQGRk": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "HOW TO USE",
+            "content": "<p>{{ product.metafields.custom.how_to_use | metafield_tag }}<\/p>",
+            "page": "",
+            "extra_btn": true,
+            "text_extra": "More information",
+            "link_extra": "shopify:\/\/pages\/two-sided-pillowcase-how-to-usee"
+          }
+        },
+        "1964108b-d010-4b42-8f01-709d02c2b8aa": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "SHIPPING",
+            "content": "",
+            "page": "shipping-1",
+            "extra_btn": false,
+            "text_extra": "More information",
+            "link_extra": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text_YzmYbE",
+        "price",
+        "buy_buttons",
+        "separator",
+        "variant_picker",
+        "cf2e1079-c730-4663-a9a2-29f23037db80",
+        "426f527e-d145-4fc9-becd-5baeb8309dcd",
+        "392d70a3-c37a-4fe3-ad9d-1038994bb23c",
+        "order_8PBUaV",
+        "order_76V3bD",
+        "description",
+        "dc607831-064d-44eb-a70e-4ee32352f415",
+        "accordion_8qcBVe",
+        "e2726196-8a27-4c1a-b6f9-e91996d46799",
+        "accordion_HWjBth",
+        "accordion_q7fkzp",
+        "accordion_jRQGRk",
+        "1964108b-d010-4b42-8f01-709d02c2b8aa"
+      ],
+      "settings": {
+        "product_type": "",
+        "collection_perfume": "",
+        "name_option": "",
+        "remove_horizontal_spacing": true,
+        "page_width": true,
+        "container_size": "width",
+        "product_info_size": 35,
+        "show_sticky_add_to_cart": true,
+        "bg_color": "#b9a282",
+        "bg_color_btn": "#000000",
+        "text_color": "#ffffff",
+        "center_basic_info": false,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "thumbnails",
+        "height_image": 100,
+        "enable_media_autoplay": true,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3
+      }
+    },
+    "before_after_BDfbWk": {
+      "type": "before-after",
+      "blocks": {
+        "before_Pwgk9i": {
+          "type": "before",
+          "settings": {
+            "text": "Before",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#1c1c1c"
+          }
+        },
+        "after_HgwTXm": {
+          "type": "after",
+          "settings": {
+            "text": "After",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#1c1c1c"
+          }
+        }
+      },
+      "block_order": [
+        "before_Pwgk9i",
+        "after_HgwTXm"
+      ],
+      "disabled": true,
+      "settings": {
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Before\/after",
+        "content": "<p>Showcase your product benefit by using before\/after image comparison.<\/p>",
+        "cursor_direction": "horizontal",
+        "cursor_initial_position": 50,
+        "cursor_background": "#ffffff",
+        "cursor_arrows_color": "#000000"
+      }
+    },
+    "video_HjBgix": {
+      "type": "video",
+      "blocks": {
+        "play_pTDtkt": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "play_pTDtkt"
+      ],
+      "settings": {
+        "autoplay": false,
+        "show_controls": true,
+        "video_size": "md",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=xHXT_E6fqhU",
+        "poster": "shopify:\/\/shop_images\/Video_PDP.jpg",
+        "text_color": "#ffffff"
+      }
+    },
+    "faq_fTx3wm": {
+      "type": "faq",
+      "blocks": {
+        "question_9EbH6N": {
+          "type": "question",
+          "settings": {
+            "question": "Q1",
+            "answer": "<p>A1<\/p>"
+          }
+        },
+        "question_7eLrcr": {
+          "type": "question",
+          "settings": {
+            "question": "Q2",
+            "answer": "<p>A2<\/p>"
+          }
+        },
+        "question_68Mwpf": {
+          "type": "question",
+          "settings": {
+            "question": "Q3",
+            "answer": "<p>A3<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_9EbH6N",
+        "question_7eLrcr",
+        "question_68Mwpf"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "QUESTIONS ABOUT PRODUCT?",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
+    },
+    "rich_text_CgUjmg": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_aaayKQ": {
+          "type": "subheading",
+          "settings": {
+            "text": "Discover the process of how this product is created"
+          }
+        },
+        "heading_U83dgm": {
+          "type": "heading",
+          "settings": {
+            "text": "FROM CONCEPT TO CREATION",
+            "heading_tag": "h3"
+          }
+        },
+        "button_nwCRYk": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "READ THE STORY",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_aaayKQ",
+        "heading_U83dgm",
+        "button_nwCRYk"
+      ],
+      "disabled": true,
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "remove_horizontal_spacing": true,
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "recommendations_count": 4,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "",
+        "title": "THE PERFECT COMBINATION",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "before_after_BDfbWk",
+    "video_HjBgix",
+    "faq_fTx3wm",
+    "rich_text_CgUjmg",
+    "related-products"
+  ]
+}

@@ -1,0 +1,141 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "settings": {
+            "text": "MAJESTIC MIST",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_d9cAeJ": {
+          "type": "subheading",
+          "settings": {
+            "text": "HOW TO USE"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe",
+        "subheading_d9cAeJ"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Hospitality_banner_desktop_11.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_4_2d10f35a-be10-4587-91c6-4fd8c51a5646.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "faq_rKcDhg": {
+      "type": "faq",
+      "blocks": {
+        "question_9PDGDX": {
+          "type": "question",
+          "settings": {
+            "question": "What should be done before using the Majestic Mist?",
+            "answer": "<p>Shake the bottle well before use, until you hear the sound of the small metal ball going back and forth inside. This ensures proper product distribution.<\/p>"
+          }
+        },
+        "question_nDGcFy": {
+          "type": "question",
+          "settings": {
+            "question": "How should the Majestic Mist be applied?",
+            "answer": "<p>Spray onto hair roots and lengths from 25-30 cm away. Allow to absorb, massage into the hair, and comb through well to prevent a white haze.<\/p>"
+          }
+        },
+        "question_VfpBRm": {
+          "type": "question",
+          "settings": {
+            "question": "Why is shaking crucial before use?",
+            "answer": "<p>If you skip shaking, part of the product may drop to the bottom of the bottle, causing potential blockage in the cap during spraying.<\/p>"
+          }
+        },
+        "question_qniVEP": {
+          "type": "question",
+          "settings": {
+            "question": "How to clear a blockage in the cap of the Majestic Mist?",
+            "answer": "<p>If the cap has blockage, remove it, rinse under warm water, and pierce the opening with a small object to clear the blockage. After reinstalling, shake the bottle well before use.<\/p>"
+          }
+        },
+        "question_YFA3bE": {
+          "type": "question",
+          "settings": {
+            "question": "How should the Majestic Mist be stored after usage?",
+            "answer": "<p>After usage, always use the cap to protect the spraying cap. Store your Majestic Mist in a cool and dry spot for optimal preservation.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_9PDGDX",
+        "question_nDGcFy",
+        "question_VfpBRm",
+        "question_qniVEP",
+        "question_YFA3bE"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "The Majestic Mist is a dry shampoo and volume spray in one, for effortlessly fresh and voluminous hair all day long.",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_fmdLck": {
+      "type": "rich-text",
+      "blocks": {
+        "button_VqmQp8": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "DISCOVER NOW",
+            "url": "shopify:\/\/products\/majestic-mist",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_VqmQp8"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "faq_rKcDhg",
+    "rich_text_fmdLck"
+  ]
+}

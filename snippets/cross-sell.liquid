@@ -1,0 +1,133 @@
+{% liquid
+    assign string_id_cart = ""
+    assign limit_product = 3
+    assign product_in_cart = 0
+    assign last_item = ''
+    
+  
+    for line_item in cart.items
+      assign string_id_cart = string_id_cart | append: line_item.product.id
+    endfor
+  
+    for current_product in settings.current_product_list
+      if string_id_cart contains current_product.id
+        assign product_in_cart = product_in_cart | plus: 1
+      endif 
+  
+      if current_product.selected_or_first_available_variant.available == false
+        assign product_in_cart = product_in_cart | plus: 1
+      endif
+  
+      unless string_id_cart contains current_product.id
+        assign last_item = current_product
+      endunless
+    endfor
+  
+    assign available_product_in_cart = limit_product | minus: product_in_cart
+
+  %}
+  
+  {% if available_product_in_cart == 1 %}
+  {% render "cart-drawer-also-like", type: "drawer" , product: last_item  %}
+  {% endif %}
+
+  {% capture cart_cross_products %}
+    {% if limit_product != product_in_cart and available_product_in_cart != 1  %}
+        <div class="cart__cross">
+        {% if settings.title_cross %}
+        <h2 class="also-like__title">{{settings.title_cross}}</h2>
+        {% endif %}
+        <div class="cart__cross-sell">
+      
+          {% for sell_product in settings.current_product_list %}
+            {%- liquid 
+              assign sell_product_id = sell_product.id
+              assign sell_product_url = sell_product.url
+              assign sell_product_title = sell_product.title
+              assign sell_product_image = sell_product.featured_image
+              assign sell_available_variant = sell_product.selected_or_first_available_variant
+              assign sell_available_id = sell_available_variant.id
+              assign sell_is_available = sell_available_variant.available
+              assign sell_variant_price = sell_available_variant.price | money 
+              if string_id_cart contains sell_product_id
+                assign is_cart_sell = true
+              else
+                assign is_cart_sell = false
+              endif
+
+              assign product_condition = 'common'
+              assign error_message = settings.archived_in_cart_message
+              for archived_product in collections['archive'].products
+                if archived_product.title == title_product
+                  assign product_condition = 'archived'
+                  assign error_message = settings.archived_not_in_cart_message
+                  break
+                endif
+              endfor
+
+              for line_item in cart.items 
+                assign is_archived = false
+                for archived_product in collections['archive'].products
+                  if archived_product.title == line_item.product.title
+                    assign is_archived = true
+                    break
+                  endif
+                endfor
+
+                assign button_disabled = false 
+                if is_archived and product_condition == 'common'
+                  assign button_disabled = true 
+                elsif product_condition == 'archived' and is_archived == false
+                  assign button_disabled = true 
+                endif 
+              endfor 
+            -%}
+            {% if sell_is_available and is_cart_sell == false  %}
+              <div class="cart__cross-item">
+                {% if sell_product_image != blank %}
+                  <a href="{{sell_product_url}}" class="cart__cross-item--link">
+                    {{
+                      sell_product_image | image_url: width: master | image_tag: widths: '300,400',
+                      alt: sell_product_image.alt | default: "",
+                      loading: 'lazy'
+                    }}
+                  </a>
+                {% endif %}
+                <p class="cart__cross-item--title">{{- sell_product_title -}}</p>
+                <span class="cart__cross-item--price">{{- sell_variant_price -}}</span>
+                
+                <div class="ProductForm__AddToCart--error-message">
+                  {{ error_message }}
+                </div>
+                
+                <button data-type="drawer" 
+                  onclick="addToCartProduct(this)" 
+                  class="cart__cross-item--button button button--outline w-full" 
+                  data-product="{{sell_available_id}}" 
+                  data-product-condition="{{ product_condition }}"
+                  {%- if button_disabled -%}
+                    disabled
+                  {%- endif -%}
+                >
+                {{settings.name_button}}
+                </button>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+  {% endcapture %}
+
+  {% if settings.hide_if_customer_loggedin != false %}
+    {% unless customer %}
+      {{ cart_cross_products }}
+    {% endunless %}
+  {% else %}
+    {{ cart_cross_products }}
+  {% endif %}
+  
+  <h4 class="h6 lion-widget-depended">
+    {{ section.settings.lion_widget_title }}
+  </h4>
+  <div data-lion-seamless-product-reward-widget></div>

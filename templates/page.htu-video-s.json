@@ -1,0 +1,493 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "settings": {
+            "text": "HOW TO USE OUR PRODUCTS",
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/web_2500_x_900_1_afad8831-42d7-4ddd-a033-12476b2fe585.png",
+        "mobile_image": "shopify:\/\/shop_images\/web_1000_x_1000_px_1_82fbfb81-9d6f-4691-8121-6a02fab9d276.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": true,
+        "content_width": "sm",
+        "mobile_text_position": "place-self-end-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 19
+      }
+    },
+    "rich_text_66jTc7": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_KBhK3F": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Wondering how to get the most out of our beauty products—whether makeup, hair care, or perfumes? Our how-to videos will guide you effortlessly.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_KBhK3F"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_NVwaRU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3BEq37": {
+          "type": "heading",
+          "settings": {
+            "text": "FACIAL TANNING MIST",
+            "heading_tag": "h5"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3BEq37"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "video_7PmQTk": {
+      "type": "video",
+      "custom_css": [
+        "@media screen and (min-width: 999px) {video-media {width: 50%; min-width: auto; }}"
+      ],
+      "settings": {
+        "autoplay": true,
+        "show_controls": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/01_TANNING MIST 169.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    },
+    "rich_text_cEBM3A": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_x6mpjh": {
+          "type": "heading",
+          "settings": {
+            "text": "MATTE BRONZER",
+            "heading_tag": "h5"
+          }
+        }
+      },
+      "block_order": [
+        "heading_x6mpjh"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "video_4kfd76": {
+      "type": "video",
+      "custom_css": [
+        "@media screen and (min-width: 999px) {video-media {width: 50%; min-width: auto; }}"
+      ],
+      "settings": {
+        "autoplay": true,
+        "show_controls": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/02_BRONZER 169.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    },
+    "rich_text_DbCCiz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wcJiLT": {
+          "type": "heading",
+          "settings": {
+            "text": "BLISSFUL BLUSH",
+            "heading_tag": "h5"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wcJiLT"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "video_JGG3Jj": {
+      "type": "video",
+      "custom_css": [
+        "@media screen and (min-width: 999px) {video-media {width: 50%; min-width: auto; }}"
+      ],
+      "settings": {
+        "autoplay": true,
+        "show_controls": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/08_BLUSH02 169.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    },
+    "rich_text_pLJrmV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YdxYy8": {
+          "type": "heading",
+          "settings": {
+            "text": "SATIN SHEEN HAIR & BODY ELIXIR",
+            "heading_tag": "h5"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YdxYy8"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "video_p4QBNx": {
+      "type": "video",
+      "custom_css": [
+        "@media screen and (min-width: 999px) {video-media {width: 50%; min-width: auto; }}"
+      ],
+      "settings": {
+        "autoplay": true,
+        "show_controls": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/10_SATIN SHEEN 169.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    },
+    "rich_text_9pQ6L6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kmQBGd": {
+          "type": "heading",
+          "settings": {
+            "text": "(PLUMPING) LIP ALLURE",
+            "heading_tag": "h5"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kmQBGd"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "video_FmgahN": {
+      "type": "video",
+      "custom_css": [
+        "@media screen and (min-width: 999px) {video-media {width: 50%; min-width: auto; }}"
+      ],
+      "settings": {
+        "autoplay": true,
+        "show_controls": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/06_LIP ALLURE 169.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    },
+    "rich_text_QBtbRR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fAYxVg": {
+          "type": "heading",
+          "settings": {
+            "text": "BALM WITH LIP APPLICATOR",
+            "heading_tag": "h5"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fAYxVg"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "video_HGrKjM": {
+      "type": "video",
+      "custom_css": [
+        "@media screen and (min-width: 999px) {video-media {width: 50%; min-width: auto; }}"
+      ],
+      "settings": {
+        "autoplay": true,
+        "show_controls": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/04_LIP BALM 169.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    },
+    "rich_text_RChK9E": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RCGD4F": {
+          "type": "heading",
+          "settings": {
+            "text": "MAJESTIC MIST",
+            "heading_tag": "h5"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RCGD4F"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "video_WRatgd": {
+      "type": "video",
+      "custom_css": [
+        "@media screen and (min-width: 999px) {video-media {width: 50%; min-width: auto; }}"
+      ],
+      "settings": {
+        "autoplay": true,
+        "show_controls": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/14_MAJESTIC MIST 169.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    },
+    "rich_text_mrKygF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_CJibg7": {
+          "type": "heading",
+          "settings": {
+            "text": "MAJESTIC TEXTURE",
+            "heading_tag": "h5"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CJibg7"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "video_GKHW8k": {
+      "type": "video",
+      "custom_css": [
+        "@media screen and (min-width: 999px) {video-media {width: 50%; min-width: auto; }}"
+      ],
+      "settings": {
+        "autoplay": true,
+        "show_controls": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/12_MAJESTIC TEXTURE 169.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    },
+    "rich_text_hp8mHf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yBafCR": {
+          "type": "heading",
+          "settings": {
+            "text": "ROLLER RENDEZ-VOUS SET MIDI",
+            "heading_tag": "h5"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yBafCR"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "video_ML6Q46": {
+      "type": "video",
+      "custom_css": [
+        "@media screen and (min-width: 999px) {video-media {width: 50%; min-width: auto; }}"
+      ],
+      "settings": {
+        "autoplay": true,
+        "show_controls": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/13_HAIR ROLLERS MIDI 169_cf4cd90b-833f-43de-ad47-8e33500d9a59.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    },
+    "rich_text_NDibUm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_UmBTd4": {
+          "type": "heading",
+          "settings": {
+            "text": "ROLLER RENDEZ-VOUS SET MAXI",
+            "heading_tag": "h5"
+          }
+        }
+      },
+      "block_order": [
+        "heading_UmBTd4"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "video_443tQa": {
+      "type": "video",
+      "custom_css": [
+        "@media screen and (min-width: 999px) {video-media {width: 50%; min-width: auto; }}"
+      ],
+      "settings": {
+        "autoplay": true,
+        "show_controls": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/11_HAIR ROLLERS MAXI 169.2.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    },
+    "rich_text_j9WAYL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_W9EAgh": {
+          "type": "heading",
+          "settings": {
+            "text": "EAU DE PARFUM",
+            "heading_tag": "h5"
+          }
+        }
+      },
+      "block_order": [
+        "heading_W9EAgh"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "video_tRcF98": {
+      "type": "video",
+      "custom_css": [
+        "@media screen and (min-width: 999px) {video-media {width: 50%; min-width: auto; }}"
+      ],
+      "settings": {
+        "autoplay": true,
+        "show_controls": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/07_PARFUM 169.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "rich_text_66jTc7",
+    "rich_text_NVwaRU",
+    "video_7PmQTk",
+    "rich_text_cEBM3A",
+    "video_4kfd76",
+    "rich_text_DbCCiz",
+    "video_JGG3Jj",
+    "rich_text_pLJrmV",
+    "video_p4QBNx",
+    "rich_text_9pQ6L6",
+    "video_FmgahN",
+    "rich_text_QBtbRR",
+    "video_HGrKjM",
+    "rich_text_RChK9E",
+    "video_WRatgd",
+    "rich_text_mrKygF",
+    "video_GKHW8k",
+    "rich_text_hp8mHf",
+    "video_ML6Q46",
+    "rich_text_NDibUm",
+    "video_443tQa",
+    "rich_text_j9WAYL",
+    "video_tRcF98"
+  ]
+}

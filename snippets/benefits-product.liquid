@@ -1,0 +1,43 @@
+{% assign list_item = product.metafields.custom.advantages_of_the_product.value %}
+
+{% if list_item != blank %}
+<ul class="advantages-list">
+  {% for item in list_item %}
+    <li class="advantages-item">
+      <span class="advantages-item__icon">
+        <svg width="15" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0.5 8.55005L3.23 12.06C3.32212 12.1797 3.44016 12.277 3.57525 12.3446C3.71034 12.4121 3.85898 12.4482 4.01 12.45C4.15859 12.4518 4.3057 12.4203 4.44063 12.3581C4.57555 12.2958 4.6949 12.2042 4.79 12.09L13.5 1.55005" stroke="#000001" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </span>
+      <span class="advantages-item__text">{{item}}</span>
+    </li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+<style>
+.advantages-list {
+  margin: 10px 0 ;
+  padding: 0;
+}
+.advantages-list > .advantages-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.advantages-item {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  list-style-type: none;
+}
+.advantages-item__icon {
+  margin-right: 10px;
+  padding-top: 3px;
+}
+.advantages-item__text {
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+</style>

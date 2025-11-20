@@ -1,0 +1,174 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "settings": {
+            "text": "PLUMPING LIP ALLURE",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_d9cAeJ": {
+          "type": "subheading",
+          "settings": {
+            "text": "HOW TO USE"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe",
+        "subheading_d9cAeJ"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Hospitality_banner_desktop_1_2a870673-43b2-49a6-affb-cd177dab28b5.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hospitality_banner_mobile_2_98247b4c-58e7-44f8-8ab2-5a76438e10dc.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "faq_rKcDhg": {
+      "type": "faq",
+      "blocks": {
+        "question_x3Wdwr": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "question": "What is plumping lip gloss?",
+            "answer": "<p>placeholder<\/p>"
+          }
+        },
+        "question_9PDGDX": {
+          "type": "question",
+          "settings": {
+            "question": "What does the SOPHIA MAE Plumping Lip Allure offer in terms of enhancing your look?",
+            "answer": "<p>With multiple shades to choose from, this plumping lip gloss adds dimension and provides a volumizing effect for visibly fuller lips.<\/p>"
+          }
+        },
+        "question_bQQ8WG": {
+          "type": "question",
+          "settings": {
+            "question": "How to apply Plumping Lip Allure?",
+            "answer": "<p>To achieve the best results with your plumping lip gloss, follow these steps:<\/p><p>1. Start with clean, moisturized lips.<\/p><p>2. For better precision, outline your lips with a lip liner that matches your natural lip color or the shade of your gloss.<\/p><p>3. Apply the gloss from the center of your lips and blend outward. For a fuller look, add a little extra gloss to the center of your lower lip.<\/p><p>4. Blot lightly if needed to avoid over-application.<br\/><br\/>Plumping Lip Allure lip gloss applies smoothly with just one swipe, delivering a juicy, hydrated look with a comfortable, non-sticky texture.<\/p>"
+          }
+        },
+        "question_7Ue3GX": {
+          "type": "question",
+          "settings": {
+            "question": "How long does plumping lip gloss last?",
+            "answer": "<p>Plumping lip gloss can last anywhere from a few hours to most of the day, depending on the formula and application technique. To extend the wear of your lip gloss, start by prepping your lips with a primer or lip balm, such as <a href=\"https:\/\/sophia-mae.com\/products\/eternal-balm\" title=\"https:\/\/sophia-mae.com\/products\/eternal-balm\">Eternal Balm<\/a> or the <a href=\"https:\/\/sophia-mae.com\/products\/balm-with-lip-applicator\" title=\"https:\/\/sophia-mae.com\/products\/balm-with-lip-applicator\">Balm with lip applicator<\/a>. Using a lip liner can help keep the gloss in place. Apply the gloss in thin layers, gently blot any excess, and add a second coat for extra shine and longer wear.<\/p><p>Plumping Lip Allure lip gloss offers long-lasting hydration and shine with a 3D effect while maintaining a non-sticky texture that remains comfortable for hours, even when layered.<\/p>"
+          }
+        },
+        "question_nDGcFy": {
+          "type": "question",
+          "settings": {
+            "question": "What sensations does the lip gloss provide upon application?",
+            "answer": "<p>A blend of mint and vanilla gives a refreshing sensation, while the gloss itself has a luminous finish.<\/p><p>The gloss can give a tingling sensation on the lips.<\/p>"
+          }
+        },
+        "question_VfpBRm": {
+          "type": "question",
+          "settings": {
+            "question": "How does the plumping effect work with this lip gloss?",
+            "answer": "<p>The unique formulation is enriched with natural sesame extract, which provides both immediate and long-term plumping effects.<\/p>"
+          }
+        },
+        "question_YFA3bE": {
+          "type": "question",
+          "settings": {
+            "question": "Are there any precautions to consider when using this product?",
+            "answer": "<p>Yes, users may experience a slight to intense tingle upon application. It's advised to apply only within the lip perimeter to avoid temporary redness or discomfort.<\/p>"
+          }
+        },
+        "question_8Grnra": {
+          "type": "question",
+          "settings": {
+            "question": "What are the key features of the formulation technology?",
+            "answer": "<p>This plumping lip gloss features an anhydrous formulation, a blend of light emollient oils and polymers for a high refractive index, and specific active ingredients like sesame extract and plum seed oil.<\/p>"
+          }
+        },
+        "question_CT6LG8": {
+          "type": "question",
+          "settings": {
+            "question": "What is the best lip color for me?",
+            "answer": "<p>Choosing the best lip gloss color depends on your skin tone, undertones, and the look you want to achieve. Nude shades offer a natural look, pink shades provide a fresh, youthful glow, and shimmery glosses are perfect for building intensity or adding a glamorous touch.<\/p><p>For Plumping Lip Allure, you can choose from the following shades:<\/p><ul><li><strong>Bare Bliss<\/strong>: A warm nude shade that blends effortlessly with brown makeup tones, giving a subtle, natural glow. It is suitable for a variety of skin tones, although it may be less flattering on skin with red undertones.<\/li><li><strong>Radiant Rose<\/strong>: A soft pink hue with a delicate blush undertone, making it the most \"girly\" shade in the collection. This shade is ideal for achieving a fresh, feminine look with an elegant finish.<\/li><li><strong>Golden Harmony<\/strong>: A radiant shimmer that looks stunning on darker lips, whether worn alone or paired with a brown lip liner. This versatile shade complements both light and dark skin tones, making it perfect for a glamorous evening look. It also pairs beautifully with dark lipstick.<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "question_x3Wdwr",
+        "question_9PDGDX",
+        "question_bQQ8WG",
+        "question_7Ue3GX",
+        "question_nDGcFy",
+        "question_VfpBRm",
+        "question_YFA3bE",
+        "question_8Grnra",
+        "question_CT6LG8"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "SOPHIA MAE's Plumping Lip Allure is a hyper-sensorial plumping lip oil that will take your lips to the next level.",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_fmdLck": {
+      "type": "rich-text",
+      "blocks": {
+        "button_VqmQp8": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "DISCOVER NOW",
+            "url": "https:\/\/sophia-mae.com\/products\/plumping-lip-allure",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_VqmQp8"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "faq_rKcDhg",
+    "rich_text_fmdLck"
+  ]
+}

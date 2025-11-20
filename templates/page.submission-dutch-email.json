@@ -1,0 +1,53 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "4391594a-3a2e-43f3-a017-8f75bc59ab30": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--20523186225496__4391594a-3a2e-43f3-a017-8f75bc59ab30-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers",
+            "products_count": 4,
+            "title": "OUR FAVORITES",
+            "link_url": "shopify:\/\/collections\/products",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "template--20523186225496__4391594a-3a2e-43f3-a017-8f75bc59ab30-collection-1"
+      ],
+      "settings": {
+        "remove_horizontal_spacing": false,
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "4391594a-3a2e-43f3-a017-8f75bc59ab30"
+  ]
+}

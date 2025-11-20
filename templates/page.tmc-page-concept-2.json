@@ -1,0 +1,742 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "settings": {
+            "text": "THE MUSE CLUB",
+            "heading_tag": "h1"
+          }
+        },
+        "heading_dL3Gbe": {
+          "type": "heading",
+          "settings": {
+            "text": "OPEN TO ALL",
+            "heading_tag": "h4"
+          }
+        },
+        "button_HDBg69": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "LOG IN",
+            "url": "https://sophia-mae.com/account/login",
+            "background": "#eae5df",
+            "text_color": "#000000"
+          }
+        },
+        "button_tDWd8Y": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "JOIN NOW",
+            "url": "https://sophia-mae.com/account/register",
+            "background": "#eae5df",
+            "text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe",
+        "heading_dL3Gbe",
+        "button_HDBg69",
+        "button_tDWd8Y"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify://shop_images/Hospitality_banner_desktop_4_5924f3ab-fc1f-41db-b32a-d0dbf786343d.png",
+        "mobile_image": "shopify://shop_images/Hospitality_banner_mobile_2_91117ce4-cac5-473f-8250-9c89d3728738.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_YMPiPD": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_6Bfda9": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_MyPD6F": {
+          "type": "heading",
+          "settings": {
+            "text": "OUR APPRECIATION FOR YOU",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_9MgTRg": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The Muse Club from SOPHIA MAE, a special way to show our appreciation for your loyalty to us. As a Member of The Muse Club, you automatically enjoy privileges and can earn Loyalty Points. These Loyalty Points can be redeemed for SOPHIA MAE products. Join our loyalty program today and enjoy exclusive benefits.<br/></p>"
+          }
+        },
+        "button_yJw43Q": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "LOG IN",
+            "url": "https://sophia-mae.com/account/login",
+            "background": "#000000",
+            "text_color": "#eae5df"
+          }
+        },
+        "button_dDHtDb": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "JOIN NOW",
+            "url": "https://sophia-mae.com/account/register",
+            "background": "#000000",
+            "text_color": "#eae5df"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_6Bfda9",
+        "heading_MyPD6F",
+        "richtext_9MgTRg",
+        "button_yJw43Q",
+        "button_dDHtDb"
+      ],
+      "custom_css": [],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "multi_column_JBNRa6": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_UXf8cF": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "01. JOIN",
+            "heading_tag": "h5",
+            "content": "<p>Anyone with an account automatically becomes a Member of The Muse Club.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_Bzb6Bq": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "02. EARN",
+            "heading_tag": "h5",
+            "content": "<p>Earn Loyalty Points in various ways - with every purchase you make and by completing other actions.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_piFThn": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "03. REDEEM",
+            "heading_tag": "h5",
+            "content": "<p>Redeem Loyalty Points for luxurious gifts as you grow your SOPHIA MAE collection and enjoy other exclusive privileges.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_UXf8cF",
+        "image_with_text_Bzb6Bq",
+        "image_with_text_piFThn"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "separate_section_with_border": false,
+        "columns_per_row": 3,
+        "stack_on_mobile": true,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing": "md",
+        "subheading": "",
+        "title": "HOW IT WORKS",
+        "content": ""
+      }
+    },
+    "tabs_xKwFfW": {
+      "type": "tabs",
+      "blocks": {
+        "tab_jEFxQg": {
+          "type": "tab",
+          "settings": {
+            "title": "01. JOIN",
+            "content": "<p>Anyone with an account automatically becomes a Member of The Muse Club.</p>",
+            "page": "",
+            "open_on_mobile": false
+          }
+        },
+        "tab_DekCjB": {
+          "type": "tab",
+          "settings": {
+            "title": "02. EARN",
+            "content": "<p>Earn Loyalty Points in various ways - with every purchase you make and by completing other actions.</p>",
+            "page": "",
+            "open_on_mobile": false
+          }
+        },
+        "tab_eyhDr9": {
+          "type": "tab",
+          "settings": {
+            "title": "03. REDEEM",
+            "content": "<p>Redeem Loyalty Points for luxurious gifts as you grow your SOPHIA MAE collection and enjoy other exclusive privileges.</p>",
+            "page": "",
+            "open_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "tab_jEFxQg",
+        "tab_DekCjB",
+        "tab_eyhDr9"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "subheading": "",
+        "title": "HOW IT WORKS",
+        "text_alignment": "center"
+      }
+    },
+    "carousel_home_tatKKL": {
+      "type": "carousel-home",
+      "blocks": {
+        "slide_qMqTXa": {
+          "type": "slide",
+          "settings": {
+            "heading": "CREATE AN ACCOUNT",
+            "info": "Become a Member, enjoy exclusive benefits, and receive 125 Loyalty Points immediately.",
+            "url_page": "",
+            "product": "",
+            "name_btn": ""
+          }
+        },
+        "slide_NXcYdT": {
+          "type": "slide",
+          "settings": {
+            "heading": "MAKE A PURCHASE",
+            "info": "Earn 5 Loyalty Points for every €1 you spent on your favorite SOPHIA MAE products.",
+            "url_page": "",
+            "product": "",
+            "name_btn": ""
+          }
+        },
+        "slide_bKfkJ3": {
+          "type": "slide",
+          "settings": {
+            "heading": "JOIN NEWSLETTER",
+            "info": "Earn 65 Loyalty Points while we update you regularly.",
+            "url_page": "",
+            "product": "",
+            "name_btn": ""
+          }
+        },
+        "slide_W79dnT": {
+          "type": "slide",
+          "settings": {
+            "heading": "SHOP BLISSFUL BLUSH",
+            "info": "Shop our creamy blush in your favorite color and earn 250 Loyalty Points.",
+            "url_page": "",
+            "product": "",
+            "name_btn": ""
+          }
+        },
+        "slide_cQHwKP": {
+          "type": "slide",
+          "settings": {
+            "heading": "SHOP BEAUTY CASE",
+            "info": "Shop our luxurious beauty case and earn 350 Loyalty Points.",
+            "url_page": "",
+            "product": "",
+            "name_btn": ""
+          }
+        },
+        "slide_rWwP8U": {
+          "type": "slide",
+          "settings": {
+            "heading": "INSTAGRAM FOLLOW",
+            "info": "Earn 50 Loyalty Points while we inspire you daily.",
+            "url_page": "",
+            "product": "",
+            "name_btn": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_qMqTXa",
+        "slide_NXcYdT",
+        "slide_bKfkJ3",
+        "slide_W79dnT",
+        "slide_cQHwKP",
+        "slide_rWwP8U"
+      ],
+      "custom_css": [
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "heading": "SIX WAYS TO EARN LOYALTY POINTS"
+      }
+    },
+    "tabs_R8wtUL": {
+      "type": "tabs",
+      "blocks": {
+        "tab_Xy7VtA": {
+          "type": "tab",
+          "settings": {
+            "title": "MUSE. €0 - €120 SPENT",
+            "content": "<p>✓ Rewards with your Loyalty Points<br/>✓ Early access to new products<br/>✓ Early access to limited edition products<br/>✓ Access to the Archive<br/>✓ Free shipping from €50 (NL)<br/>✓ Access to The Muse Club day</p>",
+            "page": "",
+            "open_on_mobile": false
+          }
+        },
+        "tab_PyPBeC": {
+          "type": "tab",
+          "settings": {
+            "title": "MAJESTIC. €120 - €240 SPENT",
+            "content": "<p>✓ Rewards with your Loyalty Points<br/>✓ Early access to new products<br/>✓ Early access to limited edition products<br/>✓ Access to the Archive<br/>✓ Free shipping from €50 (NL)<br/>✓ Access to The Muse Club day<br/>✓ Access to exclusive events</p>",
+            "page": "",
+            "open_on_mobile": false
+          }
+        },
+        "tab_Rp7kYW": {
+          "type": "tab",
+          "settings": {
+            "title": "GODDESS. €240+ SPENT",
+            "content": "<p>✓ Rewards with your Loyalty Points<br/>✓ Early access to new products<br/>✓ Early access to limited edition products<br/>✓ Access to the Archive<br/>✓ Free shipping from €50 (NL)<br/>✓ Access to The Muse Club day<br/>✓ Access to exclusive events<br/>✓ Access to our inner circle<br/>✓ Occasional pre-early access<br/>✓ Assist us with product development</p>",
+            "page": "",
+            "open_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "tab_Xy7VtA",
+        "tab_PyPBeC",
+        "tab_Rp7kYW"
+      ],
+      "custom_css": [],
+      "settings": {
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "LEVELS & BENEFITS",
+        "text_alignment": "center"
+      }
+    },
+    "multi_column_RitD3w": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_ingwq9": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Product_-_Sfeerafbeeldingen_3000_x_3000_px_1_469f4e68-8e1e-431f-a0d5-2624bbd26ed5.png",
+            "title": "LIQUID LIP BALM MINI | EXCLUSIVE REWARD",
+            "heading_tag": "h6",
+            "content": "<h6>250 POINTS</h6>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_YNg33V": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/1_7c53cb86-28b4-4651-8dad-977a9f995118.png",
+            "title": "MAJESTIC MIST MINI",
+            "heading_tag": "h6",
+            "content": "<h6>1200 POINTS</h6>",
+            "link_url": "shopify://products/majestic-mist-mini",
+            "link_text": ""
+          }
+        },
+        "image_with_text_wxUMGU": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/AURA_1_3c53ede8-d0f0-43cc-a14b-4dccfeec2928.png",
+            "title": "AURA TRAVEL SIZE 15 ML",
+            "heading_tag": "h6",
+            "content": "<h6>1650 POINTS</h6>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_mrnDGR": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/1_7c53cb86-28b4-4651-8dad-977a9f995118.png",
+            "title": "MAJESTIC TEXTURE MINI",
+            "heading_tag": "h6",
+            "content": "<h6>1200 POINTS</h6>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_H4iery": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/14_e8b4d22f-5cc8-4f6d-96dc-d9ed8f382c49.png",
+            "title": "BALM WITH LIP APPLICATOR",
+            "heading_tag": "h6",
+            "content": "<h6>900 POINTS</h6>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_3UiVKH": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/10_dffc0f21-eaa7-4dbb-b880-34d82347fb20.png",
+            "title": "BLISSFUL BLUSH BURGUNDY GLOW",
+            "heading_tag": "h6",
+            "content": "<h6>1650 POINTS</h6>",
+            "link_url": "shopify://products/blissful-blush",
+            "link_text": ""
+          }
+        },
+        "image_with_text_xhtaqC": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/SSK_2_648c5891-5b7d-4087-9733-a9e79dd56076.svg",
+            "title": "SOFT SUMMER KISS EAU DE PARFUM 2 ML",
+            "heading_tag": "h6",
+            "content": "<h6>350 POINTS</h6>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_cxhgUp": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/5_3a38c063-f7c0-4a25-8f69-b524cb65dacc.png",
+            "title": "EAU DE PARFUM MINI COLLECTION - SET OF 3",
+            "heading_tag": "h6",
+            "content": "<h6>800 POINTS</h6>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_YqQ7bB": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/7_70af08bb-066e-40ee-b701-08e628490263.png",
+            "title": "APHRODITE SCENTED CANDLE MIDI",
+            "heading_tag": "h6",
+            "content": "<h6>1750 POINTS</h6>",
+            "link_url": "shopify://products/aphrodite-scented-candle",
+            "link_text": ""
+          }
+        },
+        "image_with_text_MRBpFn": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/6_f142b9bd-ffe7-453f-847b-3532bed03e90.png",
+            "title": "EAU DE PARFUM MINI COLLECTION - SET OF 4",
+            "heading_tag": "h6",
+            "content": "<h6>1100 POINTS</h6>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_Hbfjjd": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Whispers_2_f824a404-2cfe-41c3-bd51-474975fe659a.svg",
+            "title": "WHISPERS OF ELEGANCE EAU DE PARFUM 2 ML",
+            "heading_tag": "h6",
+            "content": "<h6>350 POINTS</h6>",
+            "link_url": "shopify://products/whispers-of-elegance-eau-de-parfum-tester-size-2-ml-exclusive-sale",
+            "link_text": ""
+          }
+        },
+        "image_with_text_fnYfyj": {
+          "type": "image_with_text",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/AURA_2_5b9c37a4-c38b-413e-868c-30a6b6ee50f2.svg",
+            "title": "AURA EAU DE PARFUM 2 ML",
+            "heading_tag": "h6",
+            "content": "<h6>350 POINTS</h6>",
+            "link_url": "shopify://products/aura-eau-de-parfum-tester-size-2ml-exclusive-versie-1",
+            "link_text": ""
+          }
+        },
+        "image_with_text_JYRqEF": {
+          "type": "image_with_text",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/IMG_0031_1_35997f07-75e8-41fc-a99c-5647e28694db.png",
+            "title": "TOTE BAG",
+            "heading_tag": "h6",
+            "content": "<h6>400 POINTS</h6>",
+            "link_url": "shopify://products/tote-bag",
+            "link_text": ""
+          }
+        },
+        "image_with_text_mbphTx": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/ARCTIC_SPICE_2.svg",
+            "title": "ARCTIC SPICE EAU DE PARFUM 2 ML",
+            "heading_tag": "h6",
+            "content": "<h6>350 POINTS</h6>",
+            "link_url": "shopify://products/arctic-spice-eau-de-parfum-tester-size-2-ml-exclusive-sale",
+            "link_text": ""
+          }
+        },
+        "image_with_text_3yRMfn": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/11_888a2704-e1b6-449c-aa9b-5b4035b4fe1f.png",
+            "title": "EOS LAUNDRY PERFUME 13 ML",
+            "heading_tag": "h6",
+            "content": "<h6>350 POINTS</h6>",
+            "link_url": "shopify://products/eos-laundry-perfume-tester-size-13ml",
+            "link_text": ""
+          }
+        },
+        "image_with_text_GbjNEN": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/MM_2_9f63978e-c88a-4272-84d0-e0d4021852c4.svg",
+            "title": "MODERN MYTH EAU DE PARFUM 2 ML",
+            "heading_tag": "h6",
+            "content": "<h6>350 POINTS</h6>",
+            "link_url": "shopify://products/modern-myth-eau-de-parfum-tester-size-2ml-exclusive-sale",
+            "link_text": ""
+          }
+        },
+        "image_with_text_cXQnD7": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/9_08d992e7-6c26-40ba-9509-a23f013dec7e.png",
+            "title": "MIDNIGHT MELODY LAUNDRY PERFUME  13 ML",
+            "heading_tag": "h6",
+            "content": "<h6>350 POINTS</h6>",
+            "link_url": "shopify://products/midnight-melody-laundry-perfume-tester-size-13ml",
+            "link_text": ""
+          }
+        },
+        "image_with_text_Q7mDXJ": {
+          "type": "image_with_text",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/ME_2_a05498c8-3f83-492d-b9f5-5e1c35f3a0d1.svg",
+            "title": "MYSTIC ESCAPE EAU DE PARFUM 2 ML",
+            "heading_tag": "h6",
+            "content": "<h6>350 POINTS</h6>",
+            "link_url": "shopify://products/mystic-escape-eau-de-parfum-tester-size-2ml-exclusive-sale",
+            "link_text": ""
+          }
+        },
+        "image_with_text_Hrg9aT": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/GM_2_b34852f8-1d28-4c0e-866e-f2c04a001fc5.svg",
+            "title": "GOLDEN MIRAGE EAU DE PARFUM 2 ML",
+            "heading_tag": "h6",
+            "content": "<h6>350 POINTS</h6>",
+            "link_url": "shopify://products/golden-mirage-eau-de-parfum-tester-size-2ml-exclusive-sale",
+            "link_text": ""
+          }
+        },
+        "image_with_text_rJn8yQ": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/12_4242eb48-3195-428d-9292-c673d1ae34e0.png",
+            "title": "NOTEBOOK",
+            "heading_tag": "h6",
+            "content": "<h6>900 POINTS</h6>",
+            "link_url": "shopify://products/notebook",
+            "link_text": ""
+          }
+        },
+        "image_with_text_8DtXmd": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/3_1f986622-a4a8-4510-b188-1999b3f50f01.png",
+            "title": "STICKER SHEET",
+            "heading_tag": "h6",
+            "content": "<h6>200 POINTS</h6>",
+            "link_url": "shopify://products/the-muse-club-sticker-sheet",
+            "link_text": ""
+          }
+        },
+        "image_with_text_Y8w4Qh": {
+          "type": "image_with_text",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Product_-_Sfeerafbeeldingen_3000_x_3000_px_a3681017-6381-4992-9aef-07a0fc624ecc.png",
+            "title": "EXCLUSIVE MAGAZINE",
+            "heading_tag": "h6",
+            "content": "<h6>650 POINTS</h6>",
+            "link_url": "shopify://products/sophia-mae-magazine",
+            "link_text": ""
+          }
+        },
+        "image_with_text_QKBUQe": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/13_1b1115d4-01ad-48e3-9f22-93445fc68bc1.png",
+            "title": "GRATITUDE JOURNAL",
+            "heading_tag": "h6",
+            "content": "<h6>1400 POINTS</h6>",
+            "link_url": "shopify://products/gratitude-journal",
+            "link_text": ""
+          }
+        },
+        "image_with_text_HiLbhn": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/4_9d39d8d5-85f9-4a95-9331-7b244aa1a656.png",
+            "title": "CARD DECK",
+            "heading_tag": "h6",
+            "content": "<h6>900 POINTS</h6>",
+            "link_url": "shopify://products/card-deck",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_ingwq9",
+        "image_with_text_YNg33V",
+        "image_with_text_wxUMGU",
+        "image_with_text_mrnDGR",
+        "image_with_text_H4iery",
+        "image_with_text_3UiVKH",
+        "image_with_text_xhtaqC",
+        "image_with_text_cxhgUp",
+        "image_with_text_YqQ7bB",
+        "image_with_text_MRBpFn",
+        "image_with_text_Hbfjjd",
+        "image_with_text_fnYfyj",
+        "image_with_text_JYRqEF",
+        "image_with_text_mbphTx",
+        "image_with_text_3yRMfn",
+        "image_with_text_GbjNEN",
+        "image_with_text_cXQnD7",
+        "image_with_text_Q7mDXJ",
+        "image_with_text_Hrg9aT",
+        "image_with_text_rJn8yQ",
+        "image_with_text_8DtXmd",
+        "image_with_text_Y8w4Qh",
+        "image_with_text_QKBUQe",
+        "image_with_text_HiLbhn"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "columns_per_row": 5,
+        "stack_on_mobile": true,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "THESE REWARDS AWAIT YOU",
+        "content": ""
+      }
+    },
+    "faq_azXWPC": {
+      "type": "faq",
+      "blocks": {
+        "question_L6dYbP": {
+          "type": "question",
+          "settings": {
+            "question": "Why should I become a Member of The Muse Club?",
+            "answer": "<p>As a Member of The Muse Club, you automatically earn Loyalty Points with every order. These points can be redeemed for exclusive SOPHIA MAE products. You’ll also enjoy members-only benefits like improved shipping rates and early access to new launches.</p>"
+          }
+        },
+        "question_tqmjmR": {
+          "type": "question",
+          "settings": {
+            "question": "Is membership to The Muse Club free?",
+            "answer": "<p>Yes, joining The Muse Club is completely free. You’ll instantly enjoy benefits such as earning Loyalty Points and gaining access to exclusive products and rewards.</p>"
+          }
+        },
+        "question_CEaG9p": {
+          "type": "question",
+          "settings": {
+            "question": "Where can I view (the history of) my Loyalty Points and rewards?",
+            "answer": "<p>You can view (the history of) your Loyalty Points on <a href=\"https://sophia-mae.com/pages/loyalty-points\">this page</a> once you are logged in.</p>"
+          }
+        },
+        "question_GHW9wY": {
+          "type": "question",
+          "settings": {
+            "question": "How long does it take for Loyalty Points to appear in my account?",
+            "answer": "<p>Loyalty Points are automatically added to your account 14 days after your purchase, once the return period has passed.</p>"
+          }
+        },
+        "question_JkDNbq": {
+          "type": "question",
+          "settings": {
+            "question": "What happens to my earned Loyalty Points if I return an order?",
+            "answer": "<p>If you return an order, the corresponding Loyalty Points will automatically be deducted from your account.</p>"
+          }
+        },
+        "question_ifGm9X": {
+          "type": "question",
+          "settings": {
+            "question": "Will I lose my points if I don’t use my account for a while?",
+            "answer": "<p>No, you won’t lose your points. Loyalty Points from The Muse Club never expire, even if your account remains inactive for a while. They’ll stay safely in your account, ready to be redeemed whenever it suits you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_L6dYbP",
+        "question_tqmjmR",
+        "question_CEaG9p",
+        "question_GHW9wY",
+        "question_JkDNbq",
+        "question_ifGm9X"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "Frequently Asked Questions",
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "rich_text_YMPiPD",
+    "multi_column_JBNRa6",
+    "tabs_xKwFfW",
+    "carousel_home_tatKKL",
+    "tabs_R8wtUL",
+    "multi_column_RitD3w",
+    "faq_azXWPC"
+  ]
+}

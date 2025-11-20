@@ -1,0 +1,368 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_dmWmE4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8yTHJe": {
+          "type": "heading",
+          "settings": {
+            "text": "UPCOMING PRODUCT LAUNCHES",
+            "heading_tag": "h1"
+          }
+        },
+        "heading_dL3Gbe": {
+          "type": "heading",
+          "settings": {
+            "text": "BE THE FIRST TO KNOW",
+            "heading_tag": "h4"
+          }
+        },
+        "button_tDWd8Y": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "JOIN NOW",
+            "url": "https://sophia-mae.com/account/register",
+            "background": "#eae5df",
+            "text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8yTHJe",
+        "heading_dL3Gbe",
+        "button_tDWd8Y"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify://shop_images/Hospitality_banner_desktop_5_f25782a1-9734-4782-a3b4-24e39351c892.png",
+        "mobile_image": "shopify://shop_images/Hospitality_banner_mobile_7_e216d47f-035d-41b4-8285-9e32443e40dd.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_xCFnTi": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3a8X3A": {
+          "type": "heading",
+          "settings": {
+            "text": "THE ARCHIVE",
+            "heading_tag": "h3"
+          }
+        },
+        "subheading_LfKFAV": {
+          "type": "subheading",
+          "settings": {
+            "text": "27.10.2025"
+          }
+        },
+        "subheading_JUNjRM": {
+          "type": "subheading",
+          "settings": {
+            "text": "Live for 48 Hours"
+          }
+        },
+        "subheading_iaUWfz": {
+          "type": "subheading",
+          "settings": {
+            "text": "Up to 80% Off"
+          }
+        },
+        "subheading_XLw3Y8": {
+          "type": "subheading",
+          "settings": {
+            "text": "Members ONLY"
+          }
+        },
+        "button_9pczE3": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "JOIN NOW",
+            "url": "https://sophia-mae.com/account/register",
+            "background": "#1c1c1c",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_3a8X3A",
+        "subheading_LfKFAV",
+        "subheading_JUNjRM",
+        "subheading_iaUWfz",
+        "subheading_XLw3Y8",
+        "button_9pczE3"
+      ],
+      "disabled": true,
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_TdEKny": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MFfqWC": {
+          "type": "heading",
+          "settings": {
+            "text": "FLAGSHIP STORE AMSTERDAM",
+            "heading_tag": "h3"
+          }
+        },
+        "subheading_UUMdTe": {
+          "type": "subheading",
+          "settings": {
+            "text": "01.11.2025"
+          }
+        },
+        "button_KRwjRK": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "STAY TUNED",
+            "url": "https://sophia-mae.com/account/register",
+            "background": "#1c1c1c",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_MFfqWC",
+        "subheading_UUMdTe",
+        "button_KRwjRK"
+      ],
+      "disabled": true,
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_BdY4wi": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_dARmqM": {
+          "type": "heading",
+          "settings": {
+            "text": "LIQUID EYELINER",
+            "heading_tag": "h3"
+          }
+        },
+        "subheading_cbXnRU": {
+          "type": "subheading",
+          "settings": {
+            "text": "MEMBER LAUNCH — THE 10TH OF NOVEMBER"
+          }
+        },
+        "button_ik6VHr": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "JOIN NOW",
+            "url": "https://sophia-mae.com/account/register",
+            "background": "#1c1c1c",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_dARmqM",
+        "subheading_cbXnRU",
+        "button_ik6VHr"
+      ],
+      "disabled": true,
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_7ix8m7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6ttxnT": {
+          "type": "heading",
+          "settings": {
+            "text": "FACIAL TANNING MIST TRAVEL SIZE",
+            "heading_tag": "h3"
+          }
+        },
+        "subheading_YwEi3D": {
+          "type": "subheading",
+          "settings": {
+            "text": "MEMBER LAUNCH - 06.10.2025"
+          }
+        },
+        "subheading_rcnfWU": {
+          "type": "subheading",
+          "settings": {
+            "text": "GENERAL LAUNCH - 07.10.2025"
+          }
+        },
+        "button_J43wNB": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "STAY TUNED",
+            "url": "https://sophia-mae.com/account/register",
+            "background": "#1c1c1c",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_6ttxnT",
+        "subheading_YwEi3D",
+        "subheading_rcnfWU",
+        "button_J43wNB"
+      ],
+      "disabled": true,
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_PyPfzn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_EKnnFk": {
+          "type": "heading",
+          "settings": {
+            "text": "AURA HAIR PERFUME",
+            "heading_tag": "h3"
+          }
+        },
+        "subheading_XPwWBw": {
+          "type": "subheading",
+          "settings": {
+            "text": "LAUNCHING SOON"
+          }
+        },
+        "button_zE6DMN": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "STAY TUNED",
+            "url": "https://sophia-mae.com/account/register",
+            "background": "#1c1c1c",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_EKnnFk",
+        "subheading_XPwWBw",
+        "button_zE6DMN"
+      ],
+      "disabled": true,
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_LkJ9CF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_beLJPd": {
+          "type": "heading",
+          "settings": {
+            "text": "THE MUSE CLUB DAY",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_imXbb7": {
+          "type": "subheading",
+          "settings": {
+            "text": "15% DISCOUNT"
+          }
+        },
+        "subheading_xcD8tF": {
+          "type": "subheading",
+          "settings": {
+            "text": "ONE DAY ONLY"
+          }
+        },
+        "subheading_f8PVR6": {
+          "type": "subheading",
+          "settings": {
+            "text": "MEMBER EXCLUSIVE"
+          }
+        },
+        "subheading_WeBcwN": {
+          "type": "subheading",
+          "settings": {
+            "text": "29.09.2025"
+          }
+        },
+        "button_jn4FMn": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "BECOME A MEMBER",
+            "url": "https://sophia-mae.com/account/register",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_beLJPd",
+        "subheading_imXbb7",
+        "subheading_xcD8tF",
+        "subheading_f8PVR6",
+        "subheading_WeBcwN",
+        "button_jn4FMn"
+      ],
+      "disabled": true,
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "width",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_dmWmE4",
+    "rich_text_xCFnTi",
+    "rich_text_TdEKny",
+    "rich_text_BdY4wi",
+    "rich_text_7ix8m7",
+    "rich_text_PyPfzn",
+    "rich_text_LkJ9CF"
+  ]
+}

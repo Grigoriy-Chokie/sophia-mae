@@ -1,0 +1,167 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "c062b312-c509-4c38-a356-be8f7dbaf9c6": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20162493972824__c062b312-c509-4c38-a356-be8f7dbaf9c6-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Story",
+            "heading_tag": "h1"
+          }
+        },
+        "template--20162493972824__c062b312-c509-4c38-a356-be8f7dbaf9c6-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>In the heart of SOPHIA MAE resides a captivating persona driven by the desire to inspire and empower others. As SOPHIA MAE has a strong belief that there is a muse hidden within every person, we are dedicated to awakening that inner source of motivation, inspiration, and fascination. We aim to invoke a sense of sophistication, solidarity and self-love. We understand that true beauty shines from within and embrace the power of self-assurance. We always seek to empower others to do the same, to walk with confidence and celebrate themselves. Allow us to introduce you to SOPHIA MAE.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20162493972824__c062b312-c509-4c38-a356-be8f7dbaf9c6-heading-1",
+        "template--20162493972824__c062b312-c509-4c38-a356-be8f7dbaf9c6-richtext-1"
+      ],
+      "custom_css": [
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "background_color": "default",
+        "image": "shopify:\/\/shop_images\/Ontwerp_zonder_titel-90.png",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "md_plus",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
+    "image_with_text_cQ3DXQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_7kKyKt": {
+          "type": "heading",
+          "settings": {
+            "text": "SOPHISTICATION",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_3EygaA": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Sophistication serves as a cornerstone of the SOPHIA MAE experience. It's seamlessly woven into our dedication to creating beautiful, aesthetically pleasing and high-quality products. You’ll notice that we often draw inspiration from divine works of art and captivating architecture, as these sources of inspiration breathe SOPHIA MAE’s personal style. But it's not just about making visually appealing items; it's about elevating self-love to a refined and graceful level. <\/p><p>Through our carefully crafted self-care products, designed to please the senses and soothe the soul, SOPHIA MAE aims to add a touch of luxury and sophistication to every moment of self-care.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7kKyKt",
+        "richtext_3EygaA"
+      ],
+      "custom_css": [
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "background_color": "default",
+        "image": "shopify:\/\/shop_images\/Page_story_afbeeldingen.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false
+      }
+    },
+    "6339204c-6af1-4058-a7a4-d9f6a3152421": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_XVLf93": {
+          "type": "heading",
+          "settings": {
+            "text": "SOLIDARITY",
+            "heading_tag": "h1"
+          }
+        },
+        "03f9d6da-a198-4ea7-beb7-a60d5d505c51": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>With everything we do, we aim to create a sense of community and connection. SOPHIA MAE invites individuals from all walks of life to embark on a journey of self-discovery and to find a touch of luxury within the embrace of our products. SOPHIA MAE seeks to uplift and support all those who need to find a touch of tranquility in this hectic world.<\/p><p>While SOPHIA MAE's products embody high-end luxury, our mission extends beyond exclusivity. SOPHIA MAE believes that everyone, regardless of background or appearance, deserves to experience a touch of divinity.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XVLf93",
+        "03f9d6da-a198-4ea7-beb7-a60d5d505c51"
+      ],
+      "custom_css": [
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "background_color": "default",
+        "image": "shopify:\/\/shop_images\/Page_story_afbeeldingen_2.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "sm",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
+    "image_with_text_Xzda4R": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_PRUayz": {
+          "type": "heading",
+          "settings": {
+            "text": "SELF-LOVE",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_MGKVLW": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>We help people to awaken their inner muse and provide a canvas for them to create their own sacred environments through the practice of self-love. Whether you are dedicated to finding three moments of gratitude a day and writing them down in your Gratitude Journal, gracing your skin with some Goddess Glow just because you feel like letting yourself shine, or spending some extra time on your hair care routine using our Majestic Mist, we strive to help everyone experience a divine moment of self-care. <\/p><p>We want you to feel that you are worthy of taking a moment of tranquility for yourself. This self-compassion will allow your inner muse to flourish and enable you to see your own worth more clearly, unveiling the true brilliance that has always resided within you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PRUayz",
+        "richtext_MGKVLW"
+      ],
+      "custom_css": [
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "background_color": "default",
+        "image": "shopify:\/\/shop_images\/Page_story_afbeeldingen_3.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c062b312-c509-4c38-a356-be8f7dbaf9c6",
+    "image_with_text_cQ3DXQ",
+    "6339204c-6af1-4058-a7a4-d9f6a3152421",
+    "image_with_text_Xzda4R"
+  ]
+}

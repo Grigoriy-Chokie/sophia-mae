@@ -1,0 +1,32 @@
+{%- comment -%} Build a lowercase URL to check for "-de" {%- endcomment -%}
+{% assign full_url = canonical_url | downcase %}
+{% if full_url == blank %}
+  {% capture full_url %}{{ request.host }}{{ request.path }}{% endcapture %}
+  {% assign full_url = full_url | downcase %}
+{% endif %}
+
+{%- comment -%} Boolean flag via operator (not a filter) {%- endcomment -%}
+{% assign is_de_url = false %}
+{% if full_url contains '-de' %}
+  {% assign is_de_url = true %}
+{% endif %}
+
+{%- comment -%} Compose the filename list {%- endcomment -%}
+{% assign base = "icon-mastercard.svg|icon-visa.svg|icon-klarna.svg" %}
+
+{% if is_de_url %}
+  {% assign list = base | append: "|icon-paypal.svg" %}
+{% else %}
+  {% assign list = base | append: "|icon-deal.svg|icon-kbc.svg|icon-bancontact.svg" %}
+{% endif %}
+
+{% assign filenames = list | split: "|" %}
+
+<ul class="payment-list unstyled-list" role="list">
+  {% for filename in filenames %}
+    {% assign svg = filename | inline_asset_content %}
+    {% if svg != blank %}
+      <li class="payment-list__item">{{ svg }}</li>
+    {% endif %}
+  {% endfor %}
+</ul>

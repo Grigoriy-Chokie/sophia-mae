@@ -1,0 +1,142 @@
+{%- liquid
+  assign background_color = section.settings.background_color | default: '#EAE5DF'
+  assign text_color = section.settings.text_color | default: '#000000'
+  assign border_color = section.settings.border_color | default: '#A19589'
+  assign has_blocks = false
+  if section.blocks.size != 0
+    assign has_blocks = true
+  endif
+
+  capture styles
+    assign style = ''
+    assign style = style | append: '--background-color: ' | append: background_color | append: ';'
+    assign style = style | append: '--color: ' | append: text_color | append: ';'
+    assign style = style | append: '--border-color: ' | append: border_color | append: ';'
+    echo style
+  endcapture
+-%}
+
+{%- if has_blocks == true -%}
+  {{- 'categories-bar.css' | asset_url | stylesheet_tag -}}
+
+  <nav style="{{ styles | strip_newlines }}" class="categories-bar">
+    <ul class="categories-bar__list unstyled-list" role="list">
+      {%- for block in section.blocks -%}
+        {%- liquid
+          assign collection = block.settings.collection
+          assign name = collection.title | default: block.settings.name_bar
+          assign url = collection.url | default: block.settings.url_bar
+          assign has_navigation_item = false
+          if url != blank and url != blank
+            assign has_navigation_item = true
+          endif
+        -%}
+        {%- if has_navigation_item == true -%}
+          <li class="categories-bar__list-item" {{ block.shopify_attributes }} >
+            <a href="{{ url }}" title="{{- name -}}" class="categories-bar__link">
+              {{- name -}}
+            </a>
+          </li>
+        {%- endif -%}
+      {%- endfor -%}
+    </ul>
+  </nav>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Categories bar",
+  "limit": 1,
+  "disabled_on": { "groups": ["header", "footer","custom.overlay"] },
+  "tag": "section",
+  "blocks": [
+    {
+      "name": "Category",
+      "type": "category",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Collection"
+        },
+        {
+          "type": "header",
+          "content": "Another navigation item",
+          "info": "If you want to use this block on another page, you can set the name and URL here.",
+          "visible_if": "{{ block.settings.collection  == blank }}"
+        },
+        {
+          "type": "text",
+          "id": "name_bar",
+          "label": "Name of the navigation item",
+          "visible_if": "{{ block.settings.collection  == blank }}"
+        },
+        {
+          "type": "url",
+          "id": "url_bar",
+          "label": "Url of the navigation bar",
+          "visible_if": "{{ block.settings.collection  == blank }}"
+        }
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "type": "header",
+      "content": "Color schema"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#EAE5DF"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "label": "Border color",
+      "default": "#A19589"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Categories bar",
+      "category": "Navigation",
+      "settings": {
+        "background_color": "#EAE5DF",
+        "text_color": "#000000",
+        "border_color": "#A19589"
+      },
+      "blocks": [
+        {
+          "type": "category",
+          "settings": {
+            "name_bar": "Some category name",
+            "url_bar": "/"
+          }
+        },
+        {
+          "type": "category",
+          "settings": {
+            "name_bar": "Some category name",
+            "url_bar": "/"
+          }
+        },
+        {
+          "type": "category",
+          "settings": {
+            "name_bar": "Some category name",
+            "url_bar": "/"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

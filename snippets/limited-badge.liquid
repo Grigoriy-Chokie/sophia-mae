@@ -1,0 +1,22 @@
+{% if product.metafields.custom.limited_text != blank %}
+{%- assign text_lim_current = product.metafields.custom.limited_text -%}
+{%- else -%}
+{%- assign text_lim_current = limited_text -%}
+{% endif %}
+
+{% if text_lim_current != empty %}
+<div class="atc__limited-period">
+  {% if limited_heading %}
+  <h3 class="h3 atc__limited-title">
+    <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M6.5 1C3.46354 1 1 3.46354 1 6.5C1 9.53646 3.46354 12 6.5 12C9.53646 12 12 9.53646 12 6.5C12 3.46354 9.53646 1 6.5 1Z"
+        stroke="black" stroke-miterlimit="10" />
+      <path d="M5 4V8H8" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+    <span>{{limited_heading}}</span>
+  </h3>
+  {% endif %}
+  <p class="h3 atc__limited-text">{{text_lim_current}}</p>
+</div>
+{% endif %}

@@ -1,0 +1,22 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "index.json",
+  "context": {
+    "market": "nl"
+  },
+  "sections": {
+    "10ad3403-1db5-4547-83b9-f26d06465960": {
+      "disabled": false,
+      "settings": {},
+      "blocks": {}
+    }
+  }
+}
