@@ -1,0 +1,174 @@
+{%- unless c_product_card_assets_included -%}
+  {%- assign c_product_card_assets_included = true -%}
+  {{ 'c-product-card.css' | asset_url | stylesheet_tag }}
+  <script src="{{ 'c-product-card.js' | asset_url }}" defer></script>
+{%- endunless -%}
+
+{%- liquid
+  assign featured_media = product.featured_media
+  assign description_text = product.description | strip_html | truncatewords: 6
+
+  assign correct_first_variant = nil
+  assign button_disabled = false
+  assign not_find_variant = false
+  assign hide_product_information = hide_product_information | default: false
+
+  assign is_reward_in_cart = false
+  for line_item in cart.items
+    assign title_downcase = line_item.title | downcase
+    if title_downcase contains "reward"
+      assign is_reward_in_cart = true
+      break
+    endif
+  endfor
+
+  for item in product.variants
+    assign title_downcase = item.title | downcase
+    assign is_reward_variant = false
+    if title_downcase contains "reward"
+      assign is_reward_variant = true
+    endif
+    
+    if item.price != 0 and is_reward_variant == false
+      assign correct_first_variant = item.id 
+      assign not_find_variant = true
+      break
+    endif
+  endfor
+  if not_find_variant == false
+    assign correct_first_variant = product.selected_or_first_available_variant.id
+  endif
+
+  assign product_condition = 'common'
+
+  assign error_message = settings.archived_in_cart_message
+  assign error_message_collection = settings.archived_in_cart_message_collection
+
+  assign reward_in_cart_message = settings.reward_in_cart_message
+  assign reward_in_cart_message_collection = settings.reward_in_cart_message_collection
+
+  capture quick_buy_context
+    echo section.id
+    echo '-'
+    echo block.id
+    echo '-'
+    echo product.id
+  endcapture
+  capture quick_buy_id
+    echo 'c-product-quick-buy-'
+    echo quick_buy_context | handle | default: product.id
+  endcapture
+
+  for archived_product in collections['archive'].products
+    if archived_product.title == product.title
+      assign product_condition = 'archived'
+      assign error_message = settings.archived_not_in_cart_message
+      assign error_message_collection = settings.archived_not_in_cart_message_collection
+      break
+    endif
+  endfor
+
+  for line_item in cart.items 
+    assign is_archived = false
+    for archived_product in collections['archive'].products
+      if archived_product.title == line_item.product.title
+        assign is_archived = true
+        break
+      endif
+    endfor
+
+    if is_archived and product_condition == 'common'
+      assign button_disabled = true 
+    elsif product_condition == 'archived' and is_archived == false
+      assign button_disabled = true 
+    endif 
+  endfor 
+-%}
+
+<c-product-card class="c-product-card" data-product-handle="{{ product.handle | escape }}">
+  <div class="c-product-card__media">
+    {%- if featured_media -%}
+      <a href="{{ product.url }}" class="c-product-card__image-link" data-instant>
+        {{-
+          featured_media
+          | image_url: width: 800
+          | image_tag:
+            class: 'c-product-card__image',
+            loading: 'lazy',
+            widths: '360,480,640,800'
+        -}}
+      </a>
+    {%- endif -%}
+  </div>
+
+  <div class="c-product-card__content">
+    <h3 class="c-product-card__title">
+      <a href="{{ product.url }}" data-instant>{{ product.title }}</a>
+    </h3>
+
+    {%- if description_text != blank -%}
+      <p class="c-product-card__description">{{ description_text }}</p>
+    {%- endif -%}
+
+    <div class="c-product-card__price">
+      {%- render 'price-list', product: product, context: 'card' -%}
+    </div>
+  </div>
+
+  <div class="c-product-card__actions">
+    <div class="c-product-card__error ProductForm__AddToCart--error-message">
+      {%- liquid 
+        if template.name != "collection"
+          if is_reward_in_cart == true
+            echo reward_in_cart_message
+          else
+            echo error_message
+          endif
+        else
+          if is_reward_in_cart == true
+            echo reward_in_cart_message_collection
+          else
+            echo error_message_collection
+          endif
+        endif
+      -%}
+    </div>
+
+    {%- if product.template_suffix != 'coming-soon' and hide_product_information == false and product.available -%}
+      {%- if product.variants.size > 1 or product.selling_plan_groups.size > 0 -%}
+        <button
+          type="button"
+          class="button c-product-card__add c-product-card__add--modal"
+          aria-controls="{{ quick_buy_id }}"
+        >
+          {{ 'product.general.add_to_cart_button' | t }}
+        </button>
+        <quick-buy-modal handle="{{ product.handle }}" class="quick-buy-modal modal" id="{{ quick_buy_id }}">
+        </quick-buy-modal>
+      {%- else -%}
+        <button
+          class="button c-product-card__add"
+          data-cpc-atc
+          data-product-condition="{{ product_condition }}"
+          data-action="open-drawer"
+          data-drawer-id="sidebar-cart"
+          {% if correct_first_variant != blank %}
+            data-variant_id="{{ correct_first_variant }}"
+          {% else %}
+            data-variant_id="{{ product.variants.first.id }}"
+          {% endif %}
+          data-cart_type="{{ settings.cart_type }}"
+          {% if button_disabled %}
+            disabled
+          {% endif %}
+        >
+          {{ 'product.general.add_to_cart_button' | t }}
+        </button>
+      {%- endif -%}
+    {%- elsif product.template_suffix != 'coming-soon' and hide_product_information == false and product.available == false -%}
+      <button class="button c-product-card__add" disabled>
+        {{- 'product.general.sold_out_badge' | t -}}
+      </button>
+    {%- endif -%}
+  </div>
+</c-product-card>

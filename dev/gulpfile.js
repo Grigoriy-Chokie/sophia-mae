@@ -11,7 +11,6 @@ const browserify = require('browserify');
 const tap = require('gulp-tap');
 const buffer = require('gulp-buffer');
 const cache = require('gulp-cached');
-const concat = require('gulp-concat');
 
 const path = {
 	fonts: {
@@ -41,22 +40,6 @@ gulp.task('build:fonts', () => {
 		.pipe(gulp.dest(path.dist));
 });
 
-// gulp.task('build:styles', () => {
-// 	return gulp.src(path.styles.src)
-// 		.pipe(cache('styles'))
-// 		.pipe(gulpif(!argv.prod, sourcemaps.init()))
-// 		.pipe(
-// 			sass({
-// 				includePaths: ['./node_modules'],
-// 				errLogToConsole: true,
-// 				outputStyle: gulpif(!argv.prod, 'expanded', 'compressed')
-// 			})
-// 		).on('error', sass.logError)
-// 		.pipe(gulpif(argv.prod, autoprefixer('last 2 versions')))
-// 		.pipe(gulpif(!argv.prod, sourcemaps.write()))
-// 		.pipe(gulp.dest(path.dist));
-// });
-
 gulp.task('build:styles', () => {
 	return gulp.src(path.styles.src)
 		.pipe(cache('styles'))
@@ -68,8 +51,7 @@ gulp.task('build:styles', () => {
 				outputStyle: gulpif(!argv.prod, 'expanded', 'compressed')
 			})
 		).on('error', sass.logError)
-		.pipe(gulpif(argv.prod, autoprefixer({ overrideBrowserslist: ['last 2 versions'] })))
-		.pipe(concat('custom-theme.css')) // 👈 объединяем всё в один файл
+		.pipe(gulpif(argv.prod, autoprefixer('last 2 versions')))
 		.pipe(gulpif(!argv.prod, sourcemaps.write()))
 		.pipe(gulp.dest(path.dist));
 });

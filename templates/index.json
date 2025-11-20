@@ -35,6 +35,46 @@
         "overlay_opacity": 30
       }
     },
+    "product_tabs_h67DWd": {
+      "type": "product-tabs",
+      "blocks": {
+        "products_tab_bMN3hx": {
+          "type": "products_tab",
+          "settings": {
+            "title": "Best Sellers",
+            "collection": "beauty",
+            "products": []
+          }
+        },
+        "products_tab_czp3KD": {
+          "type": "products_tab",
+          "settings": {
+            "title": "New Arrival",
+            "collection": "",
+            "products": [
+              "balm-with-lip-applicator",
+              "aura-eau-de-parfum-tester-size",
+              "aura-eau-de-parfum",
+              "artemis-scented-candle"
+            ]
+          }
+        }
+      },
+      "block_order": [
+        "products_tab_bMN3hx",
+        "products_tab_czp3KD"
+      ],
+      "name": "Product Tabs",
+      "settings": {
+        "top_padding_mobile": 38,
+        "bottom_padding_mobile": 38,
+        "top_padding_desktop": 78,
+        "bottom_padding_desktop": 80,
+        "background_color": "#f2f0eb",
+        "title": "Products in focus",
+        "title_color": "#1c1c1c"
+      }
+    },
     "categories_bar_G6g6ax": {
       "type": "categories-bar",
       "blocks": {
@@ -947,6 +987,7 @@
     }
   },
   "order": [
+    "product_tabs_h67DWd",
     "countdown_pKg8t9",
     "categories_bar_G6g6ax",
     "10ad3403-1db5-4547-83b9-f26d06465960",

@@ -13,7 +13,7 @@ function _addMeToCart(e, el) {
     ]
   };
 
-  fetch('/cart/add.js', {
+  return fetch('/cart/add.js', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
