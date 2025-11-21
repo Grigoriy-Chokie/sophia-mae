@@ -9,32 +9,6 @@
  */
 {
   "sections": {
-    "countdown_pKg8t9": {
-      "type": "countdown",
-      "disabled": true,
-      "settings": {
-        "separate_section_with_border": false,
-        "image_size": "xs",
-        "subheading": "Use code THEMUSECLUB for 15% off · Members only",
-        "title": "",
-        "content": "",
-        "button_link": "shopify://collections/products",
-        "button_text": "SHOP NOW",
-        "expiration_date": "2025-09-29 23:59",
-        "expiration_behavior": "leave",
-        "timer_position": "end",
-        "animate_number": true,
-        "background": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": "",
-        "flip_background": "",
-        "flip_background_opacity": 50,
-        "flip_text_color": "",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
     "product_tabs_h67DWd": {
       "type": "product-tabs",
       "blocks": {
@@ -73,6 +47,174 @@
         "background_color": "#f2f0eb",
         "title": "Products in focus",
         "title_color": "#1c1c1c"
+      }
+    },
+    "popular_collections_9CMiJd": {
+      "type": "popular-collections",
+      "blocks": {
+        "collection_tab_iXFGzR": {
+          "type": "collection_tab",
+          "settings": {
+            "title": "FACE & BODY",
+            "collection": "face-body",
+            "button_label": "View all products",
+            "button_link": "shopify://collections/face-body"
+          }
+        },
+        "collection_tab_QaPQGa": {
+          "type": "collection_tab",
+          "settings": {
+            "title": "MAKEUP",
+            "collection": "makeup",
+            "button_label": "View all products",
+            "button_link": "shopify://collections/makeup"
+          }
+        },
+        "collection_tab_EpyB9X": {
+          "type": "collection_tab",
+          "settings": {
+            "title": "HAIR",
+            "collection": "hair-products",
+            "button_label": "View all products",
+            "button_link": "shopify://collections/hair-products"
+          }
+        },
+        "collection_tab_iV7q7w": {
+          "type": "collection_tab",
+          "settings": {
+            "title": "PERFUMES",
+            "collection": "perfumes",
+            "button_label": "View all products",
+            "button_link": "shopify://collections/perfumes"
+          }
+        },
+        "collection_tab_HbAHtj": {
+          "type": "collection_tab",
+          "settings": {
+            "title": "HOME",
+            "collection": "home",
+            "button_label": "View all products",
+            "button_link": "shopify://collections/home"
+          }
+        },
+        "collection_tab_aXc3Nb": {
+          "type": "collection_tab",
+          "settings": {
+            "title": "LIFESTYLE",
+            "collection": "lifestyle",
+            "button_label": "View all products",
+            "button_link": "shopify://collections/lifestyle"
+          }
+        },
+        "collection_tab_jKrc3i": {
+          "type": "collection_tab",
+          "settings": {
+            "title": "BUNDLE",
+            "collection": "bundles",
+            "button_label": "View all products",
+            "button_link": "shopify://collections/bundles"
+          }
+        }
+      },
+      "block_order": [
+        "collection_tab_iXFGzR",
+        "collection_tab_QaPQGa",
+        "collection_tab_EpyB9X",
+        "collection_tab_iV7q7w",
+        "collection_tab_HbAHtj",
+        "collection_tab_aXc3Nb",
+        "collection_tab_jKrc3i"
+      ],
+      "name": "Popular Collections",
+      "settings": {
+        "top_padding_mobile": 38,
+        "bottom_padding_mobile": 38,
+        "top_padding_desktop": 78,
+        "bottom_padding_desktop": 80,
+        "background_color": "#f2f0eb",
+        "title": "Popular categories",
+        "title_color": "#1c1c1c"
+      }
+    },
+    "rich_text_kk88K3": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_zHiiA8": {
+          "type": "subheading",
+          "settings": {
+            "text": "NEED ASSISTANCE?"
+          }
+        },
+        "heading_PALHnA": {
+          "type": "heading",
+          "settings": {
+            "text": "WE ARE HERE TO HELP",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_CaVzmy": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Live chat available Monday to Friday, </p><p>from 10:00 to 5:00 PM GMT+1</p>"
+          }
+        },
+        "button_DQMWy8": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "GET IN TOUCH WITH US",
+            "url": "shopify://pages/contact",
+            "background": "#1c1b1b",
+            "text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_zHiiA8",
+        "heading_PALHnA",
+        "richtext_CaVzmy",
+        "button_DQMWy8"
+      ],
+      "custom_css": [
+        ".section-spacing {padding-block: 55px 45px; background: #E8E4DA;}",
+        ".h6 {font-size: 14px;}",
+        ".prose.text-center > div {font-size: 18px; line-height: 140%; margin-top: 20px;}",
+        ".prose.text-center > div * {margin: 0;}",
+        ".h2,.prose.text-center > div.button-group {margin-top: 25px;}",
+        ".button-group .button {width: fit-content; padding-inline: 12px;}",
+        "@media (min-width: 768px) {.h2 {font-size: 26px; margin-top: 10px; } .prose.text-center > div {margin-top: 10px; } .button-group .button {padding-inline: 26px; font-weight: 600; letter-spacing: 0.16em; font-size: 16px; }}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "countdown_pKg8t9": {
+      "type": "countdown",
+      "disabled": true,
+      "settings": {
+        "separate_section_with_border": false,
+        "image_size": "xs",
+        "subheading": "Use code THEMUSECLUB for 15% off · Members only",
+        "title": "",
+        "content": "",
+        "button_link": "shopify://collections/products",
+        "button_text": "SHOP NOW",
+        "expiration_date": "2025-09-29 23:59",
+        "expiration_behavior": "leave",
+        "timer_position": "end",
+        "animate_number": true,
+        "background": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": "",
+        "flip_background": "",
+        "flip_background_opacity": 50,
+        "flip_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
     "categories_bar_G6g6ax": {
@@ -859,28 +1001,6 @@
         "remove_horizontal_spacing": true
       }
     },
-    "rich_text_kk88K3": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_PALHnA": {
-          "type": "heading",
-          "settings": {
-            "text": "SOPHIA MAE'S JOURNAL",
-            "heading_tag": "h3"
-          }
-        }
-      },
-      "block_order": [
-        "heading_PALHnA"
-      ],
-      "disabled": true,
-      "settings": {
-        "separate_section_with_border": false,
-        "content_width": "xs",
-        "text_position": "center",
-        "remove_vertical_spacing": false
-      }
-    },
     "blog_posts_H4hnWX": {
       "type": "blog-posts",
       "disabled": true,
@@ -988,6 +1108,8 @@
   },
   "order": [
     "product_tabs_h67DWd",
+    "popular_collections_9CMiJd",
+    "rich_text_kk88K3",
     "countdown_pKg8t9",
     "categories_bar_G6g6ax",
     "10ad3403-1db5-4547-83b9-f26d06465960",
@@ -996,7 +1118,6 @@
     "35d54370-9ac1-43cf-9cf2-069033e77a7b",
     "25ad0ba2-4c55-44bb-bf2d-e21439e62374",
     "image_with_text_L4QtqR",
-    "rich_text_kk88K3",
     "blog_posts_H4hnWX",
     "3482d02a-0e06-4c1d-8368-e1f149c4d583",
     "1721223392a497fa90"
