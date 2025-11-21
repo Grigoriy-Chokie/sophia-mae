@@ -1,0 +1,323 @@
+{{ 'section-custom-image-with-text.css' | asset_url | stylesheet_tag }}
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  .section-{{ section.id }}-background {
+    background-color: {{ section.settings.section_background_color }};
+  }
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="custom-image-with-text section-{{ section.id }}-padding section-{{ section.id }}-background">
+  <div
+    style="background-color: {{ section.settings.content_background_color }};"
+    class="custom-image-with-text__grid
+           {% if section.settings.layout == 'text_first' %} custom-image-with-text__grid--reverse{% endif %}
+    "
+  >
+
+    <div
+      class="custom-image-with-text__media-item
+             custom-image-with-text__media-item--{{ section.settings.desktop_image_width }}
+             custom-image-with-text__media-item--{{ section.settings.desktop_content_position }}
+      "
+    >
+      <div
+        class="custom-image-with-text__media
+             custom-image-with-text__media--{{ section.settings.height }}
+             {%- if section.settings.image == blank -%} custom-image-with-text__media--placeholder{% endif -%}
+        "
+        {% if section.settings.height == 'adapt' and section.settings.image != blank %}
+          style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"
+        {% endif %}
+      >
+        {%- if section.settings.image != blank -%}
+          {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+          {%- capture sizes -%}
+            (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+            (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+          {%- endcapture -%}
+          {{
+            section.settings.image
+            | image_url: width: 1500
+            | image_tag: loading: 'lazy', sizes: sizes, widths: widths, class: 'custom-image-with-text__img'
+          }}
+        {%- else -%}
+          {{ 'image' | placeholder_svg_tag: 'custom-image-with-text__placeholder' }}
+        {%- endif -%}
+      </div>
+    </div>
+
+    <div class="custom-image-with-text__text-item">
+      <div
+        id="CustomImageWithText--{{ section.id }}"
+        class="custom-image-with-text__content
+             custom-image-with-text__content--{{ section.settings.desktop_content_position }}
+             custom-image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }}
+             custom-image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }}
+        "
+      >
+        {%- assign buttons = section.blocks | where: "type", "button" -%}
+        {%- assign hasButtons = buttons | size -%}
+        {%- for block in section.blocks -%}
+          {% case block.type %}
+            {%- when 'content' -%}
+              <div class="custom-image-with-text__heading" {{ block.shopify_attributes }}>
+                {{ block.settings.content }}
+              </div>
+          {% endcase %}
+        {%- endfor -%}
+
+        {%- if hasButtons > 0 -%}
+          <div class="custom-image-with-text__buttons" style="display: flex; flex-wrap: wrap; gap: 1.6rem; align-items: center; justify-content: start;">
+            {%- for buttonBlock in buttons -%}
+              {%- if buttonBlock.settings.button_label != blank -%}
+                <a
+                  {% if buttonBlock.settings.button_link == blank %}
+                    role="link" aria-disabled="true"
+                  {% else %}
+                    href="{{ buttonBlock.settings.button_link }}"
+                  {% endif %}
+                  class="button"
+                  {{ buttonBlock.shopify_attributes }}
+                >
+                  {{ buttonBlock.settings.button_label | escape }}
+                </a>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+        {%- endif -%}
+
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Image with text",
+  "class": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "select",
+      "id": "height",
+      "options": [
+        {
+          "value": "adapt",
+          "label": "Adapt to image"
+        },
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "small",
+      "label": "Image height"
+    },
+    {
+      "type": "select",
+      "id": "desktop_image_width",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "medium",
+      "label": "Desktop image width",
+      "info": "Image is automatically optimized for mobile."
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "options": [
+        {
+          "value": "image_first",
+          "label": "Image first"
+        },
+        {
+          "value": "text_first",
+          "label": "Text first"
+        }
+      ],
+      "default": "image_first",
+      "label": "Desktop image placement",
+      "info": "Image first is the default mobile layout."
+    },
+    {
+      "type": "select",
+      "id": "desktop_content_position",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "middle",
+          "label": "Center"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        }
+      ],
+      "default": "top",
+      "label": "Desktop content position"
+    },
+    {
+      "type": "select",
+      "id": "desktop_content_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left",
+      "label": "Desktop content alignment"
+    },
+    {
+      "type": "color",
+      "id": "section_background_color",
+      "label": "Section background color"
+    },
+    {
+      "type": "color",
+      "id": "content_background_color",
+      "label": "Content background color"
+    },
+    {
+      "type": "header",
+      "content": "Mobile layout"
+    },
+    {
+      "type": "select",
+      "id": "mobile_content_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left",
+      "label": "Mobile content alignment"
+    },
+    {
+      "type": "header",
+      "content": "Section padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "content",
+      "name": "Content",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "content",
+          "default": "<p>Default text</p>",
+          "label": "Content"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "name": "Button",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_label",
+          "default": "Button label",
+          "label": "Button label",
+          "info": "Leave the label blank to hide the button."
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image with text",
+      "category": "Custom",
+      "blocks": [
+        {
+          "type": "content"
+        },
+        {
+          "type": "button"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

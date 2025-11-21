@@ -1,0 +1,121 @@
+.video-review {
+  position: relative;
+  text-align: center;
+}
+
+.video-reviews--wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.video-reviews__heading {
+  margin-bottom: 3.8rem;
+}
+
+.video-reviews__title {
+  margin-bottom: 13px;
+}
+
+.video-reviews__subtitle {
+  margin: 0;
+}
+
+.video-reviews__subtitle > *{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.video-reviews__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.7rem;
+}
+
+.video-reviews__slider {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.video-reviews__slider .video-review {
+    width: 100%;
+    height: 100%;
+}
+
+.video-reviews__slider-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-padding-left: 2rem;
+  -webkit-overflow-scrolling: touch;
+  gap: 17px;
+}
+
+.video-reviews__slider-list::-webkit-scrollbar {
+  height: 0.5rem;
+}
+
+.video-reviews__slider-list-item {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+
+.video-review__video,
+.video-review__image {
+  width: 100%;
+  height: 100%;
+  line-height: 0;
+  cursor: pointer;
+}
+
+.video-review__video video,
+.video-review__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-height: 410px;
+}
+
+.video-reviews__play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  background: unset;
+  border: none;
+}
+
+.video-review__video.video-review__video--play .video-reviews__play-button {
+  opacity: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .video-reviews__heading {
+    margin-bottom: 2.8rem;
+  }
+  .video-reviews__title {
+    margin-bottom: 8px;
+  }
+
+  .video-reviews__grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .video-reviews__grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: unset;
+  }
+  .video-review {
+    aspect-ratio: 1;
+  }
+}

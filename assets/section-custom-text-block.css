@@ -1,0 +1,24 @@
+.text-block {
+  width: 100%;
+}
+.text-block__wrapper {
+  text-align: center;
+}
+.text-block__wrapper--left {
+  text-align: left;
+}
+.text-block__wrapper--center {
+  text-align: center;
+}
+.text-block__wrapper--right {
+  text-align: right;
+}
+.text-block__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  margin-bottom: 28px;
+}
+.text-block__content * {
+  margin: 0;
+}

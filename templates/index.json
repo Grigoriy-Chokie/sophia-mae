@@ -363,6 +363,30 @@
         "title_color": "#1c1c1c"
       }
     },
+    "custom_two_images_hheXQR": {
+      "type": "custom-two-images",
+      "name": "Two images",
+      "settings": {
+        "image_1": "shopify://shop_images/2025-11-21_17.43.57.png",
+        "image_2": "shopify://shop_images/2025-11-21_17.44.10.png",
+        "container_height": "auto"
+      }
+    },
+    "custom_text_block_WKdhjQ": {
+      "type": "custom-text-block",
+      "name": "Text block",
+      "settings": {
+        "text": "<h2>THE MUSE CLUB</h2><p>The Muse Club from SOPHIA MAE, a special way to show our appreciation for your loyalty to us. As a Member of The Muse Club, you automatically enjoy privileges and can earn Loyalty Points. These Loyalty Points can be redeemed for SOPHIA MAE products. Join our loyalty program today and enjoy exclusive benefits.</p>",
+        "button_label": "become a member",
+        "button_url": "shopify://pages/become-a-reseller",
+        "background_color": "#ECE9E0",
+        "text_alignment": "center",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
+      }
+    },
     "popular_collections_9CMiJd": {
       "type": "popular-collections",
       "blocks": {
@@ -448,6 +472,120 @@
         "background_color": "#f2f0eb",
         "title": "Popular categories",
         "title_color": "#1c1c1c"
+      }
+    },
+    "video_reviews_pbVXqr": {
+      "type": "video-reviews",
+      "blocks": {
+        "video_post_yxgbQk": {
+          "type": "video_post",
+          "settings": {
+            "poster": "shopify://shop_images/4f74a782b050baa886f7312f98a1dad173070936.jpg"
+          }
+        },
+        "video_post_j7PfMx": {
+          "type": "video_post",
+          "settings": {
+            "poster": "shopify://shop_images/ffd067af756ca713918c1b4d602d13519dfcead1.jpg"
+          }
+        },
+        "video_post_xGVwY4": {
+          "type": "video_post",
+          "settings": {
+            "video": "shopify://files/videos/creator-blush.mov"
+          }
+        },
+        "video_post_TWg6Mw": {
+          "type": "video_post",
+          "settings": {
+            "video": "shopify://files/videos/04 (1).mov"
+          }
+        },
+        "video_post_XNPnRk": {
+          "type": "video_post",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "video_post_yxgbQk",
+        "video_post_j7PfMx",
+        "video_post_xGVwY4",
+        "video_post_TWg6Mw",
+        "video_post_XNPnRk"
+      ],
+      "name": "Video reviews",
+      "settings": {
+        "enable_slider": true,
+        "title": "<h2>Our Community</h2>",
+        "subtitle": "<p>Photos from our community</p>",
+        "heading_alignment": "center",
+        "section_background_color": "#f9f8f4",
+        "follow_us_text": "FOLLOW US",
+        "follow_us_link": "#",
+        "button_alignment": "0 auto",
+        "padding_top_desktop": 80,
+        "padding_bottom_desktop": 80,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
+      }
+    },
+    "custom_image_with_text_6aNV98": {
+      "type": "custom-image-with-text",
+      "blocks": {
+        "content_XcVqyT": {
+          "type": "content",
+          "settings": {
+            "content": "<h2>GET TO KNOW US</h2><p>LIKE THE SUN SHINES ALONE. A MUSE CAN HAVE FUN ON HER OWN.</p>"
+          }
+        },
+        "button_dcJ9cM": {
+          "type": "button",
+          "settings": {
+            "button_label": "OUR STORY",
+            "button_link": "shopify://pages/story"
+          }
+        },
+        "button_NHyzN8": {
+          "type": "button",
+          "settings": {
+            "button_label": "OUR Products",
+            "button_link": "shopify://collections/all"
+          }
+        }
+      },
+      "block_order": [
+        "content_XcVqyT",
+        "button_dcJ9cM",
+        "button_NHyzN8"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/7a025af6abddd8b0543f9c9e06c2bae5c0934adc.png",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "left",
+        "section_background_color": "",
+        "content_background_color": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_blog_post_YtTQLA": {
+      "type": "custom-blog-post",
+      "name": "Blog posts",
+      "settings": {
+        "heading": "<h2>Blog posts</h2>",
+        "heading_alignment": "center",
+        "blog": "from-concept-to-creation",
+        "post_limit": 4,
+        "columns_desktop": 4,
+        "show_image": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "blog_background_color": ""
       }
     },
     "rich_text_kk88K3": {
@@ -846,6 +984,7 @@
         "23a93f9b-fb90-4ad8-b89e-cf8ef8d30348",
         "edeb1012-f05f-4b3e-879a-a1ad7057fec3"
       ],
+      "disabled": true,
       "settings": {
         "heading": "BE YOUR OWN MUSE"
       }
@@ -903,6 +1042,7 @@
         "button_E7nnDc",
         "button_KXMLbV"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "separate_section_with_border": false,
@@ -933,6 +1073,7 @@
       "block_order": [
         "template--20127671320920__25ad0ba2-4c55-44bb-bf2d-e21439e62374-collection-1"
       ],
+      "disabled": true,
       "custom_css": [
         "p {text-align: justify;}"
       ],
@@ -1060,6 +1201,7 @@
         "richtext_Hic7bJ",
         "button_7PnLf8"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "separate_section_with_border": false,
@@ -1110,7 +1252,12 @@
     "categories_bar_G6g6ax",
     "slideshow_QDTmKV",
     "product_tabs_h67DWd",
+    "custom_two_images_hheXQR",
+    "custom_text_block_WKdhjQ",
     "popular_collections_9CMiJd",
+    "video_reviews_pbVXqr",
+    "custom_image_with_text_6aNV98",
+    "custom_blog_post_YtTQLA",
     "rich_text_kk88K3",
     "countdown_pKg8t9",
     "10ad3403-1db5-4547-83b9-f26d06465960",

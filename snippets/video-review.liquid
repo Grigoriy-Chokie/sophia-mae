@@ -1,0 +1,26 @@
+{% assign video = block.settings.video %}
+{% assign poster = block.settings.poster %}
+{% assign image = block.settings.image %}
+
+<div class="video-review">
+  {% if video != blank %}
+    {% assign poster_url = poster | default: video.preview_image | image_url %}
+    {% assign video_id = 'video-reviews__review-video-' | append: index %}
+
+    <div class="video-review__video media-container" data-type="video" data-video-id="{{ video_id }}">
+
+      {{ video | video_tag: image_size: '400x', poster: poster_url, preload: 'metadata', id: video_id }}
+
+      <button type="button" class="video-reviews__play-button" aria-label="Play video">
+        <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M18.6621 28.9468L28.4625 22.6513C28.944 22.3457 29.1848 21.921 29.1848 21.3773C29.1848 20.8335 28.944 20.4073 28.4625 20.0987L18.6621 13.8032C18.1573 13.4571 17.6394 13.4293 17.1084 13.7199C16.5778 14.0106 16.3125 14.4638 16.3125 15.0795V27.6705C16.3125 28.2862 16.5778 28.7394 17.1084 29.0301C17.6394 29.3207 18.1573 29.2929 18.6621 28.9468ZM21.3789 42.75C18.4224 42.75 15.6435 42.189 13.0421 41.067C10.4407 39.945 8.178 38.4223 6.25387 36.4989C4.32975 34.5756 2.80631 32.3137 1.68356 29.7135C0.561187 27.1132 0 24.3351 0 21.3789C0 18.4224 0.561 15.6435 1.683 13.0421C2.805 10.4407 4.32769 8.178 6.25106 6.25387C8.17444 4.32975 10.4363 2.80631 13.0365 1.68356C15.6368 0.561187 18.4149 0 21.3711 0C24.3276 0 27.1065 0.560999 29.7079 1.683C32.3092 2.805 34.572 4.32769 36.4961 6.25106C38.4202 8.17444 39.9437 10.4363 41.0664 13.0365C42.1888 15.6368 42.75 18.4149 42.75 21.3711C42.75 24.3276 42.189 27.1065 41.067 29.7079C39.945 32.3092 38.4223 34.572 36.4989 36.4961C34.5756 38.4202 32.3137 39.9437 29.7135 41.0664C27.1132 42.1888 24.3351 42.75 21.3789 42.75Z" fill="white"/>
+        </svg>
+      </button>
+    </div>
+
+  {% elsif image != blank %}
+    <div class="video-review__image media-container" data-type="image">
+      <img src="{{ image | image_url }}" alt="" loading="lazy">
+    </div>
+  {% endif %}
+</div>

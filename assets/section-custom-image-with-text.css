@@ -1,0 +1,194 @@
+.custom-image-with-text {
+    margin-bottom: 0;
+}
+
+.custom-image-with-text__grid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0;
+}
+
+.custom-image-with-text__media-item,
+.custom-image-with-text__text-item {
+    position: relative;
+}
+
+@media screen and (min-width: 750px) {
+    .custom-image-with-text__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: stretch;
+        gap: 0;
+    }
+
+    .custom-image-with-text__grid--reverse {
+        direction: rtl;
+    }
+    .custom-image-with-text__grid--reverse > * {
+        direction: ltr;
+    }
+
+    .custom-image-with-text__media-item--medium {
+        grid-column: span 1;
+    }
+
+    .custom-image-with-text__grid:has(.custom-image-with-text__media-item--small) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .custom-image-with-text__media-item--small {
+        grid-column: span 1;
+    }
+    .custom-image-with-text__media-item--small + .custom-image-with-text__text-item {
+        grid-column: span 2;
+    }
+
+    .custom-image-with-text__grid:has(.custom-image-with-text__media-item--large) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .custom-image-with-text__media-item--large {
+        grid-column: span 2;
+    }
+    .custom-image-with-text__media-item--large + .custom-image-with-text__text-item {
+        grid-column: span 1;
+    }
+}
+
+.custom-image-with-text__media {
+    overflow: hidden;
+    position: relative;
+}
+
+.custom-image-with-text__media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.custom-image-with-text__media--small { height: 20rem; }
+.custom-image-with-text__media--medium { height: 30rem; }
+.custom-image-with-text__media--large { height: 40rem; }
+
+@media screen and (min-width: 750px) {
+  .custom-image-with-text__media--small { height: 30rem; }
+  .custom-image-with-text__media--medium { height: 40rem; }
+  .custom-image-with-text__media--large { height: 50rem; }
+}
+
+.custom-image-with-text__media--adapt {
+    height: 0;
+}
+
+.custom-image-with-text__media--adapt img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.custom-image-with-text__content {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-self: center;
+  padding: 7.5rem 6.6rem;
+
+  position: relative;
+  z-index: 1;
+  border-radius: var(--text-boxes-radius, 0);
+  box-shadow: var(--text-boxes-shadow-horizontal-offset, 0)
+    var(--text-boxes-shadow-vertical-offset, 0)
+    var(--text-boxes-shadow-blur-radius, 0)
+    rgba(var(--color-shadow, 0 0 0), var(--text-boxes-shadow-opacity, 0));
+  word-break: break-word;
+}
+
+.custom-image-with-text__heading {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.custom-image-with-text__content p{
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 10%;
+}
+
+@media screen and (max-width: 1024px) {
+  .custom-image-with-text__content {
+    padding: 3rem 3.5rem;
+  }
+}
+
+.custom-image-with-text__content > * + * {
+  margin-top: 22px;
+}
+
+.custom-image-with-text__content--mobile-right > * {
+  align-self: flex-end;
+  text-align: right;
+}
+
+.custom-image-with-text__content--mobile-center > * {
+  align-self: center;
+  text-align: center;
+}
+
+@media screen and (min-width: 750px) {
+  .custom-image-with-text__content--bottom {
+    justify-content: flex-end;
+    align-self: flex-end;
+  }
+
+  .custom-image-with-text__content--top {
+    justify-content: flex-start;
+    align-self: flex-start;
+  }
+
+  .custom-image-with-text__content--desktop-right > * {
+    align-self: flex-end;
+    text-align: right;
+  }
+
+  .custom-image-with-text__content--desktop-left > * {
+    align-self: flex-start;
+    text-align: left;
+  }
+
+  .custom-image-with-text__content--desktop-center > * {
+    align-self: center;
+    text-align: center;
+  }
+}
+
+.custom-image-with-text__media--placeholder {
+  position: relative;
+  overflow: hidden;
+}
+.custom-image-with-text__media--placeholder:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(var(--color-foreground, 0 0 0), 0.04);
+}
+
+.custom-image-with-text__placeholder {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    fill: currentColor;
+}
+
+@media screen and (max-width: 768px){
+  .custom-image-with-text__content {
+    padding: 5rem 3.5rem;
+  }
+}

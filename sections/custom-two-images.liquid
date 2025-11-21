@@ -1,0 +1,72 @@
+{{ 'section-custom-two-images.css' | asset_url | stylesheet_tag }}
+<section class="two-images two-images--{{ section.settings.container_height }}">
+  {% liquid
+    assign img1 = section.settings.image_1
+    assign img2 = section.settings.image_2
+  %}
+  {% if img1 != blank or img2 != blank %}
+    <div class="two-images__wrapper {% if img1 != blank and img2 != blank %}two-images__wrapper--double{% else %}two-images__wrapper--single{% endif %}">
+      {% if img1 != blank %}
+        <div class="two-images__item">
+          {{ img1 | image_url: width: 2000 | image_tag: loading: 'lazy', class: 'two-images__img' }}
+        </div>
+      {% endif %}
+      {% if img2 != blank %}
+        <div class="two-images__item">
+          {{ img2 | image_url: width: 2000 | image_tag: loading: 'lazy', class: 'two-images__img' }}
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
+</section>
+{% schema %}
+{
+  "name": "Two images",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image_1",
+      "label": "Image 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_2",
+      "label": "Image 2"
+    },
+    {
+      "type": "select",
+      "id": "container_height",
+      "label": "Container height",
+      "default": "auto",
+      "options": [
+        {
+          "value": "auto",
+          "label": "Auto"
+        },
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        },
+        {
+          "value": "xlarge",
+          "label": "Extra Large"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Two images",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

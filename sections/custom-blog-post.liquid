@@ -1,0 +1,161 @@
+{{ 'section-custom-blog-post.css' | asset_url | stylesheet_tag }}
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  .section-{{ section.id }}-background {
+    background-color: {{ section.settings.blog_background_color }};
+  }
+  .custom-blog-post__title--{{section.settings.heading_alignment}} {
+    text-align: {{section.settings.heading_alignment}};
+  }
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+{%- liquid
+  assign limit = section.settings.post_limit
+-%}
+<div class="custom-blog-post section-{{ section.id }}-padding section-{{ section.id }}-background">
+  <div class="container container--width">
+    {%- if section.settings.heading != blank -%}
+      <div class="custom-blog-post__title custom-blog-post__title--{% if section.settings.heading_alignment %}{{ section.settings.heading_alignment }}{% endif %}">
+        {{ section.settings.heading }}
+      </div>
+    {%- endif -%}
+    {%- if section.settings.blog != blank and section.settings.blog.articles_count > 0 -%}
+      <slider-blog-component
+        class="slider-mobile-gutter"
+        data-columns-desktop="{{ section.settings.columns_desktop }}"
+      >
+        <ul
+          id="Slider-{{ section.id }}"
+          class="custom-blog-post__posts slider columns-{{ section.settings.columns_desktop }}"
+          role="list"
+          style="list-style: none; margin: 0; padding: 0;"
+        >
+          {%- for article in section.settings.blog.articles limit: limit -%}
+            <li
+              id="Slide-{{ section.id }}-{{ forloop.index }}"
+              class="custom-blog-post__post slider__slide"
+            >
+              {% render 'custom-article-card',
+                blog: section.settings.blog,
+                article: article,
+                media_aspect_ratio: 1.66,
+                show_image: section.settings.show_image,
+                show_excerpt: true
+              %}
+            </li>
+          {%- endfor -%}
+        </ul>
+      </slider-blog-component>
+    {%- endif -%}
+  </div>
+</div>
+{{ 'section-custom-blog-post.js' | asset_url | script_tag }}
+{% schema %}
+{
+  "name": "Test blog",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "heading",
+      "default": "<h2>Blog posts</h2>",
+      "label": "Heading"
+    },
+    {
+      "type": "select",
+      "id": "heading_alignment",
+      "label": "Heading alignment",
+      "default": "left",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ]
+    },
+    {
+      "type": "blog",
+      "id": "blog",
+      "label": "Blog"
+    },
+    {
+      "type": "range",
+      "id": "post_limit",
+      "min": 1,
+      "max": 4,
+      "step": 1,
+      "default": 4,
+      "label": "Posts to show"
+    },
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "min": 1,
+      "max": 4,
+      "step": 1,
+      "default": 4,
+      "label": "Columns desktop"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_image",
+      "default": true,
+      "label": "Show image"
+    },
+    {
+      "type": "header",
+      "content": "Section settings"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 36
+    },
+    {
+      "type": "color",
+      "id": "blog_background_color",
+      "label": "Blog background color"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Blog posts",
+      "category": "Custom",
+      "settings": {
+        "blog": "News"
+      }
+    }
+  ]
+}
+{% endschema %}

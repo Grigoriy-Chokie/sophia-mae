@@ -1,0 +1,47 @@
+{%- if article and article != empty -%}
+  {%- liquid
+    assign ratio = 1
+    if media_aspect_ratio != null
+      assign ratio = media_aspect_ratio
+    endif
+  -%}
+  <div class="custom-article-card" style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;">
+    {%- if show_image and article.image -%}
+      <div class="custom-article-card__image-wrapper">
+        <img
+          srcset="
+            {%- if article.image.src.width >= 165 -%}{{ article.image.src | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if article.image.src.width >= 360 -%}{{ article.image.src | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if article.image.src.width >= 533 -%}{{ article.image.src | image_url: width: 533 }} 533w,{%- endif -%}
+            {%- if article.image.src.width >= 720 -%}{{ article.image.src | image_url: width: 720 }} 720w,{%- endif -%}
+            {%- if article.image.src.width >= 1000 -%}{{ article.image.src | image_url: width: 1000 }} 1000w,{%- endif -%}
+            {%- if article.image.src.width >= 1500 -%}{{ article.image.src | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ article.image.src | image_url }} {{ article.image.src.width }}w
+          "
+          src="{{ article.image.src | image_url: width: 533 }}"
+          loading="lazy"
+          alt="{{ article.image.src.alt | escape }}"
+          width="{{ article.image.width }}"
+          height="{{ article.image.height }}"
+        >
+      </div>
+    {%- endif -%}
+    <div class="custom-article-card__content">
+      <h3 class="custom-article-card__title">
+        {{ article.title }}
+      </h3>
+      {%- if show_excerpt -%}
+        {%- if article.excerpt != blank or article.content != blank -%}
+          <p class="custom-article-card__excerpt">
+            {%- if article.excerpt != blank -%}
+              {{ article.excerpt | strip_html | strip }}
+            {%- else -%}
+              {{ article.content | strip_html }}
+            {%- endif -%}
+          </p>
+        {%- endif -%}
+      {%- endif -%}
+       <a href="{{ article.url }}" class="button">Read more</a>
+    </div>
+  </div>
+{%- endif -%}
