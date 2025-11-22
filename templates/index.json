@@ -428,11 +428,18 @@
         "button_label": "become a member",
         "button_url": "shopify://pages/become-a-reseller",
         "background_color": "#ece9e0",
+        "text_color": "#1c1c1c",
+        "button_background_color": "#1c1b1b",
+        "button_text_color": "#f2f0eb",
         "text_alignment": "center",
-        "padding_top": 80,
-        "padding_bottom": 80,
-        "padding_top_mobile": 40,
-        "padding_bottom_mobile": 40
+        "content_width_desktop": 580,
+        "content_width_mobile": 340,
+        "margin_top": 0,
+        "margin_top_mobile": 0,
+        "padding_top": 60,
+        "padding_bottom": 65,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 25
       }
     },
     "popular_collections_9CMiJd": {

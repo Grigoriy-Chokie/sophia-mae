@@ -16,9 +16,47 @@
 .text-block__content {
   display: flex;
   flex-direction: column;
-  gap: 1.1rem;
-  margin-bottom: 28px;
+  gap: 8px;
+  margin-bottom: 20px;
 }
-.text-block__content * {
+.text-block__content h2 {
   margin: 0;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.text-block__content p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.text-block__button {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 5%;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .text-block__content {
+    gap: 10px;
+  }
+
+  .text-block__content h2 {
+    font-size: 36px;
+  }
+
+  .text-block__content p {
+    font-size: 14px;
+  }
+
+  .text-block__button {
+    font-size: 16px;
+  }
 }

@@ -375,7 +375,6 @@ button[name=checkout] {
   .product-sticky-bar .sticky-btn-custom.button {
     width: 100%;
   }
-
 }
 
 /* Fix remove wishlist button from cart */
@@ -404,6 +403,10 @@ button[name=checkout] {
     max-width: var(--page-width-medium);
     padding-left: var(--space-side-medium);
     padding-right: var(--space-side-medium);
+  }
+
+  .slideshow__slide .content-over-media {
+    height: 640px;
   }
 }
 
