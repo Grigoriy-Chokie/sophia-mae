@@ -7199,6 +7199,10 @@ tfoot td {
   align-self: end;
 }
 
+.place-self-stretch {
+  place-self: stretch;
+}
+
 .place-self-start {
   place-self: start;
 }
@@ -7318,6 +7322,10 @@ tfoot td {
 
   .sm\:align-self-end {
     align-self: end;
+  }
+
+  .sm\:place-self-stretch {
+    place-self: stretch;
   }
 
   .sm\:place-self-start {

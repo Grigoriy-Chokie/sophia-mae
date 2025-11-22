@@ -19,7 +19,6 @@ may have important consequence on the section itself.
     endif
 
 -%}
-
 {% if is_show_section == true %}
   {%- if section.blocks.size > 0 -%}
     {%- assign carousel_id = 'carousel-' | append: section.id -%}
@@ -96,19 +95,36 @@ may have important consequence on the section itself.
 
             <div class="slideshow__slide-content {% if is_boxed %}slideshow__slide-content--boxed{% endif %} {% if has_border %}slideshow__slide-content--with-border{% endif %} {% if has_inside_offset %}slideshow__slide-content--with-border-offset{% endif %} {{ block.settings.mobile_text_position }} {{ block.settings.desktop_text_position }}" style="{% render 'surface', background: block.settings.background, background_opacity: block.settings.background_opacity, text_color: block.settings.text_color, border_color: block.settings.border_color %}">
               <div class="prose">
+                {%- assign mobile_subheading = block.settings.mobile_subheading | default: block.settings.subheading -%}
+                {%- assign mobile_title = block.settings.mobile_title | default: block.settings.title -%}
+                {%- assign mobile_text_color = block.settings.mobile_text_color | default: block.settings.text_color -%}
+                {%- capture mobile_text_style -%}{% unless mobile_text_color == blank or mobile_text_color == 'rgba(0,0,0,0)' %}color: {{ mobile_text_color }};{% endunless %}{%- endcapture -%}
 
                 {%- if block.settings.subheading != blank -%}
-                  <p class="h6 slideshow__slide-h6" style="--bg-color: {{bg_behind_heading}};" >{{ block.settings.subheading }}</p>
+                  <p class="h6 slideshow__slide-h6 hidden sm:block" style="--bg-color: {{bg_behind_heading}};" >{{ block.settings.subheading }}</p>
+                {%- endif -%}
+
+                {%- if mobile_subheading != blank -%}
+                  <p class="h6 slideshow__slide-h6 sm:hidden" style="--bg-color: {{bg_behind_heading}};{{ mobile_text_style }}">{{ mobile_subheading }}</p>
                 {%- endif -%}
 
                 {%- if block.settings.title != blank -%}
-                  <p class="h1 slideshow__slide-h1" style="--bg-color: {{bg_behind_heading}};" >{{ block.settings.title }}</p>
+                  <p class="h1 slideshow__slide-h1 hidden sm:block" style="--bg-color: {{bg_behind_heading}};" >{{ block.settings.title }}</p>
+                {%- endif -%}
+
+                {%- if mobile_title != blank -%}
+                  <p class="h1 slideshow__slide-h1 sm:hidden" style="--bg-color: {{bg_behind_heading}};{{ mobile_text_style }}">{{ mobile_title }}</p>
                 {%- endif -%}
 
 
                 {%- if block.settings.button_1_text != blank or block.settings.button_2_text != blank -%}
                   {%- assign button_mobile_position = block.settings.mobile_text_position | split: 'text-' | last -%}
                   {%- assign button_desktop_position = block.settings.desktop_text_position | split: 'text-' | last -%}
+                  {%- assign mobile_button_1_background = block.settings.mobile_button_1_background | default: block.settings.button_1_background -%}
+                  {%- assign mobile_button_1_text_color = block.settings.mobile_button_1_text_color | default: block.settings.button_1_text_color -%}
+                  {%- assign mobile_button_1_extra_color = block.settings.mobile_button_1_extra_color | default: block.settings.extra_color -%}
+                  {%- assign mobile_button_2_background = block.settings.mobile_button_2_background | default: block.settings.button_2_background -%}
+                  {%- assign mobile_button_2_text_color = block.settings.mobile_button_2_text_color | default: block.settings.button_2_text_color -%}
 
                   {%- if block.settings.button_1_style == 'link' or block.settings.button_2_style == 'link' or block.settings.button_1_text == blank or block.settings.button_2_text == blank -%}
                     {%- capture button_wrapper_class -%}button-group justify-{{ button_mobile_position }} sm:justify-{{ button_desktop_position }}{%- endcapture -%}
@@ -118,11 +134,21 @@ may have important consequence on the section itself.
 
                   <div class="{{ button_wrapper_class }}">
                     {%- if block.settings.button_1_text != blank -%}
-                      {%- render 'button', href: block.settings.button_1_link, content: block.settings.button_1_text, style: block.settings.button_1_style, background: block.settings.button_1_background, text_color: block.settings.button_1_text_color, extra_color: block.settings.extra_color -%}
+                      <span class="hidden sm:flex">
+                        {%- render 'button', href: block.settings.button_1_link, content: block.settings.button_1_text, style: block.settings.button_1_style, background: block.settings.button_1_background, text_color: block.settings.button_1_text_color, extra_color: block.settings.extra_color -%}
+                      </span>
+                      <span class="inline-flex sm:hidden">
+                        {%- render 'button', href: block.settings.button_1_link, content: block.settings.button_1_text, style: block.settings.button_1_style, background: mobile_button_1_background, text_color: mobile_button_1_text_color, extra_color: mobile_button_1_extra_color -%}
+                      </span>
                     {%- endif -%}
 
                     {%- if block.settings.button_2_text != blank -%}
-                      {%- render 'button', href: block.settings.button_2_link, content: block.settings.button_2_text, style: block.settings.button_2_style, background: block.settings.button_2_background, text_color: block.settings.button_2_text_color -%}
+                      <span class="hidden sm:flex">
+                        {%- render 'button', href: block.settings.button_2_link, content: block.settings.button_2_text, style: block.settings.button_2_style, background: block.settings.button_2_background, text_color: block.settings.button_2_text_color -%}
+                      </span>
+                      <span class="inline-flex sm:hidden">
+                        {%- render 'button', href: block.settings.button_2_link, content: block.settings.button_2_text, style: block.settings.button_2_style, background: mobile_button_2_background, text_color: mobile_button_2_text_color -%}
+                      </span>
                     {%- endif -%}
                   </div>
                 {%- endif -%}
@@ -336,6 +362,22 @@ may have important consequence on the section itself.
           "default": "Image slide"
         },
         {
+          "type": "header",
+          "content": "Mobile content"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "mobile_subheading",
+          "label": "Mobile subheading",
+          "info": "Shown on mobile. Leave empty to reuse subheading."
+        },
+        {
+          "type": "inline_richtext",
+          "id": "mobile_title",
+          "label": "Mobile heading",
+          "info": "Shown on mobile. Leave empty to reuse heading."
+        },
+        {
           "type": "select",
           "id": "mobile_text_position",
           "label": "t:global.position.mobile_content_position",
@@ -375,6 +417,10 @@ may have important consequence on the section itself.
             {
               "value": "place-self-end text-end",
               "label": "t:global.position.bottom_right"
+            },
+            {
+              "value": "place-self-stretch text-center",
+              "label": "Stretch Center"
             }
           ],
           "default": "place-self-center text-center"
@@ -419,6 +465,10 @@ may have important consequence on the section itself.
             {
               "value": "sm:place-self-end sm:text-end",
               "label": "t:global.position.bottom_right"
+            },
+            {
+              "value": "sm:place-self-stretch sm:text-center",
+              "label": "Stretch Center"
             }
           ],
           "default": "sm:place-self-center sm:text-center"
@@ -481,6 +531,18 @@ may have important consequence on the section itself.
           "default": "#000000"
         },
         {
+          "type": "color",
+          "id": "mobile_button_1_background",
+          "label": "Mobile button background",
+          "info": "Overrides button background on mobile."
+        },
+        {
+          "type": "color",
+          "id": "mobile_button_1_text_color",
+          "label": "Mobile button text",
+          "info": "Overrides button text color on mobile."
+        },
+        {
           "type": "header",
           "content": "Color for btn when the type of outline or link"
         },
@@ -489,6 +551,12 @@ may have important consequence on the section itself.
           "id": "extra_color",
           "label": "Color for button",
           "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "mobile_button_1_extra_color",
+          "label": "Mobile button outline/link color",
+          "info": "Used for outline/link styles on mobile."
         },
         {
           "type": "header",
@@ -537,6 +605,18 @@ may have important consequence on the section itself.
           "default": "#000000"
         },
         {
+          "type": "color",
+          "id": "mobile_button_2_background",
+          "label": "Mobile button 2 background",
+          "info": "Overrides button 2 background on mobile."
+        },
+        {
+          "type": "color",
+          "id": "mobile_button_2_text_color",
+          "label": "Mobile button 2 text",
+          "info": "Overrides button 2 text color on mobile."
+        },
+        {
           "type": "header",
           "content": "t:global.colors.category"
         },
@@ -559,6 +639,12 @@ may have important consequence on the section itself.
           "id": "text_color",
           "label": "t:global.colors.text",
           "default": "#ffffff"
+        },
+        {
+          "type": "color",
+          "id": "mobile_text_color",
+          "label": "Mobile text color",
+          "info": "Overrides heading and subheading color on mobile."
         },
         {
           "type": "color",
@@ -621,6 +707,22 @@ may have important consequence on the section itself.
           "default": "Video slide"
         },
         {
+          "type": "header",
+          "content": "Mobile content"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "mobile_subheading",
+          "label": "Mobile subheading",
+          "info": "Shown on mobile. Leave empty to reuse subheading."
+        },
+        {
+          "type": "inline_richtext",
+          "id": "mobile_title",
+          "label": "Mobile heading",
+          "info": "Shown on mobile. Leave empty to reuse heading."
+        },
+        {
           "type": "select",
           "id": "mobile_text_position",
           "label": "t:global.position.mobile_content_position",
@@ -766,6 +868,34 @@ may have important consequence on the section itself.
           "default": "#000000"
         },
         {
+          "type": "color",
+          "id": "mobile_button_1_background",
+          "label": "Mobile button background",
+          "info": "Overrides button background on mobile."
+        },
+        {
+          "type": "color",
+          "id": "mobile_button_1_text_color",
+          "label": "Mobile button text",
+          "info": "Overrides button text color on mobile."
+        },
+        {
+          "type": "header",
+          "content": "Color for btn when the type of outline or link"
+        },
+        {
+          "type": "color",
+          "id": "extra_color",
+          "label": "Color for button",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "mobile_button_1_extra_color",
+          "label": "Mobile button outline/link color",
+          "info": "Used for outline/link styles on mobile."
+        },
+        {
           "type": "header",
           "content": "t:global.text.button_2_category"
         },
@@ -812,6 +942,18 @@ may have important consequence on the section itself.
           "default": "#000000"
         },
         {
+          "type": "color",
+          "id": "mobile_button_2_background",
+          "label": "Mobile button 2 background",
+          "info": "Overrides button 2 background on mobile."
+        },
+        {
+          "type": "color",
+          "id": "mobile_button_2_text_color",
+          "label": "Mobile button 2 text",
+          "info": "Overrides button 2 text color on mobile."
+        },
+        {
           "type": "header",
           "content": "t:global.colors.category"
         },
@@ -834,6 +976,12 @@ may have important consequence on the section itself.
           "id": "text_color",
           "label": "t:global.colors.text",
           "default": "#ffffff"
+        },
+        {
+          "type": "color",
+          "id": "mobile_text_color",
+          "label": "Mobile text color",
+          "info": "Overrides heading and subheading color on mobile."
         },
         {
           "type": "color",
