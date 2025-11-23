@@ -570,18 +570,21 @@
       ],
       "name": "Video reviews",
       "settings": {
-        "enable_slider": true,
+        "enable_slider": false,
         "title": "<h2>Our Community</h2>",
         "subtitle": "<p>Photos from our community</p>",
         "heading_alignment": "center",
-        "section_background_color": "#f9f8f4",
+        "section_background_color": "#f2f0eb",
+        "text_color": "#111111",
         "follow_us_text": "FOLLOW US",
         "follow_us_link": "#",
+        "button_background_color": "#1c1b1b",
+        "button_text_color": "#f2f0eb",
         "button_alignment": "0 auto",
-        "padding_top_desktop": 80,
-        "padding_bottom_desktop": 80,
+        "padding_top_desktop": 55,
+        "padding_bottom_desktop": 55,
         "padding_top_mobile": 40,
-        "padding_bottom_mobile": 40
+        "padding_bottom_mobile": 50
       }
     },
     "custom_image_with_text_6aNV98": {
@@ -621,10 +624,10 @@
         "layout": "image_first",
         "desktop_content_position": "bottom",
         "desktop_content_alignment": "left",
-        "section_background_color": "",
-        "content_background_color": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
+        "section_background_color": "#e8e4da",
+        "content_background_color": "#f2f0eb",
+        "mobile_content_alignment": "center",
+        "padding_top": 20,
         "padding_bottom": 36
       }
     },

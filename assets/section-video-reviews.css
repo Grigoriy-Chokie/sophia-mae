@@ -9,11 +9,16 @@
 }
 
 .video-reviews__heading {
-  margin-bottom: 3.8rem;
+  margin-bottom: 28px;
 }
 
-.video-reviews__title {
-  margin-bottom: 13px;
+.video-reviews__title * {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0.16rem;
+  text-transform: uppercase;
+  margin-block: 0px 8px;
 }
 
 .video-reviews__subtitle {
@@ -22,16 +27,15 @@
 
 .video-reviews__subtitle > *{
   font-weight: 400;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 100%;
-  letter-spacing: 0;
-  text-align: center;
+  letter-spacing: 0%;
 }
 
 .video-reviews__grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1.7rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
 }
 
 .video-reviews__slider {
@@ -95,27 +99,40 @@
   opacity: 0;
 }
 
-@media screen and (max-width: 768px) {
-  .video-reviews__heading {
-    margin-bottom: 2.8rem;
-  }
-  .video-reviews__title {
-    margin-bottom: 8px;
-  }
-
-  .video-reviews__grid {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 1rem;
-  }
+.video-reviews .button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 16%;
+  padding: 8px 26px;
+  width: fit-content;
+  margin: 20px auto 0;
 }
 
-@media screen and (max-width: 350px) {
-  .video-reviews__grid {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: unset;
+
+@media (min-width: 768px) {
+
+  .video-reviews__heading {
+    margin-bottom: 38px;
   }
-  .video-review {
-    aspect-ratio: 1;
+
+  .video-reviews__title * {
+    font-size: 25px;
+    margin-block: 0px 2px;
+  }
+
+  .video-reviews__subtitle > *{
+    font-size: 16px;
+  }
+
+  .video-reviews__grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+
+  .video-reviews .button {
+    font-weight: 600;
+    padding: 14px 48px;
+    margin: 24px auto 0;
   }
 }

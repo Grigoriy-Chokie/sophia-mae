@@ -1,24 +1,19 @@
 {{ 'section-video-reviews.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
-  .section-{{ section.id }}-padding {
+  .section-{{ section.id }} {
     padding-top: {{ section.settings.padding_top_desktop }}px;
     padding-bottom: {{ section.settings.padding_bottom_desktop }}px;
-  }
-  .section-{{ section.id }}-background {
     background-color: {{ section.settings.section_background_color }};
+    color: {{ section.settings.text_color }};
   }
 
-  .video-reviews__heading--{{section.settings.heading_alignment}} {
+  .section-{{ section.id }}  .video-reviews__heading--{{section.settings.heading_alignment}} {
     text-align: {{section.settings.heading_alignment}};
   }
 
-  .video-reviews__button {
-    margin: {{section.settings.button_alignment}};
-  }
-
   @media screen and (max-width: 750px) {
-    .section-{{ section.id }}-padding {
+    .section-{{ section.id }} {
       padding-top: {{ section.settings.padding_top_mobile }}px;
       padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
     }
@@ -26,7 +21,7 @@
 {%- endstyle -%}
 
 <section
-  class="video-reviews section-{{ section.id }}-padding section-{{ section.id }}-background"
+  class="video-reviews section-{{ section.id }}"
   data-section-id="{{ section.id }}"
 >
   <div class="container container--width video-reviews--wrapper">
@@ -65,9 +60,7 @@
     {% endif %}
 
     {% if section.settings.follow_us_link != blank %}
-      <a href="{{ section.settings.follow_us_link }}" class="button video-reviews__button">
-        {{ section.settings.follow_us_text }}
-      </a>
+      {% render 'button', content: section.settings.follow_us_text, href: section.settings.follow_us_link, style: "outline", background: section.settings.button_background_color, text_color: section.settings.button_text_color %}
     {% endif %}
   </div>
 </section>
@@ -128,6 +121,12 @@
       "default": "#f9f8f4"
     },
     {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#111111"
+    },
+    {
       "type": "text",
       "id": "follow_us_text",
       "label": "Button Text",
@@ -137,6 +136,18 @@
       "type": "url",
       "id": "follow_us_link",
       "label": "Button Link"
+    },
+    {
+      "type": "color",
+      "id": "button_background_color",
+      "label": "Button background color",
+      "default": "#F2F0EB"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text color",
+      "default": "#1C1B1B"
     },
     {
       "type": "select",

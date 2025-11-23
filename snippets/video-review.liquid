@@ -1,11 +1,12 @@
 {% assign video = block.settings.video %}
 {% assign poster = block.settings.poster %}
 {% assign image = block.settings.image %}
+{% assign fallback_image = poster | default: image %}
 
 <div class="video-review">
   {% if video != blank %}
-    {% assign poster_url = poster | default: video.preview_image | image_url %}
-    {% assign video_id = 'video-reviews__review-video-' | append: index %}
+    {% assign poster_url = poster | default: video.preview_image | image_url: width: 1600 %}
+    {% assign video_id = 'video-reviews__review-video-' | append: block.id %}
 
     <div class="video-review__video media-container" data-type="video" data-video-id="{{ video_id }}">
 
@@ -18,9 +19,15 @@
       </button>
     </div>
 
-  {% elsif image != blank %}
+  {% elsif fallback_image != blank %}
     <div class="video-review__image media-container" data-type="image">
-      <img src="{{ image | image_url }}" alt="" loading="lazy">
+      <img
+        src="{{ fallback_image | image_url: width: 800 }}"
+        srcset="{{ fallback_image | image_url: width: 400 }} 400w, {{ fallback_image | image_url: width: 800 }} 800w, {{ fallback_image | image_url: width: 1200 }} 1200w"
+        sizes="(min-width: 1000px) 25vw, (min-width: 750px) 33vw, 50vw"
+        alt="{{ fallback_image.alt | default: '' }}"
+        loading="lazy"
+      >
     </div>
   {% endif %}
 </div>
