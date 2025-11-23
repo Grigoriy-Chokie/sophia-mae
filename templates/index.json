@@ -593,7 +593,7 @@
         "content_XcVqyT": {
           "type": "content",
           "settings": {
-            "content": "<h2>GET TO KNOW US</h2><p>LIKE THE SUN SHINES ALONE. A MUSE CAN HAVE FUN ON HER OWN.</p>"
+            "content": "<h2>GET TO KNOW US</h2><p>LIKE THE SUN SHINES ALONE. A MUSE CAN HAVE </p><p>FUN ON HER OWN.</p>"
           }
         },
         "button_dcJ9cM": {
@@ -628,7 +628,9 @@
         "content_background_color": "#f2f0eb",
         "mobile_content_alignment": "center",
         "padding_top": 20,
-        "padding_bottom": 36
+        "padding_bottom": 20,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 8
       }
     },
     "custom_blog_post_YtTQLA": {

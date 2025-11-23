@@ -1,16 +1,16 @@
 {{ 'section-custom-image-with-text.css' | asset_url | stylesheet_tag }}
 {%- style -%}
   .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
   }
   .section-{{ section.id }}-background {
     background-color: {{ section.settings.section_background_color }};
   }
-  @media screen and (min-width: 750px) {
+  @media screen and (max-width: 749px) {
     .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
+      padding-top: {{ section.settings.padding_top_mobile }}px;
+      padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
     }
   }
 {%- endstyle -%}
@@ -76,7 +76,7 @@
         {%- endfor -%}
 
         {%- if hasButtons > 0 -%}
-          <div class="custom-image-with-text__buttons" style="display: flex; flex-wrap: wrap; gap: 1.6rem; align-items: center; justify-content: start;">
+          <div class="custom-image-with-text__buttons">
             {%- for buttonBlock in buttons -%}
               {%- if buttonBlock.settings.button_label != blank -%}
                 <a
@@ -269,6 +269,26 @@
       "unit": "px",
       "label": "Padding bottom",
       "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding top (mobile)",
+      "default": 28
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding bottom (mobile)",
+      "default": 28
     }
   ],
   "blocks": [
