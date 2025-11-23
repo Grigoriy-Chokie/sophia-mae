@@ -422,6 +422,10 @@
     },
     "custom_text_block_WKdhjQ": {
       "type": "custom-text-block",
+      "custom_css": [
+        ".text-block {border-bottom: 16px solid #fff;}",
+        "@media (min-width: 768px) {.text-block {border-bottom: 22px solid #fff; }}"
+      ],
       "name": "Text block",
       "settings": {
         "text": "<h2>THE MUSE CLUB</h2><p>The Muse Club from SOPHIA MAE, a special way to show our appreciation for your loyalty to us. As a Member of The Muse Club, you automatically enjoy privileges and can earn Loyalty Points. These Loyalty Points can be redeemed for SOPHIA MAE products. Join our loyalty program today and enjoy exclusive benefits.</p>",
@@ -568,6 +572,10 @@
         "video_post_TWg6Mw",
         "video_post_XNPnRk"
       ],
+      "custom_css": [
+        ".video-reviews {border-top: 10px solid #e8e4da;}",
+        "@media (min-width: 768px) {.video-reviews {border-top: 20px solid #e8e4da; }}"
+      ],
       "name": "Video reviews",
       "settings": {
         "enable_slider": false,
@@ -642,9 +650,12 @@
         "blog": "from-concept-to-creation",
         "post_limit": 4,
         "columns_desktop": 4,
+        "mobile_columns": "2",
         "show_image": true,
         "padding_top": 36,
         "padding_bottom": 36,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
         "blog_background_color": ""
       }
     },

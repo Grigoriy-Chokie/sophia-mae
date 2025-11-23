@@ -1,8 +1,10 @@
 {{ 'section-custom-blog-post.css' | asset_url | stylesheet_tag }}
 {%- style -%}
   .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+    --custom-blog-post-mobile-columns: {{ section.settings.mobile_columns }};
+    --custom-blog-post-mobile-gap: 16px;
   }
   .section-{{ section.id }}-background {
     background-color: {{ section.settings.blog_background_color }};
@@ -10,10 +12,10 @@
   .custom-blog-post__title--{{section.settings.heading_alignment}} {
     text-align: {{section.settings.heading_alignment}};
   }
-  @media screen and (min-width: 750px) {
+  @media screen and (max-width: 749px) {
     .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
+      padding-top: {{ section.settings.padding_top_mobile }}px;
+      padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
     }
   }
 {%- endstyle -%}
@@ -31,6 +33,7 @@
       <slider-blog-component
         class="slider-mobile-gutter"
         data-columns-desktop="{{ section.settings.columns_desktop }}"
+        data-columns-mobile="{{ section.settings.mobile_columns }}"
       >
         <ul
           id="Slider-{{ section.id }}"
@@ -113,6 +116,22 @@
       "label": "Columns desktop"
     },
     {
+      "type": "select",
+      "id": "mobile_columns",
+      "label": "Columns on mobile",
+      "default": "2",
+      "options": [
+        {
+          "value": "1",
+          "label": "One"
+        },
+        {
+          "value": "2",
+          "label": "Two"
+        }
+      ]
+    },
+    {
       "type": "checkbox",
       "id": "show_image",
       "default": true,
@@ -141,6 +160,26 @@
       "unit": "px",
       "label": "Padding bottom",
       "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding top (mobile)",
+      "default": 28
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding bottom (mobile)",
+      "default": 28
     },
     {
       "type": "color",

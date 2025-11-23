@@ -45,17 +45,17 @@ class SliderBlogComponent extends HTMLElement {
     }
 
     const sliderWidth = this.sliderElement.clientWidth - (18 * 2);
+    const columnsMobile = parseInt(this.dataset.columnsMobile || "2", 10);
+    const columns = isNaN(columnsMobile) || columnsMobile < 1 ? 2 : columnsMobile;
+    const gap = 16;
+    const totalGap = gap * Math.max(columns - 1, 0);
+    const itemWidth = (sliderWidth - totalGap) / columns;
 
-    if (width <= 425) {
-      this.slideElements.forEach(slide => {
-        slide.style.minWidth = sliderWidth * 1 + "px";
-      });
-    } else {
-      const gap = 16;
-      this.slideElements.forEach(slide => {
-        slide.style.minWidth = ((sliderWidth - gap) / 2) + "px";
-      });
-    }
+    this.slideElements.forEach(slide => {
+      slide.style.minWidth = `${itemWidth}px`;
+    });
+
+    this.sliderElement.style.gap = `${gap}px`;
   }
 }
 
