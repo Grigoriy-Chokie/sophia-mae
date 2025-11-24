@@ -6468,6 +6468,11 @@ tfoot td {
   --section-vertical-spacing-block-start-compensation: 1.5625rem;
 }
 
+.slideshow__slide-content .button {
+  font-size: 15px;
+  font-weight: 600;
+}
+
 @media screen and (min-width: 700px) {
   .slideshow:has(.page-dots, .slideshow__volume-control) {
     --content-over-media-row-gap: 5rem;
@@ -6479,6 +6484,10 @@ tfoot td {
 
   .slideshow__slide-content--with-border-offset {
     outline-offset: -1rem;
+  }
+
+  .slideshow__slide-content .button {
+    font-size: 16px;
   }
 }
 

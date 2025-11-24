@@ -249,7 +249,7 @@ header-sidebar.header-sidebar .header-sidebar__main-panel,
 .slideshow__slide p.h6 {
   /* font-family: var(--heading-font-family);
   font-weight: var(--font-regular); */
-  font-size: var(--text-regular);
+  font-size: 15px;
   line-height: 21px;
   text-align: center;
 }
@@ -366,7 +366,7 @@ button[name=checkout] {
 
   .image-with-text .h1,
   .slideshow__slide p.h1 {
-    font-size: var(--text-large);
+    font-size: 19px;
   }
 }
 
@@ -1845,7 +1845,7 @@ button.needsclick {
 }
 .slideshow__slide-h1 {
   padding: 5px 10px;
-  margin-top: 5px !important;
+  margin-top: 20px !important;
 }
 .slideshow__slide-content .button-group .extra-color-text {
   color: var(--extra-color-text);

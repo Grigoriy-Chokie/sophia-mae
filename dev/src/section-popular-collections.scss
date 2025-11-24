@@ -55,7 +55,7 @@
 }
 
 .s-popular-collections__title {
-  margin: 0 0 20px;
+  margin: 0 0 30px;
   font-weight: 700;
   font-size: 19px;
   line-height: 120%;
@@ -65,13 +65,13 @@
 
   @media (min-width: 768px) {
     font-size: 25px;
-    margin-bottom: 28px;
+    margin-bottom: 40px;
   }
 }
 
 .s-popular-collections__tabs {
   display: flex;
-  gap: 12px;
+  gap: 16px;
   margin-bottom: 16px;
   margin-inline: -18px;
   padding-inline: 18px;
@@ -84,20 +84,17 @@
 
 .s-popular-collections__tab {
   padding: 10px 16px;
-  border: 1px solid #1c1c1c;
   border-radius: 3px;
-  background: transparent;
   font-weight: 600;
   font-size: 15px;
   line-height: 100%;
   letter-spacing: 0.16em;
   min-width: max-content;
   cursor: pointer;
-  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
-  color: #1c1c1c;
 
   @media (min-width: 768px) {
     font-size: 16px;
+    border-radius: 0;
   }
 }
 
@@ -121,7 +118,7 @@
 .s-popular-collections__grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 12px;
+  gap: 30px 12px;
   margin-bottom: 28px;
 
   @media (min-width: 768px) {
@@ -147,7 +144,7 @@
 .s-popular-collections__button {
    width: 100%;
   padding: 14px;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 15px;
   line-height: 100%;
   letter-spacing: 0.16em;
@@ -160,5 +157,6 @@
 
   @media (min-width: 768px) {
     padding-inline: 45px;
+    font-size: 16px;
   }
 }

@@ -39,7 +39,7 @@
             {% assign is_active = forloop.first %}
             <button
               type="button"
-              class="s-popular-collections__tab{% if is_active %} is-active{% endif %}"
+              class="button button--outline s-popular-collections__tab{% if is_active %} is-active{% endif %}"
               role="tab"
               aria-selected="{{ is_active }}"
               aria-controls="popular-collections-panel-{{ section.id }}-{{ tab_index }}"
