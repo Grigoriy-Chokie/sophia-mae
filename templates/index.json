@@ -634,7 +634,7 @@
         "desktop_content_alignment": "left",
         "section_background_color": "#e8e4da",
         "content_background_color": "#f2f0eb",
-        "mobile_content_alignment": "center",
+        "mobile_content_alignment": "left",
         "padding_top": 20,
         "padding_bottom": 20,
         "padding_top_mobile": 0,
