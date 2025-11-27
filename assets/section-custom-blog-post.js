@@ -47,7 +47,7 @@ class SliderBlogComponent extends HTMLElement {
     const sliderWidth = this.sliderElement.clientWidth - (18 * 2);
     const columnsMobile = parseInt(this.dataset.columnsMobile || "2", 10);
     const columns = isNaN(columnsMobile) || columnsMobile < 1 ? 2 : columnsMobile;
-    const gap = 16;
+    const gap = 12;
     const totalGap = gap * Math.max(columns - 1, 0);
     const itemWidth = (sliderWidth - totalGap) / columns;
 

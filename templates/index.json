@@ -411,13 +411,63 @@
         "title_color": "#1c1c1c"
       }
     },
-    "custom_two_images_hheXQR": {
-      "type": "custom-two-images",
-      "name": "Two images",
+    "slideshow_z8L47h": {
+      "type": "slideshow",
+      "blocks": {
+        "image_tqQaFf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Frame_58.png",
+            "mobile_image": "shopify://shop_images/faf1fe3550639f92daa981128ffb9265ae37ef33_2.jpg",
+            "subheading": "",
+            "title": "",
+            "mobile_subheading": "",
+            "mobile_title": "",
+            "mobile_text_position": "place-self-stretch text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 640,
+            "button_1_text": "",
+            "button_1_link": "shopify://collections/liquid-eyeliner",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#1c1c1c",
+            "mobile_button_1_background": "#1c1b1b",
+            "mobile_button_1_text_color": "#f2f0eb",
+            "extra_color": "#eae5df",
+            "mobile_button_1_extra_color": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#eae5df",
+            "mobile_button_2_background": "",
+            "mobile_button_2_text_color": "",
+            "background": "",
+            "background_opacity": 100,
+            "text_color": "#ffffff",
+            "mobile_text_color": "#1c1c1c",
+            "border_color": "",
+            "gradient_overlay": "",
+            "bg_behind_heading": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "image_tqQaFf"
+      ],
+      "custom_css": [
+        "@media (min-width: 768px) {.slideshow__slide .content-over-media {height: 500px; }}"
+      ],
       "settings": {
-        "image_1": "shopify://shop_images/2025-11-21_17.43.57.png",
-        "image_2": "shopify://shop_images/2025-11-21_17.44.10.png",
-        "container_height": "auto"
+        "customer_view": "all",
+        "allow_transparent_header": false,
+        "show_next_section_button": false,
+        "media_size": "auto",
+        "autoplay": true,
+        "autoplay_pause_on_video": true,
+        "cycle_speed": 7,
+        "background": "#efefef",
+        "controls_color": "#de1c1c"
       }
     },
     "custom_text_block_WKdhjQ": {
@@ -627,6 +677,7 @@
       "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/7a025af6abddd8b0543f9c9e06c2bae5c0934adc.png",
+        "mobile_image": "shopify://shop_images/7a025af6abddd8b0543f9c9e06c2bae5c0934adc.png",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -1371,7 +1422,7 @@
     "categories_bar_G6g6ax",
     "slideshow_QDTmKV",
     "product_tabs_h67DWd",
-    "custom_two_images_hheXQR",
+    "slideshow_z8L47h",
     "custom_text_block_WKdhjQ",
     "popular_collections_9CMiJd",
     "video_reviews_pbVXqr",

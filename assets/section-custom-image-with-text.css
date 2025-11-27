@@ -25,9 +25,9 @@
     object-fit: cover;
 }
 
-.custom-image-with-text__media--small { height: 20rem; }
-.custom-image-with-text__media--medium { height: 30rem; }
-.custom-image-with-text__media--large { height: 40rem; }
+.custom-image-with-text__media {
+  aspect-ratio: 1/1;
+}
 
 .custom-image-with-text__media--adapt {
     height: 0;
@@ -118,6 +118,7 @@
 .custom-image-with-text__buttons {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 16px;
   flex-wrap: wrap;
 }
@@ -182,6 +183,10 @@
     text-align: center;
   }
 
+  .custom-image-with-text__media {
+    aspect-ratio: auto;
+  }
+
   .custom-image-with-text__media--small { height: 30rem; }
   .custom-image-with-text__media--medium { height: 40rem; }
   .custom-image-with-text__media--large { height: 50rem; }
@@ -191,6 +196,8 @@
     grid-template-columns: repeat(2, 1fr);
     align-items: stretch;
     gap: 0;
+    max-width: 1440px;
+    margin: 0 auto;
   }
 
   .custom-image-with-text__grid--reverse {

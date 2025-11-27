@@ -152,7 +152,7 @@
 .s-product-tabs__arrow--prev {
   left: -20px;
 
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     left: -32px;
   }
 }
@@ -160,7 +160,7 @@
 .s-product-tabs__arrow--next {
   right: -20px;
 
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     right: -32px;
   }
 }

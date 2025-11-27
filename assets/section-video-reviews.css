@@ -75,6 +75,9 @@
   height: 100%;
   line-height: 0;
   cursor: pointer;
+  border-radius: 4px;
+  aspect-ratio: 183/246;
+  overflow: hidden;
 }
 
 .video-review__video video,
@@ -93,6 +96,13 @@
   pointer-events: none;
   background: unset;
   border: none;
+  width: 32px;
+  height: 32px;
+}
+
+.video-reviews__play-button svg {
+  width: 100%;
+  height: auto;
 }
 
 .video-review__video.video-review__video--play .video-reviews__play-button {
@@ -118,7 +128,7 @@
 
   .video-reviews__title * {
     font-size: 25px;
-    margin-block: 0px 2px;
+    margin-block: 0px 13px;
   }
 
   .video-reviews__subtitle > *{
@@ -130,9 +140,19 @@
     gap: 16px;
   }
 
+  .video-reviews__play-button {
+    width: 54px;
+    height: 54px;
+  }
+
   .video-reviews .button {
     font-weight: 600;
     padding: 14px 48px;
     margin: 24px auto 0;
+  }
+
+  .video-review__video,
+  .video-review__image {
+    aspect-ratio: 3/4;
   }
 }

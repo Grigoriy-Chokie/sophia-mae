@@ -31,7 +31,7 @@
 }
 
 .two-images--medium .two-images__item {
-  height: 450px;
+  height: 500px;
 }
 
 .two-images--large .two-images__item {
@@ -51,7 +51,7 @@
     height: 220px;
   }
   .two-images--medium .two-images__item {
-    height: 320px;
+    height: 285px;
   }
   .two-images--large .two-images__item {
     height: 420px;

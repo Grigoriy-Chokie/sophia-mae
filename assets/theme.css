@@ -2496,13 +2496,15 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   line-height: 1.75;
 }
 
+@media screen and (min-width: 768px) {
+  .prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {
+    margin-block-start: 2rem;
+  }
+}
+
 @media screen and (min-width: 1000px) {
   .prose:not(.prose--tight) :where(:not(meta, span) + *) {
     margin-block-start: 1.25rem;
-  }
-
-  .prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {
-    margin-block-start: 2rem;
   }
 
   .prose:not(.prose--tight) .play-button {
