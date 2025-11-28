@@ -751,12 +751,11 @@
       ],
       "custom_css": [
         ".section-spacing {padding-block: 55px 45px; background: #e8e4da;}",
-        ".h6 {font-size: 14px;}",
-        ".prose.text-center > div {font-size: 18px; line-height: 140%; margin-top: 20px;}",
+        ".prose.text-center > div { margin-top: 20px;}",
         ".prose.text-center > div * {margin: 0;}",
         ".h2,.prose.text-center > div.button-group {margin-top: 25px;}",
-        ".button-group .button {width: fit-content; padding-inline: 12px;}",
-        "@media (min-width: 768px) {.h2 {font-size: 26px; margin-top: 10px; } .prose.text-center > div {margin-top: 10px; } .button-group .button {padding-inline: 26px; font-weight: 600; letter-spacing: 0.16em; font-size: 16px; }}"
+        ".button-group .button {width: fit-content; }",
+        "@media (min-width: 768px) {.h2 { margin-top: 10px; } .prose.text-center > div {margin-top: 10px; }}"
       ],
       "settings": {
         "separate_section_with_border": false,

@@ -6470,10 +6470,10 @@ tfoot td {
   --section-vertical-spacing-block-start-compensation: 1.5625rem;
 }
 
-.slideshow__slide-content .button {
+/* .slideshow__slide-content .button {
   font-size: 15px;
   font-weight: 600;
-}
+} */
 
 @media screen and (min-width: 700px) {
   .slideshow:has(.page-dots, .slideshow__volume-control) {
@@ -6488,9 +6488,9 @@ tfoot td {
     outline-offset: -1rem;
   }
 
-  .slideshow__slide-content .button {
+  /* .slideshow__slide-content .button {
     font-size: 16px;
-  }
+  } */
 }
 
 .shopify-section--testimonials {

@@ -7,10 +7,10 @@
 }
 
 .custom-blog-post__title * {
-  font-weight: 700;
+  /* font-weight: 700;
   font-size: 20px;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0%; */
   text-transform: uppercase;
 }
 
@@ -91,9 +91,9 @@
     margin-bottom: 44px;
   }
 
-  .custom-blog-post__title * {
+  /* .custom-blog-post__title * {
     font-size: 26px;
-  }
+  } */
 
   .custom-article-card {
     gap: 12px;
