@@ -118,16 +118,114 @@
       </div>
     {% endif %}
   {% endcapture %}
-
-  {% if settings.hide_if_customer_loggedin != false %}
-    {% unless customer %}
+  <cart-cross-sell 
+    data-customer-logged-in="{% if customer %}true{% else %}false{% endif %}"
+    data-hide-cross-when-logged-in="{% if settings.hide_if_customer_loggedin != false %}true{% else %}false{% endif %}"
+    data-min-points="{{ settings.lion_min_points | default: 250 }}"
+    style="display: block;"
+  >
+    <div data-slot="cross">
       {{ cart_cross_products }}
-    {% endunless %}
-  {% else %}
-    {{ cart_cross_products }}
-  {% endif %}
-  
-  <h4 class="h6 lion-widget-depended">
-    {{ section.settings.lion_widget_title }}
-  </h4>
-  <div data-lion-seamless-product-reward-widget></div>
+    </div>
+    <div data-slot="reward" style="display: none;">
+      <h4 class="h6 lion-widget-depended">
+        {{ section.settings.lion_widget_title }}
+      </h4>
+      <div data-lion-seamless-product-reward-widget></div>
+    </div>
+    <span data-lion-points="approved" class="hidden" aria-hidden="true"></span>
+  </cart-cross-sell>
+
+  <script>
+    (function() {
+      if (customElements.get('cart-cross-sell')) return;
+
+      class CartCrossSell extends HTMLElement {
+        connectedCallback() {
+          this.crossBlock = this.querySelector('[data-slot="cross"]');
+          this.rewardBlock = this.querySelector('[data-slot="reward"]');
+          this.pointsProbe = this.querySelector('[data-lion-points]');
+          this.currentView = null;
+
+          const isCustomerLoggedIn = this.dataset.customerLoggedIn === 'true';
+          const hideCrossWhenLoggedIn = this.dataset.hideCrossWhenLoggedIn === 'true';
+          const minPointsRaw = parseInt(this.dataset.minPoints, 10);
+          const minPoints = Number.isFinite(minPointsRaw) ? minPointsRaw : 250;
+
+          const computeView = (pointsValue, hasPoints) => {
+            if (!isCustomerLoggedIn) {
+              return 'cross';
+            }
+
+            if (hasPoints) {
+              if (pointsValue >= minPoints) {
+                return 'reward';
+              }
+
+              return 'cross';
+            }
+
+            // When points are not yet available, optionally honor the hide setting.
+            return hideCrossWhenLoggedIn ? 'none' : 'cross';
+          };
+
+          this.show(computeView());
+
+          if (!isCustomerLoggedIn) {
+            return;
+          }
+
+          if (!this.pointsProbe) {
+            return;
+          }
+
+          const evaluatePoints = () => {
+            const rawSources = [
+              this.pointsProbe.getAttribute('data-points'),
+              this.pointsProbe.textContent
+            ].filter(Boolean);
+
+            const rawValue = rawSources.find(value => /\d/.test(value)) || '';
+            const points = parseInt(rawValue.replace(/[^\d-]/g, ''), 10);
+
+            const hasPointsValue = !Number.isNaN(points);
+
+            this.show(computeView(points, hasPointsValue));
+          };
+
+          this.pointsObserver = new MutationObserver(evaluatePoints);
+          this.pointsObserver.observe(this.pointsProbe, {
+            attributes: true,
+            childList: true,
+            characterData: true,
+            subtree: true,
+          });
+
+          evaluatePoints();
+        }
+
+        disconnectedCallback() {
+          if (this.pointsObserver) {
+            this.pointsObserver.disconnect();
+          }
+        }
+
+        show(view) {
+          if (!this.crossBlock || !this.rewardBlock) {
+            return;
+          }
+
+          if (this.currentView === view) {
+            return;
+          }
+
+          this.currentView = view;
+          this.crossBlock.style.display = view === 'cross' ? '' : 'none';
+          this.rewardBlock.style.display = view === 'reward' ? '' : 'none';
+          this.style.display = view === 'none' ? 'none' : 'block';
+        }
+      }
+
+      customElements.define('cart-cross-sell', CartCrossSell);
+    })();
+  </script>
