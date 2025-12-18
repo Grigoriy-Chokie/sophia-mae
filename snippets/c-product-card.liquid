@@ -6,7 +6,11 @@
 
 {%- liquid
   assign featured_media = product.featured_media
-  assign description_text = product.description | strip_html | truncatewords: 6
+  assign description_text = product.description | strip_html | truncatewords: 16
+
+  if product.metafields.kdsm.short_description.value != blank
+    assign description_text = product.metafields.kdsm.short_description.value 
+  endif
 
   assign correct_first_variant = nil
   assign button_disabled = false
